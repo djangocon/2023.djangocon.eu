@@ -1,14 +1,14 @@
 title: DjangoCon US
-url: "https://2021.djangocon.us"
+url: "https://2022.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2021 conference will take place in San Diego, California
-  from October 17-22, 2021!
-enforce_ssl: "2021.djangocon.us"
+  DjangoCon US 2022 conference will take place in San Diego, California
+  from October 16-21, 2022!
+enforce_ssl: "2022.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
 timezone: America/Chicago
-conf_year: 2021
+conf_year: 2022
 
 include:
   - _pages
@@ -76,7 +76,7 @@ twitter:
   username: djangocon
 
 # This is the default logo that people see with opengraph
-# logo: /static/2021-logos/squares-and-social/djangocon-square.png
+# logo: /static/2022-logos/squares-and-social/djangocon-square.png
 logo: /static/img/social/og.png
 
 
@@ -102,13 +102,13 @@ sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
-cfp_application: "https://www.papercall.io/djangocon-us-2021"
-hotel_reservation_link: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1575573540205&key=GRP&app=resvlink"
-opportunity_grant_application: ""
+# cfp_application: "https://www.papercall.io/djangocon-us-2022"
+# hotel_reservation_link: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1575573540205&key=GRP&app=resvlink"
+# opportunity_grant_application: ""
 # slack_link: "https://djangoconus2019.herokuapp.com"
 slack_link: ""
 sponsorship_prospectus: ""
-ticket_link: "https://ti.to/defna/djangocon-us-2021"
+# ticket_link: "https://ti.to/defna/djangocon-us-2022"
 # youtube_link: ""
 
 github: [metadata]
