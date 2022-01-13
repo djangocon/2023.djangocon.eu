@@ -1,6 +1,6 @@
 ---
 layout: home
-title: DjangoCon US 2021 • October 17-22, 2021 • San Diego, CA United States
+title: DjangoCon US 2022 • October 16-21, 2022 • San Diego, CA United States
 # permalink: /
 permalink: /homepage/
 description: |
