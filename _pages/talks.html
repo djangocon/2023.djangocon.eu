@@ -1,19 +1,17 @@
 ---
-layout: default
-title: Talks Schedule
-permalink: /talks/
 description: DjangoCon US 2022 Talks / General Sessions Schedule
 heading: Talks Schedule
+layout: default
+permalink: /talks/
+published: true
 sitemap: true
+title: Talks Schedule
 ---
 
 <!-- talks: day 1 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Monday, September 23</h2>
-    <p class="lead">
-      Tutorials are a separate registration and are $195 per session. {% comment %}Buy <a href="{{ site.ticket_link }}">tutorial tickets</a> before they sell out!{% endcomment %}
-    </p>
+    <h2 class="day">Talks: Monday, October 17</h2>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
@@ -29,12 +27,7 @@ sitemap: true
 <!-- talks: day 2 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Tuesday, September 24</h2>
-    {% comment %}
-    <p class="lead">
-      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
-    </p>
-    {% endcomment %}
+    <h2 class="day">Talks: Tuesday, October 18</h2>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
@@ -50,14 +43,7 @@ sitemap: true
 <!-- talks: day 3 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks - Deep Dives: Wednesday, September 25</h2>
-    {% comment %}
-    <p class="lead">
-      This year, Wednesday is our Deep Dive day. The entire day is
-      single track and we picked talks that go beneath the surface of
-      the topic.
-    </p>
-    {% endcomment %}
+    <h2 class="day">Talks - Deep Dives: Wednesday, October 19</h2>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
