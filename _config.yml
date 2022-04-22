@@ -27,13 +27,17 @@ exclude:
   - .cache
   - .editorconfig
   - .gitignore
+  - .vendor
+  - bin
   - bower_components
   - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
+  - docker-compose.yml
   - EDITORS_GUIDE.md
   - Gemfile
   - Gemfile.lock
+  - justfile
   - LICENSE
   - Makefile
   - node_modules
