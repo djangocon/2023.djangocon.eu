@@ -1,10 +1,10 @@
 ---
+github: kojoidrissa
+hidden: false
 layout: base
-
-name: "Kojo Idrissa"
-role: ":zap: Talk, Orientation, and Sprints Chairs"
-photo_url: "/static/img/organizers/kojo.jpg"
-github: "kojoidrissa"
-twitter: "Transition"
-website: "http://kojoidrissa.com/"
+name: Kojo Idrissa
+photo_url: /static/img/organizers/kojo.jpg
+role: Orientation Chair
+twitter: transitionswpz
+website: https://kojoidrissa.com/
 ---

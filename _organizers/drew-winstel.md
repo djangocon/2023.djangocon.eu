@@ -1,10 +1,9 @@
 ---
+github: drewbrew
 layout: base
-
-name: "Drew Winstel"
-role: "Opportunity Grants Chair"
-photo_url: "/static/img/organizers/drew.jpg"
-github: "drewbrew"
-twitter: ""
-website: "https://winstel.dev/"
+name: Drew Winstel
+photo_url: /static/img/organizers/drew.jpg
+role: Program Chair and DEFNA Vice President
+twitter: ''
+website: https://winstel.dev/
 ---
