@@ -7,6 +7,7 @@ image: /static/img/blog/call-for-reviewers-2019.png
 post_photo_url: /static/img/blog/call-for-reviewers.jpg
 post_photo_alt: "Lacey Williams Henschel speaking at DjangoCon US 2018"
 title: "Announcing Call for Community Reviewers"
+published: false
 ---
 The [call for proposals for DjangoCon US 2019](https://www.papercall.io/djangocon-us-2019) is open, and we would love to have you (yes, you!) help us select our talks and tutorials this year. We strive to create a schedule that appeals to the wider community, and the best way for us to do that is by having members of said community vote for the talks you’d like to see. If you are interested in guiding the 2019 program, this is your chance!
 

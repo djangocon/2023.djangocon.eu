@@ -5,6 +5,7 @@ date: 2019-03-25 06:00:00
 layout: post
 image: /static/img/blog/announcing-2019.png
 title: "Ready, Set, Here We Go Again!"
+published: false
 ---
 Hello, everyone! We are very excited to announce that the website for DjangoCon US 2019 is [live](https://2019.djangocon.us). Many thanks to [YupGup](http://yupgup.com/) for the website. It looks amazing!
 

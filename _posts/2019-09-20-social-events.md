@@ -5,6 +5,7 @@ date: 2019-09-20 06:00:00
 layout: post
 image: /static/img/blog/opening_reception.png
 title: "Social Events at DjangoCon US"
+published: false
 ---
 
 We're so excited to tell you about your opportunities to socialize with and get to know other attendees, speakers, organizers, and sponsors!

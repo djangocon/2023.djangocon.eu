@@ -5,6 +5,7 @@ date: 2019-09-09 06:00:00
 layout: post
 image: /static/img/blog/orientation.png
 title: "DjangoCon US 2019 Orientation Event"
+published: false
 ---
 ![]({{ page.image }})
 

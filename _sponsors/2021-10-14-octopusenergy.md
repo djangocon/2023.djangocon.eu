@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Silver"
 name: "Octopus Energy"
 logo: /static/img/sponsors/Octopus_Energy.png

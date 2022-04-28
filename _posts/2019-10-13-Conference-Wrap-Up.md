@@ -4,6 +4,7 @@ category: General
 date: 2019-10-13 06:00:00
 layout: post
 title: "2019 Conference Wrap Up"
+published: false
 ---
 
 What an incredible year! DjangoCon US 2019 is officially over, but what an amazing ride. Thank you so much to each of the 400+ folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.

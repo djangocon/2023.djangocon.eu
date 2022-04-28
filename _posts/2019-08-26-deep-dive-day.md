@@ -5,6 +5,7 @@ date: 2019-08-26 06:00:00
 layout: post
 image: /static/img/blog/deep-dive-day.png
 title: "Introducing Deep Dive Day"
+published: false
 ---
 We’re excited to announce that this year we will be curating a [deep dive day](https://2019.djangocon.us/schedule/#Day-Talk3) to focus on exploring Django and Django-adjacent topics in detail. This single-track day is meant to follow in the footsteps of [Django Under the Hood](https://djangounderthehood.com/) and will provide a range of topics presented in depth, targeting varying levels of Django experience. Whether you're new to Django or have been using it for years, there will be something for you on Deep Dive Day. 
 

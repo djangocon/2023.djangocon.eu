@@ -5,6 +5,7 @@ date: 2019-09-14 06:00:00
 layout: post
 image: /static/img/blog/volunteer-opportunities-2019.png
 title: "Help Run DjangoCon US"
+published: false
 ---
 
 We have a wide variety of volunteer slots available! If you’d like to sign up for one (or more) we have a [handy spreadsheet](https://docs.google.com/spreadsheets/d/1VO8Xh6xPOQb32WjUD7pKJCMXvqCdcMz95CqIoNToUsA/edit#gid=0). Here's more information on each role.

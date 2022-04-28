@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Diversity & Inclusion"
 name: "Caktus Group"
 logo: "/static/img/sponsors/caktus-logo-square.png"

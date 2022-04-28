@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Diversity & Inclusion"
 name: "PostgreSQL Experts, Inc."
 logo: "/static/img/sponsors/pgxlogo.png"

@@ -5,6 +5,7 @@ date: 2019-06-26 06:00:00
 layout: post
 image: /static/img/blog/talk-lineup-2019.png
 title: "Announcing the 2019 Talk Lineup!"
+published: false
 ---
 We are excited to present our tutorial and talk lineup! The Django community and beyond submitted an incredible number of talk proposals, and selecting these talks was extremely difficult for our program team. We were only able to accept 19% of the submissions we received, and we appreciate the effort everyone put into their submissions; thank you! Another huge thank you to our reviewers, without whom this list would still be weeks in the making.
 

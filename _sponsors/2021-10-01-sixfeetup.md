@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Bronze"
 name: "Six Feet Up"
 logo: "/static/img/sponsors/SFUHorizontalLogo.png"

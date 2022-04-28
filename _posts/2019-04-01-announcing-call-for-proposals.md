@@ -7,6 +7,7 @@ image: /static/img/blog/cfp-announcement.png
 post_photo_url: /static/img/blog/speaking.jpg
 post_photo_alt: "Anna Makarudze speaking at DjangoCon US 2018"
 title: "The Call for Proposals for DjangoCon US 2019 Is Now Open!"
+published: false
 ---
 We are starting this Monday off with great news: our [call for proposals](https://www.papercall.io/djangocon-us-2019) is now open! The deadline for submissions is May 20th, 2019 [AoE](https://time.is/compare/0000_21_May_2019_in_Anywhere_on_Earth). As long as it’s still May 20th anywhere on earth, you can submit your proposal.
 

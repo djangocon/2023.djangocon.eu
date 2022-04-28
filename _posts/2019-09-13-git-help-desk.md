@@ -5,6 +5,7 @@ date: 2019-09-13 06:00:00
 layout: post
 image: /static/img/blog/git-help-desk.png
 title: "Introducing the Git Help Desk!"
+published: false
 ---
 
 We are excited to continue making sprints more accessible to everyone this year! In order to make it easier for the sprint leaders to focus on sprinting, we are setting up a **Git Help Desk** during both days of the sprints to help sprinters with their commits. You don’t have to be an expert, but if you are willing to pair with someone until they find their solution, please sign up to be a part of the Git Help Desk!
