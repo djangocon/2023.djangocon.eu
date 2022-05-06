@@ -1,7 +1,7 @@
 ---
-author: DjangoCon Organizers
+author: DjangoCon US Organizers
 category: General
-date: 2022-04-25 12:00:00
+date: 2022-05-10 06:00:00
 layout: post
 image: /static/img/blog/cfp-announced-2022.png
 post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
