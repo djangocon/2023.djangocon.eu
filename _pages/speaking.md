@@ -24,8 +24,6 @@ Submit your talk or tutorial proposal by the end of day May 31st, 2022 [AoE](htt
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
-{% endcomment %}
-
 ## Why Speak at DjangoCon US?
 
 - Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.) {% comment %}<a href="{{site.opportunity_grant_application}}">opportunity grant</a>. Opportunity grant decision notifications have all been sent.{% endcomment %}
