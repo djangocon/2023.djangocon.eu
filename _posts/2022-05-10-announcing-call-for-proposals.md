@@ -17,10 +17,6 @@ We fancy first-timers! If you haven’t spoken at a conference or given a tutori
 
 Plus there are perks! Presenters get free admission to DjangoCon US! Grants to assist with your travel and lodging expenses are available as well. Fill out the [Opportunity Grant](https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform) form by June 10th, 2022. Decision notifications will be sent by July 8, 2022.
 
-How about some help?! Presenters, regardless of experience, sometimes want a little help. If you’d like any help in proposing, preparing, or presenting your talk, feel free to contact one of our mentors! A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors are here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
-
-And if you would like to be a speaker mentor, let us know!
-
 For more information on talk and tutorial formats, please check out our [speaker information page](https://2022.djangocon.us/speaking/).
 
 We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a [Code of Conduct](https://2022.djangocon.us/conduct/) for all speakers and attendees.
