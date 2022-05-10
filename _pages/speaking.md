@@ -12,7 +12,7 @@ Our Call for Proposals (CFP) will open soon!
 
 {% comment %}
 Our Call for Proposals is now closed.
-Decision notifications will be sent by June 24th, 2022.
+Decision notifications will be sent by July 8th, 2022.
 {% endcomment %}
 
 {% comment %}
@@ -20,13 +20,13 @@ Our Call for Proposals is now closed and all decision notifications have been se
 {% endcomment %}
 
 Our <a href="{{ site.cfp_application }}/">Call for Proposals (CFP)</a> is now open!
-Submit your talk or tutorial proposal by the end of day May 31st, 2022 [AoE](https://time.is/compare/0000_31_May_2022_in_Anywhere_on_Earth), and encourage your friends and colleagues to do the same.
+Submit your talk or tutorial proposal by the end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
 ## Why Speak at DjangoCon US?
 
-- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.) {% comment %}<a href="{{site.opportunity_grant_application}}">opportunity grant</a>. Opportunity grant decision notifications have all been sent.{% endcomment %}
+- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.)  {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %}
 - A professionally produced video of your talk will be published on our YouTube channel. (You may opt-out of this.)
 - Professional photographer on hand to photograph your talk. (Also optional.)
 - Expose the Django community to new tools, practices, or ideas.
@@ -84,4 +84,4 @@ In order to maximize the amount we can provide, we ask that speakers who will be
 Receipts for travel expenses will be required.
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
-Opportunity grant applications close at the end of the day on May 31st, 2022 [AoE](https://time.is/compare/0000_31_May_2022_in_Anywhere_on_Earth). We will send decision notifications by June 24th, 2022.
+Opportunity grant applications close at the end of the day on June 10, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth). We will send decision notifications by July 8, 2022.
