@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Organizers
 category: General
-date: 2022-05-10 06:00:00
+date: 2022-05-10 05:00:00
 layout: post
 title: "Ready, Set, Here We Go Again!"
 ---
