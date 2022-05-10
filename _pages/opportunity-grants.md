@@ -14,7 +14,6 @@ All decision notifications will be sent by July 8th, 2022.
 
 {% comment %}
 Our opportunity grant application is now closed, and all decision notifications have been sent.
-All decision notifications will be sent by July 8th, 2022.
 {% endcomment %}
 
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
