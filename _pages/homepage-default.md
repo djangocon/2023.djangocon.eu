@@ -1,8 +1,8 @@
 ---
 layout: home
 title: DjangoCon US 2022 • October 16-21, 2022 • San Diego, CA United States
-# permalink: /
-permalink: /homepage/
+permalink: /
+# permalink: /homepage/
 description: |
     Six days of talks, sprints, and tutorials by the community for the community.
 testimonial_img: /static/img/home-testimonial.jpg

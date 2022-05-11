@@ -4,6 +4,7 @@ title: Become a Sponsor
 heading: Become a Sponsor
 permalink: /sponsors/information/
 description: Become a Sponsor
+hidden: true
 ---
 
 ## What Is DjangoCon US?
