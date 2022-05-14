@@ -19,7 +19,7 @@ Decision notifications will be sent by July 8th, 2022.
 Our Call for Proposals is now closed and all decision notifications have been sent.
 {% endcomment %}
 
-Our <a href="{{ site.cfp_application }}/">Call for Proposals (CFP)</a> is now open!
+Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
 Submit your talk or tutorial proposal by the end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
