@@ -24,7 +24,7 @@ Submit your talk or tutorial proposal by the end of day June 10th, 2022 [AoE](ht
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
-<a href="mailto:{{site.cfp_application}}" class="button">Submit a Proposal</a>
+<a href="{{site.cfp_application}}" class="button">Submit a Proposal</a>
 
 ## Why Speak at DjangoCon US?
 
