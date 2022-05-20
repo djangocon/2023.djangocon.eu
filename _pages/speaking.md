@@ -24,6 +24,8 @@ Submit your talk or tutorial proposal by the end of day June 10th, 2022 [AoE](ht
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
+<a href="{{site.cfp_application}}" class="button">Submit a Proposal</a>
+
 ## Why Speak at DjangoCon US?
 
 - Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.)  {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %}
@@ -33,6 +35,10 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 - Expand your technical, professional, and personal networks.
 - Share your discoveries with a large audience.
 - Give back to the Django community!
+
+### COVID-19
+
+At this time, we are planning on all presenters being in San Diego to present their talks in person. Things may always change depending on how the pandemic progresses over the year.
 
 ## Proposing to DjangoCon US
 
