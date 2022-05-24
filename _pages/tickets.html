@@ -15,13 +15,10 @@ description: Information about buying tickets to DjangoCon US
     <div class="column small-12 medium-6">
       <h2>What ticket should I buy?</h2>
       <p>Most people should buy an <strong>Individual</strong> ticket. If your company is paying, they should use the <strong>Corporate</strong> rate (or the <strong>Concierge</strong> rate for more flexibility; see below). For those who can't afford the Individual ticket, a <strong>discounted</strong> ticket is available; see below. And for those who want to go above and beyond and support our mission, check out the <strong>Patron</strong> ticket.</p>
-
-      {% comment %}
       <a
         class="button"
         href="{{ site.ticket_link }}"
         target="_blank">Buy Tickets Now</a>
-        {% endcomment %}
     </div>
     <div class="show-for-medium column medium-5" aria-hidden="true">
       <div class="callout">
@@ -51,7 +48,7 @@ description: Information about buying tickets to DjangoCon US
      <thead>
       <tr>
        <th>Type</th>
-       <th>Early Bird</th>
+       {% comment %}<th>Early Bird</th>{% endcommment %}
        <th>Full Price</th>
        <th>Who?</th>
       </tr>
@@ -59,43 +56,43 @@ description: Information about buying tickets to DjangoCon US
      <tbody>
       <tr>
        <td>Individual</td>
-       <td>$495</td>
-       <td>$595</td>
+       {% comment %}<td>$499</td>{% endcomment %}
+       <td>$599</td>
        <td><div>People paying their own way</div><div>Companies with 5 or fewer employees</div></td>
       </tr>
       <tr>
        <td>Corporate</td>
-       <td>$695</td>
-       <td>$795</td>
+       {% comment %}<td>$699</td>{% endcomment %}
+       <td>$799</td>
        <td><div>Companies with more than 5 employees</div><div>(including state agencies and nonprofits, if able)</div></td>
       </tr>
       <tr>
        <td>Patron</td>
-       <td>&mdash;</td>
-       <td>$995</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$999</td>
        <td><div>Attendees who wish to support our mission a little extra</div><div>Will be invited to a thank-you event</div></td>
       </tr>
       <tr>
        <td>Corporate Concierge Service</td>
-       <td>&mdash;</td>
-       <td>$995</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$999</td>
        <td><div>Companies who need to buy several tickets now, and register specific people later</div><div>Companies who cannot pay with credit card</div><div>Price is per ticket</div></td>
       </tr>
       <tr>
        <td>Discounted</td>
-       <td>&mdash;</td>
-       <td>$295</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$299</td>
        <td>Students, those on a lower income, or otherwise those for whom paying the full individual rate presents a financial hardship</td>
       </tr>
       <tr>
        <td>Tutorials</td>
-       <td>&mdash;</td>
-       <td>$195</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$199</td>
        <td>Per tutorial</td>
       </tr>
       <tr>
        <td>Sprints</td>
-       <td>&mdash;</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
        <td>Free</td>
        <td>Please register so we can feed you</td>
       </tr>
