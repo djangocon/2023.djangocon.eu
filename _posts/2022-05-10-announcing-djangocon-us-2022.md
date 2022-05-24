@@ -12,12 +12,12 @@ It looks amazing!
 
 The conference will be from Sunday, October 16th, through Friday, October 21st, 2022.
 
-- October 16: Tutorials ($195 per tutorial)
+- October 16: Tutorials ($199 per tutorial)
 - October 17, 18, &amp; 19: Talks
 - October 20 &amp; 21: Sprints
 
 This year we will be returning to the [Marriott of Mission Valley](https://2022.djangocon.us/venue/) in San Diego, CA.
-{% comment %}Tickets are [on sale now](https://ti.to/defna/djangocon-us-2022){% endcomment %} Tickets will be on sale soon, and our [hotel block is open](https://www.marriott.com/events/start.mi?id=1642551494496&key=GRP).
+Tickets are [on sale now](https://ti.to/defna/djangocon-us-2022){% comment %}Tickets will be on sale soon{% endcomment %}, and our [hotel block is open](https://www.marriott.com/events/start.mi?id=1642551494496&key=GRP).
 {% comment %}We sold out in previous years, so please take advantage of our early bird pricing!{% endcomment %}
 
 We are accepting [opportunity grant](https://2022.djangocon.us/opportunity-grants/) applications through end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth).
