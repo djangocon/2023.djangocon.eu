@@ -12,7 +12,7 @@ title: "Introducing our speaker mentors for DjangoCon US 2022!"
 The DjangoCon 2022 organizers are excited to announce the speaker mentors for the 2022 [call for proposals](https://pretalx.com/djangocon-2022/cfp)!
 
 ## Mentors
-- [Josue Balandrano Coronel](mailto:josuebc@defna.org), (HEY YOU DO NOT PUBLISH UNTIL HE SENDS AN UPDATED BIO)
+- [Josue Balandrano Coronel](mailto:josuebc@defna.org), is a DEFNA director, DjangoCon US organizer, and a software engineer at the Texas Advanced Computing Center. 
 - [Jon Banafato](mailto:jon@jonafato.com), organizer for PyGotham, organizer of monthly conference open chats, and host of the Conference Talk podcast. Also find him on [Twitter](https://twitter.com/jonafato).
 - [Mason Egger](mailto:mason@masonegger.com), currently the Lead Developer Advocate at Gretel where he specializes in synthetic data, data privacy, and Python. Prior to his role at Gretel he was a Developer Advocate at DigitalOcean and an SRE helping build and maintain a highly available hybrid multicloud PaaS. He is an avid programmer, speaker, educator, and writer. He is an organizer of PyTexas, President of the PyTexas Foundation and actively contributes to open source projects. In his spare time he enjoys reading, camping, kayaking, and exploring new places.
 - [Katie McLaughlin](mailto:katie@glasnt.com), PyCon AU and DjangoCon AU Organizer, PSF Director, DSF Director.
