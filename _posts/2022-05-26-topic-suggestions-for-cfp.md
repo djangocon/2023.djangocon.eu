@@ -16,6 +16,7 @@ Well, you've come to the right place!
 ## What might I talk about?
 
 - Deep dives into the internals of Django and related libraries (e.g. REST Framework)
+- New features in Django (e.g. async [`QuerySet` methods](https://docs.djangoproject.com/en/4.1/releases/4.1/#asynchronous-orm-interface) and [handlers for class-based views](https://docs.djangoproject.com/en/4.1/releases/4.1/#asynchronous-handlers-for-class-based-views) coming in Django 4.1)
 - Challenges of using a project like Django in a world where single-page apps (SPAs) are the norm
 - Unexpected use cases, especially ones that make the world better somehow
 - Clever hacks (such as Carlton Gibson's [single-file Django project](https://2019.djangocon.us/talks/using-django-as-a-micro-framework-on-the/))
@@ -30,6 +31,7 @@ Well, you've come to the right place!
 - The Django, Python, and web dev communities: the past, the future, the present, the culture, the why, the who, and the what that makes it all possible
 - Using Django in machine learning projects
 - Performance and scaling
+- Deployment at any size
 - Ethics in programming: all code we write has consequences and potential misuse
 - Personal growth: how the community helped you in some way and you'd like to pay it forward
 
