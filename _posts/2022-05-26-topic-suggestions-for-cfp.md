@@ -9,6 +9,8 @@ post_photo_alt: "Speaker addressing a crowd at DjangoCon US 2019 in San Diego"
 title: "Need Suggestions for a DjangoCon US 2022 Topic?"
 ---
 
+The DjangoCon US team would like to present some suggestions for topics for DCUS 2022.
+
 # Help, I don't know what I should talk about at DjangoCon US!
 
 Well, you've come to the right place!
