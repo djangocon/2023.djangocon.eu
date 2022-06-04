@@ -31,7 +31,7 @@ We're proud to bring Logan into the DjangoCon organizing community, and to let t
 
 ## What sort of hobbies do you enjoy when you're away from the computer?
 
-> LK: "In the ever fleeting hours away from my computer, I try to be as active as I can be. I recently took up golf and have really enjoyed the sport for the ability to get out into nature and be totally disconnected from technology. I have also gotten into formula 1 over the last 2 years and I have really enjoyed watching the races and such."
+> LK: "In the ever fleeting hours away from my computer, I try to be as active as I can be. I recently took up golf and have really enjoyed the sport for the ability to get out into nature and be totally disconnected from technology. I have also gotten into Formula 1 over the last 2 years and I have really enjoyed watching the races and such."
 
 ## What's the best way for people to get in touch with you if they'd like to know more?
 
