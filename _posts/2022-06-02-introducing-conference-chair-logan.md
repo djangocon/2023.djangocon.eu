@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Organizers
 category: General
-date: 2022-06-06 12:00:00
+date: 2022-06-04 12:00:00
 layout: post
 title: "Introducing Logan Kilpatrick, the 2022 DjangoCon US Chair"
 ---
