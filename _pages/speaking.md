@@ -38,7 +38,9 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 
 ### COVID-19
 
-At this time, we are planning on all presenters being in San Diego to present their talks in person. Things may always change depending on how the pandemic progresses over the year.
+At this time, we are planning on most presenters being in San Diego to present their talks in person. Things may always change depending on how the pandemic progresses over the year.
+
+If you are unable to travel to the conference, please submit your talk with a note that you will be only be able to present a pre-recorded talk online. We will have a handful (less than 10) of online talks that we'll air during breaks in the in-person schedule and more.
 
 ## Proposing to DjangoCon US
 
