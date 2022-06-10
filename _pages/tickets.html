@@ -20,7 +20,7 @@ description: Information about buying tickets to DjangoCon US
         href="{{ site.ticket_link }}"
         target="_blank">Buy Tickets Now</a>
     </div>
-    {% comment %}
+
     <div class="show-for-medium column medium-5" aria-hidden="true">
       <div class="callout">
         <h3>Don't Forget!</h3>
@@ -28,19 +28,17 @@ description: Information about buying tickets to DjangoCon US
             <li>Early bird tickets on sale until they're gone</li>
             <li>If your employer is paying, please use the corporate rate.</li>
           </ul>
+        {% comment %}
         <h3>Tickets are nearly sold out!</h3>
         <ul>
           <li>Join the <a href="{{ site.ticket_link }}">waiting list</a> and we'll let you know if there's a cancellation. It happens!</li>
           <li>There might still be tutorials available.</li>
           <li>You can still register for sprints!</li>
         </ul>
+        {% endcomment %}
       </div>
     </div>
-    {% endcomment %}
-    <div class="column small-12 medium-6">
-      <h2>What happened to Early Bird Tickets?</h2>
-      <p>The decision was made this year, with COVID-related uncertainties, not to do early-bird pricing in order to avoid penalizing those who may not feel comfortable committing to buying tickets as early as others. We settled on one ticket price that was intended to be the early-bird price for this year if we had had a two tiered pricing system. So, essentially, everyone gets the early-bird price! We also made the refund policy more flexible with an option to convert into online tickets.</p>
-    </div>
+
 
   </div>
 </div>
