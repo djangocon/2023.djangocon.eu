@@ -54,7 +54,10 @@ description: DjangoCon US is only possible through the support of various organi
               <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
               {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
               {{ sponsor_description | markdownify }}
-              {% if sponsor.hiring %}<a href="/job-board/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
+
+              {% if sponsor.hiring_url %}
+                <a href="{{ sponsor.hiring_url }}" class="button" rel="noopener">{{ sponsor.name }} is hiring!</a>
+              {% endif %}
             </div>
           </div>
         {% endunless %}
