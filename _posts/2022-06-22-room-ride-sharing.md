@@ -18,3 +18,8 @@ You can:
 4. Post that you need a ride to/from the airport
 
 As always, ask us for help on [Twitter](https://twitter.com/djangocon) or via email: hello (at) djangocon.us!
+
+## Important notes
+
+1. Our <a href="/conduct/">Code of Conduct</a> applies to all rides/rooms shared through this sheet.
+2. Safety first! Remember that the people sharing room/rides may not be people you know ahead of time. Take care of yourself!
