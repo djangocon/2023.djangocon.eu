@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Organizers
 category: General
-date: 2022-06-22 13:00:00
+date: 2022-07-02 13:00:00
 layout: post
 title: "Looking to share a room or ride to DjangoCon US 2022?"
 ---
