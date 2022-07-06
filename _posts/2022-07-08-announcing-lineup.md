@@ -64,6 +64,6 @@ _All talks will be available live for those with online-only tickets. They will 
 - Why I Didn't Start With Django (Mario Munoz)
 - Why large Django projects need a data (prefetching) layer (Flávio Juvenal)
 - You Don't Need Containers to Run Django in Production (Eduardo Felipe Castegnaro)
-- Your First Deployment Shouldn't Be So Hard! ()
+- Your First Deployment Shouldn't Be So Hard! (Eric Matthes)
 
 If you’d like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}). Tutorials (sold separately from conference registration) are $195 each, and we will have the schedule for those up soon. We hope to see you in San Diego! ⛵
