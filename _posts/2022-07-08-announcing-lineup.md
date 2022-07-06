@@ -35,7 +35,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Astrodigenous: an online portal for Indigenous sky-knowledge resources in Canada (Heidi White)
 - Async Django: The practical guide you've been **awaiting** for. (Carlton Gibson)
 - AyudaPy.org: From Weekend Project to Key Civic Movement During the Pandemic (Marcelo Elizeche Landó)
-- Building a dev-focused learner management system with Django (Sheena)
+- Building a dev-focused learner management system with Django (Sheena O'Connell)
 - Building Microservice Architecture for scale with Django (Syed Ansab Waqar Gillani, Syed Muhammad Dawoud Sheraz Ali)
 - Django from queryset to serialization (Iuri de Silvio)
 - Django Logging Demystified (Lee Trout)
