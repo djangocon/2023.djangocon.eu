@@ -34,8 +34,8 @@ Another potential replacement for making/marking "beginner friendly" issues is t
 
 ### DCUS 2022: Hybrid Development Sprints
 As well as can be recalled, the idea of conference development sprints was based around a conference bringing a geographically-dispersed development team to the same place at the same time. This year, DCUS will be a hybrid event, with in-person and virtual attendees. This brings new challenges and opportunties if you're accustomed to 'traditional' conference development sprints. On one hand, you'll miss the serendipity of being able to look over someone's shoulder or see their facial expressions as you work on something together. On the other hand, you'll be working with people virutally (as usual), but also synchronously (instead of the usual async approach). This will give you an opportunity to fine-tune some of your distance communication tooling (which you'll continue to use after the conference) in real time. Potential new things to consider while coordinating w/ virtual development sprint attendees (similar to what you're probably doing currently):
-- Do you already have online comms channels you use? Slack? Gittr? Zulip? Discord?
-- If not, consider the Django Discord or IRC channels, or testing something else
+- Do you already have online communication channels you use? Slack? [Gittr](https://gitter.im/)? [Zulip](https://zulip.com/)? [Discord](https://discord.com/)? [Gather](https://www.gather.town/)?
+- If not, consider the Django Discord or IRC channels (see the [Get Help](https://www.djangoproject.com/community/) section of the sidebar), or testing something else
 - Can virtual attendees find & use the updated docs mentioned above?
 
 ## Preparation Steps for Active Contributors Who Are Not Maintainers
