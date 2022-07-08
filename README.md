@@ -1,6 +1,6 @@
 # 2022.djangocon.us Website
 
-[![Build Status](https://travis-ci.org/djangocon/2022.djangocon.us.svg?branch=main)](https://travis-ci.org/djangocon/2022.djangocon.us) [![Contributors](https://img.shields.io/github/contributors/djangocon/2022.djangocon.us.svg)](https://github.com/djangocon/2022.djangocon.us/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/djangocon/2022.djangocon.us.svg)](https://github.com/djangocon/2022.djangocon.us/graphs/contributors)
 
 The 2022 DjangoCon.us website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/).
 
