@@ -42,7 +42,6 @@ _All talks will be available live for those with online-only tickets. They will 
 - Django Migrations: Pitfalls and Solutions (Benjamin "Zags" Zagorsky)
 - Explaining EXPLAIN: A dive into PostgreSQL's EXPLAIN plans (Richard Yen)
 - Fighting Climate Change with Django (Erin Mullaney)
-- Handling Django issues in highly concurrent & scale environment (Tarun Garg)
 - Hidden gems of Django Admin (Maxim Danilov)
 - Home on the range with Django - getting comfortable with ranges and range fields (Jack Linke) 
 - How to turn your Website into an App (and why maybe you shouldn't!) (Russell Keith-Magee)
