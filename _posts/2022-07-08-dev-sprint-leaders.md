@@ -6,22 +6,22 @@ layout: post
 title: "Lead or organize a Development Sprint at DCUS 2022!"
 ---
 
-The last two days of DjangoCon US *(this year, October 20-21)* are devoted to Development Sprints. This blog post is targeted at current open source maintainers and contributors who are considering organizing or leading a Development Sprint at DCUS 2022. As such, I won't be defining "Development Sprint". That's for another blog post.
+The last two days of DjangoCon US *(this year, October 20-21)* are devoted to Development Sprints. This blog post is targeted at current open source maintainers and contributors who are considering organizing or leading a Development Sprint at DCUS 2022. As such, I won't be defining "Development Sprint" here. That will come in a later post, meant for potential sprint attendees.
 
 ## Why lead/organize a sprint at DCUS 2022?
 There are as many reasons to lead or organize a development sprint as there are projects to work on and potential organizers. Some of the key reasons to consider are:
 - Meet & work with current contributors in person!
 - Test & refine your new user & new contributor docs with live feedback. Better new contributor docs lead to better new issues, bug fixes and PRs for your project.
-- Build/improve a workflow for virtual attendees that your project can continue to use after DjangoCon US (when EVERYONE will be 'virtual').
+- Build (or improve) a workflow for virtual attendees that your project can continue to use after DjangoCon US (when EVERYONE will be 'virtual').
 - Get help for your favorite project from enthusiastic Pythonistas & Djangonauts, while enjoying beautiful San Diego!
 
 
 ## Preparation for Project Maintainers: Avoiding Burnout
 Let's start with this acknowledgement: the vast majority of FLOSS project maintainers are unpaid volunteers using their free time to maintain software that many us depend on. Your work is greatly appreciated by all of us *(even those who don't explicitly say so)*. With this in mind, most recommendations here are focused on ways to help maintainers get the most from a Development Sprint in the most scalable, least burdensome way possible.
 
-A bit of preparation will help you and your chosen project get the most from the Development Sprints, as well as help potential sprinters have the best possible experience working on your project. Instead of the traditional approach of making/marking "beginner-friendly" issues, try making sure your "Start Contributing" docs are comprehensive and up to date. If your project doesn't have a CONTRIBUTING.md/rst doc, there are several examples you can look to for help, such as the two different [DRF](https://github.com/encode/django-rest-framework/blob/master/CONTRIBUTING.md) [docs](https://www.django-rest-framework.org/community/contributing/) or the [pytest](https://github.com/pytest-dev/pytest/blob/main/CONTRIBUTING.rst) docs. You can also look at the [Django](https://docs.djangoproject.com/en/dev/internals/contributing/) or [CPython](https://devguide.python.org/) developer docs. Creating or updating these docs prior to the DCUS Dev Sprints will have two main benefits:
-- It will make it easier to get new contributors started **at** the sprint *and* going forward. This should *help* the process of getting new contributors started scale better, easing some of the individual burden on maintainers.
-- You'll be able to get live feedback **on** that documentation from new contributors in person DURING the sprint.
+A bit of preparation will help you and your chosen project get the most from the Development Sprints, as well as help potential sprinters have the best possible experience working on your project. Instead of the traditional approach of making/marking "beginner-friendly" issues, try making sure your "Start Contributing" docs are comprehensive and up to date. If your project doesn't have a CONTRIBUTING.md/rst document, there are several examples you can look to for help. Good references include the Django REST Framework's [contributing guide on Github](https://github.com/encode/django-rest-framework/blob/master/CONTRIBUTING.md) or on the [DRF website](https://www.django-rest-framework.org/community/contributing/), as well as the pytest [contributing documentation](https://github.com/pytest-dev/pytest/blob/main/CONTRIBUTING.rst). You can also look at the [Django](https://docs.djangoproject.com/en/dev/internals/contributing/) or [CPython](https://devguide.python.org/) developer docs. Creating or updating these docs prior to the DCUS Dev Sprints will have two main benefits:
+- It will make it easier to get new contributors started *at* the sprint *and* going forward. This will improve the scalability of getting new contributors started, easing some of the burden on maintainers.
+- You'll be able to get live feedback on your documentation, from new contributors, during the sprint.
 
 [Mike McQuaid](https://github.com/MikeMcQuaid), the [Homebrew](https://github.com/Homebrew) project leader, has some [useful insights](https://mikemcquaid.com/2019/02/16/stop-mentoring-first-time-contributors/) here. Up to date documentation includes (but is not limited to) docs on:
 - Installing & running the project
