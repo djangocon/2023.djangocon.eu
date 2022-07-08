@@ -20,7 +20,7 @@ There are as many reasons to lead or organize a development sprint as there are 
 Let's start with this acknowledgement: the vast majority of FLOSS project maintainers are unpaid volunteers using their free time to maintain software that many us depend on. Your work is greatly appreciated by all of us *(even those who don't explicitly say so)*. With this in mind, most recommendations here are focused on ways to help maintainers get the most from a Development Sprint in the most scalable, least burdensome way possible.
 
 A bit of preparation will help you and your chosen project get the most from the Development Sprints, as well as help potential sprinters have the best possible experience working on your project. Instead of the traditional approach of making/marking "beginner-friendly" issues, try making sure your "Start Contributing" docs are comprehensive and up to date. If your project doesn't have a CONTRIBUTING.md/rst doc, there are several examples you can look to for help, such as the two different [DRF](https://github.com/encode/django-rest-framework/blob/master/CONTRIBUTING.md) [docs](https://www.django-rest-framework.org/community/contributing/) or the [pytest](https://github.com/pytest-dev/pytest/blob/main/CONTRIBUTING.rst) docs. You can also look at the [Django](https://docs.djangoproject.com/en/dev/internals/contributing/) or [CPython](https://devguide.python.org/) developer docs. Creating or updating these docs prior to the DCUS Dev Sprints will have two main benefits:
-- It will make it easier to get new contributors started AT the sprint and going forward. This should *help* the process of getting new contributors started scale better, easing some of the individual burden on maintainers.
+- It will make it easier to get new contributors started **at** the sprint *and* going forward. This should *help* the process of getting new contributors started scale better, easing some of the individual burden on maintainers.
 - You'll be able to get live feedback **on** that documentation from new contributors in person DURING the sprint.
 
 [Mike McQuaid](https://github.com/MikeMcQuaid), the [Homebrew](https://github.com/Homebrew) project leader, has some [useful insights](https://mikemcquaid.com/2019/02/16/stop-mentoring-first-time-contributors/) here. Up to date documentation includes (but is not limited to) docs on:
@@ -51,4 +51,5 @@ If you're an active contributor to a project, even if you're not an official mai
 Specific time/location details on the Development Sprints will be added to [the schedule](https://2022.djangocon.us/schedule/). But for now:
 - Decide if you want to help lead or organize a Development Sprint.
 - Make sure you're prepared for whichever role you take on.
+- If you have questions, the best place to reach our Development Sprints Chair, Kojo, is on [Twitter](https://twitter.com/KojoIdrissa).
 - Get ready to have a great time! 
