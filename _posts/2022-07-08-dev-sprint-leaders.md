@@ -43,7 +43,7 @@ If you're an active contributor to a project, even if you're not an official mai
 - Be prepared to help mentor new contributors. The two most important aspects here are patience and compassion.
 - Prepare to gauge the experience level of newer contributors, then try to mentor them accordingly. Some may be experienced Python developers, but new to Django or modern web development. Some may be experienced web developers, but with another framework/language. Some may be less experienced developers overall who want to lend a hand.
 - Be prepared to take feedback from new contributors who may have trouble finding or using the New Contributor docs. If there are problems, try to help new contributors handle them and be prepared to update the appropriate documentation. That will be one less thing for the maintainers to do, and it will improve your understanding of the project.
-- Help the mainters by looking at larger/more complex issues and how they can be deconstructed into smaller tasks to spread among the newer contributors.
+- Help the maintainers by looking at larger/more complex issues and how they can be deconstructed into smaller tasks to spread among the newer contributors.
 - If you're already working on an issue, prepare to guide someone else to work on it with you.
 
 
