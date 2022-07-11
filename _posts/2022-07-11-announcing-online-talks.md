@@ -11,7 +11,7 @@ title: "Announcing Our DjangoCon US 2022 Online Talks!"
 
 We are delighted to present our online talk lineup!
 
-During the breaks in the in-person sessions (lunch, morning/afternoon breaks, etc.), we will air some online exclusive talks. In-person attendees will get the links to the videos upon the conclusion of talks on Wednesday, October 19.
+During the breaks in the in-person sessions (lunch, morning/afternoon breaks, etc.), we will air some talks exclusively to our online-only ticketholders. In-person attendees will get the links to the videos upon the conclusion of talks on Wednesday, October 19.
 
 The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
 
