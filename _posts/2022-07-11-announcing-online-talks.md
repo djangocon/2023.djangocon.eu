@@ -13,6 +13,8 @@ We are delighted to present our online talk lineup!
 
 During the breaks in the in-person sessions (lunch, morning/afternoon breaks, etc.), we will air some talks exclusively to our online-only ticketholders. In-person attendees will get the links to the videos upon the conclusion of talks on Wednesday, October 19.
 
+In the event of speakers needing to withdraw due to health or other travel-related reasons, some of these speakers may be giving their talks in person instead.
+
 The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
 
 Congratulations to the presenters of the tutorials and talks below!
