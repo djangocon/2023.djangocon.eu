@@ -1,3 +1,7 @@
+ 
+    const form = document.getElementById("form");
+    form.addEventListener("submit", start);
+
  const download = document.querySelector("#download");
     const loader = document.querySelector("#loading");
     // showing loading
@@ -12,6 +16,8 @@
 
     async function start(ev) {
       ev.preventDefault();
+      console.log("start form");
+      
       $("#inprogress").show();
       const form = new FormData(ev.target);
       const fullname = form.get("fullname");
@@ -62,7 +68,7 @@
       await fetch('https://djc-letter.herokuapp.com/invitation', {
         method: 'POST',
         headers: {
-          "Content-type": "application/json"
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(data)
       }).then(res => res.json()).then(data => {
@@ -79,7 +85,7 @@
     $(document).ready(function () {
       $("#letterselection").change(function () {
         var selected = $(this).val();
-        if (selected == "attendee") {
+        if (selected == "none") {
           $("#og").hide();
           $("#speaker").hide();
         }
@@ -93,5 +99,5 @@
         }
       });
     });
-
-    start();
+    
+// start();

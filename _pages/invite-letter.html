@@ -54,7 +54,7 @@ description: Meet the people who made DjangoCon US 2022 possible.
     <!-- <section class="section-pad theme-brand-color4"> -->
       <div class="row column xlarge-9">
 
-        <form id="form" method="POST" enctype="multipart/form-data" onsubmit="start(event); return false;">
+        <form id="form" method="POST" enctype="multipart/form-data">
           <label for="fullname">Fullname</label>
           <input type="text" name="fullname" id="fullname" placeholder="Noah Doe" required>
           <label for="address">Address</label>
@@ -71,11 +71,11 @@ description: Meet the people who made DjangoCon US 2022 possible.
           </select>
           <div id="og" class="myDiv">
             <label for="og">Grant Amount</label>
-            <input type="number" name="og" id="og" placeholder="2000.00" required>
+            <input type="number" name="og" id="og" placeholder="2000.00">
           </div>
           <div id="speaker" class="myDiv">
             <label for="talk">Talk/Tutorial Title</label>
-            <input type="text" name="talk" id="talk" placeholder="DjangoCon US is the best!" required>
+            <input type="text" name="talk" id="talk" placeholder="DjangoCon US is the best!">
           </div>
           <button id="submit" type="submit" class="button">Submit</button>
         </form>
