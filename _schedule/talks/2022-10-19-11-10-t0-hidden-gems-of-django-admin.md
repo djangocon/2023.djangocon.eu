@@ -1,0 +1,26 @@
+---
+abstract: In my presentation, I will talk about how powerful django.contrib.admin
+  really is.
+accepted: false
+category: talks
+date: 2022-10-19 11:10:00-07:00
+end_date: 2022-10-19 11:55:00-07:00
+layout: session-details
+permalink: /talks/hidden-gems-of-django-admin/
+presenter_slugs:
+- maxim-danilov
+published: true
+room: Salon A-E
+sitemap: true
+slug: hidden-gems-of-django-admin
+summary: ''
+tags: null
+title: Hidden gems of Django Admin
+track: t0
+---
+
+The Django Admin Panel is a complex and bad-documented tool in the Django that can greatly speed up development if you start to understand it.
+
+- "Isn't it easier for us to write our Backend?"
+I will answer: “No, it’s not easier!”.
+Seven years of insights and discoveries in my report.
