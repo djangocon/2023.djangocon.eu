@@ -12,7 +12,14 @@ That depends on what country issued your passport; see the [US State Department]
 
 ## I need a letter to obtain a visa. Can you help me with that?
 
-We sure can! Send an <a href="mailto:{{site.visa_email}}">email</a> to our visa team with your name (as it appears on your passport), passport number, and home address. We will reply with the letter you'll need to give to the US Consulate.
+We sure can! Head over to <a href="/invitation">Get Invitation Letter</a> to request your letter of invitation for your visa application at the US Consulate. You will be required to provide:
+
+- Full name (as it appears on your passport)
+- Passport number
+- Date of birth
+- Home address
+- Title of talk you're presenting (if any)
+- Amount of opportunity grant funds awarded (if any)
 
 Do this as soon as you can! Wait times to get a visitor visa interview are extremely long (and in some countries are over a year).
 
