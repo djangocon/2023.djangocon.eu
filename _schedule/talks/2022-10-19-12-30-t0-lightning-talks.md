@@ -8,7 +8,6 @@ permalink: /talk/lightning-talks-wednesday/
 presenter_slugs:
 - kojo-idrissa
 room: Salon A-E
-schedule_layout: full
 sitemap: true
 title: Lightning Talks
 track: t0
