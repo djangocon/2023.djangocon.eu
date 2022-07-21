@@ -370,6 +370,76 @@ def generate_break(
 
 
 @app.command()
+def generate_early_lunch(
+    start_time: datetime,
+    duration_minutes: int = 50,
+    location: str = "Rio Vista Pavilion",
+    track: int = 1,
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        sitemap=False,
+        title="Early Lunch",
+        link="/catering-menus/",
+        track=f"t{track}",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_lunch(
+    start_time: datetime,
+    duration_minutes: int = 40,
+    location: str = "Rio Vista Pavilion",
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        category = "tutorials"
+    elif start_time.weekday() in {3, 4}:
+        category = "sprints"
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        sitemap=False,
+        title="Lunch",
+        link="/catering-menus/",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
 def generate_lightning_talks(
     start_time: datetime,
     duration_minutes: int = 50,
