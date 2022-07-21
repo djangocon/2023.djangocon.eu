@@ -1,10 +1,9 @@
 ---
-layout: default
-title: Catering Menus
+description: 'Soups up!'
 heading: Catering Menus
+layout: default
 permalink: /catering-menus/
-description: |
-    Soups up!
+title: Catering Menus
 ---
 
 ## Afternoon Breaks
