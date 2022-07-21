@@ -137,10 +137,6 @@ def fmt():
             try:
                 post = frontmatter.loads(filename.read_text())
                 data = post_type["class_name"](**post.metadata)
-                if isinstance(data, Schedule):
-                    if data.room == 'Online talks':
-                        # online talks get full width
-                        data.talk_slot = 'full'
                 post.metadata.update(data.dict(exclude_unset=True))
                 filename.write_text(frontmatter.dumps(post) + os.linesep)
             except ValidationError as e:
