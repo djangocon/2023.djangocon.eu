@@ -209,6 +209,52 @@ def generate_lactation_room(
 
 
 @app.command()
+def generate_quiet_room(
+    event_date: datetime,
+    room_name: str = "Private Dining Room",
+    start_time: str = "8:00",
+    end_time: str = "18:00",
+):
+    category = "talks"
+    if event_date.weekday() == 6:
+        category = "tutorials"
+    elif event_date.weekday() in {3, 4}:
+        category = "sprints"
+
+    parsed_start = parse(start_time).time()
+    parsed_end = parse(end_time).time()
+    if isinstance(event_date, date) and not isinstance(event_date, datetime):
+        start = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_start))
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_end))
+    else:
+        start = CONFERENCE_TZ.localize(
+            datetime.combine(event_date.date(), parsed_start)
+        )
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date.date(), parsed_end))
+    post = frontmatter.loads(room_name)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start,
+        end_date=end,
+        room=room_name,
+        schedule_layout="full",
+        sitemap=False,
+        title="Quiet Room",
+        permalink=None,
+        link=None,
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-quiet-room.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
     filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
