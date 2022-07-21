@@ -3,6 +3,7 @@ abstract:
 accepted: true
 category: talk
 date: 2022-10-17 09:00:00-07:00
+end_date: 2022-10-17 09:30:00-07:00
 difficulty: All
 image: /static/img/social/presenters/kojo-idrissa.png
 layout: session-details
