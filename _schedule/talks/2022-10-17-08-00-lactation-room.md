@@ -7,7 +7,7 @@ layout: session-details
 link: null
 permalink: null
 room: Santa Fe 3
-schedule_layout: full
+schedule-layout: full
 sitemap: false
 talk_slot: full
 title: Lactation Room
