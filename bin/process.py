@@ -19,7 +19,7 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: Optional[str]  # TODO: Parse/fix...
+    date: Optional[datetime]
     layout: str
     permalink: Optional[str]
     published: bool = True
@@ -108,6 +108,7 @@ class Schedule(FrontmatterModel):
     show_video_urls: Optional[bool]
     slides_url: Optional[str]
     summary: Optional[str]
+    end_date: Optional[datetime] = None
     tags: Optional[List[str]] = None
     talk_slot: Optional[str] = "full"
     track: Optional[str] = None
