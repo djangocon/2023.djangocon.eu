@@ -15,7 +15,7 @@ presenter_slugs:
 - jack-linke
 published: true
 room: Salon A-E
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: home-on-the-range-with-django-getting-comfortable-with-ranges-and-range-fields
 summary: ''

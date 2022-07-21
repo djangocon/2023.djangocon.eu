@@ -11,7 +11,7 @@ presenter_slugs:
 - carlton-gibson
 published: true
 room: Cabrillo 1-2
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: getting-started-contributing-to-django
 summary: ''

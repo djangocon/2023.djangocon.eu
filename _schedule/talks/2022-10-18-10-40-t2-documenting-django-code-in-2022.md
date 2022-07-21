@@ -17,7 +17,7 @@ presenter_slugs:
 - eric-holscher
 published: true
 room: Online talks
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: documenting-django-code-in-2022
 summary: ''

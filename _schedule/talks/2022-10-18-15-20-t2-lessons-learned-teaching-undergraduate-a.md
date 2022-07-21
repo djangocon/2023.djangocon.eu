@@ -22,7 +22,7 @@ presenter_slugs:
 - andrew-mshar
 published: true
 room: Online talks
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: lessons-learned-teaching-undergraduate-astronomy-with-a-video-game
 summary: ''

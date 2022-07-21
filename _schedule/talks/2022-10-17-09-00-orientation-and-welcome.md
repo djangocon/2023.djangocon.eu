@@ -11,6 +11,7 @@ permalink: /talks/orientation-and-welcome/
 presenter_slugs:
 - kojo-idrissa
 room: Salon A-E
+schedule_layout: full
 sitemap: true
 talk_slot: full
 title: Orientation and Welcome

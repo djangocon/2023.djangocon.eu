@@ -7,6 +7,7 @@ end_date: 2022-10-17 10:30:00-07:00
 layout: session-details
 link: null
 room: Salon A-E
+schedule_layout: full
 sitemap: true
 talk_slot: full
 title: Keynote (to be announced)

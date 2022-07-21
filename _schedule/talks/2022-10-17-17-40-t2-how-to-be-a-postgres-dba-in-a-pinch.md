@@ -14,7 +14,7 @@ presenter_slugs:
 - elizabeth-garrett-christensen
 published: true
 room: Online talks
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: how-to-be-a-postgres-dba-in-a-pinch
 summary: ''

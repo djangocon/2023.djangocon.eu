@@ -16,7 +16,7 @@ presenter_slugs:
 - flavio-juvenal
 published: true
 room: Salon A-E
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: why-large-django-projects-need-a-data-prefetching-layer
 summary: ''

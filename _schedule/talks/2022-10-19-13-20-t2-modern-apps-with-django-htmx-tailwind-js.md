@@ -15,7 +15,7 @@ presenter_slugs:
 - andrej-baranovskij
 published: true
 room: Online talks
-schedule-layout: full
+schedule_layout: full
 sitemap: true
 slug: modern-apps-with-django-htmx-tailwind-css-and-alpine-js
 summary: ''
