@@ -335,6 +335,41 @@ def generate_breakfast(
     print(f"Saved to {output_path}")
 
 @app.command()
+def generate_break(
+    start_time: datetime,
+    duration_minutes: int = 30,
+    location: str = "Rio Vista Pavilion",
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        category = "tutorials"
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("We don't have published breaks on sprint days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads(location)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        schedule_layout="full",
+        sitemap=False,
+        title="Break",
+        permalink=None,
+        link=None,
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+@app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
     filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
