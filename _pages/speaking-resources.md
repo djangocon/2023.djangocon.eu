@@ -1,10 +1,11 @@
 ---
-layout: default
-title: Speaker Resources
-heading: Speaker Resources
-permalink: /speaking/speaker-resources/
 description: Resources to support DjangoCon 2018 speakers
+heading: Speaker Resources
+layout: default
+permalink: /speaking/speaker-resources/
+title: Speaker Resources
 ---
+
 {% comment %}
 ## Information for Speakers
 * The Speaker Green Room will be in <strong>Santa Fe 4</strong> on Sunday-Wednesday.

@@ -1,10 +1,10 @@
 ---
-layout: default
-title: Become a Sponsor
-heading: Become a Sponsor
-permalink: /sponsors/information/
 description: Become a Sponsor
+heading: Become a Sponsor
 hidden: true
+layout: default
+permalink: /sponsors/information/
+title: Become a Sponsor
 ---
 
 ## About the Event
