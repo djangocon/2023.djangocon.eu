@@ -1,13 +1,13 @@
 ---
-abstract:
+abstract: null
 accepted: true
 category: talk
 date: 2022-10-17 09:00:00-07:00
-end_date: 2022-10-17 09:30:00-07:00
 difficulty: All
+end_date: 2022-10-17 09:30:00-07:00
 image: /static/img/social/presenters/kojo-idrissa.png
 layout: session-details
-permalink: /talk/orientation-and-welcome/
+permalink: /talks/orientation-and-welcome/
 presenter_slugs:
 - kojo-idrissa
 room: Salon A-E
@@ -16,7 +16,7 @@ talk_slot: full
 title: Orientation and Welcome
 twitter:
   card: player
-video_url:
+video_url: null
 ---
 
 Are you:

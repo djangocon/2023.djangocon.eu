@@ -16,8 +16,8 @@ sitemap: true
 slug: getting-started-contributing-to-django
 summary: ''
 tags: null
-title: Getting started contributing to Django.
 talk_slot: full
+title: Getting started contributing to Django.
 ---
 
 Getting going contributing to Django can feel a little intimidating. Where do I start?

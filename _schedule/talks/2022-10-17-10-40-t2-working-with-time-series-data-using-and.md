@@ -22,9 +22,9 @@ sitemap: true
 slug: working-with-time-series-data-using-django-and-timescale
 summary: ''
 tags: null
+talk_slot: full
 title: Working with time series data using Django and Timescale
 track: t2
-talk_slot: full
 ---
 
 For the last two years we’ve been working on a software development project based on displaying and processing telemetry data for multiple services. The product is a cloud-based, heavy-data application that provides users with key insights after processing a variety of metrics. 
