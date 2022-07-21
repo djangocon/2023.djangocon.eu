@@ -3,7 +3,7 @@ company: Google Cloud
 hidden: false
 layout: speaker-template
 name: Katie McLaughlin
-photo_url: null
+photo_url: /static/img/presenters/katie-mclaughlin.jpg
 twitter: glasnt
 website: null
 ---

@@ -3,7 +3,7 @@ company: Octobot
 hidden: false
 layout: speaker-template
 name: Juan Saavedra
-photo_url: null
+photo_url: /static/img/presenters/juan-saavedra.jpg
 twitter: null
 website: null
 ---

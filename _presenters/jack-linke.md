@@ -3,7 +3,7 @@ company: Watervize
 hidden: false
 layout: speaker-template
 name: Jack Linke
-photo_url: null
+photo_url: /static/img/presenters/jack-linke.jpg
 twitter: JackDLinke
 website: null
 ---
