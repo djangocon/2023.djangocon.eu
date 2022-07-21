@@ -1,5 +1,6 @@
 ---
-description: 'Do you want to share a room at the venue with other attendees, have accommodation available, or want to share a ride from nearby cities?'
+description: Do you want to share a room at the venue with other attendees, have accommodation
+  available, or want to share a ride from nearby cities?
 heading: Room and Ride Sharing
 layout: default
 permalink: /room-sharing/
