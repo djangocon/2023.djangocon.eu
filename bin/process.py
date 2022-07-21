@@ -3,8 +3,9 @@ import inflection
 import os
 import typer
 
-from datetime import date, datetime, time
+from datetime import date, datetime
 from dateutil.parser import parse
+from dateutil.relativedelta import relativedelta
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
 from slugify import slugify
@@ -295,6 +296,40 @@ def generate_registration_desk(
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-registration.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+@app.command()
+def generate_breakfast(
+    start_time: datetime,
+    location: str = "Rio Vista Pavilion",
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        category = "tutorials"
+    elif start_time.weekday() in {3, 4}:
+        category = 'sprints'
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(hours=1)
+    post = frontmatter.loads(location)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        schedule_layout="full",
+        sitemap=False,
+        title="Continental Breakfast",
+        permalink=None,
+        link='/catering-menus/',
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
