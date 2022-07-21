@@ -1,6 +1,6 @@
 ---
 abstract: How to use PostgreSQL's EXPLAIN to keep your Django app performing well
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 14:00:00-07:00
 end_date: 2022-10-18 14:45:00-07:00

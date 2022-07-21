@@ -2,7 +2,7 @@
 abstract: This workshop will teach you how to create a production ready GraphQL API
   using Python and Strawberry. We will be using using Django as our framework of choice,
   but most of the concept will be applicable to other frameworks too.
-accepted: false
+accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
 end_date: 2022-10-16 12:00:00-07:00

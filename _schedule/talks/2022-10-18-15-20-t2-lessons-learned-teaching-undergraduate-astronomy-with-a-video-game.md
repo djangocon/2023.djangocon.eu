@@ -12,7 +12,7 @@ abstract: "We developed a game in Unity3D to teach astronomy to undergraduates a
   Rest Framework and (vanilla) Django for specific use cases. \r\n\r\nI hope that
   sharing the areas we struggled with and succeeded will help inform your next Django
   project!"
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 15:20:00-07:00
 end_date: 2022-10-18 15:45:00-07:00

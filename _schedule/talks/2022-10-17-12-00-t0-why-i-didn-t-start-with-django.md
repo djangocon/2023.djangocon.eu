@@ -3,7 +3,7 @@ abstract: Learning Python is exciting. Newcomers may quickly have powerful tools
   their disposal, and they soon want to find a "place" to put their ideas. Some may
   gravitate toward web frameworks, and as they start learning about Django, it might
   feel a little intimidating. That happened to me.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 12:00:00-07:00
 end_date: 2022-10-17 12:25:00-07:00

@@ -9,7 +9,7 @@ abstract: "By now most of us have heard of, or used, Python type hints. Since be
   check your type hints with [pyright](https://github.com/microsoft/pyright), some
   of the challenges with adding type hints to Django code, and how to make type hints
   and type checking a real productivity boost."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 13:20:00-07:00
 end_date: 2022-10-18 14:05:00-07:00

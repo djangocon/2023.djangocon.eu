@@ -2,7 +2,7 @@
 abstract: There’s a lot of excitement about Django going async in 3.0+ but also many
   questions. This talk will provide a brief introduction to async, cover its pros/cons,
   and show how to build async into your Django app.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 12:00:00-07:00
 end_date: 2022-10-19 12:25:00-07:00

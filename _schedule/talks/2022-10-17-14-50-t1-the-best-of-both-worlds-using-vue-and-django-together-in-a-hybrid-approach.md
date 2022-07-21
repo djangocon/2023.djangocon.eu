@@ -4,7 +4,7 @@ abstract: Our team of two front-end and six backend-stack engineers needed to bu
   tight deadline. We knew we couldn’t meet our deadline by building a SPA, so we opted
   to use Vue and Django in a Hybrid type approach that would allow our back-end engineers
   to render Vue components from Django templates.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 14:50:00-07:00
 end_date: 2022-10-17 15:15:00-07:00

@@ -4,7 +4,7 @@ abstract: Django ORM makes it easy to persist and retrieve DB information.  Howe
   if you are not careful.  This talk goes over some scenarios where this can take
   place, and demonstrates approaches to finding, eliminating and ultimately protecting
   against these excessive and/or expensive queries.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 10:40:00-07:00
 end_date: 2022-10-19 11:05:00-07:00

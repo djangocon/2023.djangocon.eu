@@ -3,7 +3,7 @@ abstract: Easy access to relevant, safe data is a major bottleneck hindering dev
   and data scientists. But what if you could generate your own accurate, privacy-protected,
   shareable data? We'll learn about Synthetic Data, how it solves this issue, and
   how to get started creating our own Synthetic Data.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 12:00:00-07:00
 end_date: 2022-10-17 12:25:00-07:00

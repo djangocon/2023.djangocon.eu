@@ -7,7 +7,7 @@ abstract: Not many people would think that using Django and a PostgreSQL databas
   Django and Timescale, a PostgreSQL based time series database, and the reasons that
   led us to use this stack. Find out the challenges we faced, pros and cons, and how
   Django saved the day.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 10:40:00-07:00
 end_date: 2022-10-17 11:05:00-07:00

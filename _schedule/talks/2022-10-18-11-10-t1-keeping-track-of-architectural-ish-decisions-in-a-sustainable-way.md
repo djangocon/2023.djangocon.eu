@@ -8,7 +8,7 @@ abstract: "More often than not, keeping track of decisions made in the context o
   in a lightweight and unobtrusive way. We will introduce the concept, go through
   some fundamentals and present a sample case from our experience and how it has reshaped
   our decision making."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 11:10:00-07:00
 end_date: 2022-10-18 11:55:00-07:00

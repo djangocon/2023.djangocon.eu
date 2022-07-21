@@ -5,7 +5,7 @@ abstract: For those not using containers, uWSGI has been the de-facto way of dep
   such as gunicorn and cherrypy and compare them to newer async implementations such
   as Daphene and Uvicorn. We'll score each of them on how they handle production workloads
   and discuss best practices to achieve a reliable site.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 14:00:00-07:00
 end_date: 2022-10-17 14:45:00-07:00

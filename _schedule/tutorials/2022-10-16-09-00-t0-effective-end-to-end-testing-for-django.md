@@ -4,7 +4,7 @@ abstract: End-to-end tests are loved for their ability to confidently test the e
   This tutorial will provide a sound testing approach and practical testing techniques
   to help you write effective, robust, and maintainable end-to-end tests for your
   Django project.
-accepted: false
+accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
 end_date: 2022-10-16 12:00:00-07:00

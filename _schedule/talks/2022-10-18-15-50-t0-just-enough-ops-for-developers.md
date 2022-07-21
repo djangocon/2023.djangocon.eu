@@ -11,7 +11,7 @@ abstract: "Most developers don't want to think about operations (aka Ops, DevOps
   you're a developer and want to run your applications successfully without deep DevOps
   knowledge, this talk is for you. It will help if you have some basic Django developer
   experience, but other than that, no specific knowledge is necessary!"
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 15:50:00-07:00
 end_date: 2022-10-18 16:35:00-07:00

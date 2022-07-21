@@ -1,7 +1,7 @@
 ---
 abstract: When a pandemic strikes where the State is absent, the only option is to
   resort to creativity and community support
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 11:10:00-07:00
 end_date: 2022-10-18 11:55:00-07:00

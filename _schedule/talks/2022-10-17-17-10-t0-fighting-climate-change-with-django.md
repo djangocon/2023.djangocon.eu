@@ -5,7 +5,7 @@ abstract: How can Django help us move the needle away from climate change? At En
   energy efficiency programs are managed through a Django website we call Iris. In
   this talk, I will highlight some of the more interesting parts of the Iris Django
   backend that we have built in the past 3 years.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 17:10:00-07:00
 end_date: 2022-10-17 17:35:00-07:00

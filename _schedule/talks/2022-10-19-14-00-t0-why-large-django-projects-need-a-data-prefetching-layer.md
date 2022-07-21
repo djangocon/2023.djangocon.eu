@@ -6,7 +6,7 @@ abstract: Django REST Framework focus on Don’t Repeat Yourself is useful for c
   through a lot of nesting to ensure all necessary ORM calls and avoid serious performance
   slowdowns. In this talk, you’ll learn how to use a custom data prefetch layer to
   avoid those issues by gathering together code that changes together.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 14:00:00-07:00
 end_date: 2022-10-19 14:45:00-07:00

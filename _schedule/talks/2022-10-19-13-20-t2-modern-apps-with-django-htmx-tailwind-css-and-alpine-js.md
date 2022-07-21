@@ -5,7 +5,7 @@ abstract: Django HTML templates help to implement UI code in a consistent manner
   of a full request reloading the page. This can be achieved with HTMX and Alpine.js
   integrated into Django HTML templates. This session will present a practical CRUD
   app. With Tailwind CSS we will make it look modern and usable.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 13:20:00-07:00
 end_date: 2022-10-19 14:05:00-07:00

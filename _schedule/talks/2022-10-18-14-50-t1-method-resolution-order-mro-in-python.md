@@ -3,7 +3,7 @@ abstract: "It’s time to stop succumbing with common pitfalls when deciding the
   of precedence of methods in multiple inheritances. This diamond problem is solved
   using DLR algo in Python2 and C3 linearization in Python3.\r\n\r\nWe’ll learn about
   MRO (Method Resolution order) which defines the class search path in Python."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 14:50:00-07:00
 end_date: 2022-10-18 15:15:00-07:00

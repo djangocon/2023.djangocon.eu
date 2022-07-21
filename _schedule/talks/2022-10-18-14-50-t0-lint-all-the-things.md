@@ -3,7 +3,7 @@ abstract: Code that’s uniform is easier to read, write, and debug, but writing
   your standards and conventions in a README that no one reads isn’t enough. The explosion
   of CI and linter tools allow you to no only document your standards and conventions,
   but make sure people actually adhere to them.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 14:50:00-07:00
 end_date: 2022-10-18 15:15:00-07:00

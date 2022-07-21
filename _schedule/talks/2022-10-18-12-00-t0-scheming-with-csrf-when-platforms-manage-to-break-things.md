@@ -3,7 +3,7 @@ abstract: When you choose to host your Django sites on managed platforms, you de
   responsibility to those platforms. But when you also can't control what those platforms
   do, you might find yourself with things that don't work as expected. What follows
   is a warning to why being explicit in Django's settings is a very good idea.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 12:00:00-07:00
 end_date: 2022-10-18 12:25:00-07:00

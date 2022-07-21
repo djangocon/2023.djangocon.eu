@@ -8,7 +8,7 @@ abstract: After deploying a project in production and generating new data, it's 
   years, I’ve found some good practices, tips and tricks that have helped me to prevent
   high response times or decrease them, making the process more efficient, and improving
   the overall user experience and satisfaction.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 17:10:00-07:00
 end_date: 2022-10-18 17:35:00-07:00

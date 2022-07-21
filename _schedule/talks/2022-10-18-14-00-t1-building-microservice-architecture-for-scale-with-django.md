@@ -2,7 +2,7 @@
 abstract: Armed with knowledge of Django development, we delve into the different
   types of microservices and the high-level design principles we should follow when
   we design them
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 14:00:00-07:00
 end_date: 2022-10-18 14:45:00-07:00

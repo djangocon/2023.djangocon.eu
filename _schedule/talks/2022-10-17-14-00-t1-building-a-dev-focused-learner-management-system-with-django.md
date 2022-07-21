@@ -7,7 +7,7 @@ abstract: "Once upon a time, Umuzi was an on-premises training provider. We focu
   we scaled up. We are now supporting learners as far afield as Kenya and Nigeria
   and have attracted funding from the likes of Unicef.\r\n\r\nThis is a tale from
   the trenches, with a good helping of aspiration."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 14:00:00-07:00
 end_date: 2022-10-17 14:45:00-07:00

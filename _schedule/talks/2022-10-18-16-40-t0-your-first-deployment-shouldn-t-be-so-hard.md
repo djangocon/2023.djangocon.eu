@@ -4,7 +4,7 @@ abstract: The `django-simple-deploy` project is a standalone management command 
   It greatly simplifies the process of making your first Django deployment. This talk
   will describe how the project works on the surface and under the hood, and will
   include a live demo.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 16:40:00-07:00
 end_date: 2022-10-18 17:05:00-07:00

@@ -5,7 +5,7 @@ abstract: In this session, we will explore, how we can use Django for only servi
   how we can customize the Django default Admin Panel to optimize it. Additionally,
   we will also see how we can write unit tests for our APIs and follow Test Driven
   Development with our Django Backend.
-accepted: false
+accepted: true
 category: tutorials
 date: 2022-10-16 13:30:00-07:00
 end_date: 2022-10-16 16:30:00-07:00

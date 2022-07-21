@@ -1,7 +1,7 @@
 ---
 abstract: You're joining us at the sprints but maybe you never contributed to Django
   before. Let's get up and running together. A whole world awaits.
-accepted: false
+accepted: true
 category: sprints
 date: 2022-10-20 09:00:00-07:00
 end_date: 2022-10-20 12:00:00-07:00

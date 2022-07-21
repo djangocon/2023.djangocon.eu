@@ -11,7 +11,7 @@ abstract: "Django's migration system is one of its greatest strengths as a frame
   how to write migrations so that they can be safely undone\r\n3. Backwards compatible
   migrations: which migrations can be run as part of a deploy without causing downtime
   or errors\r\n4. Handling failed migrations as part of a deployment"
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 12:00:00-07:00
 end_date: 2022-10-18 12:25:00-07:00

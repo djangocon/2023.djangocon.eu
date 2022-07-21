@@ -5,7 +5,7 @@ abstract: Many times we would like to use React in our Django project to make hi
   using React in your project? Well, django-webpack-dev-server is a command-line reusable
   django package that installs the required dependencies and configures a React application
   in your project with just a single command.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 17:10:00-07:00
 end_date: 2022-10-18 17:35:00-07:00
@@ -37,6 +37,6 @@ A more Django-friendly approach would be to serve a single template (HTML) docum
 
 When I decided to integrate Django and React, it took me two full days only to configure the project. I had many errors while writing the Webpack configuration file and many dependencies issues. After this experience, I realized why not automate these steps so other users will not get demotivated from trying Django and React, and this is how django_webpack_dev_server was born.
 
-##  How this Package Helps you!
+## How this Package Helps you!
 
 The package provides a command to set up a React app in both Javascript and Typescript programming languages. The resulting app would be a Django app with a webpack configuration with CSS and SCSS support. The webpack dev server would proxy the Django server in the development phase. After running the build script, the frontend code gets bundled into a single Javascript file and is available for Django to serve from an HTML template. After the setup, it is easy to install other npm packages and modify the webpack configuration as per specific requirements. Since the package is used in development only, there is no need to add it to the requirements.txt file of the production environment.

@@ -5,7 +5,7 @@ abstract: In this session we will go on a tour of the capabilities of the SQL Se
   some scenarios where specific settings come in handy. We’ll also cover SQL features
   you don’t want to skip out on leveraging to maximize the performance and capabilities
   of your Django app.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 15:20:00-07:00
 end_date: 2022-10-17 15:45:00-07:00

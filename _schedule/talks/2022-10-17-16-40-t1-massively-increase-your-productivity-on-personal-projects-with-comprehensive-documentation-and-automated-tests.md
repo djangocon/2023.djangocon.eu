@@ -5,7 +5,7 @@ abstract: "Automated tests and comprehensive documentation help large engineerin
   to my personal projects has increased, not decreased my overall productivity - by
   a lot! Learn how I'm maintaining over 100 PyPI packages using documentation, tests
   and a whole lot of GitHub Actions."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 16:40:00-07:00
 end_date: 2022-10-17 17:05:00-07:00

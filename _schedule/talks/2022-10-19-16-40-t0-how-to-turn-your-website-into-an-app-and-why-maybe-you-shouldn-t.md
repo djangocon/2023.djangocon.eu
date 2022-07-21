@@ -2,7 +2,7 @@
 abstract: The web is an amazing platform for building and deploying code. But sometimes,
   a website just won't do - you need an app. Can you use your existing web development
   skills to develop an app for your phone, or for the desktop? Should you?
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 16:40:00-07:00
 end_date: 2022-10-19 17:05:00-07:00

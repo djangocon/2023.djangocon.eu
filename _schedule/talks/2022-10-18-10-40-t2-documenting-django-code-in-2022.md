@@ -7,7 +7,7 @@ abstract: "This talk will cover the latest updates in the Django documentation e
   steps and additional documentation tools\r\n\r\nThis talk will give you an overview
   of the landscape in 2022, and show how easy it is to use these new projects with
   an existing documentation project."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 10:40:00-07:00
 end_date: 2022-10-18 11:05:00-07:00

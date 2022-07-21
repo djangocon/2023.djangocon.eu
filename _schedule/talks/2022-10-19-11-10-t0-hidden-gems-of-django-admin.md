@@ -1,7 +1,7 @@
 ---
 abstract: In my presentation, I will talk about how powerful django.contrib.admin
   really is.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 11:10:00-07:00
 end_date: 2022-10-19 11:55:00-07:00

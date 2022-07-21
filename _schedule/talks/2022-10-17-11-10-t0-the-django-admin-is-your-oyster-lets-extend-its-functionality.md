@@ -8,7 +8,7 @@ abstract: The Django Admin is a great low code tool for basic CRUD actions. Howe
   get the most from this out-of-the-box tool. This talk is best suited for people
   that have a bit of experience with Django, but experience with the Django Admin
   is not necessary.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 11:10:00-07:00
 end_date: 2022-10-17 11:55:00-07:00

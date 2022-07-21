@@ -3,7 +3,7 @@ abstract: A common Django project bad practice is serializing ORM objects withou
   properly loading relationships, causing N+1 query issues. Django don´t have an obvious
   way to avoid that, but some techniques and libs can help to produce better code
   without too many unnecessary queries.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 17:10:00-07:00
 end_date: 2022-10-17 17:35:00-07:00

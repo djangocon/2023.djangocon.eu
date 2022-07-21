@@ -4,7 +4,7 @@ abstract: The term “legacy code” often evokes feelings of fear and loathing 
   required of Django web developers. This talk will offer suggestions, drawn from
   experience, for ways to nurture legacy codebases so that working with them is not
   fraught with peril. “Legacy code” does not need to be scary!
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 16:40:00-07:00
 end_date: 2022-10-17 17:05:00-07:00

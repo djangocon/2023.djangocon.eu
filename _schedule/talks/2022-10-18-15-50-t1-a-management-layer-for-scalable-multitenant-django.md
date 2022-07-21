@@ -6,7 +6,7 @@ abstract: At JPL, we’re building a web hosting platform powered by Django and 
   file storage location.  To meet these goals, we’ve built a management layer that
   runs alongside Django to handle networking, cluster configuration, state synchronization
   and health monitoring.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 15:50:00-07:00
 end_date: 2022-10-18 16:35:00-07:00

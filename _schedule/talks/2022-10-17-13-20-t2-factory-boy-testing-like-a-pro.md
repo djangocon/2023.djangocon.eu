@@ -2,7 +2,7 @@
 abstract: How to test complex objects using the library factory_boy. The lessons I’ve
   learned using the tool in a Django monolith containing 230+ tables and 75k+ relevant
   lines of code for over 3 years.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 13:20:00-07:00
 end_date: 2022-10-17 14:05:00-07:00

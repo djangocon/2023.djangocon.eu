@@ -2,7 +2,7 @@
 abstract: Can you predict lightning strikes using Django and AWS? Yes! Learn how to
   take an algorithm and idea from a Jupyter Notebook to production ready and cloud
   native.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 14:50:00-07:00
 end_date: 2022-10-17 15:15:00-07:00

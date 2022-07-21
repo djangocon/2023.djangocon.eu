@@ -3,7 +3,7 @@ abstract: Keeping in mind the pythonic principle that _"simple is better than co
   we'll see how to implement *full-text search* in a web service using only latest
   versions of *Django* and *PostgreSQL* and we'll analyze the advantages compared
   to more complex solutions based on external services.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 14:50:00-07:00
 end_date: 2022-10-19 15:15:00-07:00

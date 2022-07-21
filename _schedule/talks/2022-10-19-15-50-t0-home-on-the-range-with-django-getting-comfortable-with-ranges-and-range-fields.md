@@ -5,7 +5,7 @@ abstract: "Building complex range-based queries with individual `start` and `end
   often glossed over.\r\n\r\nWe will work through examples in a project demonstrating
   the way to use and query with ranges. The audience will receive link to the example
   code and a cheatsheet for working with ranges."
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 15:50:00-07:00
 end_date: 2022-10-19 16:35:00-07:00

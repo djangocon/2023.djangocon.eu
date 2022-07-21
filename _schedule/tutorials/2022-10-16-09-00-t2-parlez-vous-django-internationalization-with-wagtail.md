@@ -12,7 +12,7 @@ abstract: "Multilingual websites are becoming a standard requirement for many or
   necessary, but you may want to complete the Django tutorial ahead of time. Some
   familiarity with the architecture of Django applications and Django models would
   help you understand the underlying concepts of this tutorial better."
-accepted: false
+accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
 end_date: 2022-10-16 12:00:00-07:00

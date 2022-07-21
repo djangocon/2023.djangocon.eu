@@ -17,7 +17,7 @@ abstract: While astronomy and the study of the sky and Universe have been explor
   portal. We will also describe new materials we have developed to guide settler K-12
   teachers in exploring their own positionality with respect to the resources in our
   database and towards mindfully holding space for Indigenous Knowledge in their classrooms.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 16:40:00-07:00
 end_date: 2022-10-18 17:05:00-07:00

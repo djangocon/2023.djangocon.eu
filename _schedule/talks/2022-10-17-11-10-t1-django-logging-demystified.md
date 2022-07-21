@@ -2,7 +2,7 @@
 abstract: Learn more about how Django leverages Python's logging facilities and how
   to customize logging for your application to support structured logging, custom
   formatting and more!
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-17 11:10:00-07:00
 end_date: 2022-10-17 11:55:00-07:00

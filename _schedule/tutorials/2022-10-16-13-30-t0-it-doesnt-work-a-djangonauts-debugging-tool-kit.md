@@ -3,7 +3,7 @@ abstract: This tutorial covers the tools and strategies a Django developer can u
   to resolve bugs. Debugging is an extremely useful skill for developers, but there
   aren’t many resources for improvement. This tutorial aims to serve as one of those
   resources. It’s best suited for beginners to web development and/or Django.
-accepted: false
+accepted: true
 category: tutorials
 date: 2022-10-16 13:30:00-07:00
 end_date: 2022-10-16 16:30:00-07:00

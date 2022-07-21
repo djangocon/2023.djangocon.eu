@@ -3,7 +3,7 @@ abstract: Software supply chain security is increasingly important to the open s
   ecosystem, but the learning curve can be steep. Certificate authorities, transparency
   logs, keys, signing… and even keyless signing! What do these terms all mean and
   how can a Django developer incorporate tools that make their projects more secure?
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-19 15:20:00-07:00
 end_date: 2022-10-19 15:45:00-07:00
