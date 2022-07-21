@@ -300,16 +300,14 @@ def generate_registration_desk(
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
 
+
 @app.command()
-def generate_breakfast(
-    start_time: datetime,
-    location: str = "Rio Vista Pavilion",
-):
+def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion"):
     category = "talks"
     if start_time.weekday() == 6:
         category = "tutorials"
     elif start_time.weekday() in {3, 4}:
-        category = 'sprints'
+        category = "sprints"
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(hours=1)
     post = frontmatter.loads(location)
@@ -324,7 +322,7 @@ def generate_breakfast(
         sitemap=False,
         title="Continental Breakfast",
         permalink=None,
-        link='/catering-menus/',
+        link="/catering-menus/",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -333,6 +331,7 @@ def generate_breakfast(
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
+
 
 @app.command()
 def generate_break(
@@ -368,6 +367,45 @@ def generate_break(
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_lightning_talks(
+    start_time: datetime,
+    duration_minutes: int = 50,
+    location: str = "Salon A-E",
+    track: int = 0,
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        schedule_layout="full",
+        presenter_slugs=["kojo-idrissa"],
+        sitemap=True,
+        title="Lightning Talks",
+        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
+        track=f"t{track}",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
