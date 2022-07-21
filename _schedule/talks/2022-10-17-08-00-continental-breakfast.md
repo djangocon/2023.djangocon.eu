@@ -9,6 +9,7 @@ permalink: null
 room: Rio Vista Pavilion
 schedule_layout: full
 sitemap: false
+talk_slot: full
 title: Continental Breakfast
 ---
 

@@ -137,6 +137,10 @@ def fmt():
             try:
                 post = frontmatter.loads(filename.read_text())
                 data = post_type["class_name"](**post.metadata)
+                if isinstance(data, Schedule):
+                    if data.room == 'Online talks':
+                        # online talks get full width
+                        data.talk_slot = 'full'
                 post.metadata.update(data.dict(exclude_unset=True))
                 filename.write_text(frontmatter.dumps(post) + os.linesep)
             except ValidationError as e:
@@ -199,6 +203,7 @@ def generate_lactation_room(
         title="Lactation Room",
         permalink=None,
         link=link or None,
+        talk_slot="full",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -245,6 +250,7 @@ def generate_quiet_room(
         title="Quiet Room",
         permalink=None,
         link=None,
+        talk_slot="full",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -291,6 +297,7 @@ def generate_registration_desk(
         title="Registration",
         permalink=None,
         link=None,
+        talk_slot="full",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -323,6 +330,7 @@ def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion
         title="Continental Breakfast",
         permalink=None,
         link="/catering-menus/",
+        talk_slot="full",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -359,6 +367,7 @@ def generate_break(
         title="Break",
         permalink=None,
         link=None,
+        talk_slot="full",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -429,6 +438,7 @@ def generate_lunch(
         sitemap=False,
         title="Lunch",
         link="/catering-menus/",
+        talk_slot="full",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
