@@ -3,7 +3,7 @@ import inflection
 import os
 import typer
 
-from datetime import datetime
+from datetime import date, datetime, time
 from dateutil.parser import parse
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
@@ -162,6 +162,53 @@ def validate():
 
 
 @app.command()
+def generate_lactation_room(
+    event_date: datetime,
+    link: str = "",  # TODO update this to /news/lactation-room/ after we make the blog post
+    room_name: str = "Santa Fe 3",
+    start_time: str = "8:00",
+    end_time: str = "17:30",
+):
+    category = "talks"
+    if event_date.weekday() == 6:
+        category = "tutorials"
+    elif event_date.weekday() in {3, 4}:
+        category = "sprints"
+
+    parsed_start = parse(start_time).time()
+    parsed_end = parse(end_time).time()
+    if isinstance(event_date, date) and not isinstance(event_date, datetime):
+        start = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_start))
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_end))
+    else:
+        start = CONFERENCE_TZ.localize(
+            datetime.combine(event_date.date(), parsed_start)
+        )
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date.date(), parsed_end))
+    post = frontmatter.loads(room_name)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start,
+        end_date=end,
+        room=room_name,
+        schedule_layout="full",
+        sitemap=False,
+        title="Lactation Room",
+        permalink=None,
+        link=link or None,
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}"
+        f"-{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-lactation-room.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
     filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
@@ -232,8 +279,7 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                             presenter_post.metadata = presenter
 
                             presenter_filename = Path(
-                                "_presenters",
-                                f"{presenter_slug}.md",
+                                "_presenters", f"{presenter_slug}.md"
                             )
 
                             if not presenter_filename.parent.exists():
