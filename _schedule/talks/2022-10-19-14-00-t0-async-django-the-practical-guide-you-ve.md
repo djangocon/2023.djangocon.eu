@@ -12,6 +12,7 @@ presenter_slugs:
 - carlton-gibson
 published: true
 room: Salon A-E
+schedule-layout: full
 sitemap: true
 slug: async-django-the-practical-guide-you-ve-been-awaiting-for
 summary: ''

@@ -12,6 +12,7 @@ presenter_slugs:
 - camila-maia
 published: true
 room: Online talks
+schedule-layout: full
 sitemap: true
 slug: factory-boy-testing-like-a-pro
 summary: ''

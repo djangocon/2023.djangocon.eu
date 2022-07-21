@@ -11,6 +11,7 @@ presenter_slugs:
 - maxim-danilov
 published: true
 room: Salon A-E
+schedule-layout: full
 sitemap: true
 slug: hidden-gems-of-django-admin
 summary: ''

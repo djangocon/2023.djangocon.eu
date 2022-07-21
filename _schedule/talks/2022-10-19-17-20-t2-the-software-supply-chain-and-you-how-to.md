@@ -13,6 +13,7 @@ presenter_slugs:
 - lisa-tagliaferri
 published: true
 room: Online talks
+schedule-layout: full
 sitemap: true
 slug: the-software-supply-chain-and-you-how-to-build-and-ship-more-secure-django-apps
 summary: ''

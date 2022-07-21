@@ -17,6 +17,7 @@ presenter_slugs:
 - joaquin-scocozza
 published: true
 room: Online talks
+schedule-layout: full
 sitemap: true
 slug: working-with-time-series-data-using-django-and-timescale
 summary: ''

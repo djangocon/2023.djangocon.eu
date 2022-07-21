@@ -15,6 +15,7 @@ presenter_slugs:
 - drew-skwiers-koballa
 published: true
 room: Online talks
+schedule-layout: full
 sitemap: true
 slug: a-tour-of-the-sql-server-backend-for-django
 summary: ''

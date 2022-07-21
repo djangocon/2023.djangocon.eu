@@ -19,6 +19,7 @@ presenter_slugs:
 - kyle-bebak
 published: true
 room: Online talks
+schedule-layout: full
 sitemap: true
 slug: type-checking-your-django-code-with-django-types-and-pyright
 summary: ''

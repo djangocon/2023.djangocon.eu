@@ -12,6 +12,7 @@ presenter_slugs:
 - russell-keith-magee
 published: true
 room: Salon A-E
+schedule-layout: full
 sitemap: true
 slug: how-to-turn-your-website-into-an-app-and-why-maybe-you-shouldn-t
 summary: ''

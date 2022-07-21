@@ -13,6 +13,7 @@ presenter_slugs:
 - paolo-melchiorre
 published: true
 room: Salon A-E
+schedule-layout: full
 sitemap: true
 slug: a-pythonic-full-text-search
 summary: ''
