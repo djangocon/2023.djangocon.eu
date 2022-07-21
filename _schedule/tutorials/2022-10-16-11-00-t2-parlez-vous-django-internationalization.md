@@ -15,7 +15,7 @@ abstract: "Multilingual websites are becoming a standard requirement for many or
 accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
-end_date: 2022-10-16 12:00:00-07:00
+end_date: 2022-10-16 12:30:00-07:00
 layout: session-details
 permalink: /tutorials/parlez-vous-django-internationalization/
 presenter_slugs:

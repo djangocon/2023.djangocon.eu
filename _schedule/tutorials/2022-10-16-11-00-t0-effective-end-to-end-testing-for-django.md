@@ -7,7 +7,7 @@ abstract: End-to-end tests are loved for their ability to confidently test the e
 accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
-end_date: 2022-10-16 12:00:00-07:00
+end_date: 2022-10-16 12:30:00-07:00
 layout: session-details
 permalink: /tutorials/effective-end-to-end-testing-for-django/
 presenter_slugs:

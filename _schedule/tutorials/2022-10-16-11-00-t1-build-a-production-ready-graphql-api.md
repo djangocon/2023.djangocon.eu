@@ -5,7 +5,7 @@ abstract: This workshop will teach you how to create a production ready GraphQL 
 accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
-end_date: 2022-10-16 12:00:00-07:00
+end_date: 2022-10-16 12:30:00-07:00
 layout: session-details
 permalink: /tutorials/build-a-production-ready-graphql-api/
 presenter_slugs:

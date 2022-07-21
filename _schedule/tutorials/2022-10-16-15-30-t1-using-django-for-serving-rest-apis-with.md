@@ -8,7 +8,7 @@ abstract: In this session, we will explore, how we can use Django for only servi
 accepted: true
 category: tutorials
 date: 2022-10-16 13:30:00-07:00
-end_date: 2022-10-16 16:30:00-07:00
+end_date: 2022-10-16 17:00:00-07:00
 layout: session-details
 permalink: /tutorials/using-django-for-serving-rest-apis-with/
 presenter_slugs:
