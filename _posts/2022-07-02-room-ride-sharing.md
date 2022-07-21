@@ -3,8 +3,9 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-07-02 13:00:00
 layout: post
-title: "Looking to share a room or ride to DjangoCon US 2022?"
+title: Looking to share a room or ride to DjangoCon US 2022?
 ---
+
 🚗🏨 Are you looking to share lodging or transportation in San Diego?
 
 We have a <a href="https://docs.google.com/spreadsheets/d/1fSLtE122ZsImD006aOs45-Q4Asd9hAg8-ZLAUoLCajo/edit?usp=sharing">spreadsheet</a> where you can fill out information to share lodging and/or transportation.

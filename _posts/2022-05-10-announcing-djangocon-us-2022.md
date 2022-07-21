@@ -3,8 +3,9 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-05-10 05:00:00
 layout: post
-title: "Ready, Set, Here We Go Again!"
+title: Ready, Set, Here We Go Again!
 ---
+
 Hello, everyone!
 We are very excited to announce that the website for DjangoCon US 2022 is [live](https://2022.djangocon.us).
 Many thanks to [YupGup](http://yupgup.com/) for the website.

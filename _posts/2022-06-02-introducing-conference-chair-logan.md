@@ -3,7 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-06-04 12:00:00
 layout: post
-title: "Introducing Logan Kilpatrick, the 2022 DjangoCon US Chair"
+title: Introducing Logan Kilpatrick, the 2022 DjangoCon US Chair
 ---
 
 Announcing our chair for DjangoCon US 2022, [Logan Kilpatrick](https://twitter.com/OfficialLoganK)!
