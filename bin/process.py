@@ -3,7 +3,7 @@ import inflection
 import os
 import typer
 
-from datetime import date, datetime
+from datetime import date, datetime, time
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
@@ -523,6 +523,47 @@ def generate_keynote(
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
 
+
+@app.command()
+def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = False):
+    tutorial_date = event_date
+    talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
+    sprints_dates = [event_date + relativedelta(days=count) for count in [4, 5]]
+    break_times = [time(10, 40), time(15, 20)]
+    talk_lunch_time = time(13, 20)
+    tutorial_breakfast_time = time(8)
+    talk_breakfast_times = [time(8), time(8, 30), time(8, 30)]
+    lightning_talk_time = time(12, 30)
+    tutorial_lunch_time = sprint_lunch_time = time(12, 30)
+    keynote_time = time(9, 45)
+    registration_open = time(8)
+    generate_registration_desk(tutorial_date)
+    generate_lactation_room(tutorial_date)
+    generate_quiet_room(tutorial_date)
+    generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
+    generate_lunch(datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60)
+    for talk_date, breakfast_time in zip(talks_dates, talk_breakfast_times):
+        opening_time = datetime.combine(talk_date.date(), registration_open)
+        generate_lactation_room(opening_time)
+        generate_quiet_room(opening_time)
+        generate_breakfast(datetime.combine(talk_date.date(), breakfast_time))
+        generate_lunch(datetime.combine(talk_date.date(), talk_lunch_time))
+        generate_lightning_talks(datetime.combine(talk_date.date(), lightning_talk_time))
+        generate_early_lunch(datetime.combine(talk_date.date(), lightning_talk_time))
+        generate_registration_desk(datetime.combine(talk_date.date(), registration_open))
+        for break_time in break_times:
+            timestamp = datetime.combine(talk_date.date(), break_time)
+            generate_break(timestamp)
+        if create_keynotes:
+            generate_keynote(datetime.combine(talk_date.date(), keynote_time))
+    for sprint_date in sprints_dates:
+        opening_time = datetime.combine(sprint_date.date(), registration_open)
+        generate_lactation_room(opening_time)
+        generate_quiet_room(opening_time)
+        generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
+        generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
+
+        
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
