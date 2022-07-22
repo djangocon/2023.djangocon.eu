@@ -14,6 +14,7 @@ layout: session-details
 permalink: /talks/a-management-layer-for-scalable-django/
 presenter_slugs:
 - addison-hardy
+- james-ray
 published: true
 room: Salon F-H
 sitemap: true
