@@ -15,16 +15,17 @@ Our Call for Proposals is now closed.
 Decision notifications will be sent by July 8th, 2022.
 {% endcomment %}
 
-{% comment %}
 Our Call for Proposals is now closed and all decision notifications have been sent.
-{% endcomment %}
 
+{% comment %}
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
 Submit your talk or tutorial proposal by the end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
 <a href="{{site.cfp_application}}" class="button">Submit a Proposal</a>
+
+{% endcomment %}
 
 ## Why Speak at DjangoCon US?
 
@@ -90,6 +91,9 @@ Sign-ups will happen at the conference.
 As we have in the past, this year, we have set aside up to $500 per speaker to help offset the cost of travel to the conference.
 In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement.
 Receipts for travel expenses will be required.
+
+{% comment %}
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
 Opportunity grant applications close at the end of the day on June 10, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth). We will send decision notifications by July 8, 2022.
+{% endcomment %}
