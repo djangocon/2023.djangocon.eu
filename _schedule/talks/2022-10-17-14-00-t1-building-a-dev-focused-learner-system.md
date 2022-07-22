@@ -14,7 +14,7 @@ end_date: 2022-10-17 14:45:00-07:00
 layout: session-details
 permalink: /talks/building-a-dev-focused-learner-system/
 presenter_slugs:
-- sheena
+- sheena-oconnell
 published: true
 room: Salon F-H
 sitemap: true
@@ -31,5 +31,5 @@ The talk will cover:
 - the utter chaos of our transition to remote (there were about 250 sim cards registered on our MD's name. Lol)
 - how we prioritised what we built
 - how we ended up choosing Django
-- high level view of how we train different kinds of coders 
+- high level view of how we train different kinds of coders
 - where we are heading

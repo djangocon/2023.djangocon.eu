@@ -3,12 +3,12 @@ company: Six Feet Up
 hidden: false
 layout: speaker-template
 name: Calvin Hendryx-Parker
-photo_url: https://pretalx.com/media/avatars/Calvin_Hendryx-Parker_HS_IhLlb4s.png
+photo_url: /static/img/presenters/calvin-hendryx-parker.jpg
 twitter: calvinhp
 website: null
 ---
 
-Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, a Python and Cloud expert consulting company that helps organizations build apps faster, innovate with AI/ML, simplify Big Data, and leverage Cloud technology. At Six Feet Up, Calvin establishes the company's technical vision and leads all aspects of the company's technology development. He provides the strategic vision for enhancing the offerings of the company and infrastructure, and he works with the team to set company priorities and implement processes that will help improve product and service development. 
+Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, a Python and Cloud expert consulting company that helps organizations build apps faster, innovate with AI/ML, simplify Big Data, and leverage Cloud technology. At Six Feet Up, Calvin establishes the company's technical vision and leads all aspects of the company's technology development. He provides the strategic vision for enhancing the offerings of the company and infrastructure, and he works with the team to set company priorities and implement processes that will help improve product and service development.
 
 In 2019, Calvin was named an AWS Community Hero — one of only 24 Heroes in North America. He is the founder and host of the Python Web Conference, the largest worldwide event for web developers; the co-founder of IndyPy, the largest Python meetup in Indiana with 1,900+ members; and the founder of IndyAWS, the fastest growing cloud meetup in the state with 800+ members. Additionally, Calvin is the driving force behind LoudSwarm by Six Feet Up, a high impact virtual event platform that debuted in June 2020.
 
@@ -21,6 +21,6 @@ Calvin is passionate about the open-source community, and he is regularly sought
 - Datanami (October 2021): Calvin was featured as an expert in the article, “What’s Driving Python’s Massive Popularity?”
 - DjangoCon (October 2021): Calvin presented on “Bootstrapping your Local Python Environment.”
 - PyOhio (August 2021): Calvin presented on how to hack Django Channels to seamlessly integrate Slack into the virtual event platform via “Hacking Django Channels for Fun (and Profit).”
-- DjangoCon Europe (June 2021): Calvin presented on how to use containers to implement a process that focuses on the developer experience and application delivery via “Deploying a Django Virtual Event Platform Using Containers and Terraform.”  
+- DjangoCon Europe (June 2021): Calvin presented on how to use containers to implement a process that focuses on the developer experience and application delivery via “Deploying a Django Virtual Event Platform Using Containers and Terraform.”
 - App Developer Magazine (May 2021): Calvin shares why Python — with its “batteries-included” standard library — is one of the best languages for both beginner and advanced developers in the article, “4 Reasons Python is Taking Over the World.”
 - Cloud Field Day 10 (April 2021): Calvin was selected as a Field Day Delegate and invited to participate in Cloud Field Day 10 — a multi-day discussion with leaders and product managers from enterprise IT companies including NetApp, Dell Technologies, VMware, Oracle, Scality, Veeam, Intel, Komprise and StorageOS.

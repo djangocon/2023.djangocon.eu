@@ -3,7 +3,7 @@ company: Zagaran, Inc.
 hidden: false
 layout: speaker-template
 name: Benjamin "Zags" Zagorsky
-photo_url: https://pretalx.com/media/avatars/Headshot_IIcH2ms.png
+photo_url: /static/img/presenters/benjamin-zags-zagorsky.jpg
 twitter: null
 website: null
 ---
