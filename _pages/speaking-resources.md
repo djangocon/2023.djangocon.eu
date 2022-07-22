@@ -28,8 +28,8 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 
 ## Slide Guidelines
 
-* Use Keynote, PowerPoint, Open Office, or Google Presentations for your slides.
-* Minimal slides are best—avoid walls of text and long lists of bullets.
+* Use Keynote, PowerPoint, LibreOffice, or Google Presentations for your slides.
+* Minimal slides are best—-avoid walls of text and long lists of bullets.
 * Aim for high contrast slides, avoiding colors that may be difficult to see for those with colorblindness. (You can [check your contrast online](http://webaim.org/resources/contrastchecker/); you just need the hex codes for your colors!)
 * Light background with dark text is easiest to read; be mindful that the projection screen is white.
 * Make text as large as possible, at least 68pt.
