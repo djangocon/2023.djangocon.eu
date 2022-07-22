@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Marcelo Elizeche Landó
 photo_url: https://pretalx.com/media/avatars/UOgi3yyv_400x400_FEnriAu.jpg
-twitter: '@melizeche'
+twitter: melizeche
 website: null
 ---
 

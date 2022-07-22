@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Andrej Baranovskij
 photo_url: https://pretalx.com/media/avatars/profile_GNLZv9i.png
-twitter: '@andrejusb'
+twitter: andrejusb
 website: null
 ---
 

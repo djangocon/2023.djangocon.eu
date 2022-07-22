@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Meagen Voss
 photo_url: null
-twitter: '@meagenvoss'
+twitter: meagenvosss
 website: null
 ---
 

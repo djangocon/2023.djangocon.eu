@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Heidi White
 photo_url: null
-twitter: '@heidiwhite'
+twitter: heidiwhite
 website: null
 ---
 

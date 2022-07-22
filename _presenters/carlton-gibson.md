@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Carlton Gibson
 photo_url: null
-twitter: '@carltongibson'
+twitter: carltongibson
 website: null
 ---
 
