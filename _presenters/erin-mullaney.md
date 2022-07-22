@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Erin Mullaney
 photo_url: null
-twitter: '@_erin_rachel'
+twitter: _erin_rachel
 website: null
 ---
 

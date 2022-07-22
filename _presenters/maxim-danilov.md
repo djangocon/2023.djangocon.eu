@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Maxim Danilov
 photo_url: null
-twitter: '@danilovmy'
+twitter: danilovmy
 website: null
 ---
 
