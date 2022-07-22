@@ -14,7 +14,5 @@
  #djangocon
  #dcus
 {% endcapture %}{{ tweet | strip_newlines }}
-
-📺 Watch on YouTube {{ post.video_url }}
-
+{% if video_url %}📺 Watch on YouTube {{ post.video_url }}{% endif %}
 ➡️ Talk information {{ site.url }}{{ include.post.url }}
