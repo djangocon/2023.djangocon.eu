@@ -18,7 +18,10 @@ def run(*, playwright: Playwright, overwrite: bool) -> None:
         )
         if overwrite or not filename.exists():
             typer.echo(f"saving {presenter.stem}")
-            page.goto(f"https://2021.djangocon.us/presenters/{presenter.stem}/")
+            result = page.goto(f"https://2022.djangocon.us/presenters/{presenter.stem}/")
+            if result.status == 404:
+                typer.secho(f'{presenter.stem} not found on the server', fg='yellow')
+                continue
             page.screenshot(
                 path=filename,
                 clip={"x": 0, "y": 0, "width": 1024, "height": 512},
