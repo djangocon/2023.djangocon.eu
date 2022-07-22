@@ -25,4 +25,4 @@ When I started learning Python, it was exciting&mdash;uncharted territory ahead.
 
 I bombarded my search engine with variations of "which Python framework should I use." This led me to several "batteries included" vs "microframework" comparisons, with varying degrees of usefulness.
 
-This talk will highlight some reasons I ultimately decided to build my blog, [Python By Night](https://www.pythonbynight.com), on the backbone of FastAPI, and where I am today on Python journey.
+This talk will highlight some reasons I ultimately decided to build my blog, [Python By Night](https://www.pythonbynight.com), on the backbone of FastAPI, and where I am today on my Python journey.
