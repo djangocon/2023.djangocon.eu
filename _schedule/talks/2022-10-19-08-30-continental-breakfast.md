@@ -1,6 +1,6 @@
 ---
 accepted: true
-category: talks
+category: lunch
 date: 2022-10-19 08:30:00-07:00
 end_date: 2022-10-19 09:30:00-07:00
 layout: session-details

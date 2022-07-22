@@ -11,42 +11,26 @@ title: Speaking Template for YouTube Videos
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
-{% if post.presenters %}
-{% for presenter_slug in post.presenters %}
-{% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
-<p class="event-byline">
-<h4>{{ presenter.name }}, {{ post.title }} - DjangoCon US (2022)</h4>
+{% if post.category != 'break' and post.category != 'lunch' and post.category != 'social-time' %}
+<div class="event-byline">
+<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
 
-<textarea rows="10" id="copy{{ post.slug | replace: "-", "_" }}">
-{% if presenter.twitter != blank %}{{ post.abstract }}
-{% endif %}
-This talk was presented at: {{ site.url }}{{ post.url }}
-{% if presenter.twitter != blank or presenter.github != blank or presenter.website != blank %}
-LINKS:
-Follow {{ presenter.name }} 👇
-{% if presenter.twitter != blank %}On Twitter: https://twitter.com/{{ presenter.twitter }}
-{% endif %}{% if presenter.github != blank %}On GitHub: https://github.com/{{ presenter.github }}
-{% endif %}{% if presenter.website != blank %}Official homepage: {{ presenter.website }}{% endif %}
-{% endif %}
-Follow DjangCon US 👇
-https://twitter.com/djangocon
+<div>
+  <a href="{{ post.video_url }}">On YouTube</a>
+  {% if post.additional_video_url %}<a href="{{ post.additional_video_url }}">Also on YouTube</a>{% endif %}
+</div>
 
-Follow DEFNA 👇
-https://twitter.com/defnado
-https://www.defna.org/
+{% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
 
-Intro music: "This Is How We Quirk It" by Avocado Junkie.
-Video production by Confreaks TV.
-Captions by White Coat Captioning.
+<textarea rows="10" id="{{ youtube-copy-link }}">
+{% include youtube-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
 </textarea>
 
-<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#copy{{ post.slug | replace: "-", "_" }}">
-    Copy to clipboard
+<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
+Copy to clipboard
 </button>
-</p>
-
+</div>
 <hr>
-{% endfor %}
 {% endif %}
 {% endif %}
 {% endfor %}

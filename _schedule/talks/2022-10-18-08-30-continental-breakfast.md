@@ -1,6 +1,6 @@
 ---
 accepted: true
-category: talks
+category: break
 date: 2022-10-18 08:30:00-07:00
 end_date: 2022-10-18 09:30:00-07:00
 layout: session-details
