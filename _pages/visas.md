@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Visa Support at DjangoCon US
-heading: Visa Support at DjangoCon US
-permalink: /visas/
 description: Information about obtaining a Visa to visit DjangoCon US
+heading: Visa Support at DjangoCon US
+layout: default
+permalink: /visas/
+title: Visa Support at DjangoCon US
 ---
 
 ## Do I need a visa to enter the USA?

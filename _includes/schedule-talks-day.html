@@ -1,15 +1,13 @@
 {% if post.accepted == true and post.hidden != true %}
 
-  {% if post.schedule-layout == 'full' %}
+  {% if post.schedule_layout == 'full' %}
     <li>
       <article class="row hour-row">
         <div class="column medium-2">
           <time class="time">
-            <local-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-              {{ post.date | date: "%b %d %l:%M %p %Z" }}
-            </local-time>
+            {{ post.date | date: "%l:%M %P" }}
             {% if post.end_date %}&ndash;
-              <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
+            <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
             {% endif %}
           </time>
         </div>
@@ -26,11 +24,9 @@
         <article class="row hour-row">
           <div class="column medium-2">
             <time class="time">
-              <local-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-                {{ post.date | date: "%b %d %l:%M %p %Z" }}
-              </local-time>
+              {{ post.date | date: "%l:%M %P" }}
               {% if post.end_date %}&ndash;
-                <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
+              <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
               {% endif %}
             </time>
           </div>
@@ -49,11 +45,9 @@
           <article class="row hour-row">
             <div class="column medium-2">
               <time class="time">
-                <local-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-                  {{ post.date | date: "%b %d %l:%M %p %Z" }}
-                </local-time>
+                {{ post.date | date: "%l:%M %P" }}
                 {% if post.end_date %}&ndash;
-                  <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
+                <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
                 {% endif %}
               </time>
             </div>

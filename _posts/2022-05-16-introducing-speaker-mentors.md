@@ -2,11 +2,11 @@
 author: Drew Winstel
 category: General
 date: 2022-05-16 06:00:00
-layout: post
 image: /static/img/blog/cfp-announced-2022.png
+layout: post
+post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
-post_photo_alt: "Speaker addressing a crowd at DjangoCon US 2019 in San Diego"
-title: "Introducing our speaker mentors for DjangoCon US 2022!"
+title: Introducing our speaker mentors for DjangoCon US 2022!
 ---
 
 The DjangoCon 2022 organizers are excited to announce the speaker mentors for the 2022 [call for proposals](https://pretalx.com/djangocon-2022/cfp)!

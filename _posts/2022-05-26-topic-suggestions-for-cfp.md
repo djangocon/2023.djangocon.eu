@@ -2,11 +2,11 @@
 author: Drew Winstel
 category: General
 date: 2022-05-26 07:00:00
-layout: post
 image: /static/img/blog/cfp-announced-2022.png
+layout: post
+post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
-post_photo_alt: "Speaker addressing a crowd at DjangoCon US 2019 in San Diego"
-title: "Need Suggestions for a DjangoCon US 2022 Topic?"
+title: Need Suggestions for a DjangoCon US 2022 Topic?
 ---
 
 The DjangoCon US team would like to present some suggestions for topics for DCUS 2022.

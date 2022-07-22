@@ -3,7 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-07-08 13:00:00
 layout: post
-title: "Lead or organize a Development Sprint at DCUS 2022!"
+title: Lead or organize a Development Sprint at DCUS 2022!
 ---
 
 The last two days of DjangoCon US *(this year, October 20-21)* are devoted to Development Sprints. This blog post is targeted at current open source maintainers and contributors who are considering organizing or leading a Development Sprint at DCUS 2022. As such, I won't be defining "Development Sprint" here. That will come in a later post, meant for potential sprint attendees.
@@ -52,4 +52,4 @@ Specific time/location details on the Development Sprints will be added to [the 
 - Decide if you want to help lead or organize a Development Sprint.
 - Make sure you're prepared for whichever role you take on.
 - If you have questions, the best place to reach our Development Sprints Chair, Kojo, is on [Twitter](https://twitter.com/KojoIdrissa).
-- Get ready to have a great time! 
+- Get ready to have a great time!

@@ -7,7 +7,7 @@ description: |
 enforce_ssl: "2022.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
-timezone: America/Chicago
+timezone: America/Los_Angeles
 conf_year: 2022
 
 include:

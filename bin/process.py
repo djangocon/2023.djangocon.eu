@@ -3,15 +3,16 @@ import inflection
 import os
 import typer
 
-from datetime import datetime
+from datetime import date, datetime, time
 from dateutil.parser import parse
+from dateutil.relativedelta import relativedelta
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
 from slugify import slugify
 from typing import List, Optional
 import pytz
 
-CONFERENCE_TZ = pytz.timezone("America/Chicago")
+CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
 
 
 class FrontmatterModel(BaseModel):
@@ -19,7 +20,7 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: Optional[str]  # TODO: Parse/fix...
+    date: Optional[datetime]
     layout: str
     permalink: Optional[str]
     published: bool = True
@@ -108,6 +109,7 @@ class Schedule(FrontmatterModel):
     show_video_urls: Optional[bool]
     slides_url: Optional[str]
     summary: Optional[str]
+    end_date: Optional[datetime] = None
     tags: Optional[List[str]] = None
     talk_slot: Optional[str] = "full"
     track: Optional[str] = None
@@ -159,6 +161,405 @@ def validate():
             except Exception as e:
                 typer.secho(f"{filename}::{e}", fg="red")
 
+
+@app.command()
+def generate_lactation_room(
+    event_date: datetime,
+    link: str = "",  # TODO update this to /news/lactation-room/ after we make the blog post
+    room_name: str = "Santa Fe 3",
+    start_time: str = "8:00",
+    end_time: str = "17:30",
+):
+    category = "talks"
+    if event_date.weekday() == 6:
+        category = "tutorials"
+    elif event_date.weekday() in {3, 4}:
+        category = "sprints"
+
+    parsed_start = parse(start_time).time()
+    parsed_end = parse(end_time).time()
+    if isinstance(event_date, date) and not isinstance(event_date, datetime):
+        start = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_start))
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_end))
+    else:
+        start = CONFERENCE_TZ.localize(
+            datetime.combine(event_date.date(), parsed_start)
+        )
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date.date(), parsed_end))
+    post = frontmatter.loads(room_name)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start,
+        end_date=end,
+        room=room_name,
+        schedule_layout="full",
+        sitemap=False,
+        title="Lactation Room",
+        permalink=None,
+        link=link or None,
+        talk_slot="full",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}"
+        f"-{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-lactation-room.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_quiet_room(
+    event_date: datetime,
+    room_name: str = "Private Dining Room",
+    start_time: str = "8:00",
+    end_time: str = "18:00",
+):
+    category = "talks"
+    if event_date.weekday() == 6:
+        category = "tutorials"
+    elif event_date.weekday() in {3, 4}:
+        category = "sprints"
+
+    parsed_start = parse(start_time).time()
+    parsed_end = parse(end_time).time()
+    if isinstance(event_date, date) and not isinstance(event_date, datetime):
+        start = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_start))
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_end))
+    else:
+        start = CONFERENCE_TZ.localize(
+            datetime.combine(event_date.date(), parsed_start)
+        )
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date.date(), parsed_end))
+    post = frontmatter.loads(room_name)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start,
+        end_date=end,
+        room=room_name,
+        schedule_layout="full",
+        sitemap=False,
+        title="Quiet Room",
+        permalink=None,
+        link=None,
+        talk_slot="full",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-quiet-room.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_registration_desk(
+    event_date: datetime,
+    location: str = "In front of Salon A",
+    start_time: str = "8:00",
+    end_time: str = "18:00",
+):
+    category = "talks"
+    if event_date.weekday() == 6:
+        category = "tutorials"
+    elif event_date.weekday() in {3, 4}:
+        raise ValueError("We don't have a registration desk on sprint days")
+
+    parsed_start = parse(start_time).time()
+    parsed_end = parse(end_time).time()
+    if isinstance(event_date, date) and not isinstance(event_date, datetime):
+        start = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_start))
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date, parsed_end))
+    else:
+        start = CONFERENCE_TZ.localize(
+            datetime.combine(event_date.date(), parsed_start)
+        )
+        end = CONFERENCE_TZ.localize(datetime.combine(event_date.date(), parsed_end))
+    post = frontmatter.loads(location)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start,
+        end_date=end,
+        room=location,
+        schedule_layout="full",
+        sitemap=False,
+        title="Registration",
+        permalink=None,
+        link=None,
+        talk_slot="full",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-registration.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion"):
+    category = "talks"
+    if start_time.weekday() == 6:
+        category = "tutorials"
+    elif start_time.weekday() in {3, 4}:
+        category = "sprints"
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(hours=1)
+    post = frontmatter.loads(location)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        schedule_layout="full",
+        sitemap=False,
+        title="Continental Breakfast",
+        permalink=None,
+        link="/catering-menus/",
+        talk_slot="full",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_break(
+    start_time: datetime,
+    duration_minutes: int = 30,
+    location: str = "Rio Vista Pavilion",
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        category = "tutorials"
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("We don't have published breaks on sprint days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads(location)
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        schedule_layout="full",
+        sitemap=False,
+        title="Break",
+        permalink=None,
+        link=None,
+        talk_slot="full",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_early_lunch(
+    start_time: datetime,
+    duration_minutes: int = 50,
+    location: str = "Rio Vista Pavilion",
+    track: int = 1,
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        sitemap=False,
+        title="Early Lunch",
+        link="/catering-menus/",
+        track=f"t{track}",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_lunch(
+    start_time: datetime,
+    duration_minutes: int = 40,
+    location: str = "Rio Vista Pavilion",
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        category = "tutorials"
+    elif start_time.weekday() in {3, 4}:
+        category = "sprints"
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        sitemap=False,
+        title="Lunch",
+        link="/catering-menus/",
+        talk_slot="full",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_lightning_talks(
+    start_time: datetime,
+    duration_minutes: int = 50,
+    location: str = "Salon A-E",
+    track: int = 0,
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("We don't have lightning talks on tutorial days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        schedule_layout="full",
+        presenter_slugs=["kojo-idrissa"],
+        sitemap=True,
+        title="Lightning Talks",
+        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
+        track=f"t{track}",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_keynote(
+    start_time: datetime, duration_minutes: int = 45, location: str = "Salon A-E"
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("No keynotes on tutorial day")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("No keynotes on tutorial day")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    post = frontmatter.loads(
+        "Pay attention to our [blog](/news/) for keynote speakers!"
+    )
+    sched = Schedule(
+        accepted=True,
+        layout="session-details",
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        room=location,
+        sitemap=True,
+        track="t1",
+        title="Keynote (to be announced)",
+        link=None,
+        talk_slot="full",
+        difficulty="All",
+    )
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = False):
+    tutorial_date = event_date
+    talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
+    sprints_dates = [event_date + relativedelta(days=count) for count in [4, 5]]
+    break_times = [time(10, 40), time(15, 20)]
+    talk_lunch_time = time(13, 20)
+    tutorial_breakfast_time = time(8)
+    talk_breakfast_times = [time(8), time(8, 30), time(8, 30)]
+    lightning_talk_time = time(12, 30)
+    tutorial_lunch_time = sprint_lunch_time = time(12, 30)
+    keynote_time = time(9, 45)
+    registration_open = time(8)
+    generate_registration_desk(tutorial_date)
+    generate_lactation_room(tutorial_date)
+    generate_quiet_room(tutorial_date)
+    generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
+    generate_lunch(datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60)
+    for talk_date, breakfast_time in zip(talks_dates, talk_breakfast_times):
+        opening_time = datetime.combine(talk_date.date(), registration_open)
+        generate_lactation_room(opening_time)
+        generate_quiet_room(opening_time)
+        generate_breakfast(datetime.combine(talk_date.date(), breakfast_time))
+        generate_lunch(datetime.combine(talk_date.date(), talk_lunch_time))
+        generate_lightning_talks(datetime.combine(talk_date.date(), lightning_talk_time))
+        generate_early_lunch(datetime.combine(talk_date.date(), lightning_talk_time))
+        generate_registration_desk(datetime.combine(talk_date.date(), registration_open))
+        for break_time in break_times:
+            timestamp = datetime.combine(talk_date.date(), break_time)
+            generate_break(timestamp)
+        if create_keynotes:
+            generate_keynote(datetime.combine(talk_date.date(), keynote_time))
+    for sprint_date in sprints_dates:
+        opening_time = datetime.combine(sprint_date.date(), registration_open)
+        generate_lactation_room(opening_time)
+        generate_quiet_room(opening_time)
+        generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
+        generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
+
+        
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
@@ -231,8 +632,7 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                             presenter_post.metadata = presenter
 
                             presenter_filename = Path(
-                                "_presenters",
-                                f"{presenter_slug}.md",
+                                "_presenters", f"{presenter_slug}.md"
                             )
 
                             if not presenter_filename.parent.exists():
