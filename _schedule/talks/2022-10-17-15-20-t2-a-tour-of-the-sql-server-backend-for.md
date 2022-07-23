@@ -24,4 +24,10 @@ title: A Tour of the SQL Server backend for Django
 track: t2
 ---
 
-https://github.com/microsoft/mssql-django
+## Abstract
+
+In this session we will go on a tour of the capabilities of the SQL Server backend for Django, which enables you to connect your Django app to Azure SQL or SQL Server. After a brief introduction to the open source project we’ll discuss some scenarios where specific settings come in handy. We’ll also cover SQL features you don’t want to skip out on leveraging to maximize the performance and capabilities of your Django app.
+
+## Helpful Links
+- https://github.com/microsoft/mssql-django
+- https://devblogs.microsoft.com/azure-sql/create-rest-api-in-python-with-django-using-the-django-rest-framework-and-azure-sql/
