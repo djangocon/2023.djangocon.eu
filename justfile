@@ -22,10 +22,16 @@ IMAGE_SIZE := "1024x512"
     just --fmt --unstable
 
 @screenshots:
-    python bin/screenshots.py
+    python bin/process.py generate-shots > ./shots.yml
+    shot-scraper multi --no-clobber ./shots.yml
 
 @test:
     bundle exec rake test
 
 @up *ARGS:
     docker-compose up {{ ARGS }}
+
+@update:
+    rm -f ./bin/requirements.txt
+    pip install -r ./bin/requirements.in
+    pip-compile ./bin/requirements.in

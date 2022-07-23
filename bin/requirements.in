@@ -6,4 +6,6 @@ pydantic
 python-frontmatter
 python-slugify
 requests
+rich
+shot-scraper
 typer
