@@ -3,7 +3,7 @@ company: Katana ML
 hidden: false
 layout: speaker-template
 name: Andrej Baranovskij
-photo_url: https://pretalx.com/media/avatars/profile_GNLZv9i.png
+photo_url: /static/img/presenters/andrej-baranovskij.png
 twitter: andrejusb
 website: null
 ---

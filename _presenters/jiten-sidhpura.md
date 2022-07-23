@@ -3,7 +3,7 @@ company: null
 hidden: false
 layout: speaker-template
 name: Jiten Sidhpura
-photo_url: https://pretalx.com/media/avatars/WhatsApp_Image_2021-11-18_at_6.33.40_PM_FuO0R8r.jpeg
+photo_url: /static/img/presenters/jiten-sidhpura.jpg
 twitter: jiten_sid
 website: null
 ---

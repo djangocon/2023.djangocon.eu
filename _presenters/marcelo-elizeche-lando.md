@@ -3,7 +3,7 @@ company: Python Paraguay
 hidden: false
 layout: speaker-template
 name: Marcelo Elizeche Landó
-photo_url: https://pretalx.com/media/avatars/UOgi3yyv_400x400_FEnriAu.jpg
+photo_url: /static/img/presenters/marcelo-elizeche-lando.jpg
 twitter: melizeche
 website: null
 ---

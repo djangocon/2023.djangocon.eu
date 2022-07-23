@@ -3,7 +3,7 @@ company: Buser Brasil
 hidden: false
 layout: speaker-template
 name: Iuri de Silvio
-photo_url: https://pretalx.com/media/avatars/T8DJ2DE76-UQ478Q694-4331661bf709-512_79kXa8p.png
+photo_url: /static/img/presenters/iuri-de-silvio.png
 twitter: iurisilvio
 website: null
 ---

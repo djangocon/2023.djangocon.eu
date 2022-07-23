@@ -3,7 +3,7 @@ company: null
 hidden: false
 layout: speaker-template
 name: Mario Munoz
-photo_url: https://pretalx.com/media/avatars/mm-profile-sq_kzlldqC.png
+photo_url: /static/img/presenters/mario-munoz.png
 twitter: PythonByNight
 website: null
 ---
