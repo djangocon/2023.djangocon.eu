@@ -85,10 +85,22 @@ class Presenter(FrontmatterModel):
     override_schedule_title: Optional[str] = None
     photo_url: Optional[str]
     role: Optional[str]
+    slug: Optional[str] = None
     title: Optional[str]
     twitter: Optional[str]
     website: Optional[str]
     website_text: str = "Apply here"
+
+    def __init__(self, **data):
+        super().__init__(**data)
+
+        # if slugs are blank default them to slugify(name)
+        if not self.slug:
+            self.slug = slugify(self.name)
+
+        # if permalink is blank, let's build a new one
+        if not self.permalink:
+            self.permalink = f"/presenters/{self.slug}/"
 
 
 class Schedule(FrontmatterModel):
