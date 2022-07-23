@@ -3,7 +3,9 @@ company: null
 hidden: false
 layout: speaker-template
 name: Eric Matthes
+permalink: /presenters/eric-matthes/
 photo_url: null
+slug: eric-matthes
 twitter: ehmatthes
 website: null
 ---

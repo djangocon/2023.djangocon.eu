@@ -3,7 +3,9 @@ company: Zagaran, Inc.
 hidden: false
 layout: speaker-template
 name: Benjamin "Zags" Zagorsky
+permalink: /presenters/benjamin-zags-zagorsky/
 photo_url: /static/img/presenters/benjamin-zags-zagorsky.jpg
+slug: benjamin-zags-zagorsky
 twitter: null
 website: null
 ---

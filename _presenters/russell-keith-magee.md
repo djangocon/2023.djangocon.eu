@@ -3,7 +3,9 @@ company: Anaconda / BeeWare Project
 hidden: false
 layout: speaker-template
 name: Russell Keith-Magee
+permalink: /presenters/russell-keith-magee/
 photo_url: null
+slug: russell-keith-magee
 twitter: freakboy3742
 website: null
 ---

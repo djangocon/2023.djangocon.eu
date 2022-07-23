@@ -3,7 +3,9 @@ company: null
 hidden: false
 layout: speaker-template
 name: Sanyam Khurana
+permalink: /presenters/sanyam-khurana/
 photo_url: null
+slug: sanyam-khurana
 twitter: ErSanyamKhurana
 website: null
 ---

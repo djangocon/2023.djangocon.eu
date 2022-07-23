@@ -3,7 +3,9 @@ company: Read the Docs
 hidden: false
 layout: speaker-template
 name: Eric Holscher
+permalink: /presenters/eric-holscher/
 photo_url: null
+slug: eric-holscher
 twitter: ericholscher
 website: null
 ---

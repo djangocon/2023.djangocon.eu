@@ -3,7 +3,9 @@ company: AstroVenture
 hidden: false
 layout: speaker-template
 name: Andrew Mshar
+permalink: /presenters/andrew-mshar/
 photo_url: null
+slug: andrew-mshar
 twitter: programmylife
 website: null
 ---

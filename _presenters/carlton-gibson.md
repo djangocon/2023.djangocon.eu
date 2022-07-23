@@ -3,7 +3,9 @@ company: Django Fellow
 hidden: false
 layout: speaker-template
 name: Carlton Gibson
+permalink: /presenters/carlton-gibson/
 photo_url: null
+slug: carlton-gibson
 twitter: carltongibson
 website: null
 ---

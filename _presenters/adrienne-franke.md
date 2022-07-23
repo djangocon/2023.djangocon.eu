@@ -3,7 +3,9 @@ company: Healthcare Bluebook
 hidden: false
 layout: speaker-template
 name: Adrienne Franke
+permalink: /presenters/adrienne-franke/
 photo_url: /static/img/presenters/adrienne-franke.jpg
+slug: adrienne-franke
 twitter: adriennefranke
 website: null
 ---

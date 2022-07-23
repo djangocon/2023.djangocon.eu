@@ -3,7 +3,9 @@ company: LearnDjango.com
 hidden: false
 layout: speaker-template
 name: Will Vincent
+permalink: /presenters/will-vincent/
 photo_url: /static/img/presenters/will-vincent.png
+slug: will-vincent
 twitter: wsvincent1
 website: null
 ---

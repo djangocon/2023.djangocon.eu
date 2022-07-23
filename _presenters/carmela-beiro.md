@@ -3,7 +3,9 @@ company: Octobot
 hidden: false
 layout: speaker-template
 name: Carmela Beiro
+permalink: /presenters/carmela-beiro/
 photo_url: null
+slug: carmela-beiro
 twitter: null
 website: null
 ---

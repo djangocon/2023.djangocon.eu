@@ -3,7 +3,9 @@ company: Lincoln Loop
 hidden: false
 layout: speaker-template
 name: Peter Baumgartner
+permalink: /presenters/peter-baumgartner/
 photo_url: null
+slug: peter-baumgartner
 twitter: ipmb
 website: null
 ---

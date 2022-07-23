@@ -1,9 +1,10 @@
 ---
 company: null
-hidden: false
 layout: speaker-template
 name: Ken Whitesell
+permalink: /presenters/ken-whitesell/
 photo_url: null
+slug: ken-whitesell
 twitter: KenWhitesell
 website: null
 ---

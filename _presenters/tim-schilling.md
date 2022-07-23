@@ -3,7 +3,9 @@ company: AspirEDU / Jazzband / Underdog Devs
 hidden: false
 layout: speaker-template
 name: Tim Schilling
+permalink: /presenters/tim-schilling/
 photo_url: null
+slug: tim-schilling
 twitter: CodenameTim
 website: null
 ---

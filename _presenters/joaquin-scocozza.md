@@ -3,7 +3,9 @@ company: Octobot
 hidden: false
 layout: speaker-template
 name: Joaquín Scocozza
+permalink: /presenters/joaquin-scocozza/
 photo_url: null
+slug: joaquin-scocozza
 twitter: joaquinscocozza
 website: null
 ---

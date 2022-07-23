@@ -3,7 +3,9 @@ company: Gretel.ai
 hidden: false
 layout: speaker-template
 name: Mason Egger
+permalink: /presenters/mason-egger/
 photo_url: https://pretalx.com/media/avatars/attachment_6_Dicge7M.jpeg
+slug: mason-egger
 twitter: masonegger
 website: null
 ---

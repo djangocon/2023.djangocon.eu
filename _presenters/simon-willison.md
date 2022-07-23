@@ -3,7 +3,9 @@ company: Datasette
 hidden: false
 layout: speaker-template
 name: Simon Willison
+permalink: /presenters/simon-willison/
 photo_url: null
+slug: simon-willison
 twitter: simonw
 website: null
 ---

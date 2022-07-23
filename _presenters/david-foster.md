@@ -3,7 +3,9 @@ company: TechSmart
 hidden: false
 layout: speaker-template
 name: David Foster
+permalink: /presenters/david-foster/
 photo_url: /static/img/presenters/david-foster.jpg
+slug: david-foster
 twitter: davidfstr
 website: null
 ---

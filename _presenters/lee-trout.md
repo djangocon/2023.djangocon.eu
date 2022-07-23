@@ -3,7 +3,9 @@ company: Hookdeck
 hidden: false
 layout: speaker-template
 name: Lee Trout
+permalink: /presenters/lee-trout/
 photo_url: null
+slug: lee-trout
 twitter: thecodewritesme
 website: null
 ---

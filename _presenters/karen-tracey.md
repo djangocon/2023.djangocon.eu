@@ -3,7 +3,9 @@ company: Caktus Group
 hidden: false
 layout: speaker-template
 name: Karen Tracey
+permalink: /presenters/karen-tracey/
 photo_url: null
+slug: karen-tracey
 twitter: km_tracey
 website: null
 ---

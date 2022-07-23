@@ -3,7 +3,9 @@ company: Six Feet Up
 hidden: false
 layout: speaker-template
 name: Calvin Hendryx-Parker
+permalink: /presenters/calvin-hendryx-parker/
 photo_url: /static/img/presenters/calvin-hendryx-parker.jpg
+slug: calvin-hendryx-parker
 twitter: calvinhp
 website: null
 ---

@@ -3,7 +3,9 @@ company: Microsoft
 hidden: false
 layout: speaker-template
 name: Drew Skwiers-Koballa
+permalink: /presenters/drew-skwiers-koballa/
 photo_url: null
+slug: drew-skwiers-koballa
 twitter: sysadmindrew
 website: null
 ---

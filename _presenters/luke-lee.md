@@ -3,7 +3,9 @@ company: Octopus Energy
 hidden: false
 layout: speaker-template
 name: Luke Lee
+permalink: /presenters/luke-lee/
 photo_url: https://pretalx.com/media/avatars/IMG_8325_45G8ZsD.jpg
+slug: luke-lee
 twitter: durden20
 website: null
 ---
