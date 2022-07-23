@@ -170,12 +170,7 @@ def generate_lactation_room(
     start_time: str = "8:00",
     end_time: str = "17:30",
 ):
-    category = "talks"
-    if event_date.weekday() == 6:
-        category = "tutorials"
-    elif event_date.weekday() in {3, 4}:
-        category = "sprints"
-
+    category = "break"
     parsed_start = parse(start_time).time()
     parsed_end = parse(end_time).time()
     if isinstance(event_date, date) and not isinstance(event_date, datetime):
@@ -217,12 +212,7 @@ def generate_quiet_room(
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
-    category = "talks"
-    if event_date.weekday() == 6:
-        category = "tutorials"
-    elif event_date.weekday() in {3, 4}:
-        category = "sprints"
-
+    category = "break"
     parsed_start = parse(start_time).time()
     parsed_end = parse(end_time).time()
     if isinstance(event_date, date) and not isinstance(event_date, datetime):
@@ -264,10 +254,8 @@ def generate_registration_desk(
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
-    category = "talks"
-    if event_date.weekday() == 6:
-        category = "tutorials"
-    elif event_date.weekday() in {3, 4}:
+    category = "break"
+    if event_date.weekday() in {3, 4}:
         raise ValueError("We don't have a registration desk on sprint days")
 
     parsed_start = parse(start_time).time()
@@ -306,11 +294,7 @@ def generate_registration_desk(
 
 @app.command()
 def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion"):
-    category = "talks"
-    if start_time.weekday() == 6:
-        category = "tutorials"
-    elif start_time.weekday() in {3, 4}:
-        category = "sprints"
+    category = "lunch"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(hours=1)
     post = frontmatter.loads(location)
@@ -343,11 +327,7 @@ def generate_break(
     duration_minutes: int = 30,
     location: str = "Rio Vista Pavilion",
 ):
-    category = "talks"
-    if start_time.weekday() == 6:
-        category = "tutorials"
-    elif start_time.weekday() in {3, 4}:
-        raise ValueError("We don't have published breaks on sprint days")
+    category = "break"
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads(location)
@@ -381,11 +361,11 @@ def generate_early_lunch(
     location: str = "Rio Vista Pavilion",
     track: int = 1,
 ):
-    category = "talks"
+    category = "lunch"
     if start_time.weekday() == 6:
         raise ValueError("We don't have lightning talks on tutorial days")
     elif start_time.weekday() in {3, 4}:
-        raise ValueError("We don't have lightning talks on tutorial days")
+        raise ValueError("We don't have lightning talks on sprint days")
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads("")
@@ -559,7 +539,7 @@ def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = Fal
         generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
         generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
 
-        
+
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
