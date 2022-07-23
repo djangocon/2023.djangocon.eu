@@ -1,5 +1,7 @@
 set dotenv-load := false
 
+alias social := screenshots
+
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
 
 DOMAIN := "https://2022.djangocon.us"
@@ -19,7 +21,7 @@ IMAGE_SIZE := "1024x512"
 @fmt:
     just --fmt --unstable
 
-@social:
+@screenshots:
     python bin/screenshots.py
 
 @test:
