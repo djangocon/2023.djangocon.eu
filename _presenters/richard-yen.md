@@ -3,7 +3,9 @@ company: EnterpriseDB (EDB)
 hidden: false
 layout: speaker-template
 name: Richard Yen
+permalink: /presenters/richard-yen/
 photo_url: null
+slug: richard-yen
 twitter: null
 website: null
 ---

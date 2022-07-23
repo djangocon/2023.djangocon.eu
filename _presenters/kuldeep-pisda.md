@@ -3,7 +3,9 @@ company: Goldcast Inc
 hidden: false
 layout: speaker-template
 name: Kuldeep Pisda
+permalink: /presenters/kuldeep-pisda/
 photo_url: null
+slug: kuldeep-pisda
 twitter: kdpisda
 website: null
 ---

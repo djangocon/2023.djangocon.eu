@@ -3,7 +3,9 @@ company: Energy Solutions
 hidden: false
 layout: speaker-template
 name: Erin Mullaney
+permalink: /presenters/erin-mullaney/
 photo_url: null
+slug: erin-mullaney
 twitter: _erin_rachel
 website: null
 ---

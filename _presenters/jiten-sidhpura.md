@@ -3,7 +3,9 @@ company: null
 hidden: false
 layout: speaker-template
 name: Jiten Sidhpura
+permalink: /presenters/jiten-sidhpura/
 photo_url: /static/img/presenters/jiten-sidhpura.jpg
+slug: jiten-sidhpura
 twitter: jiten_sid
 website: null
 ---

@@ -3,7 +3,9 @@ company: Octopus Energy
 hidden: false
 layout: speaker-template
 name: Luke Lee
+permalink: /presenters/luke-lee/
 photo_url: /static/img/presenters/luke-lee.jpg
+slug: luke-lee
 twitter: durden20
 website: null
 ---

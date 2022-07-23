@@ -3,7 +3,9 @@ company: Crunchy Data
 hidden: false
 layout: speaker-template
 name: Elizabeth Garrett Christensen
+permalink: /presenters/elizabeth-garrett-christensen/
 photo_url: null
+slug: elizabeth-garrett-christensen
 twitter: e_g_christensen
 website: null
 ---

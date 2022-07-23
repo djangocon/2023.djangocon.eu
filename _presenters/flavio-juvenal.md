@@ -3,7 +3,9 @@ company: Vinta Software
 hidden: false
 layout: speaker-template
 name: Flávio Juvenal
+permalink: /presenters/flavio-juvenal/
 photo_url: /static/img/presenters/flavio-juvenal.jpg
+slug: flavio-juvenal
 twitter: flaviojuvenal
 website: null
 ---

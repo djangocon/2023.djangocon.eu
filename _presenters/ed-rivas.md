@@ -3,7 +3,9 @@ company: OddBird
 hidden: false
 layout: speaker-template
 name: Ed Rivas
+permalink: /presenters/ed-rivas/
 photo_url: null
+slug: ed-rivas
 twitter: je92rivas
 website: null
 ---

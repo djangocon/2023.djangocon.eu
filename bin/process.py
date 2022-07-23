@@ -85,10 +85,22 @@ class Presenter(FrontmatterModel):
     override_schedule_title: Optional[str] = None
     photo_url: Optional[str]
     role: Optional[str]
+    slug: Optional[str] = None
     title: Optional[str]
     twitter: Optional[str]
     website: Optional[str]
     website_text: str = "Apply here"
+
+    def __init__(self, **data):
+        super().__init__(**data)
+
+        # if slugs are blank default them to slugify(name)
+        if not self.slug:
+            self.slug = slugify(self.name)
+
+        # if permalink is blank, let's build a new one
+        if not self.permalink:
+            self.permalink = f"/presenters/{self.slug}/"
 
 
 class Schedule(FrontmatterModel):
@@ -184,17 +196,17 @@ def generate_lactation_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start,
         end_date=end,
+        layout="session-details",
+        link=link or None,
+        permalink=None,
         room=room_name,
         schedule_layout="full",
         sitemap=False,
-        title="Lactation Room",
-        permalink=None,
-        link=link or None,
         talk_slot="full",
+        title="Lactation Room",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -226,17 +238,17 @@ def generate_quiet_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start,
         end_date=end,
+        layout="session-details",
+        link=None,
+        permalink=None,
         room=room_name,
         schedule_layout="full",
         sitemap=False,
-        title="Quiet Room",
-        permalink=None,
-        link=None,
         talk_slot="full",
+        title="Quiet Room",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -271,17 +283,17 @@ def generate_registration_desk(
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start,
         end_date=end,
+        layout="session-details",
+        link=None,
+        permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
-        title="Registration",
-        permalink=None,
-        link=None,
         talk_slot="full",
+        title="Registration",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -300,17 +312,17 @@ def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link="/catering-menus/",
+        permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
-        title="Continental Breakfast",
-        permalink=None,
-        link="/catering-menus/",
         talk_slot="full",
+        title="Continental Breakfast",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -333,17 +345,17 @@ def generate_break(
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link=None,
+        permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
-        title="Break",
-        permalink=None,
-        link=None,
         talk_slot="full",
+        title="Break",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -371,14 +383,14 @@ def generate_early_lunch(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link="/catering-menus/",
         room=location,
         sitemap=False,
         title="Early Lunch",
-        link="/catering-menus/",
         track=f"t{track}",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
@@ -406,15 +418,15 @@ def generate_lunch(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link="/catering-menus/",
         room=location,
         sitemap=False,
-        title="Lunch",
-        link="/catering-menus/",
         talk_slot="full",
+        title="Lunch",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -442,16 +454,16 @@ def generate_lightning_talks(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
+        presenter_slugs=["kojo-idrissa"],
         room=location,
         schedule_layout="full",
-        presenter_slugs=["kojo-idrissa"],
         sitemap=True,
         title="Lightning Talks",
-        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
         track=f"t{track}",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
@@ -479,17 +491,17 @@ def generate_keynote(
     )
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
+        difficulty="All",
         end_date=end_time,
+        layout="session-details",
+        link=None,
         room=location,
         sitemap=True,
-        track="t1",
-        title="Keynote (to be announced)",
-        link=None,
         talk_slot="full",
-        difficulty="All",
+        title="Keynote (to be announced)",
+        track="t1",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -517,16 +529,22 @@ def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = Fal
     generate_lactation_room(tutorial_date)
     generate_quiet_room(tutorial_date)
     generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
-    generate_lunch(datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60)
+    generate_lunch(
+        datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60
+    )
     for talk_date, breakfast_time in zip(talks_dates, talk_breakfast_times):
         opening_time = datetime.combine(talk_date.date(), registration_open)
         generate_lactation_room(opening_time)
         generate_quiet_room(opening_time)
         generate_breakfast(datetime.combine(talk_date.date(), breakfast_time))
         generate_lunch(datetime.combine(talk_date.date(), talk_lunch_time))
-        generate_lightning_talks(datetime.combine(talk_date.date(), lightning_talk_time))
+        generate_lightning_talks(
+            datetime.combine(talk_date.date(), lightning_talk_time)
+        )
         generate_early_lunch(datetime.combine(talk_date.date(), lightning_talk_time))
-        generate_registration_desk(datetime.combine(talk_date.date(), registration_open))
+        generate_registration_desk(
+            datetime.combine(talk_date.date(), registration_open)
+        )
         for break_time in break_times:
             timestamp = datetime.combine(talk_date.date(), break_time)
             generate_break(timestamp)
@@ -538,7 +556,6 @@ def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = Fal
         generate_quiet_room(opening_time)
         generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
         generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
-
 
 
 @app.command()

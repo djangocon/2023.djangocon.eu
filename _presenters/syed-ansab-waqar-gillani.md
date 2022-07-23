@@ -3,7 +3,9 @@ company: Arbisoft
 hidden: false
 layout: speaker-template
 name: Syed Ansab Waqar Gillani
+permalink: /presenters/syed-ansab-waqar-gillani/
 photo_url: null
+slug: syed-ansab-waqar-gillani
 twitter: null
 website: null
 ---

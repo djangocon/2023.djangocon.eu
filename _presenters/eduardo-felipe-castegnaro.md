@@ -3,7 +3,9 @@ company: OnSign TV
 hidden: false
 layout: speaker-template
 name: Eduardo Felipe Castegnaro
+permalink: /presenters/eduardo-felipe-castegnaro/
 photo_url: null
+slug: eduardo-felipe-castegnaro
 twitter: null
 website: null
 ---

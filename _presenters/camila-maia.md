@@ -3,7 +3,9 @@ company: SoundCloud
 hidden: false
 layout: speaker-template
 name: Camila Maia
+permalink: /presenters/camila-maia/
 photo_url: null
+slug: camila-maia
 twitter: cmaiacd
 website: null
 ---

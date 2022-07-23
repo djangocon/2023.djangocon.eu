@@ -3,7 +3,9 @@ company: Chainguard
 hidden: false
 layout: speaker-template
 name: Lisa Tagliaferri
+permalink: /presenters/lisa-tagliaferri/
 photo_url: https://pretalx.com/media/avatars/lisa-tagliaferri_iuOTudH.jpg
+slug: lisa-tagliaferri
 twitter: lisaironcutter
 website: null
 ---

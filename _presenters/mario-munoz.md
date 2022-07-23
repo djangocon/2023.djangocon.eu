@@ -3,7 +3,9 @@ company: null
 hidden: false
 layout: speaker-template
 name: Mario Munoz
+permalink: /presenters/mario-munoz/
 photo_url: /static/img/presenters/mario-munoz.png
+slug: mario-munoz
 twitter: PythonByNight
 website: null
 ---
