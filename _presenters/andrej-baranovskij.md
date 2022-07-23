@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Andrej Baranovskij
 permalink: /presenters/andrej-baranovskij/
-photo_url: https://pretalx.com/media/avatars/profile_GNLZv9i.png
+photo_url: /static/img/presenters/andrej-baranovskij.png
 slug: andrej-baranovskij
 twitter: andrejusb
 website: null

@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
-photo_url: https://pretalx.com/media/avatars/1-IMG_20170423_153741-192x192_Q5gms7I.jpg
+photo_url: /static/img/presenters/paolo-melchiorre.jpg
 slug: paolo-melchiorre
 twitter: pauloxnet
 website: null

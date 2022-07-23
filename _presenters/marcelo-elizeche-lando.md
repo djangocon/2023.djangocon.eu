@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Marcelo Elizeche Landó
 permalink: /presenters/marcelo-elizeche-lando/
-photo_url: https://pretalx.com/media/avatars/UOgi3yyv_400x400_FEnriAu.jpg
+photo_url: /static/img/presenters/marcelo-elizeche-lando.jpg
 slug: marcelo-elizeche-lando
 twitter: melizeche
 website: null
