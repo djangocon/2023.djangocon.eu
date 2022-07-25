@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Richard Yen
 permalink: /presenters/richard-yen/
-photo_url: null
+photo_url: /static/img/presenters/richard-yen.jpg
 slug: richard-yen
 twitter: null
 website: null
