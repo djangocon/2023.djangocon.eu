@@ -4,6 +4,7 @@ accepted: true
 category: talks
 date: 2022-10-17 15:50:00-07:00
 end_date: 2022-10-17 16:35:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Fwill-vincent/opengraph/
 layout: session-details
 permalink: /talks/the-django-jigsaw-puzzle-aligning-all/
 presenter_slugs:

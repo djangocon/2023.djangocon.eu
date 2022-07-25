@@ -6,6 +6,7 @@ accepted: true
 category: talks
 date: 2022-10-19 16:40:00-07:00
 end_date: 2022-10-19 17:05:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Frussell-keith-magee/opengraph/
 layout: session-details
 permalink: /talks/how-to-turn-your-website-into-an-app-and/
 presenter_slugs:

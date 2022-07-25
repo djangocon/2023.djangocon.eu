@@ -8,6 +8,7 @@ accepted: true
 category: talks
 date: 2022-10-17 14:50:00-07:00
 end_date: 2022-10-17 15:15:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Fbrent-o-connor/opengraph/
 layout: session-details
 permalink: /talks/the-best-of-both-worlds-using-vue-and-in/
 presenter_slugs:

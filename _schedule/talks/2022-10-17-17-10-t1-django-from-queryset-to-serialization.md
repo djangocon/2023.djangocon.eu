@@ -7,6 +7,7 @@ accepted: true
 category: talks
 date: 2022-10-17 17:10:00-07:00
 end_date: 2022-10-17 17:35:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Fiuri-de-silvio/opengraph/
 layout: session-details
 permalink: /talks/django-from-queryset-to-serialization/
 presenter_slugs:
