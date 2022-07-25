@@ -7,6 +7,7 @@ accepted: true
 category: tutorials
 date: 2022-10-16 13:30:00-07:00
 end_date: 2022-10-16 17:00:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Ftim-schilling/opengraph/
 layout: session-details
 permalink: /tutorials/it-doesnt-work-a-djangonauts-debugging/
 presenter_slugs:

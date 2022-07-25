@@ -11,6 +11,7 @@ accepted: true
 category: talks
 date: 2022-10-17 10:40:00-07:00
 end_date: 2022-10-17 11:05:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Fjoaquin-scocozza/opengraph/
 layout: session-details
 permalink: /talks/working-with-time-series-data-using-and/
 presenter_slugs:

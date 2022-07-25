@@ -9,6 +9,7 @@ accepted: true
 category: talks
 date: 2022-10-19 13:20:00-07:00
 end_date: 2022-10-19 14:05:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Fandrej-baranovskij/opengraph/
 layout: session-details
 permalink: /talks/modern-apps-with-django-htmx-tailwind-js/
 presenter_slugs:
