@@ -8,8 +8,10 @@ from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
+from rich import print
 from slugify import slugify
 from typing import List, Optional
+from urllib.parse import quote_plus
 import pytz
 
 CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
@@ -663,9 +665,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    post[
-                        "image"
-                    ] = f"/static/img/social/presenters/{presenter_slug}.png"
+                    image_url = f"https://2022.djangocon.us/presenters/{presenter_slug}"
+                    image_url = quote_plus(image_url)
+                    post["image"] = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"
 
             if dirty is True:
                 filename.write_text(frontmatter.dumps(post) + "\n")
