@@ -1,13 +1,13 @@
 .speaker-template {
   position: relative;
   padding: 70px 30px 0 500px;
-  width: 1024px;
-  height: 512px;
+  width: 1200px;
+  height: 630px;
 
   background-color: $brand-color2;
   background-image: url(/static/img/speaker-template-bg.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  
 
   text-align: right;
   color: $white;
@@ -19,12 +19,13 @@
     top: -10px;
     left: -40px;
     border-radius: 0 50% 50% 0;
-    width: 520px;
+    width: 610px;
   }
 
   &-name {
     position: relative;
     margin-bottom: 0;
+    font-size: 3.0rem;
   }
 
   &-name:after {
@@ -32,14 +33,14 @@
     display: block;
     margin: 10px 0 10px auto;
     height: 10px;
-    width: 80px;
+    width: 120px;
     background: #290724;
     content: "";
   }
 
   &-session-title {
     font-family: $body-font-family;
-    font-size: 1.85rem;
+    font-size: 2.3rem;
   }
 
   &:after {
