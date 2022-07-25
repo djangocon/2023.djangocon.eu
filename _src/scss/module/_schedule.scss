@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 %has-bg {
   background: $light-gray;
 }
@@ -69,8 +71,10 @@
   }
 
   .avatar {
+    aspect-ratio: 1;
     margin: 0 .5em 0 0;
     max-width: 60px;
+    object-fit: cover;
     border-radius: 50%;
     vertical-align: middle;
   }
@@ -163,7 +167,7 @@
   text-decoration: none;
 
   & + & {
-    margin-top: $global-margin / 2;
+    margin-top: math.div($global-margin, 2);
   }
 
   .avatar {
@@ -186,7 +190,7 @@
   .event {
     display: flex;
     flex-direction: column;
-    margin: 0 $global-margin / 2;
+    margin: 0 math.div($global-margin, 2);
     text-align: left;
     flex-grow: 1;
 
