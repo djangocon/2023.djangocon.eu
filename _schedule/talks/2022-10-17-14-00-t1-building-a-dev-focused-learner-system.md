@@ -15,7 +15,7 @@ image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252F
 layout: session-details
 permalink: /talks/building-a-dev-focused-learner-system/
 presenter_slugs:
-- sheena-oconnell
+- sheena-o-connell
 published: true
 room: Salon F-H
 sitemap: true
