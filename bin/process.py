@@ -667,7 +667,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                     presenter_slug = post["presenter_slugs"][0]
                     image_url = f"https://2022.djangocon.us/presenters/{presenter_slug}"
                     image_url = quote_plus(image_url)
-                    post["image"] = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"
+                    image_url = quote_plus(image_url)
+                    image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"
+                    post["image"] = image_url
 
             if dirty is True:
                 filename.write_text(frontmatter.dumps(post) + "\n")
