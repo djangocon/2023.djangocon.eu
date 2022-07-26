@@ -4,7 +4,7 @@ accepted: true
 category: talks
 date: 2022-10-18 14:00:00-07:00
 end_date: 2022-10-18 14:45:00-07:00
-image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Frichard-yen/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Frichard-yen/opengraph/
 layout: session-details
 permalink: /talks/explaining-explain-a-dive-into-s-explain/
 presenter_slugs:
