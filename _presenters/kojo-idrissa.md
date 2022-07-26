@@ -6,7 +6,7 @@ name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg
 slug: kojo-idrissa
-twitter: Transitionswpz
+twitter: kojoidrissa
 website: http://kojoidrissa.com/
 ---
 
@@ -15,4 +15,4 @@ two different countries. He's *now* a new(ish) software engineer and is still
 trying to figure that out and grow into the role. He's spoken at tech conferences
 about spreadsheets, contributing to tech communities, Dungeons & Dragons, inclusion
 and privilege. You can find him online at http://kojoidrissa.com/ or as
-[@transitionswpz](https://twitter.com/transitionswpz) on Twitter.
+[@transitionswpz](https://twitter.com/kojoidrissa) on Twitter.
