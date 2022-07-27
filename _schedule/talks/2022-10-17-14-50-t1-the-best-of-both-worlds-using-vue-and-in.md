@@ -14,6 +14,7 @@ permalink: /talks/the-best-of-both-worlds-using-vue-and-in/
 presenter_slugs:
 - brent-o-connor
 - joshua-weaver
+- levi-mann
 published: true
 room: Salon F-H
 sitemap: true

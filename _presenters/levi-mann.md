@@ -2,10 +2,10 @@
 company: Canopy, a Public Benefit Company
 hidden: false
 layout: speaker-template
-name: Joshua Weaver
-permalink: /presenters/joshua-weaver/
+name: Levi Mann
+permalink: /presenters/levi-mann/
 photo_url: null
-slug: joshua-weaver
-twitter: josh7weaver
+slug: levi-mann
+twitter: lmann2014
 website: null
 ---
