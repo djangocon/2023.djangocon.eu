@@ -1,5 +1,6 @@
 ---
 company: null
+hidden: false
 layout: speaker-template
 name: Ken Whitesell
 permalink: /presenters/ken-whitesell/

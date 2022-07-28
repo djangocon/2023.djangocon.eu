@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Patrick Arminio
 permalink: /presenters/patrick-arminio/
-photo_url: https://www.gravatar.com/avatar/489cdabedd1112f98474038939668778
+photo_url: /static/img/presenters/patrick-arminio.jpeg
 slug: patrick-arminio
 twitter: patrick91
 website: null

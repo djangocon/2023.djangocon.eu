@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Lisa Tagliaferri
 permalink: /presenters/lisa-tagliaferri/
-photo_url: https://pretalx.com/media/avatars/lisa-tagliaferri_iuOTudH.jpg
+photo_url: /static/img/presenters/lisa-tagliaferri.jpg
 slug: lisa-tagliaferri
 twitter: lisaironcutter
 website: null
