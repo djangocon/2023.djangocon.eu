@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Peter Baumgartner
 permalink: /presenters/peter-baumgartner/
-photo_url: null
+photo_url: /static/img/presenters/peter-baumgartner.jpg
 slug: peter-baumgartner
 twitter: ipmb
 website: null
