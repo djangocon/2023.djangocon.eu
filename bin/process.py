@@ -117,9 +117,7 @@ class Schedule(FrontmatterModel):
     published: bool = False
     room: Optional[str]
     schedule: Optional[str]
-    schedule_layout: Optional[str] = Field(
-        alias="schedule-layout"
-    )  # TODO: Validate for breaks, lunch, etc
+    schedule_layout: Optional[str]  # TODO: Validate for breaks, lunch, etc
     show_video_urls: Optional[bool]
     slides_url: Optional[str]
     summary: Optional[str]
