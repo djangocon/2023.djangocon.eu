@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Eric Matthes
 permalink: /presenters/eric-matthes/
-photo_url: null
+photo_url: /static/img/presenters/eric-matthes.jpg
 slug: eric-matthes
 twitter: ehmatthes
 website: null
