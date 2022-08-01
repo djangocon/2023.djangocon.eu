@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Erin Mullaney
 permalink: /presenters/erin-mullaney/
-photo_url: null
+photo_url: /static/img/presenters/erin-mullaney.jpg
 pronouns: she/her
 slug: erin-mullaney
 twitter: _erin_rachel
