@@ -13,6 +13,7 @@ title: Speaking Status
     <tr>
       <th>title</th>
       <th>name</th>
+      <th>pronouns</th>
       <th>photo_url</th>
       <th>github</th>
       <th>twitter</th>
@@ -31,6 +32,7 @@ title: Speaking Status
 <tr>
   <td><a href="{{ post.url }}">{{ post.title }}</a></td>
   <td><a href="{{ presenter.permalink }}">{{ presenter.name }}</a></td>
+  <td>{% if presenter.pronouns != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.photo_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.github != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.twitter != blank %}✅{% else %}❌{% endif %}</td>
