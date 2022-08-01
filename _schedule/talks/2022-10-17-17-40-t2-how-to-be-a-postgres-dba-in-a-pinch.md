@@ -5,6 +5,7 @@ abstract: We know the open source and Django community loves Postgres - but not 
   level things to think about and do on their database if they have to be a Postgres
   DBA in a pinch.
 accepted: true
+difficulty: Beginner
 category: talks
 date: 2022-10-17 17:40:00-07:00
 end_date: 2022-10-17 18:25:00-07:00
