@@ -11,7 +11,7 @@ We are beyond thrilled to unveil the 2022 DjangoCon US [talk and tutorial lineup
 
 We will have three keynote speakers which will be announced over the next several weeks. Stay tuned to our [Twitter](https://twitter.com/djangocon) and [news feed](/news/) for the announcements.
 
-We have lots of great talks lined up, from talks about using Django [to support Indigenous people in Canada](/talks/astrodigenous-an-online-portal-for-sky/) or [to help Uruguayans through COVID-19](/talks/ayudapy-org-from-weekend-project-to-key/) to [speeding up your application](/tips-and-tricks-for-optimizing-django/) and [security](/talks/the-software-supply-chain-and-you-how-to/) [measures](/talks/scheming-with-csrf-when-platforms-manage/) and so much more!
+We have lots of great talks lined up, from talks about using Django [to support Indigenous people in Canada](/talks/astrodigenous-an-online-portal-for-sky/) or [to help Uruguayans through COVID-19](/talks/ayudapy-org-from-weekend-project-to-key/) to [speeding up your application](/talks/tips-and-tricks-for-optimizing-django/) and [security](/talks/the-software-supply-chain-and-you-how-to/) [measures](/talks/scheming-with-csrf-when-platforms-manage/) and so much more!
 
 Don't forget our awesome deep dive day, where we dig into things like [full-text search](/talks/a-pythonic-full-text-search/), [HTMX, Tailwind, and Alpine.js](/talks/modern-apps-with-django-htmx-tailwind-js/), and a [practical guide to asynchronous Django](/talks/async-django-the-practical-guide-you-ve/).
 
