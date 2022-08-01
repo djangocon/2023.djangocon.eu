@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/
-photo_url: null
+photo_url: /static/img/presenters/carlton-gibson.jpg
 slug: carlton-gibson
 twitter: carltongibson
 website: null
