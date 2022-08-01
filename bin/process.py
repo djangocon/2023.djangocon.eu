@@ -85,6 +85,7 @@ class Presenter(FrontmatterModel):
     layout: str = "speaker-template"
     name: str
     override_schedule_title: Optional[str] = None
+    pronouns: Optional[str]
     photo_url: Optional[str]
     role: Optional[str]
     slug: Optional[str] = None
