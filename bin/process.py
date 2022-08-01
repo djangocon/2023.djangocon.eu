@@ -436,6 +436,59 @@ def generate_lunch(
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
 
+@app.command()
+def generate_opening_remarks(
+    start_time: datetime,
+    duration_minutes: int = 15,
+    speaker_name: str = '',
+    location: str = 'Salon A-E',
+    track: int = 0,
+):
+    category = "talks"
+    if start_time.weekday() not in range(0, 3):
+        raise ValueError("We only have keynotes on talk days")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    if speaker_name:
+        speaker_post = frontmatter.loads("")
+        speaker = Presenter(
+            name=speaker_name,
+        )
+        if (organizer_path := Path(f'_organizers/{speaker.slug}.md')).exists():
+            organizer_post = frontmatter.loads(organizer_path.read_text())
+            organizer = Organizer(**organizer_post.metadata)
+            speaker.twitter = organizer.twitter
+            speaker.github = organizer.github
+            speaker.photo_url = organizer.photo_url
+            speaker.website = organizer.website
+            speaker.title = organizer.title
+        speaker_post.metadata.update(speaker.dict(exclude_unset=True))
+        output_path = Path(f'_presenters/{speaker.slug}.md')
+        output_path.write_text(frontmatter.dumps(speaker_post) + '\n')
+
+    post = frontmatter.loads("")
+    sched = Schedule(
+        accepted=True,
+        category=category,
+        date=start_time,
+        end_date=end_time,
+        layout="session-details",
+        permalink=f"/talks/opening-remarks-{start_time:%A}/".casefold(),
+        room=location,
+        schedule_layout="full",
+        sitemap=True,
+        title="Opening Remarks",
+        track=f"t{track}",
+    )
+    if speaker_name:
+        sched.presenter_slugs = [slugify(speaker_name)]
+    post.metadata.update(sched.dict(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
 
 @app.command()
 def generate_lightning_talks(
@@ -458,7 +511,7 @@ def generate_lightning_talks(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
+        permalink=f"/talks/lightning-talks-{start_time:%A}/".casefold(),
         presenter_slugs=["kojo-idrissa"],
         room=location,
         schedule_layout="full",
