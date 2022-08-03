@@ -3,11 +3,13 @@ company: Google Cloud
 hidden: false
 layout: speaker-template
 name: Katie McLaughlin
+pronouns: she/they
 permalink: /presenters/katie-mclaughlin/
 photo_url: /static/img/presenters/katie-mclaughlin.jpg
 slug: katie-mclaughlin
 twitter: glasnt
-website: null
+github: glasnt
+website: https://glasnt.com/blog
 ---
 
 Katie has worn many different hats over the years. She has been a software developer for many languages, systems administrator for multiple operating systems, and speaker on many different topics.
