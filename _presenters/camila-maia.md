@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Camila Maia
 permalink: /presenters/camila-maia/
-photo_url: static/img/presenters/camila-maia.jpg
+photo_url: /static/img/presenters/camila-maia.jpg
 slug: camila-maia
 pronouns: she/her
 twitter: cmaiacd
