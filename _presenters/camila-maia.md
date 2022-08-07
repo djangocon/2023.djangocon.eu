@@ -4,10 +4,11 @@ hidden: false
 layout: speaker-template
 name: Camila Maia
 permalink: /presenters/camila-maia/
-photo_url: null
+photo_url: static/img/presenters/camila-maia.jpg
 slug: camila-maia
+pronouns: she/her
 twitter: cmaiacd
-website: null
+website: https://cmaiacd.com
 ---
 
 I am a Brazilian software developer that loves to architect systems, create new DevTools, and automate processes. I am a backend developer that loves developing systems using Python or Ruby. 🐍 💎
