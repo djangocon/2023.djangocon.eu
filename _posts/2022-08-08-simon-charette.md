@@ -2,14 +2,14 @@
 author: Drew Winstel
 category: Program
 date: 2022-08-08 16:00:00-07:00
-image: /static/img/presenters/simon-charette/
+image: /static/img/presenters/simon-charette.jpg
 layout: post
 title: 'Announcing Our Keynotes: Simon Charette'
 ---
 
 We're honored to announce our third keynote speaker for DjangoCon US 2022: Simon Charette!
 
-<img src="/static/img/presenters/simon-charettte.jpg" alt="Photo of Simon Charette" style="width:45%; display:block; float:right;" />
+<img src="/static/img/presenters/simon-charette.jpg" alt="Photo of Simon Charette" style="width:45%; display:block; float:right;" />
 
 Simon has been contributing to Django for the past ten years, mainly to the ORM (object-relational mapping) and the migration framework. Through this work, he developed an interest in RDBMS/SQL and has been focusing on making Django work great with them in the context of large Python applications.
 
