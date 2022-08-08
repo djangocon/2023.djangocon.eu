@@ -4,7 +4,7 @@ github: charettes
 hidden: false
 layout: speaker-template
 name: Simon Charette
-permalink: /presenters/simon-charette/
+permalink: /presenters/simon-charette.jpg
 photo_url: /static/img/presenters/simon-charette/
 pronouns: he/him
 slug: simon-charette
