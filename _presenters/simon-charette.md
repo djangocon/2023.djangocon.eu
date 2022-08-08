@@ -5,7 +5,7 @@ hidden: false
 layout: speaker-template
 name: Simon Charette
 permalink: /presenters/simon-charette/
-photo_url: /static/img/presenters/simon-charette/
+photo_url: /static/img/presenters/simon-charette.jpg
 pronouns: he/him
 slug: simon-charette
 twitter: charettes
