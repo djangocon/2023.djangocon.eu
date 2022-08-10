@@ -11,6 +11,7 @@ layout: session-details
 permalink: /talks/full-text-search-with-django-and-more/
 presenter_slugs:
 - jason-judkins
+- colin-copeland
 published: true
 room: Online talks
 schedule_layout: full
