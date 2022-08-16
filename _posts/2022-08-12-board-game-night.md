@@ -17,6 +17,6 @@ We'll have more details about the opening reception in the future, so stay tuned
 
 **Where**: Salon A-E
 
-**What**: Get together with other Djangonauts for board games and camaraderie. We'll have some games on hand, but feel free to bring your favorites! Talk to [Ken Whitesell](/presenters/ken-whitesell) if you have questions.
+**What**: Get together with other Djangonauts for board games and camaraderie. We'll have some games on hand, but feel free to bring your favorites! Talk to [Ken Whitesell](https://twitter.com/KenWhitesell) if you have questions.
 
 Would you like to organize some hybrid gaming? Please do! Ken has graciously offered to organize board game night again, and we can't thank him enough for his continued support of DCUS.
