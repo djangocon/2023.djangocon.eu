@@ -6,7 +6,7 @@ level: "Gold"
 name: "Vinta Software"
 logo: /static/img/sponsors/vinta.svg
 logo_orientation: "landscape"
-url_target: "https://www.vintasoftware.com"
+url_target: "https://www.vintasoftware.com/services/django-consulting/"
 url_friendly: "vintasoftware.com"
 description: |
   Vinta is an expert consultancy reference on Python and Django.
