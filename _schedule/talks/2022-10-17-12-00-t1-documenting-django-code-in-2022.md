@@ -9,25 +9,24 @@ abstract: "This talk will cover the latest updates in the Django documentation e
   an existing documentation project."
 accepted: true
 category: talks
-date: 2022-10-18 10:40:00-07:00
-end_date: 2022-10-18 11:05:00-07:00
+date: 2022-10-17 12:00:00-07:00
+end_date: 2022-10-17 12:25:00-07:00
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Feric-holscher/opengraph/
 layout: session-details
 permalink: /talks/documenting-django-code-in-2022/
 presenter_slugs:
 - eric-holscher
 published: true
-room: Online talks
-schedule_layout: full
+room: Salon F-H
 sitemap: true
 slug: documenting-django-code-in-2022
 summary: ''
 tags: null
 title: Documenting Django Code in 2022
-track: t2
+track: t1
 ---
 
-There have been a number of updates in the Python & Django documentation ecosystem, and this talk is an overview of those changes. The goal is to give everyone in attendance the tools that they need to help their organization or open source project build good documentation culture. 
+There have been a number of updates in the Python & Django documentation ecosystem, and this talk is an overview of those changes. The goal is to give everyone in attendance the tools that they need to help their organization or open source project build good documentation culture.
 
 Authoring: Historically using Sphinx & reStructuredText has been the standard in the Django community, but not using Markdown has been a historical barrier to adoption, especially when adapting standards inside a company that aren't just using Python. With Sphinx having solid Markdown support, this worry has now been mostly removed, and enables the full power of Sphinx without having to learn a new markdown format.
 
