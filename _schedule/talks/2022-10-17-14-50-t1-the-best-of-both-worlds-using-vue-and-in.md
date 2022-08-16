@@ -22,6 +22,7 @@ slug: the-best-of-both-worlds-using-vue-and-django-together-in-a-hybrid-approach
 summary: ''
 tags: null
 title: 'The Best of Both Worlds: Using Vue and Django Together in a Hybrid Approach'
+difficulty: Intermediate
 track: t1
 ---
 
