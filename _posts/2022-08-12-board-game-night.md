@@ -3,7 +3,7 @@ author: Lacey Williams Henschel
 category: General
 date: 2022-08-12 06:00:00-07:00
 layout: post
-image: /static/img/blog/opening_reception.png
+image: /static/img/blog/social-events.jpg
 title: "Board Game Night at DjangoCon US"
 ---
 
