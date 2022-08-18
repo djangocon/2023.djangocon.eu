@@ -4,10 +4,10 @@ hidden: false
 layout: speaker-template
 name: Eric Holscher
 permalink: /presenters/eric-holscher/
-photo_url: null
+photo_url: https://pbs.twimg.com/profile_images/686618084279336960/9UXiuf6J_400x400.jpg
 slug: eric-holscher
 twitter: ericholscher
-website: null
+website: https://ericholscher.com/
 ---
 
-I am the co-founder of Read the Docs and Write the Docs, where I work to elevate the status of documentation in the software industry.
+I am the co-founder of Read the Docs and Write the Docs, where I work to elevate the status of documentation in the software industry. I've been using Django since 2008, and appreciate the community for it's progressive worldview and pioneering work in the OSS ecosystem. 
