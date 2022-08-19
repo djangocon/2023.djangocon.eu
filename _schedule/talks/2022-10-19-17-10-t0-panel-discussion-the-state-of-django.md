@@ -41,3 +41,4 @@ and much more. It’s been a long time since we gathered leaders of the Django c
 - [Andrew Godwin](https://aeracode.org/), longtime Django core contributor
 - [Jeff Triplett](https://webology.dev/), DEFNA President and PSF board member
 - [Will Vincent](https://wsvincent.com/), DSF Vice President and co-host of the Django Chat podcast
+- [Rachell Calhoun](https://www.rachellcalhoun.com/), DjangoGirls Trustee, DjangoGirls Grand Rapids (Michigan), PyLadies Grand Rapids
