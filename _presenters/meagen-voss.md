@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Meagen Voss
 permalink: /presenters/meagen-voss/
-photo_url: https://www.meagenvoss.com/media/images/mvoss-headshot-web.original.jpg
+photo_url: /static/img/presenters/meagen-voss.jpg
 slug: meagen-voss
 twitter: meagenvosss
 website: https://www.meagenvoss.com/
