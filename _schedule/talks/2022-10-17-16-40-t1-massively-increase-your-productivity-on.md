@@ -1,6 +1,6 @@
 ---
 abstract: "Automated tests and comprehensive documentation help large engineering
-  teams  collaborate more effectively. But do they have a place in personal projects
+  teams collaborate more effectively. But do they have a place in personal projects
   as well?\r\n\r\nI've found that scaling these large-scale engineering tactics down
   to my personal projects has increased, not decreased my overall productivity - by
   a lot! Learn how I'm maintaining over 100 PyPI packages using documentation, tests
@@ -25,9 +25,9 @@ title: Massively increase your productivity on personal projects with comprehens
 track: t1
 ---
 
-When I worked for a company that grew to have an engineering team spanning three containers I learned that the only way to keep things productive was to embrace comprehensive documentation and automated tests.
+When I worked for a company that grew to have an engineering team spanning three continents I learned that the only way to keep things productive was to embrace comprehensive documentation and automated tests.
 
-Then I decided if see if the techniques that worked for software development at large team sizes could scale down to my personal projects with a team size of one.
+Then I decided to see if the techniques that worked for software development at large team sizes could scale down to my personal projects with a team size of one.
 
 I expected that embracing comprehensive testing and documentation for my personal projects would slow me down. To my surprise, they had the opposite effect: I have found that my productivity has increased by an order of magnitude through my embrace of testing and documentation.
 
