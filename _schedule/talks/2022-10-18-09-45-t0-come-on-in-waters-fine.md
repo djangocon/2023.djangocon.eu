@@ -19,4 +19,4 @@ track: t0
 
 Python has grown to be the largest programming language in the world; that’s one big pool. But like all things tech there are too many things that keep folx out of the water, and lots of ways we can get them diving into the deep end.
 
-This talk shares the perspectives of two developers who benefitted from a community that was welcoming, supportive, and awesome. They’ll share the advice they did and DIDN'T recieve; stories from along the way; and how those of us already floating can make room for all the new people wanting to join in on the fun. Grab your floaties, kids—let’s jump in.
+This talk shares the perspectives of two developers who benefitted from a community that was welcoming, supportive, and awesome. They’ll share the advice they did and DIDN'T receive; stories from along the way; and how those of us already floating can make room for all the new people wanting to join in on the fun. Grab your floaties, kids—let’s jump in.
