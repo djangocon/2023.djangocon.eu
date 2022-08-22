@@ -9,7 +9,7 @@ title: Twitter Template for Tweets
 
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-{% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
+{% if day == 'Sunday' or day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
 {% if post.category != 'break' and post.category != 'lunch' and post.category != 'social-time' %}
 <div class="event-byline">
 <h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>

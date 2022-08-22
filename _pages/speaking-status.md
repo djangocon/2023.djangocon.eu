@@ -25,7 +25,7 @@ title: Speaking Status
 <tbody>
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-{% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
+{% if day == 'Sunday' or day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
 {% if post.presenter_slugs %}
 {% for presenter_slug in post.presenter_slugs %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
