@@ -17,6 +17,7 @@ presenter_slugs:
 - levi-mann
 published: true
 room: Online talks
+schedule_layout: full
 sitemap: true
 slug: the-best-of-both-worlds-using-vue-and-django-together-in-a-hybrid-approach
 summary: ''

@@ -15,7 +15,6 @@ presenter_slugs:
 - ilya-bass
 published: true
 room: Salon F-H
-schedule_layout: full
 sitemap: true
 slug: herding-your-database-queries-diagnosing-improving-and-guarding-performance-of-db-interactions-in-your-django-apps
 summary: ''
