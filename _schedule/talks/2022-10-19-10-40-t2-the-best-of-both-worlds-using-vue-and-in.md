@@ -6,8 +6,8 @@ abstract: Our team of two front-end and six backend-stack engineers needed to bu
   to render Vue components from Django templates.
 accepted: true
 category: talks
-date: 2022-10-17 14:50:00-07:00
-end_date: 2022-10-17 15:15:00-07:00
+date: 2022-10-19 10:40:00-07:00
+end_date: 2022-10-19 11:05:00-07:00
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fbrent-o-connor/opengraph/
 layout: session-details
 permalink: /talks/the-best-of-both-worlds-using-vue-and-in/
@@ -16,14 +16,14 @@ presenter_slugs:
 - joshua-weaver
 - levi-mann
 published: true
-room: Salon F-H
+room: Online talks
 sitemap: true
 slug: the-best-of-both-worlds-using-vue-and-django-together-in-a-hybrid-approach
 summary: ''
 tags: null
 title: 'The Best of Both Worlds: Using Vue and Django Together in a Hybrid Approach'
 difficulty: Intermediate
-track: t1
+track: t2
 ---
 
 In this talk, we’ll discuss our rationale for choosing this approach over other approaches like XHTML, etc. We’ll then dive into some code and show what exactly we mean by a Hybrid of Vue and Django. Then we’ll discuss some of the lessons we learned and what we might do differently next time.
