@@ -6,7 +6,7 @@ name: Meagen Voss
 permalink: /presenters/meagen-voss/
 photo_url: /static/img/presenters/meagen-voss.jpg
 slug: meagen-voss
-twitter: meagenvosss
+twitter: meagenvoss
 website: https://www.meagenvoss.com/
 ---
 

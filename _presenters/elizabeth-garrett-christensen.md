@@ -6,7 +6,7 @@ name: Elizabeth Garrett Christensen
 permalink: /presenters/elizabeth-garrett-christensen/
 photo_url: null
 slug: elizabeth-garrett-christensen
-twitter: e_g_christensen
+twitter: sqlliz
 website: null
 ---
 
