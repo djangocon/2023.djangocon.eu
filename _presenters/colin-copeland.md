@@ -5,7 +5,7 @@ hidden: false
 layout: speaker-template
 name: Colin Copeland
 permalink: /presenters/colin-copeland/
-photo_url: null
+photo_url: /static/img/presenters/colin-copeland.jpeg
 slug: colin-copeland
 twitter: copelco
 website: null

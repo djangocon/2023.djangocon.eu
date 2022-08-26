@@ -5,7 +5,7 @@ hidden: false
 layout: speaker-template
 name: Tim Schilling
 permalink: /presenters/tim-schilling/
-photo_url: null
+photo_url: /static/img/presenters/tim-schilling.jpeg
 slug: tim-schilling
 twitter: CodenameTim
 website: https://www.better-simple.com

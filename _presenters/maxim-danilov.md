@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Maxim Danilov
 permalink: /presenters/maxim-danilov/
-photo_url: null
+photo_url: /static/img/presenters/maxim-danilov.jpeg
 slug: maxim-danilov
 twitter: danilovmy
 website: null

@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Joaquín Scocozza
 permalink: /presenters/joaquin-scocozza/
-photo_url: null
+photo_url: /static/img/presenters/joaquin-scocozza.jpeg
 slug: joaquin-scocozza
 twitter: joaquinscocozza
 website: null

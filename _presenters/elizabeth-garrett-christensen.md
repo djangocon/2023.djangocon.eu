@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Elizabeth Garrett Christensen
 permalink: /presenters/elizabeth-garrett-christensen/
-photo_url: null
+photo_url: /static/img/presenters/elizabeth-garrett-christensen.jpeg
 slug: elizabeth-garrett-christensen
 twitter: sqlliz
 website: null

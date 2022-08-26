@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Ed Rivas
 permalink: /presenters/ed-rivas/
-photo_url: null
+photo_url: /static/img/presenters/ed-rivas.jpeg
 slug: ed-rivas
 twitter: je92rivas
 website: null

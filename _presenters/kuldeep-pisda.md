@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/
-photo_url: null
+photo_url: /static/img/presenters/kuldeep-pisda.jpeg
 slug: kuldeep-pisda
 twitter: kdpisda
 website: null

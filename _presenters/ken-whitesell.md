@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Ken Whitesell
 permalink: /presenters/ken-whitesell/
-photo_url: null
+photo_url: /static/img/presenters/ken-whitesell.jpg
 slug: ken-whitesell
 twitter: KenWhitesell
 website: null

@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Andrew Mshar
 permalink: /presenters/andrew-mshar/
-photo_url: null
+photo_url: /static/img/presenters/andrew-mshar.jpeg
 slug: andrew-mshar
 twitter: programmylife
 website: null

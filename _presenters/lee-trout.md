@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Lee Trout
 permalink: /presenters/lee-trout/
-photo_url: null
+photo_url: /static/img/presenters/lee-trout.jpeg
 slug: lee-trout
 twitter: thecodewritesme
 website: null

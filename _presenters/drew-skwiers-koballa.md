@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Drew Skwiers-Koballa
 permalink: /presenters/drew-skwiers-koballa/
-photo_url: null
+photo_url: /static/img/presenters/drew-skwiers-koballa.jpeg
 slug: drew-skwiers-koballa
 twitter: sysadmindrew
 website: null

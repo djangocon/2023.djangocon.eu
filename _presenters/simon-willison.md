@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Simon Willison
 permalink: /presenters/simon-willison/
-photo_url: null
+photo_url: /static/img/presenters/simon-willison.jpeg
 slug: simon-willison
 twitter: simonw
 website: null
