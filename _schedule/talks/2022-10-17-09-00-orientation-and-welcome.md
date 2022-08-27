@@ -1,7 +1,7 @@
 ---
 abstract: null
 accepted: true
-category: talk
+category: talks
 date: 2022-10-17 09:00:00-07:00
 difficulty: All
 end_date: 2022-10-17 09:30:00-07:00

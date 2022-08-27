@@ -6,11 +6,12 @@ import typer
 from datetime import date, datetime, time
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
+from enum import Enum
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
 from rich import print
 from slugify import slugify
-from typing import List, Optional
+from typing import List, Literal, Optional
 from urllib.parse import quote_plus
 import pytz
 
@@ -106,10 +107,19 @@ class Presenter(FrontmatterModel):
             self.permalink = f"/presenters/{self.slug}/"
 
 
+class CategoryEnum(str, Enum):
+    _break = "break"
+    lunch = "lunch"
+    social_event = "social event"
+    sprints = "sprints"
+    talks = "talks"
+    tutorials = "tutorials"
+
+
 class Schedule(FrontmatterModel):
     abstract: Optional[str] = None
     accepted: bool = False
-    category: Optional[str] = "talk"
+    category: CategoryEnum = CategoryEnum.talks
     difficulty: Optional[str] = "All"
     image: Optional[str]
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
@@ -127,6 +137,13 @@ class Schedule(FrontmatterModel):
     talk_slot: Optional[str] = "full"
     track: Optional[str] = None
     video_url: Optional[str]
+
+    def __init__(self, **data):
+        super().__init__(**data)
+
+        # # if slugs are blank default them to slugify(category)
+        # if not self.thing:
+        #     self.thing = slugify(self.category)
 
 
 POST_TYPES = [
@@ -437,12 +454,13 @@ def generate_lunch(
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
 
+
 @app.command()
 def generate_opening_remarks(
     start_time: datetime,
     duration_minutes: int = 15,
-    speaker_name: str = '',
-    location: str = 'Salon A-E',
+    speaker_name: str = "",
+    location: str = "Salon A-E",
     track: int = 0,
 ):
     category = "talks"
@@ -455,7 +473,7 @@ def generate_opening_remarks(
         speaker = Presenter(
             name=speaker_name,
         )
-        if (organizer_path := Path(f'_organizers/{speaker.slug}.md')).exists():
+        if (organizer_path := Path(f"_organizers/{speaker.slug}.md")).exists():
             organizer_post = frontmatter.loads(organizer_path.read_text())
             organizer = Organizer(**organizer_post.metadata)
             speaker.twitter = organizer.twitter
@@ -464,8 +482,8 @@ def generate_opening_remarks(
             speaker.website = organizer.website
             speaker.title = organizer.title
         speaker_post.metadata.update(speaker.dict(exclude_unset=True))
-        output_path = Path(f'_presenters/{speaker.slug}.md')
-        output_path.write_text(frontmatter.dumps(speaker_post) + '\n')
+        output_path = Path(f"_presenters/{speaker.slug}.md")
+        output_path.write_text(frontmatter.dumps(speaker_post) + "\n")
 
     post = frontmatter.loads("")
     sched = Schedule(
@@ -490,6 +508,7 @@ def generate_opening_remarks(
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
+
 
 @app.command()
 def generate_lightning_talks(

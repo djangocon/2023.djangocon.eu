@@ -1,6 +1,6 @@
 ---
 layout: session-details
-category: talk
+category: talks
 accepted: true
 sitemap: false
 
