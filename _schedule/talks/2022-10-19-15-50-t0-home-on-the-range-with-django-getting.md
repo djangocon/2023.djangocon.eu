@@ -9,6 +9,7 @@ accepted: true
 category: talks
 date: 2022-10-19 15:50:00-07:00
 end_date: 2022-10-19 16:35:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fjack-linke/opengraph/
 layout: session-details
 permalink: /talks/home-on-the-range-with-django-getting/

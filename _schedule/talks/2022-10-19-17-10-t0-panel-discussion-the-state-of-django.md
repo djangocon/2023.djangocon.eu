@@ -5,8 +5,7 @@ audience: all
 category: talks
 date: 2022-10-19 17:10:00-07:00
 end_date: 2022-10-19 17:40:00-07:00
-# TODO should we make a custom image for this?
-# image:
+group: talks
 layout: session-details
 permalink: /talks/panel-discussion-the-state-of-django/
 presenter_slugs:

@@ -14,7 +14,9 @@ abstract: "Django's migration system is one of its greatest strengths as a frame
 accepted: true
 category: talks
 date: 2022-10-18 12:00:00-07:00
+difficulty: Intermediate
 end_date: 2022-10-18 12:25:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fbenjamin-zags-zagorsky/opengraph/
 layout: session-details
 permalink: /talks/django-migrations-pitfalls-and-solutions/
@@ -27,9 +29,9 @@ slug: django-migrations-pitfalls-and-solutions
 summary: ''
 tags: null
 title: 'Django Migrations: Pitfalls and Solutions'
-difficulty: Intermediate
 track: t1
 ---
+
 Django's migration system is one of its greatest strengths as a framework.  It can automatically generate migrations based on your changes to your models and can detect which migrations need to be applied to a database.  But, as the size of your development team and user base scale, there are pitfalls that you need to be aware of.  Not all migrations can be safely reversed, and trying to rewind bad migrations on a production database can cause a data disaster.  Not all migrations can be safely deployed without downtime, and trying to deploy them can give your users and your engineers a wall of errors.
 
 This talk will cover the following:

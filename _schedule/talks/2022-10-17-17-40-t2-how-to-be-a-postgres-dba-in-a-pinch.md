@@ -5,10 +5,11 @@ abstract: We know the open source and Django community loves Postgres - but not 
   level things to think about and do on their database if they have to be a Postgres
   DBA in a pinch.
 accepted: true
-difficulty: Beginner
 category: talks
 date: 2022-10-17 17:40:00-07:00
+difficulty: Beginner
 end_date: 2022-10-17 18:25:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Felizabeth-garrett-christensen/opengraph/
 layout: session-details
 permalink: /talks/how-to-be-a-postgres-dba-in-a-pinch/

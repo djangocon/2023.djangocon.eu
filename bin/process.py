@@ -6,15 +6,15 @@ import typer
 from datetime import date, datetime, time
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
-from enum import Enum
 from pathlib import Path
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, ValidationError
 from rich import print
 from slugify import slugify
 from typing import List, Literal, Optional
 from urllib.parse import quote_plus
 import pytz
 
+# TODO: Pull this from _config.yml
 CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
 
 
@@ -107,20 +107,32 @@ class Presenter(FrontmatterModel):
             self.permalink = f"/presenters/{self.slug}/"
 
 
-class CategoryEnum(str, Enum):
-    _break = "break"
-    lunch = "lunch"
-    social_event = "social event"
-    sprints = "sprints"
-    talks = "talks"
-    tutorials = "tutorials"
-
-
 class Schedule(FrontmatterModel):
     abstract: Optional[str] = None
     accepted: bool = False
-    category: CategoryEnum = CategoryEnum.talks
+    category: Literal[
+        "break",
+        "lunch",
+        "rooms",
+        "social-event",
+        "sprints",
+        "talks",
+        "tutorials",
+    ]
     difficulty: Optional[str] = "All"
+    end_date: Optional[datetime] = None
+    group: Optional[
+        Literal[
+            "break",
+            "lunch",
+            "rooms",
+            "social-event",
+            "sprints",
+            "talks",
+            "tutorials",
+        ]
+    ]
+
     image: Optional[str]
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
     presenter_slugs: Optional[List[str]] = None
@@ -132,7 +144,6 @@ class Schedule(FrontmatterModel):
     show_video_urls: Optional[bool]
     slides_url: Optional[str]
     summary: Optional[str]
-    end_date: Optional[datetime] = None
     tags: Optional[List[str]] = None
     talk_slot: Optional[str] = "full"
     track: Optional[str] = None
@@ -141,9 +152,11 @@ class Schedule(FrontmatterModel):
     def __init__(self, **data):
         super().__init__(**data)
 
-        # # if slugs are blank default them to slugify(category)
-        # if not self.thing:
-        #     self.thing = slugify(self.category)
+        # keep group in sync with category to work around a Jekyll
+        # Collection bug that set category equal to the collection's
+        # subfolder...
+        if self.group != self.category:
+            self.group = self.category
 
 
 POST_TYPES = [
@@ -152,7 +165,9 @@ POST_TYPES = [
     {"path": "_pages", "class_name": Page},
     {"path": "_posts", "class_name": Post},
     {"path": "_presenters", "class_name": Presenter},
+    {"path": "_schedule/sprints", "class_name": Schedule},
     {"path": "_schedule/talks", "class_name": Schedule},
+    {"path": "_schedule/tutorials", "class_name": Schedule},
 ]
 
 app = typer.Typer()
@@ -650,7 +665,9 @@ def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = Fal
 
 
 @app.command()
-def process(process_presenters: bool = False, slug_max_length: int = 40):
+def process(
+    process_presenters: bool = False, rename: bool = False, slug_max_length: int = 40
+):
     filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
     for filename in filenames:
@@ -659,8 +676,8 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
             post = frontmatter.loads(filename.read_text())
 
             # TODO: Re-enable once we know everything works...
-            # data = Schedule(**post.metadata)
-            # post.metadata.update(data.dict())
+            data = Schedule(**post.metadata)
+            post.metadata.update(data.dict(exclude_unset=True))
 
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
@@ -676,8 +693,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
 
             category = post.get("category")
 
-            if category in ["break", "lunch", "social-hour"]:
-                category = "talk"
+            # TODO: Double check this...
+            # if category in ["break", "lunch", "social-hour"]:
+            #     category = "talk"
 
             category_plural = inflection.pluralize(category)
 
@@ -685,7 +703,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
             presenters = post.get("presenters", list())
             track = post.get("track")
 
-            if permalink:
+            # TODO: Move to Model and check category/to verify if this
+            # should be changed
+            if not permalink:
                 permalink = "/".join(["", category_plural, slug, ""])
                 post["permalink"] = permalink
                 dirty = True
@@ -772,8 +792,13 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
 
             target = Path(filename.parent, talk_filename)
             if not (filename.name == target.name):
-                typer.echo(f"renaming {talk_filename} to {target}")
-                filename.rename(target)
+                if rename:
+                    typer.echo(f"renaming {talk_filename} to {target}")
+                    filename.rename(target)
+                else:
+                    print(
+                        f"we [yellow]would[/yellow] rename {talk_filename} to {target}"
+                    )
 
         except Exception as e:
             typer.secho(f"{filename}:: {e}", fg="red")

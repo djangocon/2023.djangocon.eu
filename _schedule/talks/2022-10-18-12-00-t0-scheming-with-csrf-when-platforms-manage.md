@@ -6,7 +6,9 @@ abstract: When you choose to host your Django sites on managed platforms, you de
 accepted: true
 category: talks
 date: 2022-10-18 12:00:00-07:00
+difficulty: All
 end_date: 2022-10-18 12:25:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fkatie-mclaughlin/opengraph/
 layout: session-details
 permalink: /talks/scheming-with-csrf-when-platforms-manage/
@@ -20,7 +22,6 @@ summary: ''
 tags: null
 title: 'Scheming with CSRF: When platforms manage to break things.'
 track: t0
-difficulty: All
 ---
 
 When Django 4.0 was released, a small change to the `CSRF_TRUSTED_ORIGINS` was in the change notes: the scheme must now be provided. 

@@ -8,6 +8,7 @@ category: tutorials
 date: 2022-10-16 13:30:00-07:00
 difficulty: Beginner
 end_date: 2022-10-16 17:00:00-07:00
+group: tutorials
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Ftim-schilling/opengraph/
 layout: session-details
 permalink: /tutorials/it-doesnt-work-a-djangonauts-debugging/

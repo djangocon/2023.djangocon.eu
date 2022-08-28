@@ -7,6 +7,7 @@ accepted: true
 category: talks
 date: 2022-10-18 10:40:00-07:00
 end_date: 2022-10-18 11:05:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fmason-egger/opengraph/
 layout: session-details
 permalink: /talks/i-can-t-believe-it-s-not-real-data-an/

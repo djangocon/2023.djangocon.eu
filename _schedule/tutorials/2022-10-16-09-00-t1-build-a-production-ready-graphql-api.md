@@ -6,6 +6,7 @@ accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
 end_date: 2022-10-16 12:30:00-07:00
+group: tutorials
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fpatrick-arminio/opengraph/
 layout: session-details
 permalink: /tutorials/build-a-production-ready-graphql-api/

@@ -2,14 +2,15 @@
 abstract: Bring your board games, card games, and/or a sense of whimsy to the annual
   DjangoCon US Board Game Night!
 accepted: true
-category: social event
+category: social-event
 date: 2022-10-18 18:00:00-07:00
 difficulty: null
 end_date: 2022-10-18 22:00:00-07:00
+group: social-event
 layout: session-details
-schedule_layout: full
-permalink: /social-event/board-game-night/
+permalink: /social-events/board-game-night/
 room: Salon A-E
+schedule_layout: full
 sitemap: true
 talk_slot: full
 title: Board Game Night

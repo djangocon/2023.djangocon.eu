@@ -4,9 +4,10 @@ category: talks
 date: 2022-10-17 09:45:00-07:00
 difficulty: All
 end_date: 2022-10-17 10:30:00-07:00
+group: talks
 layout: session-details
 link: null
-permalink: /talks/keynote-women-of-open-source-community-africa/
+permalink: /talks/keynote-women-of-open-source-community-a/
 presenter_slugs:
 - ruth-ikegah
 room: Salon A-E

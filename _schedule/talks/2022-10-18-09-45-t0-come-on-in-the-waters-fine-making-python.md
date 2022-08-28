@@ -4,12 +4,13 @@ category: talks
 date: 2022-10-18 09:45:00-07:00
 difficulty: All
 end_date: 2022-10-18 10:30:00-07:00
+group: talks
 layout: session-details
 link: null
-permalink: /talks/keynote-come-on-in-waters-fine/
+permalink: /talks/keynote-come-on-in-waters-fine
 presenter_slugs:
-  - melanie-arbor
-  - jay-miller
+- melanie-arbor
+- jay-miller
 room: Salon A-E
 sitemap: true
 talk_slot: full

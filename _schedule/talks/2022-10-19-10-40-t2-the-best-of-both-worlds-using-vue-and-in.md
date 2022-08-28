@@ -7,7 +7,9 @@ abstract: Our team of two front-end and six backend-stack engineers needed to bu
 accepted: true
 category: talks
 date: 2022-10-19 10:40:00-07:00
+difficulty: Intermediate
 end_date: 2022-10-19 11:05:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fbrent-o-connor/opengraph/
 layout: session-details
 permalink: /talks/the-best-of-both-worlds-using-vue-and-in/
@@ -23,7 +25,6 @@ slug: the-best-of-both-worlds-using-vue-and-django-together-in-a-hybrid-approach
 summary: ''
 tags: null
 title: 'The Best of Both Worlds: Using Vue and Django Together in a Hybrid Approach'
-difficulty: Intermediate
 track: t2
 ---
 

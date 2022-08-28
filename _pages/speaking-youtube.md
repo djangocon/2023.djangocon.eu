@@ -8,10 +8,12 @@ sitemap: false
 title: Speaking Template for YouTube Videos
 ---
 
+<script src="https://cdn.tailwindcss.com"></script>
+
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
-{% if post.category != 'break' and post.category != 'lunch' and post.category != 'social-time' %}
+{% if post.group == 'talks' or post.group == 'tutorials' %}
 <div class="event-byline">
 <h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
 
@@ -26,7 +28,7 @@ title: Speaking Template for YouTube Videos
 {% include youtube-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
 </textarea>
 
-<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
+<button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
 Copy to clipboard
 </button>
 </div>

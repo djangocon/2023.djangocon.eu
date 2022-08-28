@@ -12,6 +12,7 @@ accepted: true
 category: talks
 date: 2022-10-18 11:10:00-07:00
 end_date: 2022-10-18 11:55:00-07:00
+group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fjuan-saavedra/opengraph/
 layout: session-details
 permalink: /talks/keeping-track-of-architectural-ish-in-a/

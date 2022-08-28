@@ -7,6 +7,7 @@ accepted: true
 category: talks
 date: 2022-10-19 18:00:00-07:00
 end_date: 2022-10-19 18:45:00-07:00
+group: talks
 layout: session-details
 permalink: /talks/full-text-search-with-django-and-more/
 presenter_slugs:
