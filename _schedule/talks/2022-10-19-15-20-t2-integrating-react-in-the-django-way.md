@@ -7,8 +7,8 @@ abstract: Many times we would like to use React in our Django project to make hi
   in your project with just a single command.
 accepted: true
 category: talks
-date: 2022-10-18 17:10:00-07:00
-end_date: 2022-10-18 17:35:00-07:00
+date: 2022-10-19 15:20:00-07:00
+end_date: 2022-10-19 15:45:00-07:00
 group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fjiten-sidhpura/opengraph/
 layout: session-details
@@ -16,13 +16,14 @@ permalink: /talks/integrating-react-in-the-django-way/
 presenter_slugs:
 - jiten-sidhpura
 published: true
-room: Salon F-H
+room: Online talks
+schedule_layout: full
 sitemap: true
 slug: integrating-react-in-the-django-way
 summary: ''
 tags: null
 title: Integrating React in the Django way!
-track: t1
+track: t2
 ---
 
 ## Why Frontend Frameworks are getting Popular?
