@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Carmela Beiro
 permalink: /presenters/carmela-beiro/
-photo_url: null
+photo_url: /static/img/presenters/carmela-beiro.jpeg
 slug: carmela-beiro
 twitter: null
 website: null
