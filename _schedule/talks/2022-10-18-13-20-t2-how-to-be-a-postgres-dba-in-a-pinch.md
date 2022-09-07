@@ -6,9 +6,9 @@ abstract: We know the open source and Django community loves Postgres - but not 
   DBA in a pinch.
 accepted: true
 category: talks
-date: 2022-10-17 17:40:00-07:00
+date: 2022-10-18 13:20:00-07:00
+end_date: 2022-10-18 14:05:00-07:00
 difficulty: Beginner
-end_date: 2022-10-17 18:25:00-07:00
 group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Felizabeth-garrett-christensen/opengraph/
 layout: session-details
