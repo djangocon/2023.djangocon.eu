@@ -69,7 +69,7 @@ title: Venue
         <li>Short trip to downtown</li>
         <li>Heated outdoor pool</li>
       </ul>
-      <p>ATTENTION!: If you try to book and it says the capacity is full, please email <a href="mailto:hello@djangocon.us">hello@djangocon.us</a>, and we can attempt to expand the hotel block.</p>
+      {% comment %}<p>ATTENTION!: If you try to book and it says the capacity is full, please email <a href="mailto:hello@djangocon.us">hello@djangocon.us</a>, and we can attempt to expand the hotel block.</p>{% endcomment %}
       <p>
         <a href="{{ site.hotel_reservation_link }}" class="button">Book a Room</a>
       </p>
@@ -77,7 +77,6 @@ title: Venue
   </div>
 </section>
 
-{% comment %}
 <section class="section-pad theme-medium-gray" id="hotel">
   <div class="row column">
 
@@ -86,10 +85,10 @@ title: Venue
       <p class="lead min">Our room block at the Marriott is almost completely sold out, so check out these other nearby options!</p>
 
       <ul class="list-split">
-        <li>Closest option: <br /><a href="https://www.marriott.com/hotels/travel/sansm-springhill-suites-san-diego-mission-valley/">SpringHill Suites by Marriott San Diego Mission Valley</a><br />$165/night</li>
-        <li>Most inexpensive and walkable option: <br /><a href="https://www.lq.com/en/hotels/california/san-diego/san-diego-seaworld-zoo-area?indate=10%2F14%2F2019&outdate=10%2F19%2F2019&searchType=GEO&bookingPage=address&lat=32.76354&lon=-117.15845&hotelId=6119&adults=1&numChildren=0&rooms=1&specialRates=RAC&from=%2Fcontent%2Flq%2Flq-com%2Fen%2Fnavigation%2Ffindandbook%2Fdynamic-pages%2Fhotel-search-results&currencyCode=USD&searchRadius=40&smokingPreference=NSMK&searchWithReturns=false&excludeFromStart=&corridorRadius=10&searchDCity=&searchDState=&searchOCity=&searchOState=&cid=lqms6119#hotel-details-link-target">La Quinta Inn & Suites San Diego SeaWorld/Zoo Area</a><br />$93/night</li>
-        <li>Inexpensive and close (but not walkable) option: <br /><a href="http://www.guestreservations.com/comfort-suites-mission-valley/booking?checkIn=10%2F14%2F2019&checkOut=10%2F19%2F2019&rooms=1&adults%5B1%5D=2&children%5B1%5D=0">Quality Suites San Diego SeaWorld Area</a><br />$100/night</li>
-        <li>Inexpensive and close (but not walkable) option: <br /><a href="https://www.marriott.com/hotels/travel/sanvs-sheraton-mission-valley-san-diego-hotel/">Sheraton Mission Valley San Diego Hotel</a><br />$135/night</li>
+        <li>Closest option: <br /><a href="https://www.marriott.com/hotels/travel/sansm-springhill-suites-san-diego-mission-valley/">SpringHill Suites by Marriott San Diego Mission Valley</a><br />$189/night</li>
+        <li>Most inexpensive and walkable option: <br /><a href="https://www.wyndhamhotels.com/laquinta/san-diego-california/la-quinta-san-diego-seaworld-zoo-area/rooms-rates?brand_id=LQ&checkInDate=10/15/2022&checkOutDate=10/20/2022&useWRPoints=false&children=0&adults=1&rooms=1&loc=ChIJSx6SrQ9T2YARed8V_f0hOg0&sessionId=1661973914">La Quinta Inn & Suites San Diego SeaWorld/Zoo Area</a><br />$142/night</li>
+        <li>Inexpensive and close (but not walkable) option: <br /><a href="https://www.marriott.com/hotels/travel/sanvs-sheraton-mission-valley-san-diego-hotel/">Sheraton Mission Valley San Diego Hotel</a><br />$157/night</li>
+        <li>Close (but not walkable) option: <br /><a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=SANMVHF&arrivalDate=2022-10-15&departureDate=2022-10-22&room1NumAdults=1&displayCurrency=USD&brandCode=HH&inputModule=HOTEL_SEARCH&ohwDeepLinking=true&srpName=">Hilton Mission Valley</a><br />$185/night</li>
       </ul>
       <p>All rates are "the last time we checked" and may be outdated.</p>
     </div>
@@ -102,7 +101,6 @@ title: Venue
     </div>
   </div>
 </section>
-{% endcomment %}
 
 <div class="section-pad theme-light-gray" id="places">
   <div class="row column v-pad-bottom">
