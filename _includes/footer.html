@@ -1,0 +1,26 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      {% comment %} <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div> {% endcomment %}
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-4">
+        <p>{{- site.description | escape -}} &nbsp;· help us improve on <a class='github-link' href='https://github.com/djangocon/{{ site.github_username }}'>GitHub</a></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

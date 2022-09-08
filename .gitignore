@@ -1,0 +1,10 @@
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+### Misc ###
+.DS_Store

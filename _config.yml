@@ -1,0 +1,37 @@
+# Site settings
+title: DjangoCon Europe
+email: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  © 2023 DjangoCon Europe · developed with ♥
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://2023.djangocon.eu" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: DjangoConEurope
+github_username: 2023.djangocon.eu
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
+
+include:
+  - _pages
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
