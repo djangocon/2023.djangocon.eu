@@ -19,6 +19,7 @@ abstract: "Django is an excellent framework for constructing web sites.\r\n\r\nW
 accepted: true
 category: tutorials
 date: 2022-10-16 13:30:00-07:00
+difficulty: All
 end_date: 2022-10-16 17:00:00-07:00
 group: tutorials
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fken-whitesell/opengraph/
@@ -57,7 +58,7 @@ Channels:
   - Library: django-channels-presence
   - Channel layer
   - async vs sync
-  
+
 Workers:
 - Channel layer
 - async vs sync
@@ -69,7 +70,7 @@ Redis:
   - Channel names
   - Read / Write
   - Group send
-  
+
 HTMX:
 - Basic HTMX
 - The ws extension

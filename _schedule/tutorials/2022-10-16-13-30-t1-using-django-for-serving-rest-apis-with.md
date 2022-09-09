@@ -8,6 +8,7 @@ abstract: In this session, we will explore, how we can use Django for only servi
 accepted: true
 category: tutorials
 date: 2022-10-16 13:30:00-07:00
+difficulty: All
 end_date: 2022-10-16 17:00:00-07:00
 group: tutorials
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fkuldeep-pisda/opengraph/
@@ -28,7 +29,7 @@ track: t1
 
 In the session, we will see how we can use Django to serve APIs.
 - Create REST Endpoints quickly with DRF.
-- Implement proper permissions on the REST endpoints, for example, an admin can perform any operation on any data. But a specific user can perform a limited operation on certain specific resources. 
+- Implement proper permissions on the REST endpoints, for example, an admin can perform any operation on any data. But a specific user can perform a limited operation on certain specific resources.
 - Respond with different responses as per the defined user's permission level. For example, the admin will get all the fields in the response, but a normal user will get only a selected field of the model.
 - Implement Pagination on the REST endpoint.
 - Create custom endpoints on the REST Endpoints.

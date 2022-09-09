@@ -7,6 +7,7 @@ abstract: End-to-end tests are loved for their ability to confidently test the e
 accepted: true
 category: tutorials
 date: 2022-10-16 09:00:00-07:00
+difficulty: All
 end_date: 2022-10-16 12:30:00-07:00
 group: tutorials
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fed-rivas/opengraph/
