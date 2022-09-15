@@ -1,7 +1,22 @@
 .home {
     display: flex;
     align-items: center;
-    
+
+    @include media-query($on-palm) {
+      g#text {
+        transform: matrix(0.983581, 0, 0, 0.983581, 28.898, 75.061);
+      }
+
+      svg#home-banner {
+        min-height: 494.052px; //initial value
+      }
+    }
+
+    #home-banner {
+      width: 100%;
+      height: auto;
+    }
+
     .content {
         display: flex;
         flex-direction: column;
