@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: true
+hidden: false
 level: "Gold"
 name: "JBS Solutions"
 logo: "/static/img/sponsors/jbslogo.png"
@@ -13,5 +13,5 @@ description: |
   innovation at any size. From high-growth startups to Fortune 500 organizations, we are problem-solvers orchestrating
   software development with the right harmony of passion and pragmatism to closely align with your business needs and
   growth.
-hiring: true
+hiring_url: "https://www.jbssolutions.com/careers/career-opportunities/"
 ---
