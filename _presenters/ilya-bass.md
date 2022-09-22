@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Ilya Bass
 permalink: /presenters/ilya-bass/
-photo_url: null
+photo_url: /static/img/presenters/ilya-bass.jpeg
 slug: ilya-bass
 twitter: null
 website: null
