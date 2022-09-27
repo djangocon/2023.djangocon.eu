@@ -9,7 +9,7 @@ date: 2022-10-18 17:10:00-07:00
 difficulty: Beginner
 end_date: 2022-10-18 17:35:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Flisa-tagliaferri/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Flisa-tagliaferri%252Fopengraph%252F
 layout: session-details
 permalink: /talks/the-software-supply-chain-and-you-how-to/
 presenter_slugs:

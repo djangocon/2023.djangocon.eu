@@ -7,7 +7,7 @@ category: talks
 date: 2022-10-18 14:00:00-07:00
 end_date: 2022-10-18 14:45:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsyed-ansab-waqar-gillani/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsyed-ansab-waqar-gillani%252Fopengraph%252F
 layout: session-details
 permalink: /talks/building-microservice-architecture-for/
 presenter_slugs:

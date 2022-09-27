@@ -8,7 +8,7 @@ category: talks
 date: 2022-10-19 14:50:00-07:00
 end_date: 2022-10-19 15:15:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fpaolo-melchiorre/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fpaolo-melchiorre%252Fopengraph%252F
 layout: session-details
 permalink: /talks/a-pythonic-full-text-search/
 presenter_slugs:

@@ -14,7 +14,7 @@ category: talks
 date: 2022-10-17 17:40:00-07:00
 end_date: 2022-10-17 18:30:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fkyle-bebak/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fkyle-bebak%252Fopengraph%252F
 layout: session-details
 permalink: /talks/type-checking-your-django-code-with-and/
 presenter_slugs:

@@ -6,7 +6,7 @@ category: talks
 date: 2022-10-17 15:50:00-07:00
 end_date: 2022-10-17 16:35:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fdavid-foster/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fdavid-foster%252Fopengraph%252F
 layout: session-details
 permalink: /talks/war-stories-scaling-django/
 presenter_slugs:

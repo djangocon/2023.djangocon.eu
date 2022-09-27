@@ -10,7 +10,7 @@ category: talks
 date: 2022-10-17 16:40:00-07:00
 end_date: 2022-10-17 17:05:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsimon-willison/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsimon-willison%252Fopengraph%252F
 layout: session-details
 permalink: /talks/massively-increase-your-productivity-on/
 presenter_slugs:

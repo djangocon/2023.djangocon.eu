@@ -17,7 +17,7 @@ date: 2022-10-18 12:00:00-07:00
 difficulty: Intermediate
 end_date: 2022-10-18 12:25:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fbenjamin-zags-zagorsky/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fbenjamin-zags-zagorsky%252Fopengraph%252F
 layout: session-details
 permalink: /talks/django-migrations-pitfalls-and-solutions/
 presenter_slugs:
