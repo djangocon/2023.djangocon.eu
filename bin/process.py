@@ -1,3 +1,6 @@
+import csv
+from io import StringIO
+from turtle import title
 import frontmatter
 import inflection
 import os
@@ -10,7 +13,7 @@ from pathlib import Path
 from pydantic import BaseModel, ValidationError
 from rich import print
 from slugify import slugify
-from typing import List, Literal, Optional
+from typing import List, Literal, Optional, Union
 from urllib.parse import quote_plus
 import pytz
 
@@ -616,6 +619,71 @@ def generate_shots(
         print(f"  width: {width}")
         print(f"  url: https://2022.djangocon.us{post['permalink']}")
         print()
+
+
+@app.command()
+def generate_speaker_csv_for_loudswarm(output_path: Path):
+    filenames = sorted(list(Path("_presenters").glob("**/*.md")))
+    output: list[dict[str, str]] = []
+    for filename in filenames:
+        post = frontmatter.loads(filename.read_text())
+        data = Presenter(**post.metadata)
+        bio = post.content
+        output.append(
+            {
+                "name": data.name,
+                "attendee_email": "",
+                "bio (can be html)": bio,
+                "job_title": data.title,
+                "company_name": data.company,
+                "personal_website": data.website,
+                "github_url": f"https://github.com/{data.github}"
+                if data.github
+                else "",
+                "twitter_url": f"https://twitter.com/{data.twitter}"
+                if data.twitter
+                else "",
+                "youtube_url": "",
+                "display_email": "",
+            }
+        )
+    buffer = StringIO()
+    writer = csv.DictWriter(buffer, list(output[0]))
+    writer.writeheader()
+    writer.writerows(output)
+    output_path.write_text(buffer.getvalue())
+
+
+@app.command()
+def generate_schedule_csv_for_loudswarm(output_path: Path):
+    filenames = sorted(list(Path("_schedule/talks").glob("**/*.md")))
+    output: list[dict[str, str]] = []
+    for filename in filenames:
+        post = frontmatter.loads(filename.read_text())
+        talk = Schedule(**post.metadata)
+        if talk.room in {
+            "Rio Vista Pavilion",
+            "Santa Fe 3",
+            "Private Dining Room",
+            "In front of Salon A",
+        }:
+            continue
+        output.append(
+            {
+                "name": talk.title,
+                "track_name": talk.room,
+                "description": post.content,
+                "presenter_emails": "",
+                "start": talk.date.isoformat(),
+                "end": talk.end_date.isoformat(),
+                "banner_name": "",
+            }
+        )
+    buffer = StringIO()
+    writer = csv.DictWriter(buffer, list(output[0]))
+    writer.writeheader()
+    writer.writerows(output)
+    output_path.write_text(buffer.getvalue())
 
 
 @app.command()

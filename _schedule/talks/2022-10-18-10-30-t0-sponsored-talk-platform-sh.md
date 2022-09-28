@@ -22,7 +22,7 @@ schedule_layout: full
 slug: sponsored-talk-platform-sh
 summary: ''
 tags: null
-title: "Production Django on Platform.sh: reaching operational maturity in days, not years"
+title: "Sponsored Talk: Production Django on Platform.sh: reaching operational maturity in days, not years"
 track: t0
 ---
 Delivering Django applications doesn’t just mean deployment. It means clearly defining
