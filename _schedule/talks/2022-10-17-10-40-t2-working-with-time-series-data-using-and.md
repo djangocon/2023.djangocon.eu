@@ -29,9 +29,9 @@ title: Working with time series data using Django and Timescale
 track: t2
 ---
 
-For the last two years we’ve been working on a software development project based on displaying and processing telemetry data for multiple services. The product is a cloud-based, heavy-data application that provides users with key insights after processing a variety of metrics. 
+For the last two years we’ve been working on a software development project based on displaying and processing telemetry data for multiple services. The product is a cloud-based, heavy-data application that provides users with key insights after processing a variety of metrics.
 
-In the app's first development phase, we explored the best options for gathering and processing high volume streams of data and presenting it in an efficient way. We finally opted for using Timescale, a relational PostgreSQL based time series database that combined with Django was a successful choice for this project. 
+In the app's first development phase, we explored the best options for gathering and processing high volume streams of data and presenting it in an efficient way. We finally opted for using Timescale, a relational PostgreSQL based time series database that combined with Django was a successful choice for this project.
 
 In this talk we want to share the experience of creating a time series system based on Django and Timescale, our learning points and challenges faced in the process.
 

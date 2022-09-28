@@ -24,11 +24,11 @@ title: 'Scheming with CSRF: When platforms manage to break things.'
 track: t0
 ---
 
-When Django 4.0 was released, a small change to the `CSRF_TRUSTED_ORIGINS` was in the change notes: the scheme must now be provided. 
+When Django 4.0 was released, a small change to the `CSRF_TRUSTED_ORIGINS` was in the change notes: the scheme must now be provided.
 
 This change would cause any deployment on Cloud Run to fail. But not App Engine. 🤔
 
-Follow along as we dive into the complexities that Django saves you from, what managed services handle for you (that you have no control over), and what happens when these things don't work as expected. We'll dive into PEP-3333, CGI specifications, WSGI implementations, and what happens when the standards don't actually tell you what to do. 
+Follow along as we dive into the complexities that Django saves you from, what managed services handle for you (that you have no control over), and what happens when these things don't work as expected. We'll dive into PEP-3333, CGI specifications, WSGI implementations, and what happens when the standards don't actually tell you what to do.
 
 Attendees will come away with an understanding of how important it is to set `ALLOWED_HOSTS` and `CSRF_TRUSTED_ORIGINS` to prevent all this in the first place.
 

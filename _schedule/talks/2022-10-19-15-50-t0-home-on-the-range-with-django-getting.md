@@ -70,7 +70,7 @@ The initial (stripped down) models.py file using distinct lower and upper values
         address = models.TextField(_("Address"))
         depth_minimum = models.IntegerField(_("Depth Minimum"), help_text=_("What is the depth in feet of the shallow end of this pool?"))
         depth_maximum = models.IntegerField(_("Depth Maximum"), help_text=_("What is the depth in feet of the deep end of this pool?"))
-        
+
         class Meta:
             verbose_name = _("Pool")
             verbose_name_plural = _("Pools")
@@ -83,7 +83,7 @@ The initial (stripped down) models.py file using distinct lower and upper values
         start_date = models.DateField(_("Pool Closure Start Date"))
         end_date = models.DateField(_("Pool Closure End Date"))
         reason = models.TextField(_("Closure Reason"))
-        
+
         class Meta:
             verbose_name = _("Closure")
             verbose_name_plural = _("Closures")
@@ -126,7 +126,7 @@ The initial (stripped down) models.py file using distinct lower and upper values
         class Meta:
             verbose_name = _("Lane Reservation")
             verbose_name_plural = _("Lane Reservations")
-        
+
 
     class LockerReservation(models.Model):
         """A locker reservation defines a user, a period of time, and a pool locker"""
@@ -153,7 +153,7 @@ The final (stripped down) models.py with range fields is:
         name = models.CharField(_("Pool Name"), max_length=100)
         address = models.TextField(_("Address"))
         depth_range = models.IntegerRangeField(_("Depth Range"), help_text=_("What is the range in feet for the depth of this pool (shallow to deep)?"))
-        
+
         class Meta:
             verbose_name = _("Pool")
             verbose_name_plural = _("Pools")
@@ -165,7 +165,7 @@ The final (stripped down) models.py with range fields is:
         pool = models.ForeignKey(Pool, on_delete=models.CASCADE, related_name="closures")
         dates = models.DateRangeField(_("Pool Closure Dates"))
         reason = models.TextField(_("Closure Reason"))
-        
+
         class Meta:
             verbose_name = _("Closure")
             verbose_name_plural = _("Closures")
@@ -207,7 +207,7 @@ The final (stripped down) models.py with range fields is:
         class Meta:
             verbose_name = _("Lane Reservation")
             verbose_name_plural = _("Lane Reservations")
-        
+
 
     class LockerReservation(models.Model):
         """A locker reservation defines a user, a period of time, and a pool locker"""

@@ -39,7 +39,7 @@ Topics to cover:
 
 Target Audience:
 
-This talk is directed towards Developers using Python or Django to engineer microservice architecture, primarily those who aspire to scale their products without establishing any vulnerable dependency inside the architecture. The talk focuses on various problems that may arise while engineering a microservice architecture and what is the best way to address these problems. 
+This talk is directed towards Developers using Python or Django to engineer microservice architecture, primarily those who aspire to scale their products without establishing any vulnerable dependency inside the architecture. The talk focuses on various problems that may arise while engineering a microservice architecture and what is the best way to address these problems.
 
 By the end of the talk, the audience should understand the benefits and limitations of microservice built architecture in general and the Django implementations of services in particular. They should also know where to get additional information on setting up their own architecture.
 
@@ -47,6 +47,6 @@ Additional notes:
 
 Me and Dawoud Sheraz, both, are part of the development team at Arbisoft/edX, where we have engineered microservice architecture in the Open edX project to reduce dependency and coupling.
 
-Inspiration: 
+Inspiration:
 
 Designing Microservices with Django - Akos Hochrein

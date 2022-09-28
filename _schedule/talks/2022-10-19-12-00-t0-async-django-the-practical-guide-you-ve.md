@@ -27,7 +27,7 @@ There’s a lot of excitement about Django going async in 3.0+ but also many que
 
 We’ll look at four different ways to build a real-time chat app and see how the need for async comes up:
 
-* Polling 
+* Polling
 * Long-polling
 * Server-sent events
 * Websockets

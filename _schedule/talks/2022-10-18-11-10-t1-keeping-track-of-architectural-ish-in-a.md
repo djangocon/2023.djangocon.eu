@@ -28,9 +28,9 @@ title: Keeping track of architectural-ish decisions in a sustainable way
 track: t1
 ---
 
-In this talk, we will be presenting one way to keep track of decisions made in the context of software development. 
+In this talk, we will be presenting one way to keep track of decisions made in the context of software development.
 
-That certainly reads like a very short talk, yet, how is it that there is no abundance of examples about this in the software development world? Why is it that this seemingly simple and mundane thing is so seldom neglected? Is it that burdensome 8 pages long technical decision template that is getting in the way? 
+That certainly reads like a very short talk, yet, how is it that there is no abundance of examples about this in the software development world? Why is it that this seemingly simple and mundane thing is so seldom neglected? Is it that burdensome 8 pages long technical decision template that is getting in the way?
 
 For a while now, some have stated that the problem is the lack of a suitable method and have proposed some new ways to do so. Architectural Decision Records is one of those and from our experience, it's a breeze to work with. Most importantly, they have shaped the decision process to provide more thoughtful decisions with almost the same amount of effort.
 
