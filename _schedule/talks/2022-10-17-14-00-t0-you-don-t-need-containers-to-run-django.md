@@ -29,6 +29,6 @@ While containers have a lot of advantages they can also bring a lot complexity i
 
 To get started, you need to choose a web server. In this talk we'll compare synchronous servers, like gunicorn and cherrypy, to asynchronous servers such as Daphne and Uvicorn. We'll look at benchmarks, how they are configured, how they are managed and what they do to avoid resource contention and improve reliability of your site.
 
-We'll also take a look at how how your server of choice can be restarted in case of crashes by using supervisord or systemd.
+We'll also take a look at how your server of choice can be restarted during deploy by using supervisord or systemd.
 
 By the end you'll be more informed on how to deploy your code, the complexities associated with it and have a set of best practices that can be used to bootstrap your production environment.
