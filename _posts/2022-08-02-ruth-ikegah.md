@@ -24,4 +24,6 @@ This talk is all about her journey from a newbie Python developer, her journey i
 >
 > I want to share how my strategy, lessons, and paths worked for me and how we can be more proactive about diversifying open source contributions in Africa.
 
+**Update 2022-10-06**: Due to visa problems, Ruth's keynote will be delivered virtually. The talk will air in Salon A-E after the opening remarks.
+
 Don't miss Ruth's keynote! [Buy your ticket]({{site.ticket_link}}) today.

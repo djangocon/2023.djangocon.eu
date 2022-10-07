@@ -1,9 +1,9 @@
 ---
 accepted: true
 category: talks
-date: 2022-10-18 09:45:00-07:00
+date: 2022-10-17 09:45:00-07:00
 difficulty: All
-end_date: 2022-10-18 10:30:00-07:00
+end_date: 2022-10-17 10:30:00-07:00
 group: talks
 layout: session-details
 link: null
@@ -14,7 +14,7 @@ presenter_slugs:
 room: Salon A-E
 sitemap: true
 talk_slot: full
-title: 'Come on in, the Water’s Fine: Making Python More Approachable'
+title: 'Keynote: Come on in, the Water’s Fine: Making Python More Approachable'
 track: t0
 ---
 
