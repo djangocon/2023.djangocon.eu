@@ -24,13 +24,13 @@ permalink: /tutorials/parlez-vous-django-internationalization/
 presenter_slugs:
 - meagen-voss
 published: true
-room: Cabrillo 1
+room: Balboa I & II
 sitemap: true
 slug: parlez-vous-django-internationalization-with-wagtail
 summary: ''
 tags: null
 title: Parlez-vous Django? Internationalization with Wagtail
-track: t2
+track: t0
 ---
 
 Multilingual websites are becoming a standard requirement for many organizations, yet newer developers often aren’t sure where to start or what practices work well over the long-term. In this beginner-friendly tutorial, you’ll learn how to build and manage a website for an international audience using the Wagtail content management system and the package wagtail-localise.

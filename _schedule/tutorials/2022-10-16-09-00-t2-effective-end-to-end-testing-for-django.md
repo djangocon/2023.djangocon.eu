@@ -16,13 +16,13 @@ permalink: /tutorials/effective-end-to-end-testing-for-django/
 presenter_slugs:
 - ed-rivas
 published: true
-room: Balboa I & II
+room: Cabrillo 1
 sitemap: true
 slug: effective-end-to-end-testing-for-django
 summary: ''
 tags: null
 title: Effective end-to-end testing for Django
-track: t0
+track: t2
 ---
 
 ## What will you learn?
