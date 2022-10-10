@@ -5,9 +5,7 @@ abstract: "Most developers don't want to think about operations (aka Ops, DevOps
   talk will answer the following questions:\r\n\r\n* How much CPU and memory should
   I give my services?\r\n* How do I know if the app is overallocated (costing too
   much money) or underallocated (slow/overloaded)?\r\n* How can I make my app faster?\r\n*
-  Will autoscaling help me save costs?\r\n* What about serverless?\r\n* How do I store
-  files?\r\n* How is the app performing for my users?\r\n* How do I check for errors?\r\n*
-  How do I troubleshoot failures (app not starting or periodically crashing)?\r\n\r\nIf
+  Will autoscaling help me save costs?\r\n* What about serverless?\r\n\r\nIf
   you're a developer and want to run your applications successfully without deep DevOps
   knowledge, this talk is for you. It will help if you have some basic Django developer
   experience, but other than that, no specific knowledge is necessary!"
@@ -40,9 +38,5 @@ This talk will answer the following questions:
 * How can I make my app faster?
 * Will autoscaling help me save costs?
 * What about serverless?
-* How do I store files?
-* How is the app performing for my users?
-* How do I check for errors?
-* How do I troubleshoot failures (app not starting or periodically crashing)?
 
 If you're a developer and want to run your applications successfully without deep DevOps knowledge, this talk is for you. It will help if you have some basic Django developer experience, but other than that, no specific knowledge is necessary!
