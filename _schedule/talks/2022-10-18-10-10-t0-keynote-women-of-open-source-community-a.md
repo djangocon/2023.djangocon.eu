@@ -1,7 +1,7 @@
 ---
 accepted: true
 category: talks
-date: 2022-10-18 09:45:00-07:00
+date: 2022-10-18 10:10:00-07:00
 difficulty: All
 end_date: 2022-10-18 10:30:00-07:00
 group: talks
