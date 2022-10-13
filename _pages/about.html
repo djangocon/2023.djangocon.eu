@@ -29,6 +29,7 @@ title: About DjangoCon US 2022
     </div>
   </section>
 
+  {% comment %}
   <section class="section-pad theme-medium-gray">
     <div class="row column xlarge-9">
       <h2 class="text-center">Pre-Conference</h2>
@@ -82,6 +83,7 @@ title: About DjangoCon US 2022
       </div>
     </div>
   </section>
+  {% endcomment %}
 
   <section class="section-pad theme-brand-color4">
     <div class="row column xlarge-9">
@@ -130,14 +132,13 @@ title: About DjangoCon US 2022
         </div>
       </div>
     </div>
-    {% comment %}
-    Commented out the "See full schedule" button
     <div class="row column v-pad-top">
       <div class="medium-4 medium-centered column">
-        <a class="button" href="#">See full schedule</a>
+        <div class="button-group expanded">
+          <a class="button" href="/schedule/">Full Schedule</a>
+        </div>
       </div>
     </div>
-    {% endcomment %}
   </section>
 
   <section class="section-pad theme-brand-color3">
@@ -174,13 +175,13 @@ title: About DjangoCon US 2022
       <div class="medium-4 column">
         <div class="card card-theme-brand-color6">
           <img
-            src="{{ "/static/img/aid-line.svg" | relative_url }}"
-            alt="A dollar sign in a circle"
+            src="{{ "/static/img/hands-line.svg" | relative_url }}"
+            alt="Two hands interlocked"
             class="card-icon"
             />
           <div class="card-section">
-            <h3 class="card-title" id="opportunity-grants">Opportunity Grants</h3>
-            <p>As part of our commitment to diversity, we have <a href="/opportunity-grants/">opportunity grants</a> to meet the cost of tickets, travel, and accommodation for attendees.</p>
+            <h3 class="card-title" id="opportunity-grants">COVID-19 Safety</h3>
+            <p>As part of our commitment to the safety of our attendees, we have a <a href="/covid/">COVID-19 Policy</a> and require all attendees to be vaccinated and masked, and have a negative COVID test prior to attending.</p>
           </div>
         </div>
       </div>
@@ -221,7 +222,7 @@ title: About DjangoCon US 2022
   </div>
 </section>
 
-
+{% comment %}
 <section class="section-pad theme-light-gray v-pad-bottom-extra">
   <div class="row card-row">
     <div class="medium-6 column">
@@ -252,5 +253,6 @@ title: About DjangoCon US 2022
     </div>
   </div>
 </section>
+{% endcomment %}
 
 </div><!-- end .content -->

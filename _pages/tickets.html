@@ -13,14 +13,19 @@ title: Tickets
 <div class="section-pad theme-light-gray">
   <div class="row" id="welcome">
     <div class="column small-12 medium-6">
+      {% comment %}
       <h2>What ticket should I buy?</h2>
       <p>Most people should buy an <strong>Individual</strong> ticket. If your company is paying, they should use the <strong>Corporate</strong> rate (or the <strong>Concierge</strong> rate for more flexibility; see below). For those who can't afford the Individual ticket, a <strong>discounted</strong> ticket is available; see below. And for those who want to go above and beyond and support our mission, check out the <strong>Patron</strong> ticket.</p>
+      {% endcomment %}
+      <h2>Still want to attend DjangoCon US?</h2>
+      <p>Online tickets are still on sale!</p>
       <a
         class="button"
         href="{{ site.ticket_link }}"
         target="_blank">Buy Tickets Now</a>
     </div>
 
+    {% comment %}
     <div class="show-for-medium column medium-5" aria-hidden="true">
       <div class="callout">
         <h3>Don't Forget!</h3>
@@ -38,6 +43,7 @@ title: Tickets
         {% endcomment %}
       </div>
     </div>
+    {% endcomment %}
 
 
   </div>

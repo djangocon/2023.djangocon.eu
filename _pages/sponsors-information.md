@@ -9,6 +9,8 @@ title: Become a Sponsor
 
 ## About the Event
 
+**Sponsorship is closed for this year**.
+
 DjangoCon US is not possible without your support. The spirit of the event focuses on providing a platform for new and experiences speakers to share their stories and knowledge.
 
 ### Our goal is to keep ticket costs low while providing:
@@ -31,11 +33,9 @@ Endless thanks for your support, and we cannot wait to call you a partner in our
 
 Because the conference is organized by [DEFNA](https://www.defna.org/), a non-profit 501(c)(3) organization, your sponsorship is tax-deductible!
 
-{% comment %}
 **Sponsorship is closed for this year**. Want to know more about sponsorship for 2023?
-{% endcomment %}
 
-Want to know more about sponsorship?
+{% comment %}Want to know more about sponsorship?{% endcomment %}
 
 
 <a href="mailto:{{site.sponsors_email}}" class="button">Contact Us Today</a>

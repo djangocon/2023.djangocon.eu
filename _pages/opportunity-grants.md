@@ -8,14 +8,14 @@ permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
 
+{% comment %}
 We are accepting [opportunity grant](https://2022.djangocon.us/opportunity-grants/) applications
 
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth).
 All decision notifications will be sent by July 8th, 2022.
-
-{% comment %}
-Our opportunity grant application is now closed, and all decision notifications have been sent.
 {% endcomment %}
+
+Our opportunity grant application is now closed, and all decision notifications have been sent.
 
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
