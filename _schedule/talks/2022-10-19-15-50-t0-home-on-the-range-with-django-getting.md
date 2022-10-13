@@ -7,6 +7,7 @@ abstract: "Building complex range-based queries with individual `start` and `end
   code and a cheatsheet for working with ranges."
 accepted: true
 category: talks
+difficulty: Intermediate
 date: 2022-10-19 15:50:00-07:00
 end_date: 2022-10-19 16:35:00-07:00
 group: talks
@@ -57,11 +58,7 @@ The example project is a Swimming Pool Resource Scheduler that makes heavy use o
 
 We will look at the models before and after using range fields.
 
-The initial (stripped down) models.py file using distinct lower and upper values is:
-
-    from django.db import models
-    from django.utils.translation import ugettext_lazy as _
-
+The initial (stripped down) models.py file using distinct fields for lower and upper values is:
 
     class Pool(models.Model):
         """An instance of a Pool. Multiple pools may exist within the municipality"""
@@ -70,6 +67,8 @@ The initial (stripped down) models.py file using distinct lower and upper values
         address = models.TextField(_("Address"))
         depth_minimum = models.IntegerField(_("Depth Minimum"), help_text=_("What is the depth in feet of the shallow end of this pool?"))
         depth_maximum = models.IntegerField(_("Depth Maximum"), help_text=_("What is the depth in feet of the deep end of this pool?"))
+        business_hours_start = models.IntegerField(_("Business Hours Start Hour"), default=9)
+        business_hours_end = models.IntegerField(_("Business Hours End Hour"), default=17)
 
         class Meta:
             verbose_name = _("Pool")
@@ -118,10 +117,13 @@ The initial (stripped down) models.py file using distinct lower and upper values
     class LaneReservation(models.Model):
         """A lane reservations defines a set of users, a period of time, and a pool lane"""
 
-        users = models.ManyToManyField(User, related_name="lane_reservations")
+        users = models.ManyToManyField(User, on_delete=models.CASCADE, related_name="lane_reservations")
         lane = models.ForeignKey(Lane, on_delete=models.CASCADE, related_name="lane_reservations")
         period_start = models.DateTimeField(_("Reservation Period Start"))
         period_end = models.DateTimeField(_("Reservation Period End"))
+        actual_start = models.DateTimeField(_("Actual Usage Period Start"))
+        actual_end = models.DateTimeField(_("Actual Usage Period End"))
+        cancelled = models.DateTimeField(_("Reservation is Cancelled"), null=True)
 
         class Meta:
             verbose_name = _("Lane Reservation")
@@ -131,10 +133,13 @@ The initial (stripped down) models.py file using distinct lower and upper values
     class LockerReservation(models.Model):
         """A locker reservation defines a user, a period of time, and a pool locker"""
 
-        user = models.ForeignKey(User, related_name="locker_reservations")
+        user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="locker_reservations")
         locker = models.ForeignKey(Locker, on_delete=models.CASCADE, related_name="locker_reservations")
         period_start = models.DateTimeField(_("Reservation Period Start"))
         period_end = models.DateTimeField(_("Reservation Period End"))
+        actual_start = models.DateTimeField(_("Actual Usage Period Start"))
+        actual_end = models.DateTimeField(_("Actual Usage Period End"))
+        cancelled = models.DateTimeField(_("Reservation is Cancelled"), null=True)
 
         class Meta:
             verbose_name = _("Locker Reservation")
@@ -143,16 +148,16 @@ The initial (stripped down) models.py file using distinct lower and upper values
 
 The final (stripped down) models.py with range fields is:
 
-    from django.db import models
-    from django.utils.translation import ugettext_lazy as _
-
-
     class Pool(models.Model):
         """An instance of a Pool. Multiple pools may exist within the municipality"""
 
         name = models.CharField(_("Pool Name"), max_length=100)
         address = models.TextField(_("Address"))
-        depth_range = models.IntegerRangeField(_("Depth Range"), help_text=_("What is the range in feet for the depth of this pool (shallow to deep)?"))
+        depth_range = IntegerRangeField(
+            _("Depth Range"),
+            help_text=_("What is the range in feet for the depth of this pool (shallow to deep)?"),
+        )
+        business_hours = IntegerRangeField(_("Business Hours"), default=(9, 17))
 
         class Meta:
             verbose_name = _("Pool")
@@ -163,7 +168,7 @@ The final (stripped down) models.py with range fields is:
         """A way of recording dates that a pool is closed"""
 
         pool = models.ForeignKey(Pool, on_delete=models.CASCADE, related_name="closures")
-        dates = models.DateRangeField(_("Pool Closure Dates"))
+        dates = DateRangeField(_("Pool Closure Dates"))
         reason = models.TextField(_("Closure Reason"))
 
         class Meta:
@@ -176,7 +181,9 @@ The final (stripped down) models.py with range fields is:
 
         name = models.CharField(_("Lane Name"), max_length=50)
         pool = models.ForeignKey(Pool, on_delete=models.CASCADE, related_name="lanes")
-        max_swimmers = models.PositiveSmallIntegerField(_("Maximum Swimmers"), )
+        max_swimmers = models.PositiveSmallIntegerField(
+            _("Maximum Swimmers"),
+        )
         per_hour_cost = models.DecimalField(_("Per-Hour Cost"), max_digits=5, decimal_places=2)
 
         class Meta:
@@ -202,7 +209,16 @@ The final (stripped down) models.py with range fields is:
 
         users = models.ManyToManyField(User, related_name="lane_reservations")
         lane = models.ForeignKey(Lane, on_delete=models.CASCADE, related_name="lane_reservations")
-        period = models.DateTimeRangeField(_("Reservation Period"))
+        period = DateTimeRangeField(
+            _("Reservation Period"),
+            validators=[
+                DateTimeRangeLowerMinuteValidator(0, 30),
+                DateTimeRangeUpperMinuteValidator(0, 30),
+                validate_zeroed_dt_sec_microsec,
+            ],
+        )
+        actual = DateTimeRangeField(_("Actual Usage Period"), default=(None, None))
+        cancelled = models.DateTimeField(_("Reservation is Cancelled"), null=True)
 
         class Meta:
             verbose_name = _("Lane Reservation")
@@ -212,9 +228,11 @@ The final (stripped down) models.py with range fields is:
     class LockerReservation(models.Model):
         """A locker reservation defines a user, a period of time, and a pool locker"""
 
-        user = models.ForeignKey(User, related_name="locker_reservations")
+        user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="locker_reservations")
         locker = models.ForeignKey(Locker, on_delete=models.CASCADE, related_name="locker_reservations")
-        period = models.DateTimeRangeField(_("Reservation Period"))
+        period = DateTimeRangeField(_("Reservation Period"))
+        actual = DateTimeRangeField(_("Actual Usage Period"), default=(None, None))
+        cancelled = models.DateTimeField(_("Reservation is Cancelled"), null=True)
 
         class Meta:
             verbose_name = _("Locker Reservation")
@@ -223,7 +241,7 @@ The final (stripped down) models.py with range fields is:
 
 Example Project Walkthrough (30 min)
 
-The models in this project will be used to demonstrate the following tasks in django views:
+The models in this project will be used to demonstrate a variety of tasks in django views, including a number of the following:
 
 - Set constraints for the various range fields
 - Access the lower and upper values of a range fields in views and templates
@@ -257,10 +275,12 @@ The models in this project will be used to demonstrate the following tasks in dj
 - Assuming each reservation is associated with a Resource, annotate Resources with the most recently ending reservation (similar for most recent starting or longest-ago starting/ending reservation)
 - Multiple ways of saving a model instance with DateTimeRangeField
 
+*Note: Those examples above which we are unable to cover during the talk can be viewed in the example project GitHub repo which will be provided for the talk*
+
 Resources (5 min)
 
 - Django docs
-- The django source code and tests
+- The django source code and tests as references
 - PostgreSQL docs on ranges
-- Example project GitHub repo
+- Example pool-scheduler project GitHub repo
 - Django ranges cheatsheet
