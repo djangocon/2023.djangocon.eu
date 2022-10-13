@@ -128,7 +128,9 @@ layout: base
     </div>
   {% endfor %}
 </div>
-
+{% else %}
+{% comment %}HACK! add some blank lines so the swoop at the top of the footer doesn't obscure the buy tickets button{% endcomment %}
+<div><br><br><br></div>
 {% endif %}
 
 
