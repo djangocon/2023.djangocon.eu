@@ -15,7 +15,7 @@ This year, DjangoCon US is dedicating a room to nursing parents who need to pump
 - Sunday: 8:00 a.m. - 5:30 p.m.
 - Monday-Wednesday 8:00 a.m. - 6:30 p.m.
 
-**Location**: Santa Fe 3
+**Location**: Private Dining Room
 
 You may sign up for pumping times in one-hour blocks on a sign-up sheet that will be posted on the lactation room door. The entrance to the lactation room will be draped from the outside to protect the privacy of the people inside.
 

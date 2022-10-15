@@ -6,11 +6,11 @@ end_date: 2022-10-18 17:30:00-07:00
 layout: session-details
 link: null
 permalink: null
-room: Santa Fe 3
+room: Private Dining Room
 schedule_layout: full
 sitemap: false
 talk_slot: full
 title: Lactation Room
 ---
 
-Santa Fe 3
+Private Dining Room

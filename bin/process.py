@@ -214,7 +214,7 @@ def validate():
 def generate_lactation_room(
     event_date: datetime,
     link: str = "",  # TODO update this to /news/lactation-room/ after we make the blog post
-    room_name: str = "Santa Fe 3",
+    room_name: str = "Private Dining Room",
     start_time: str = "8:00",
     end_time: str = "17:30",
 ):
@@ -256,7 +256,7 @@ def generate_lactation_room(
 @app.command()
 def generate_quiet_room(
     event_date: datetime,
-    room_name: str = "Private Dining Room",
+    room_name: str = "Santa Fe 3",
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
@@ -663,8 +663,8 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
         talk = Schedule(**post.metadata)
         if talk.room in {
             "Rio Vista Pavilion",
-            "Santa Fe 3",
             "Private Dining Room",
+            "Santa Fe 3",
             "In front of Salon A",
         }:
             continue
