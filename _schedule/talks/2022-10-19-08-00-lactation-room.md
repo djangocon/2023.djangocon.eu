@@ -6,7 +6,7 @@ end_date: 2022-10-19 17:30:00-07:00
 layout: session-details
 link: null
 permalink: null
-room: Private Dining Room
+room: Santa Fe 3
 schedule_layout: full
 sitemap: false
 talk_slot: full

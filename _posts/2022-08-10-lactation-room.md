@@ -16,7 +16,7 @@ As in 2019, DjangoCon US is dedicating a room to nursing parents who need to pum
 
 ## Location
 
-Private Dining Room
+Santa Fe 3
 
 ## Details
 
