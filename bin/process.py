@@ -341,7 +341,7 @@ def generate_registration_desk(
 
 
 @app.command()
-def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion"):
+def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
     category = "lunch"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(hours=1)
@@ -373,7 +373,7 @@ def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion
 def generate_break(
     start_time: datetime,
     duration_minutes: int = 30,
-    location: str = "Rio Vista Pavilion",
+    location: str = "West Lawn",
 ):
     category = "break"
     start_time = CONFERENCE_TZ.localize(start_time)
@@ -406,7 +406,7 @@ def generate_break(
 def generate_early_lunch(
     start_time: datetime,
     duration_minutes: int = 50,
-    location: str = "Rio Vista Pavilion",
+    location: str = "West Lawn",
     track: int = 1,
 ):
     category = "lunch"
@@ -442,7 +442,7 @@ def generate_early_lunch(
 def generate_lunch(
     start_time: datetime,
     duration_minutes: int = 40,
-    location: str = "Rio Vista Pavilion",
+    location: str = "West Lawn",
 ):
     category = "talks"
     if start_time.weekday() == 6:
@@ -662,7 +662,7 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
         post = frontmatter.loads(filename.read_text())
         talk = Schedule(**post.metadata)
         if talk.room in {
-            "Rio Vista Pavilion",
+            "West Lawn",
             "Private Dining Room",
             "Santa Fe 3",
             "In front of Salon A",

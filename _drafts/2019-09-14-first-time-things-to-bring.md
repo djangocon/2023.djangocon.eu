@@ -18,9 +18,9 @@ Perhaps you like your notes a bit more analog? A notepad is exactly what you nee
 If you can't live without your laptop, make sure you bring your charging cable. There’s ample Wi-Fi at the conference provided by the Marriott, so you’ll have the internet at your disposal. Many attendees will have their laptops open to take notes, follow along with slides, and/or test out the concepts being presented during talks. Plus, it’s much easier to live-tweet talks from your computer than your phone if you’re into that sort of thing.
 
 ## Refillable water bottle and/or coffee cup
-It’s pretty annoying getting thirsty in the middle of a conference talk. The Marriott provides water dispensers in the hotel lobby, each of the conference rooms, the green room, and the Rio Vista Pavilion, so there are ample opportunities to keep yourself hydrated. Plus, you can be greener by reusing your own vessel instead of single-use disposable cups.
+It’s pretty annoying getting thirsty in the middle of a conference talk. The Marriott provides water dispensers in the hotel lobby, each of the conference rooms, the green room, and the West Lawn, so there are ample opportunities to keep yourself hydrated. Plus, you can be greener by reusing your own vessel instead of single-use disposable cups.
 
-There are coffee and tea in the Rio Vista Pavilion as well, so if you're a coffee/tea drinker, bring your own tumbler if you want extra for the talks.
+There are coffee and tea in the West Lawn as well, so if you're a coffee/tea drinker, bring your own tumbler if you want extra for the talks.
 
 ## Comfortable clothes
 Everyone is welcome, and dress casually and comfortably, whether that's shorts, pants, a dress, or whatever makes you feel good. It’s up to you to decide what you would like to wear. As long as it isn’t a Code of Conduct violation, it’s pretty much up to you.
@@ -31,7 +31,7 @@ Some of the rooms can get a bit chilly, so you might want to have a jacket or sw
 It’s practically essential for survival in suburban America. The mobile coverage is great in the venue area for all four major providers, so about any device will work.
 
 ## Sunglasses and sunscreen
-It’s San Diego, California. It’s going to be warm and sunny. Preliminary forecasts show no meaningful chances of rain between the time I wrote this post and the tutorial day, with highs around 75-80 °F (24-27 °C) and lows around 65-68 °F (18-20 °C). There’s quite a bit of outdoor space to relax at the Marriott, and the walk between the conference rooms and the Rio Vista Pavilion (where breakfast and lunch are served) involves a brief outdoor trip across some bright concrete. Plus, there are lots of outdoor tables for eating under the sun.
+It’s San Diego, California. It’s going to be warm and sunny. Preliminary forecasts show no meaningful chances of rain between the time I wrote this post and the tutorial day, with highs around 75-80 °F (24-27 °C) and lows around 65-68 °F (18-20 °C). There’s quite a bit of outdoor space to relax at the Marriott, and the walk between the conference rooms and the West Lawn (where breakfast and lunch are served) involves a brief outdoor trip across some bright concrete. Plus, there are lots of outdoor tables for eating under the sun.
 
 ## Snacks
 The Marriott will have breakfast, lunch, and snacks during the breaks (11:00 AM and 3:40 PM on main talk days) on all conference days as well as appetizers for the opening party on Monday. If you’re an early riser like me, you’ll probably want a snack before breakfast (8:30 AM on Monday, 9:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
