@@ -4,7 +4,7 @@ category: sprints
 date: 2022-10-21 08:30:00-07:00
 end_date: 2022-10-21 09:30:00-07:00
 layout: session-details
-link: /catering-menus/
+link: /catering-menus/#breakfast
 permalink: null
 room: West Lawn
 schedule_layout: full
