@@ -1,26 +1,28 @@
 ---
-abstract: Armed with knowledge of Django development, we delve into the different
+abstract:
+  Armed with knowledge of Django development, we delve into the different
   types of microservices and the high-level design principles we should follow when
   we design them
 accepted: true
 category: talks
-date: 2022-10-18 14:00:00-07:00
-end_date: 2022-10-18 14:45:00-07:00
+date: 2022-10-18 09:25:00-07:00
+end_date: 2022-10-18 09:55:00-07:00
 group: talks
 image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsyed-ansab-waqar-gillani%252F/opengraph/
 layout: session-details
 permalink: /talks/building-microservice-architecture-for/
 presenter_slugs:
-- syed-ansab-waqar-gillani
-- syed-muhammad-dawoud-sheraz-ali
+  - syed-ansab-waqar-gillani
+  - syed-muhammad-dawoud-sheraz-ali
 published: true
-room: Salon F-H
+room: Online talks
+schedule_layout: full
 sitemap: true
 slug: building-microservice-architecture-for-scale-with-django
-summary: ''
+summary: ""
 tags: null
 title: Building Microservice Architecture for scale with Django
-track: t1
+track: t2
 ---
 
 Monoliths are codebases that grew too big and too difficult to reason about by a single developer or even a team of developers, their complexity has reached a point where changing even just a couple of lines of code can have unintended and unknown consequences in other parts. A microservice is a single purpose software application that resides somewhere on the web, is a small-scale codebase and can be reasoned about easily.
