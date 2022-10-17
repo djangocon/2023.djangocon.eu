@@ -36,28 +36,15 @@ For example, to prevent N+1 issues, if a serializer method field uses a filtered
 It’s possible to design a better architecture that’s optimized both for enabling changes and avoiding performance regressions. With a new custom data prefetching layer that keeps compatibility with serializers and views, we can respect DRY while keeping performance and maintainability. That’s what we’ve been doing in our Django projects, and we will share our learnings in this talk. Hopefully, that applies to other maintainers of complex DRF projects.
 
 Here's the planned outline:
-- [3 minute] Who am I.
-- [5 minutes] DRY: the good side
-    - Permissions
-    - Pagination
-    - Filters
-    - Exceptions
-- [5 minutes] Example: resulting architecture when following DRY in a complex Django REST Framework project
-- [10 minutes] Example: when DRY leads to Change Amplification
-    - Serializers vs. queryset annotations and prefetches
-    - Making things worse with nesting
-    - When model logic is coupled to prefetches
-    - New code and unexpected new queries, the fragility of prefetches
-- [7 minutes] Common solutions that didn’t work for us
-   - You can prevent queries, but you can’t prevent nesting
-   - You can build the queryset in serializer, but you’ll repeat yourself
-   - Fat models and querysets will have cross-cutting concerns
-   - Auto-prefetching libraries can’t handle all cases
-   - Tests can’t test the future
-- [10 minutes] Solving with a data prefetching layer
-   - How it looks like
-   - The real DRY: gathering together code that changes together
-   - How each field contributes to the queryset
-   - How to keep it compatible with DRF views and serializers
-   - Dealing with cross-model concerns and nesting
-- [5 minutes] Questions
+- Django REST Framework is DRY: the good side
+- Trade-offs of DRY in DRF: when reusing serializers leads to Change Amplification on prefetches and annotations
+- How view querysets and serializers are coupled
+- How vanilla Django suffers from the same issues
+- Incomplete solutions that weren't enough for us
+- Solving with a data prefetching layer: [django-virtual-models](https://github.com/vintasoftware/django-virtual-models/)
+  - Warn programmers during dev time about missing prefetches and annotations for each serializer
+  - Automatically run necessary prefetches and annotations
+  - Automatically prevent unnecessary prefetches and annotations
+  - Keep serializer nesting support
+  - Keep `SerializerMethodField` support
+- Other solutions, including [django-readers](https://github.com/dabapps/django-readers/)
