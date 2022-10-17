@@ -11,7 +11,7 @@ We're so excited to tell you about your opportunities to socialize with and get 
 
 ## Opening Reception
 
-**When**: 5:45-7:00 pm, Monday, September 23
+**When**: 5:45-7:00 pm, Monday, October 17th
 
 **Where**: West Lawn at the Marriott (on the other side of the pool from the Marriott restaurant)
 
