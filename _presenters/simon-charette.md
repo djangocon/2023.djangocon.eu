@@ -8,7 +8,7 @@ permalink: /presenters/simon-charette/
 photo_url: /static/img/presenters/simon-charette.jpg
 pronouns: he/him
 slug: simon-charette
-twitter: charettes
+twitter: null
 website: null
 ---
 
