@@ -3,10 +3,8 @@
  */
 .site-header {
   background-color: $white-color;
-  padding-bottom: 10px;
+  padding: 15px 0;
   min-height: $spacing-unit * 1.865;
-  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
   // Positioning context for the mobile navigation icon
   position: relative;
 }

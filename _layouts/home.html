@@ -1,30 +1,24 @@
----
-layout: default
----
-<div class="content">
-    <p class="under-construction">This website is</p>
-    <p class="under-construction">under construction ...</p>
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  {%- include head.html -%}
 
-{%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-  <ul class="post-list">
-    {%- for post in site.posts limit:10 -%}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
-  <a class="button" href="/news/">Read More News</a>
-{%- endif -%}
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content {{page.main_class}}" aria-label="Content">
+      <img src="{{ '/assets/images/edinburgh-skyline-outline.svg' | relative_url }}" alt="" loading="lazy">
+      <h1 class="lead-text">
+        <img src="{{ '/assets/images/edinburgh-djangocon-headline.svg' | relative_url }}" alt="Edinburgh DjangoCon.eu">
+        <br>
+        29 May - 02 June 2023
+      </h1>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
 
