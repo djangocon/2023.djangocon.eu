@@ -52,9 +52,11 @@ Range visualization for concrete understanding (3 min)
 
 A before-and-after look at the models (5 min)
 
-The example project is a Swimming Pool Resource Scheduler that makes heavy use of ranges (probably more than would be used in most projects) in order to demonstrate various approaches. The model layout can be visualized in the following diagram:
+The example project is a Swimming Pool Resource Scheduler that makes heavy use of ranges (probably more than would be used in most projects) in order to demonstrate various approaches. The model layout can be visualized in the following diagrams:
 
-[diagram](https://lucid.app/publicSegments/view/8031b83b-fde9-48d8-a812-ae249f283690/image.png)
+![database schema simple](https://raw.githubusercontent.com/jacklinke/home-on-the-range-with-django/master/presentation/img/erd_light.png)
+
+![database schema detailed](https://raw.githubusercontent.com/jacklinke/home-on-the-range-with-django/master/presentation/img/erd.png)
 
 We will look at the models before and after using range fields.
 
@@ -279,8 +281,7 @@ The models in this project will be used to demonstrate a variety of tasks in dja
 
 Resources (5 min)
 
-- Django docs
-- The django source code and tests as references
-- PostgreSQL docs on ranges
-- Example pool-scheduler project GitHub repo
-- Django ranges cheatsheet
+- [psycopg2.extras](https://www.psycopg.org/docs/extras.html)
+- [This talk & Example Project](https://github.com/jacklinke/home-on-the-range-with-django)
+- [django-range-merge](https://github.com/jacklinke/django-range-merge/) - use `range_merge` aggregate with Django
+- [django-generate-series](https://github.com/jacklinke/django-generate-series) - create sequences with Django's ORM
