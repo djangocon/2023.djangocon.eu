@@ -25,6 +25,7 @@ presenter_slugs:
 published: true
 room: Salon F-H
 sitemap: true
+slides_url: https://drive.google.com/file/d/1pV26NYQIbzOctHacfxK8JAvDitxgRD-Q/view
 slug: django-migrations-pitfalls-and-solutions
 summary: ''
 tags: null

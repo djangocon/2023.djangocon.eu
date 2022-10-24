@@ -21,6 +21,7 @@ presenter_slugs:
 published: true
 room: Salon F-H
 sitemap: true
+slides_url: https://drive.google.com/file/d/1hLyOtUyGk2y0_osROX3y4mSXPRzJGSBo/view
 slug: keeping-track-of-architectural-ish-decisions-in-a-sustainable-way
 summary: ''
 tags: null

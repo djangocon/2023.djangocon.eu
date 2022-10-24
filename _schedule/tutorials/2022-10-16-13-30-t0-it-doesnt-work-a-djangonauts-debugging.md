@@ -17,6 +17,7 @@ presenter_slugs:
 published: true
 room: Balboa I & II
 sitemap: true
+slides_url: https://docs.google.com/presentation/d/1dmeFD5kGsukQaMinU0BJQyyCeu5ZGR4drc0pJilT10Y/edit?usp=sharing
 slug: it-doesnt-work-a-djangonauts-debugging-tool-kit
 summary: ''
 tags: null

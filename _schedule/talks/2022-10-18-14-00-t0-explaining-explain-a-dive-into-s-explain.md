@@ -13,6 +13,7 @@ presenter_slugs:
 published: true
 room: Salon A-E
 sitemap: true
+slides_url: https://speakerdeck.com/richyen/explaining-explain-a-dive-into-postgresql-explain-plans
 slug: explaining-explain-a-dive-into-postgresql-s-explain-plans
 summary: ''
 tags: null

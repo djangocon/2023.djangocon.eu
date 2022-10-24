@@ -20,6 +20,7 @@ published: true
 room: Salon A-E
 schedule_layout: full
 sitemap: true
+slides_url: https://github.com/jacklinke/home-on-the-range-with-django/tree/master/presentation
 slug: home-on-the-range-with-django-getting-comfortable-with-ranges-and-range-fields
 summary: ''
 tags: null

@@ -26,6 +26,7 @@ published: true
 room: Online talks
 schedule_layout: full
 sitemap: true
+slides_url: https://docs.google.com/presentation/d/1LPRM3yg4KunPK3UbxWQjsEyekWK4pynoT-x9hKYu8YM/edit?usp=sharing
 slug: lessons-learned-teaching-undergraduate-astronomy-with-a-video-game
 summary: ''
 tags: null

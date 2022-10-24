@@ -17,6 +17,7 @@ presenter_slugs:
 published: true
 room: Salon F-H
 sitemap: true
+slides_url: https://engineering.pathai.com/herding-your-database-queries-in-django
 slug: herding-your-database-queries-diagnosing-improving-and-guarding-performance-of-db-interactions-in-your-django-apps
 summary: ''
 tags: null

@@ -18,6 +18,7 @@ published: true
 room: Online talks
 schedule_layout: full
 sitemap: true
+slides_url: https://github.com/DawoudSheraz/conference-talks/blob/master/djangocon-us-22/Building%20Microservice%20Architecture%20for%20scale%20with%20Django.pdf
 slug: building-microservice-architecture-for-scale-with-django
 summary: ""
 tags: null

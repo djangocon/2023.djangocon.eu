@@ -19,6 +19,7 @@ published: true
 room: Online talks
 schedule_layout: full
 sitemap: true
+slides_url: https://www.slideshare.net/ElizabethGarrettChri/how-to-be-a-postgres-dba-in-a-pinch-253687257
 slug: how-to-be-a-postgres-dba-in-a-pinch
 summary: ''
 tags: null

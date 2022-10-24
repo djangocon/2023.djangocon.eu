@@ -12,6 +12,7 @@ presenter_slugs:
 - simon-charette
 room: Salon A-E
 sitemap: true
+slides_url: https://github.com/charettes/djangoconus2022/blob/main/slides.md
 talk_slot: full
 title: 'Keynote: State of the Object-Relational Mapping (ORM)'
 track: t0
