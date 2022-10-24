@@ -15,6 +15,7 @@ presenter_slugs:
 published: true
 room: Salon F-H
 sitemap: true
+slides_url: https://github.com/leetrout/djangocon-us-2022/blob/main/Demystifying_Django_Logging_DCUS22.pdf
 slug: django-logging-demystified
 summary: ''
 tags: null

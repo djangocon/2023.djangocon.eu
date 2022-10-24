@@ -17,6 +17,7 @@ published: true
 room: Salon A-E
 schedule_layout: full
 sitemap: true
+slides_url: https://www.paulox.net/2022/10/19/djangocon-us-2022/#slides
 slug: a-pythonic-full-text-search
 summary: ''
 tags: null

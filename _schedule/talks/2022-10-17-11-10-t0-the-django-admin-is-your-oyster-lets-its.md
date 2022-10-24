@@ -21,6 +21,7 @@ presenter_slugs:
 published: true
 room: Salon A-E
 sitemap: true
+slides_url: https://github.com/adriennefranke/djangocon2022/blob/main/presentation.pdf
 slug: the-django-admin-is-your-oyster-lets-extend-its-functionality
 summary: ''
 tags: null

@@ -20,6 +20,7 @@ published: true
 room: Salon A-E
 schedule_layout: full
 sitemap: true
+slides_url: https://docs.google.com/presentation/d/1i8d39iCULoJ8PzWY3cVGw1iMRQXdIHzXFfoS9HVA0_g/edit?usp=drivesdk
 slug: why-large-django-projects-need-a-data-prefetching-layer
 summary: ''
 tags: null

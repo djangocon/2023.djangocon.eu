@@ -18,6 +18,7 @@ presenter_slugs:
 published: true
 room: Salon F-H
 sitemap: true
+slides_url: https://speakerdeck.com/simon/massively-increase-your-productivity-on-personal-projects-with-comprehensive-documentation-and-automated-tests
 slug: massively-increase-your-productivity-on-personal-projects-with-comprehensive-documentation-and-automated-tests
 summary: ''
 tags: null

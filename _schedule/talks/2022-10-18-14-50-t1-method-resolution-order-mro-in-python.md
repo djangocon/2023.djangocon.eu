@@ -16,6 +16,7 @@ presenter_slugs:
 published: true
 room: Salon F-H
 sitemap: true
+slides_url: https://speakerdeck.com/curiouslearner/method-resolution-order-in-python
 slug: method-resolution-order-mro-in-python
 summary: ''
 tags: null

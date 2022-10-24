@@ -17,6 +17,7 @@ presenter_slugs:
 published: true
 room: Salon A-E
 sitemap: true
+slides_url: https://docs.google.com/presentation/d/1ZchDb7ktugK_IhRXBczDXft0sRp8vQA3FVFv76k9uaA/edit#slide=id.g51d2dc3be_0_0
 slug: nurturing-a-legacy-codebase
 summary: ''
 tags: null

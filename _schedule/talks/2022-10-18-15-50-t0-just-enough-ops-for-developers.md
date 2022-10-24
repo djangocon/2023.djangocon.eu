@@ -22,6 +22,7 @@ presenter_slugs:
 published: true
 room: Salon A-E
 sitemap: true
+slides_url: https://speakerdeck.com/ipmb/just-enough-ops-for-developers
 slug: just-enough-ops-for-developers
 summary: ''
 tags: null

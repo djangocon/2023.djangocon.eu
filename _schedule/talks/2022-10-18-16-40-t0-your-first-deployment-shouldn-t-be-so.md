@@ -17,6 +17,7 @@ presenter_slugs:
 published: true
 room: Salon A-E
 sitemap: true
+slides_url: https://speakerdeck.com/ehmatthes/django-simple-deploy-djangoconus-2022
 slug: your-first-deployment-shouldn-t-be-so-hard
 summary: ''
 tags: null
