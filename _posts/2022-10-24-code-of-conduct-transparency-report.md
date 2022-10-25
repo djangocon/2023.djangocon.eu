@@ -6,7 +6,7 @@ layout: post
 title: Code of Conduct Transparency Report for DjangoCon US 2022
 ---
 
-The organizers of DjangoCon 2022 are proud to release this year's Code of Conduct transparency report. In the event that we receive any submissions after this report is published, we will edit this post and include the time when the submission is addressed.
+The organizers of DjangoCon US 2022 are proud to release this year's Code of Conduct transparency report. In the event that we receive any submissions after this report is published, we will edit this post and include the time when the submission is addressed.
 
 # Reports
 
