@@ -222,7 +222,42 @@ Thanks goes to these wonderful people:
   </tr>
   <tr>
     <td align="center"><a href='https://wsvincent.com'><img src='https://avatars0.githubusercontent.com/u/766418?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://dryan.com'><img src='https://avatars.githubusercontent.com/u/15066?s=40&v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/iofall'><img src='https://avatars.githubusercontent.com/u/50991099?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://www.jonafato.com'><img src='https://avatars.githubusercontent.com/u/392720?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='http://sanchitkhurana.ml'><img src='https://avatars.githubusercontent.com/u/54467174?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://dryan.com/'><img src='https://avatars.githubusercontent.com/u/15066?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://www.linkedin.com/in/logankilpatrick/'><img src='https://avatars.githubusercontent.com/u/35577566?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://thib.me/'><img src='https://avatars.githubusercontent.com/u/877585?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/neilgoldman'><img src='https://avatars.githubusercontent.com/u/11390810?v=4' width='72px;'/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href='https://github.com/noahalorwu'><img src='https://avatars.githubusercontent.com/u/7665391?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/jalakoo'><img src='https://avatars.githubusercontent.com/u/960717?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://www.pythonbynight.com/'><img src='https://avatars.githubusercontent.com/u/46942991?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://www.drewsk.tech/'><img src='https://avatars.githubusercontent.com/u/12227241?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://medium.com/@fixitsammie'><img src='https://avatars.githubusercontent.com/u/2122543?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/ipmb'><img src='https://avatars.githubusercontent.com/u/319156?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='http://www.epicserve.com/'><img src='https://avatars.githubusercontent.com/u/191620?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/lmann4'><img src='https://avatars.githubusercontent.com/u/11095021?v=4' width='72px;'/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href='https://sarahabd.com/'><img src='https://avatars.githubusercontent.com/u/17890338?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/tim-schilling'><img src='https://avatars.githubusercontent.com/u/1281215?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/zags'><img src='https://avatars.githubusercontent.com/u/5118144?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='http://www.vinta.com.br/'><img src='https://avatars.githubusercontent.com/u/397989?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/elizabeth-christensen'><img src='https://avatars.githubusercontent.com/u/85628096?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/camilamaia'><img src='https://avatars.githubusercontent.com/u/2728804?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/josh7weaver'><img src='https://avatars.githubusercontent.com/u/6668727?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='http://ericholscher.com/'><img src='https://avatars.githubusercontent.com/u/25510?v=4' width='72px;'/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href='https://www.meagenvoss.com/'><img src='https://avatars.githubusercontent.com/u/45881480?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://simonwillison.net/'><img src='https://avatars.githubusercontent.com/u/9599?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/ltagliaferri'><img src='https://avatars.githubusercontent.com/u/5977693?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/contextref'><img src='https://avatars.githubusercontent.com/u/1338598?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://github.com/edufelipe'><img src='https://avatars.githubusercontent.com/u/106633?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='https://jacklinke.com/'><img src='https://avatars.githubusercontent.com/u/73554672?v=4' width='72px;'/></a></td>
+    <td align="center"><a href='http://cecinestpasun.com/'><img src='https://avatars.githubusercontent.com/u/37345?v=4' width='72px;'/></a></td>
   </tr>
 </table>
 
