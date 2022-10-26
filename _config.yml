@@ -3,8 +3,8 @@ title: DjangoCon Europe
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   © 2023 DjangoCon Europe · developed with ♥
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://2023.djangocon.eu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/2023.djangocon.eu" # the subpath of your site, e.g. /blog
+url: "https://djangocon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: DjangoConEurope
 github_username: 2023.djangocon.eu
 
@@ -15,6 +15,10 @@ collections:
 
 include:
   - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 plugins:
