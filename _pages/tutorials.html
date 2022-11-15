@@ -1,0 +1,28 @@
+---
+description: DjangoCon EU 2023 Tutorials Schedule
+heading: Tutorials Schedule
+layout: default
+permalink: /tutorials/
+published: false
+sitemap: true
+title: Tutorials Schedule
+---
+
+<!-- tutorials -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Tutorials: Sunday, September 22</h2>
+    <p class="lead">
+      Tutorials are a separate registration and are $195 per session. {% comment %}Buy <a href="{{ site.ticket_link }}">tutorial tickets</a> before they sell out!{% endcomment %}
+    </p>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Sunday' %}
+          {% include schedule-tutorials-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- tutorials -->

@@ -1,0 +1,41 @@
+---
+description: DjangoCon EU 2023 Talks / General Sessions Schedule
+heading: Talks Schedule
+layout: default
+permalink: /talks/
+published: true
+sitemap: true
+title: Talks Schedule
+---
+
+<!-- talks: day 1 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Talks: Friday, October 22</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Friday' %}
+          {% include schedule-talks-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: day 1 -->
+
+<!-- talks: day 2 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Talks: Saturday, October 23</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Saturday' %}
+          {% include schedule-talks-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: day 2 -->
