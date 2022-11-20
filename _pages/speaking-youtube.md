@@ -15,7 +15,15 @@ title: Speaking Template for YouTube Videos
 {% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
 {% if post.group == 'talks' or post.group == 'tutorials' %}
 <div class="event-byline">
-<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
+
+
+{% capture youtube-copy-title %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
+
+<h4><div id="{{ youtube-copy-title }}">{{ post.title }} - DjangoCon US 2022</div></h4>
+
+<button class="btn bg-gray-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
+Copy title to clipboard
+</button>
 
 <div>
   <a class="underline" href="{{ post.video_url }}">On YouTube</a>
@@ -28,7 +36,7 @@ title: Speaking Template for YouTube Videos
 {% include youtube-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
 </textarea>
 
-<button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
+<button class="btn bg-gray-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
 Copy to clipboard
 </button>
 </div>
