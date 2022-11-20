@@ -15,37 +15,37 @@ title: Speaking Checklists for YouTube Videos
 {% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
 {% if post.group == 'talks' or post.group == 'tutorials' %}
 <div class="event-byline">
-<h2>Video Checklist</h2>
+<h2 class="font-bold text-3x">Video Checklist</h2>
 
 {% capture youtube-copy-title %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
 
-<h4><!--{{ post.date | date: "%b %d %l:%M %p %Z" }} - --><div id="{{ youtube-copy-title }}">{{ post.title }} - DjangoCon US 2022</div></h4>
+<h4><div id="{{ youtube-copy-title }}">{{ post.title }} - DjangoCon US 2022</div></h4>
 
-<button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
+<button class="btn bg-gray-200 border-solid border-2 border-gray-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
 Copy title to clipboard
 </button>
 
 <div>
-  <a href="{{ post.video_url }}">On YouTube</a>
+  <a class="underline" href="{{ post.video_url }}">On YouTube</a>
   {% if post.additional_video_url %}<a href="{{ post.additional_video_url }}">Also on YouTube</a>{% endif %}
 </div>
 
 <ul>
-  <li><input type="checkbox">Did the link above open the correct video?</li>
-  <li><input type="checkbox">Set title from this page</li>
-  <li><input type="checkbox">Set description from this page</li>
-  <li><input type="checkbox">Is it on the DjangoCon US 2022 Playlist?</li>
-  <li><input type="checkbox">Set to "not made for kids"</li>
-  <li><input type="checkbox">Set as "contains paid promotion"</li>
-  <li><input type="checkbox">Language set appropriately</li>
-  <li><input type="checkbox">Caption certification "has never aired on television"</li>
-  <li><input type="checkbox">Verify license is correct (YouTube Standard)</li>
-  <li><input type="checkbox">Allow embedding enabled</li>
-  <li><input type="checkbox">Publish to feed and notify subscribers enabled</li>
-  <li><input type="checkbox">Category: Education</li>
-  <li><input type="checkbox">Comments disabled</li>
-  <li><input type="checkbox">"show how many viewers like and dislike this video" disabled</li>
-  <li><input type="checkbox">English captions uploaded</li>
+  <li><input type="checkbox"> Did the link above open the correct video?</li>
+  <li><input type="checkbox"> Set title from this page</li>
+  <li><input type="checkbox"> Set description from this page</li>
+  <li><input type="checkbox"> Is it on the DjangoCon US 2022 Playlist?</li>
+  <li><input type="checkbox"> Set to "not made for kids"</li>
+  <li><input type="checkbox"> Set as "contains paid promotion"</li>
+  <li><input type="checkbox"> Language set appropriately</li>
+  <li><input type="checkbox"> Caption certification "has never aired on television"</li>
+  <li><input type="checkbox"> Verify license is correct (YouTube Standard)</li>
+  <li><input type="checkbox"> Allow embedding enabled</li>
+  <li><input type="checkbox"> Publish to feed and notify subscribers enabled</li>
+  <li><input type="checkbox"> Category: Education</li>
+  <li><input type="checkbox"> Comments disabled</li>
+  <li><input type="checkbox"> "show how many viewers like and dislike this video" disabled</li>
+  <li><input type="checkbox"> English captions uploaded</li>
 </ul>
 
 {% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
@@ -54,11 +54,11 @@ Copy title to clipboard
 {% include youtube-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
 </textarea>
 
-<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
+<button class="btn bg-gray-200 border-solid border-2 border-gray-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
 Copy to clipboard
 </button>
 </div>
-<hr>
+<hr class="border-2 border-gray-800 my-8">
 {% endif %}
 {% endif %}
 {% endfor %}

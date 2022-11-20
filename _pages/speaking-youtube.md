@@ -18,7 +18,7 @@ title: Speaking Template for YouTube Videos
 <h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
 
 <div>
-  <a href="{{ post.video_url }}">On YouTube</a>
+  <a class="underline" href="{{ post.video_url }}">On YouTube</a>
   {% if post.additional_video_url %}<a href="{{ post.additional_video_url }}">Also on YouTube</a>{% endif %}
 </div>
 
@@ -32,7 +32,7 @@ title: Speaking Template for YouTube Videos
 Copy to clipboard
 </button>
 </div>
-<hr>
+<hr class="border-2 border-gray-500 my-8">
 {% endif %}
 {% endif %}
 {% endfor %}
