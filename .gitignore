@@ -9,4 +9,5 @@ bower_components/
 node_modules/
 npm-debug.log
 static/*.map
-Gemfile.lock  # this makes Docker Compose more reliable...
+# Ignore "Gemfile.lock" for Docker Compose
+Gemfile.lock
