@@ -31,6 +31,7 @@ summary: ''
 tags: null
 title: 'Django Migrations: Pitfalls and Solutions'
 track: t1
+video_url: https://www.youtube.com/watch?v=5ErDx3oi1lI&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Django's migration system is one of its greatest strengths as a framework.  It can automatically generate migrations based on your changes to your models and can detect which migrations need to be applied to a database.  But, as the size of your development team and user base scale, there are pitfalls that you need to be aware of.  Not all migrations can be safely reversed, and trying to rewind bad migrations on a production database can cause a data disaster.  Not all migrations can be safely deployed without downtime, and trying to deploy them can give your users and your engineers a wall of errors.

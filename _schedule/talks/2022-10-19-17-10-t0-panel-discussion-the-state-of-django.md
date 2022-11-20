@@ -19,6 +19,7 @@ summary: ''
 tags: null
 title: 'Panel Discussion: The State of Django'
 track: t0
+video_url: https://www.youtube.com/watch?v=IumYtz0G5v0&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Join us for a panel on the State of Django: the state of the Django codebase and also the state of the Django community as represented by organizations like the Django Software Foundation, Django Girls, the Python Software Foundation and DEFNA.

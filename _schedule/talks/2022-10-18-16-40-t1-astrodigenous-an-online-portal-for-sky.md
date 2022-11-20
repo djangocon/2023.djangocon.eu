@@ -36,6 +36,7 @@ tags: null
 title: 'Astrodigenous: an online portal for Indigenous sky-knowledge resources in
   Canada'
 track: t1
+video_url: https://www.youtube.com/watch?v=23fBMFW6TA8&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Our web portal can be reached at http://www.astrodigenous.ca!

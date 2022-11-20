@@ -18,6 +18,7 @@ summary: ''
 tags: null
 title: 'The Django Jigsaw Puzzle: Aligning All the Pieces'
 track: t0
+video_url: https://www.youtube.com/watch?v=rIt0uj8TaKg&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Learning Django often feels like trying to solve an immense jigsaw puzzle with the pieces all turned upside down. It's hard to align all the pieces when you don't know how they should fit together.

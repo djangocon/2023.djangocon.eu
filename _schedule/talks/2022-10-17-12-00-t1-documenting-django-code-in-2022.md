@@ -25,6 +25,7 @@ summary: ''
 tags: null
 title: Documenting Django Code in 2022
 track: t1
+video_url: https://www.youtube.com/watch?v=mqn0D4xat58&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 There have been a number of updates in the Python & Django documentation ecosystem, and this talk is an overview of those changes. The goal is to give everyone in attendance the tools that they need to help their organization or open source project build good documentation culture.

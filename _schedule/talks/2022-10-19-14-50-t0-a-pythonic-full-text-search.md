@@ -23,6 +23,7 @@ summary: ''
 tags: null
 title: A pythonic full-text search
 track: t0
+video_url: https://www.youtube.com/watch?v=lnC9FUmQu7E&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 A **full-text search** on a website is the best way to make its **contents** easily accessible to **users** because it returns better results and is in fact used in *online search engines* or *social networks*.

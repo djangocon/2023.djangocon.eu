@@ -24,6 +24,7 @@ tags: null
 title: 'Herding your database queries: diagnosing, improving and guarding performance
   of DB interactions in your Django apps'
 track: t1
+video_url: https://www.youtube.com/watch?v=bohQNa1AN9M&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Django ORM allows to seamlessly represent DB data as instances of Python classes (models).  This includes relationships between objects, such that when a model (A) has a foreign key relationship (let’s say field name ‘related_b’) to another model (B), all you need to do to navigate from an instance of A (a) to the related instance of B (b) is “a.related_b”.  By default, this will fetch “b” from the database, which is both amazingly convenient and also terrifying.  I say terrifying with some degree of jest, but also plenty of seriousness that will be appreciated by those of us who know what it’s like to deal with a production database that is melting under load.  While Django provides ways of dealing with this, such as select_related and prefetch_related, as well as cached properties, the need for intervention is not easy to realize until the said database starts melting.  In an application that has any degree of complexity, it would be advisable to guard against excessive queries at some granular level, such as, for example, a request.  The talk will cover:

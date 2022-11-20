@@ -21,6 +21,7 @@ summary: ''
 tags: null
 title: Why I Didn't Start With Django
 track: t0
+video_url: https://www.youtube.com/watch?v=D2CsQXONTxw&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 When I started learning Python, it was exciting&mdash;uncharted territory ahead. With powerful tools at my fingertips and plenty of ideas, they needed to find a place to land. A web framework, perhaps?

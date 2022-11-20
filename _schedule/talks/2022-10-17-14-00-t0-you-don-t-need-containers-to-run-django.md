@@ -23,6 +23,7 @@ summary: ''
 tags: null
 title: You Don't Need Containers to Run Django in Production
 track: t0
+video_url: https://www.youtube.com/watch?v=O6xRrYMtKoE&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 While containers have a lot of advantages they can also bring a lot complexity into deploying Django to production, but you don't need them to have a stable, reliable site.

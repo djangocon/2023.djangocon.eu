@@ -24,6 +24,7 @@ summary: ''
 tags: null
 title: "Sponsored Talk: Production Django on Platform.sh: reaching operational maturity in days, not years"
 track: t0
+video_url: https://www.youtube.com/watch?v=MkAgiD_EJN8&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 Delivering Django applications doesn’t just mean deployment. It means clearly defining
 a delivery lifecycle so that updates and upgrades are consistently tested and packaged,

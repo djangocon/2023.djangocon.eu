@@ -20,6 +20,7 @@ summary: ''
 tags: null
 title: Hidden gems of Django Admin
 track: t0
+video_url: https://www.youtube.com/watch?v=5r1jNJzVHBU&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 The Django Admin Panel is a complex and bad-documented tool in the Django that can greatly speed up development if you start to understand it.

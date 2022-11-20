@@ -25,6 +25,7 @@ summary: ''
 tags: null
 title: How To Be a Postgres DBA in a Pinch
 track: t2
+video_url: https://www.youtube.com/watch?v=UAtW6t9LkB0&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 This will be an intro level talk for folks unfamiliar with hosting or managing Postgres. Topics will include hosting options, backups, connection pooling, basic tuning, monitoring, and indexing. Just enough to keep you out of trouble and your database humming along.

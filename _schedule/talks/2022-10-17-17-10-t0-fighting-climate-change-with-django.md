@@ -23,6 +23,7 @@ summary: ''
 tags: null
 title: Fighting Climate Change with Django
 track: t0
+video_url: https://www.youtube.com/watch?v=6HPA5QcbSH0&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Background on Energy Efficiency

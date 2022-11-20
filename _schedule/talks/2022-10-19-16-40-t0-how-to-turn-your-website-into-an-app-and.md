@@ -21,6 +21,7 @@ summary: ''
 tags: null
 title: How to turn your Website into an App (and why maybe you shouldn't!)
 track: t0
+video_url: https://www.youtube.com/watch?v=ewwDcRRE4z0&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 The web is an amazing platform for building and deploying code so that users can access functionality. As Django developers, you know how to use Python to build views and APIs that integrate with a database, and how to develop frontend HTML, CSS and Javascript. But sometimes, you need a little bit more than a website can provide. You need an app.

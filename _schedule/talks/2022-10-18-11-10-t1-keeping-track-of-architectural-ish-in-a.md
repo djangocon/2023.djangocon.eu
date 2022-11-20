@@ -27,6 +27,7 @@ summary: ''
 tags: null
 title: Keeping track of architectural-ish decisions in a sustainable way
 track: t1
+video_url: https://www.youtube.com/watch?v=_-0zHdJGTlw&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 In this talk, we will be presenting one way to keep track of decisions made in the context of software development.

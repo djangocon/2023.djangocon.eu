@@ -26,6 +26,7 @@ summary: ''
 tags: null
 title: Home on the range with Django - getting comfortable with ranges and range fields
 track: t0
+video_url: https://www.youtube.com/watch?v=zCxDAQZfeIo&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 ## Objectives

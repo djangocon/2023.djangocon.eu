@@ -21,6 +21,7 @@ summary: ''
 tags: null
 title: 'Async Django: The practical guide you''ve been **awaiting** for.'
 track: t0
+video_url: https://www.youtube.com/watch?v=yO8WJ-eaEdY&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 There’s a lot of excitement about Django going async in 3.0+ but also many questions. This talk will provide a brief introduction to async, cover its pros/cons, and show how to build async into your Django app.

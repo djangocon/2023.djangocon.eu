@@ -24,6 +24,7 @@ summary: ''
 tags: null
 title: Integrating React in the Django way!
 track: t2
+video_url: https://www.youtube.com/watch?v=0YRFxWSIZnI&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 ## Why Frontend Frameworks are getting Popular?

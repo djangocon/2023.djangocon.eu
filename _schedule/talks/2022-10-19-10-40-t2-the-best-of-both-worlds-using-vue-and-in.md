@@ -26,6 +26,7 @@ summary: ''
 tags: null
 title: 'The Best of Both Worlds: Using Vue and Django Together in a Hybrid Approach'
 track: t2
+video_url: https://www.youtube.com/watch?v=J0qbwKIvh4c&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 In this talk, we’ll discuss our rationale for choosing this approach over other approaches like XHTML, etc. We’ll then dive into some code and show what exactly we mean by a Hybrid of Vue and Django. Then we’ll discuss some of the lessons we learned and what we might do differently next time.

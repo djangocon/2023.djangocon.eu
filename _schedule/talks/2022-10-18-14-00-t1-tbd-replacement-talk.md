@@ -18,6 +18,7 @@ summary: ""
 tags: null
 title: Django Through the Years
 track: t1
+video_url: https://www.youtube.com/watch?v=FhqrJ06AVPw&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Django has now been around for seventeen years, and in that time it's gone from strength to strength. But sometimes, the road was not so clear, and our future still isn't - so let's take a look back at some of Django's early problems, what it takes to grow an open-source project, and what Andrew's excited about in the future.

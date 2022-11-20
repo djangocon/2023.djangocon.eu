@@ -28,6 +28,7 @@ summary: ''
 tags: null
 title: Just enough ops for developers
 track: t0
+video_url: https://www.youtube.com/watch?v=ZJk2KPbHchA&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Most developers don't want to think about operations (aka Ops, DevOps…). PaaS providers (Heroku, Fly, Render, etc.) do an awesome job of getting your app live on the internet, but there's a lot to ops beyond just deployment.

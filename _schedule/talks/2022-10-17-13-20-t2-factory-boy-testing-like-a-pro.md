@@ -22,6 +22,7 @@ summary: ''
 tags: null
 title: 'factory_boy: testing like a pro'
 track: t2
+video_url: https://www.youtube.com/watch?v=OR-HwCPdFxo&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 After working using the factory_boy library for over 3 years on a Django monolith containing +230 tables, +2200 relevant files, and +75k relevant lines of code, I've collected and listed all my biggest learnings.

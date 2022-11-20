@@ -26,6 +26,7 @@ summary: ''
 tags: null
 title: Tips and tricks for optimizing Django response times
 track: t0
+video_url: https://www.youtube.com/watch?v=vYWPnzhDpTo&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Over the last 6 years I've been working on many different projects that needed to manage great amounts of data. I've stumbled upon some common response time issues that could arise while developing production web applications in Django.

@@ -21,6 +21,7 @@ summary: ''
 tags: null
 title: Django Logging Demystified
 track: t1
+video_url: https://www.youtube.com/watch?v=xIJaLMd7G5s&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 This talk is geared toward Django developers of all skill levels. You will come away with a fundamental understanding of logging in Python and Django that will empower you to tackle logging in your applications with confidence.

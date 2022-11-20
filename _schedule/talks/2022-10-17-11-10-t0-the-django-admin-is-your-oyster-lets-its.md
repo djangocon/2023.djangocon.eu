@@ -27,6 +27,7 @@ summary: ''
 tags: null
 title: 'The Django Admin Is Your Oyster: Let’s Extend Its Functionality'
 track: t0
+video_url: https://www.youtube.com/watch?v=CgJziscOafw&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 We’ll start out simple by speeding up search results for big models so you can traverse through 40 million row tables in seconds. We’ll continue on and gain a deeper understanding of the `clean`, `save_model` and the `__init__` functions as these functions are where a lot of customization happens in the Admin. I’ll show you how to use multiple databases within one Admin website and even customize the basic Admin templates so you can have documentation right there on the CRUD pages.

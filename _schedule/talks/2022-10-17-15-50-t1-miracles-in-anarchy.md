@@ -22,6 +22,7 @@ summary: ''
 tags: null
 title: Miracles in Anarchy
 track: t1
+video_url: https://www.youtube.com/watch?v=_ol81_1UMbQ&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 The amazing layers of technology that are required to deliver online experiences can be

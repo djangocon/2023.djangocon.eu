@@ -16,6 +16,8 @@ sitemap: true
 talk_slot: full
 title: 'Keynote: Come on in, the Water’s Fine: Making Python More Approachable'
 track: t0
+slug: keynote-come-on-in-waters-fine
+video_url: https://www.youtube.com/watch?v=p5mg1KEVYsI&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Python has grown to be the largest programming language in the world; that’s one big pool. But like all things tech there are too many things that keep folx out of the water, and lots of ways we can get them diving into the deep end.

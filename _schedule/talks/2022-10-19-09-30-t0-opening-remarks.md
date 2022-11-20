@@ -13,6 +13,7 @@ schedule_layout: full
 sitemap: true
 title: Opening Remarks
 track: t0
+slug: opening-remarks-wednesday
 ---
 
 Logan will introduce our final keynote speaker, Simon Charette.

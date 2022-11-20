@@ -16,6 +16,8 @@ sitemap: true
 talk_slot: full
 title: 'Keynote: Women of Open Source Community Africa; Emerging a Star'
 track: t0
+slug: keynote-women-of-open-source-community-africa-emerging-a-star
+video_url: https://www.youtube.com/watch?v=RPrlSz-UmBY&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 It’s not just a zero-hero story but also about consistency and strategic effort. I began my journey into Open Source through the Women of Open Source Community Africa (WOSCA) initiative in Africa. WOSCA is an initiative of She Code Africa and Open Source Community Africa to promote a more gender diverse, inclusive, and innovative culture within the African open source ecosystem.

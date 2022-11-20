@@ -19,6 +19,7 @@ summary: ''
 tags: null
 title: 'Explaining EXPLAIN: A dive into PostgreSQL''s EXPLAIN plans'
 track: t0
+video_url: https://www.youtube.com/watch?v=n9VR5-Ef9zE&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 There are two types of people: people who want to use Postgres, and people who want to use Postgres well.  The latter will not be content with a poorly-performing query when they know that better performance can be achieved with some tuning, an index, and/or a query rewrite.  For developers and DBAs, this talk discusses what EXPLAIN does, how to interpret its output, what inferences can be extracted from its output, and what can be done to improve query performance.

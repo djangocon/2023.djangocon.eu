@@ -25,6 +25,7 @@ summary: ''
 tags: null
 title: Building a dev-focused learner management system with Django
 track: t1
+video_url: https://www.youtube.com/watch?v=5-gybkYB3lM&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 The talk will cover:

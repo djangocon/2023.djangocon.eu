@@ -28,6 +28,7 @@ summary: ''
 tags: null
 title: Type checking your Django code with django-types and Pyright
 track: t2
+video_url: https://www.youtube.com/watch?v=Lz4I7rFmFdY&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 Among the topics we'll cover are:

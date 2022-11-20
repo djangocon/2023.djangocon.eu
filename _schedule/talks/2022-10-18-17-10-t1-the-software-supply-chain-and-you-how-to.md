@@ -22,7 +22,8 @@ summary: ''
 tags: null
 title: 'The Software Supply Chain and You: How to Build and Ship More Secure Django
   Apps'
-track: 1
+track: t1
+video_url: https://www.youtube.com/watch?v=6aY8W4CQChc&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 This talk will provide a high-level overview of the developer-first open source project, Sigstore, within the Django context. We’ll go through each component of Sigstore, including how to sign a software artifact with Cosign, how Fulcio issues certificates, and finally how developers and end users alike can verify claims made on the Rekor public ledger. We’ll discuss how PyPI is leveraging Sigstore to help with verifying and trusting dependencies we all rely on. Finally, we’ll go through a demonstration of creating, publishing, and signing a containerized Django app.

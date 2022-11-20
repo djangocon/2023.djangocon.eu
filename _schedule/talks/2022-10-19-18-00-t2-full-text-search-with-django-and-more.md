@@ -22,6 +22,7 @@ summary: ''
 tags: null
 title: 'Full Text Search with Django and PostgreSQL: More Facets, Less Dependencies!'
 track: t2
+video_url: https://www.youtube.com/watch?v=QFs6qgvyTC4&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 We’ll describe some issues we faced with some bulkier and less supported search options. Django’s core functionality has come a long way since 1.10 and all the tools you need are there without having to bring in more dependencies. We’ll discuss the history and evolution of django-haystack and backends including Elasticsearch.  We’ll explore adding facets, queryset annotations, and FTS techniques to whittle down the data into more efficient chunks of Data in a Django application. We’ll use a simple project to demonstrate how to extend django-filter to do what we needed and how we separated and rebuilt indexes. Hopefully, after our talk, more developers will be better equipped to use the built in tools already available.

@@ -20,6 +20,7 @@ summary: ''
 tags: null
 title: Predict Lightning Strikes using Django and AWS
 track: t0
+video_url: https://www.youtube.com/watch?v=77sIl2MsSgU&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Predicting a lightning strike with 99.6% accuracy requires advanced algorithms, expert developers and data — a lot of data. FLASH Scientific Technology pulls data from a variety of sources including weather radars and location-specific information like altitude, moisture, wind direction and temperature. It was imperative that FLASH develop an application that could pull, read and process the data both quickly and accurately.

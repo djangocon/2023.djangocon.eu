@@ -16,6 +16,8 @@ slides_url: https://github.com/charettes/djangoconus2022/blob/main/slides.md
 talk_slot: full
 title: 'Keynote: State of the Object-Relational Mapping (ORM)'
 track: t0
+slug: keynote-state-of-orm
+video_url: https://www.youtube.com/watch?v=HNlGFrIBl8o&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Recent releases of Django introduced ORM (object-relational mapping) features that made it easier to perform complex data manipulations efficiently in the context of web applications. Abstractions such as `FilteredRelation`, `Constraint`, `Window` functions, `JSONField`/`JSONObject`, expression support for `Index`, `Queryset.alias`, and other features and improvements untapped the full potential of the prior expression API work.

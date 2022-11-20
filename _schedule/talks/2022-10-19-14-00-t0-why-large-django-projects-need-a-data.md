@@ -26,6 +26,7 @@ summary: ''
 tags: null
 title: Why large Django projects need a data (prefetching) layer
 track: t0
+video_url: https://www.youtube.com/watch?v=arxSbzxXo7s&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 The main building blocks of Django REST Framework projects, i.e. Views, Serializers, Managers, and Querysets allow developers to implement complex APIs with very little code repetition while reusing built-ins for essential API features. Developers feel guided by DRF to architect the project in a “Don’t Repeat Yourself” way by using inheritance, nesting, annotations, and model / app-based separation of concerns. They can group code in viewsets, inherit from base classes, reuse the same serializer across views, nest serializers into others, compute fields dynamically with ORM annotations, select or prefetch relations for performance, organize custom behavior with managers and querysets, and much more. All this DRYness is great because it integrates well with common web API concerns like permissions, pagination, filters, etc.

@@ -25,6 +25,7 @@ summary: ''
 tags: null
 title: A Management Layer for Scalable, Multitenant Django
 track: t1
+video_url: https://www.youtube.com/watch?v=ELm2mbgWOVY&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 ## Networking

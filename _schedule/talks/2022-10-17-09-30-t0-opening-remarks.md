@@ -13,6 +13,8 @@ schedule_layout: full
 sitemap: true
 title: Opening Remarks
 track: t0
+slug: opening-remarks-monday
+video_url: https://www.youtube.com/watch?v=4MuE7XQl_is&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Logan will officially open DjangoCon US and introduce our opening keynote speaker, Ruth Ikegah.

@@ -19,7 +19,7 @@ title: Speaking Checklists for YouTube Videos
 
 {% capture youtube-copy-title %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
 
-<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - <div id="{{ youtube-copy-title }}">{{ post.title }}</div></h4>
+<h4><!--{{ post.date | date: "%b %d %l:%M %p %Z" }} - --><div id="{{ youtube-copy-title }}">{{ post.title }} - DjangoCon US 2022</div></h4>
 
 <button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
 Copy title to clipboard
@@ -31,11 +31,10 @@ Copy title to clipboard
 </div>
 
 <ul>
-  <li><input type="checkbox">YouTube Premiere time set: {{ post.date | date: "%b %d %l:%M %p %Z" }}</li>
   <li><input type="checkbox">Did the link above open the correct video?</li>
   <li><input type="checkbox">Set title from this page</li>
   <li><input type="checkbox">Set description from this page</li>
-  <li><input type="checkbox">Is it on the DjangoCon US 2021 Playlist?</li>
+  <li><input type="checkbox">Is it on the DjangoCon US 2022 Playlist?</li>
   <li><input type="checkbox">Set to "not made for kids"</li>
   <li><input type="checkbox">Set as "contains paid promotion"</li>
   <li><input type="checkbox">Language set appropriately</li>
@@ -47,7 +46,6 @@ Copy title to clipboard
   <li><input type="checkbox">Comments disabled</li>
   <li><input type="checkbox">"show how many viewers like and dislike this video" disabled</li>
   <li><input type="checkbox">English captions uploaded</li>
-  <li><input type="checkbox">Spanish captions uploaded</li>
 </ul>
 
 {% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}

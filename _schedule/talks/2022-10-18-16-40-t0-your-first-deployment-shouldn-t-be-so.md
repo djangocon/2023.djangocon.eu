@@ -23,6 +23,7 @@ summary: ''
 tags: null
 title: Your First Deployment Shouldn't Be So Hard!
 track: t0
+video_url: https://www.youtube.com/watch?v=l17ZZrQnK4c&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 About This Talk

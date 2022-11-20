@@ -19,6 +19,7 @@ summary: ''
 tags: null
 title: 'AyudaPy.org: From Weekend Project to Key Civic Movement During the Pandemic'
 track: t0
+video_url: https://www.youtube.com/watch?v=vtIxkRnQxvk&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 The talk is about the AyudaPy.org project that began as an experiment / weekend project and became a social force in Paraguay that in many cases replaced the response of the state, its origins, future, how the technology and UX choices were key for its success and the challenges of becoming overnight as project manager, mantainer and spokesperson for an Open Source project replicated in several countries and above all how to survive the burnout of this situation.

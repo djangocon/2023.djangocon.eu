@@ -24,6 +24,7 @@ summary: ''
 tags: null
 title: Modern apps with Django, HTMX, Tailwind CSS and Alpine.js
 track: t2
+video_url: https://www.youtube.com/watch?v=hZ8-WPz9vq8&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 After evaluating various toolkits and frameworks for UI development, I decided to go with Django. This choice was made for various reasons - Python backend, Django HTML templates, included security infrastructure and included ORM. I explored options to execute partial requests from Django HTML templates, without submitting requests to reload the complete page. This is possible with HTMX and Alpine.js. I thought I should share my experience with the broader Django community. I will prepare a sample CRUD app to explain the functionality, this will be styled with Tailwind CSS to look modern and usable.

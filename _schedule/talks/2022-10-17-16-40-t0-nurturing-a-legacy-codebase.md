@@ -23,6 +23,7 @@ summary: ''
 tags: null
 title: Nurturing a "Legacy" Codebase
 track: t0
+video_url: https://www.youtube.com/watch?v=t77waCqJJbI&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 This talk will begin with a discussion of what is “legacy code” and why it tends to be feared. Then, ways of evaluating a codebase to determine if it is worth nurturing or not will be touched on. The bulk of the talk will focus on techniques for nurturing a legacy codebase, spanning from changes to the code itself (e.g. incremental modernization, automated testing) to ensuring that the past “story” of the code is accessible to all working on maintaining and improving it.  Hopefully by the end of the talk developers who previously would have avoided legacy code at all costs would be open to taking on the challenge.

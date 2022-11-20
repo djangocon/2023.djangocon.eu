@@ -25,6 +25,7 @@ tags: null
 title: Massively increase your productivity on personal projects with comprehensive
   documentation and automated tests
 track: t1
+video_url: https://www.youtube.com/watch?v=GLkRK2rJGB0&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 When I worked for a company that grew to have an engineering team spanning three continents I learned that the only way to keep things productive was to embrace comprehensive documentation and automated tests.

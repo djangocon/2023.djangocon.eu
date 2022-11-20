@@ -21,6 +21,7 @@ summary: ''
 tags: null
 title: Django from queryset to serialization
 track: t1
+video_url: https://www.youtube.com/watch?v=1bkEaIw03KI&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Django don´t have an obvious way to avoid N+1 queries during objects serialization and it is easy to miss the right way in large projects.

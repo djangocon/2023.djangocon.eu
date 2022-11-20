@@ -15,6 +15,7 @@ sitemap: true
 talk_slot: full
 title: Board Game Night
 video_url: ''
+track: t0
 ---
 
 Bring your board games, card games, and/or a sense of whimsy to the annual DjangoCon US Board Game Night!

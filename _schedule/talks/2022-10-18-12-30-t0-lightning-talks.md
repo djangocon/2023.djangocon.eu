@@ -13,4 +13,6 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
+slug: lightning-talks-tuesday
+video_url: https://www.youtube.com/watch?v=6CzHxaskYEY&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---

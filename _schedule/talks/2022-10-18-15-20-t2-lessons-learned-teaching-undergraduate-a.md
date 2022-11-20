@@ -32,6 +32,7 @@ summary: ''
 tags: null
 title: Lessons Learned Teaching Undergraduate Astronomy with a Video Game
 track: t2
+video_url: https://www.youtube.com/watch?v=V2l57CnjakE&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 This talk is for anyone interested in using Django. Since I will cover the beginning of our journey, no prior Django knowledge is needed to get something from this talk. It will help to know the basics of web development and Django, but this knowledge is not required. I also hope more experienced developers will learn something from the lessons we'll share.

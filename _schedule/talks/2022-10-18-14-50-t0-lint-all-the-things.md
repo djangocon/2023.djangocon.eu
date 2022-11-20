@@ -21,6 +21,7 @@ summary: ''
 tags: null
 title: Lint All the Things!
 track: t0
+video_url: https://www.youtube.com/watch?v=Ms8LW2k4nJw&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Many teams document the conventions for their projects. However, documentation gets out of date, forgotten, or sometimes ignored. Simple documentation requires team members to constantly remember all the ‘rules’ for your project. You can better enforce those rules and free up your team members to think about harder problems using linting tools like flake8, import linter, and pre-commit.

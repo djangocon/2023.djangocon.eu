@@ -22,6 +22,7 @@ summary: ''
 tags: null
 title: Method Resolution Order (MRO) in Python
 track: t1
+video_url: https://www.youtube.com/watch?v=lee9uKxzCcY&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 Imagine implementing inheritance in a programming language. At first, it looks like all the methods and attributes will be inherited by the child class. While it works for the majority of scenarios, as soon as we hit multiple-inheritance, deciding what method/attribute will take precedence, becomes a  daunting task.

@@ -19,6 +19,7 @@ summary: ""
 tags: null
 title: "Sponsored Talk: An Introduction to Summit Technology Group"
 track: t0
+video_url: https://www.youtube.com/watch?v=Qxdk2s1ayzU&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 - An Intro to Summit Technology Group (STG)

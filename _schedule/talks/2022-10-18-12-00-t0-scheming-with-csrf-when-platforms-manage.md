@@ -22,6 +22,7 @@ summary: ''
 tags: null
 title: 'Scheming with CSRF: When platforms manage to break things.'
 track: t0
+video_url: https://www.youtube.com/watch?v=xpkNvpF_tXA&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
 ---
 
 When Django 4.0 was released, a small change to the `CSRF_TRUSTED_ORIGINS` was in the change notes: the scheme must now be provided.

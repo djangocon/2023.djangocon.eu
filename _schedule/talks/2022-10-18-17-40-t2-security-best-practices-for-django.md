@@ -32,6 +32,7 @@ summary: ''
 tags: null
 title: Security Best Practices for Django Applications
 track: t2
+video_url: https://www.youtube.com/watch?v=pMfM7fIK6cs&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 Security is of utmost importance to most applications in general and web applications in particular. Django being one of the most popular Python-based web frameworks, applications developed using Django are always on the radar of hackers who try to find the vulnerabilities in the Django application and exploit the same for their benefit. Many times security is ignored or not well done due to a lack of awareness and the cost associated with it. But Security is too costly to be ignored. Although Django has many built-in security features, they are not sufficient to safeguard the application.  The talk begins with highlighting the importance of security and identifying security issues in Django applications using the Mozilla Observatory tool, then using the recommendations of the tool to secure them. Next, I will compare and contrast Mozilla's Web Security recommendations and Open Web Application Security Project(OWASP) Top 10 recommendations. Next, I will discuss built-in security features in Django. Finally, I will discuss the configuration settings and issues that may affect the secure deployment of Django applications.

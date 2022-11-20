@@ -22,6 +22,7 @@ summary: ''
 tags: null
 title: I Can't Believe It's Not Real Data! An Introduction into Synthetic Data
 track: t2
+video_url: https://www.youtube.com/watch?v=5jtyWVjIatE&list=PL2NFhrDSOxgXwt-yT9LgRw1eZcA627mXE
 ---
 
 From Data Science and Machine Learning to Software Engineering and testing, access to accurate data is one of the biggest bottlenecks hindering development. Developers need accurate, relevant data to safely experiment when building applications, machine learning models, testing, etc. However, developers often run into issues gathering data, from a lack of data to the inability to access the data due to privacy policies. But what if you could have instant access to an unlimited supply of high-fidelity data that’s statistically accurate, privacy-protected, and safe to share? This is where Synthetic Data comes in. In this talk, you'll learn about Synthetic Data, the problems it solves, and how to get started generating as much relevant data as you want.

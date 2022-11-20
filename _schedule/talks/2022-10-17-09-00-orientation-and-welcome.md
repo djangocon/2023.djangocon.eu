@@ -18,7 +18,9 @@ talk_slot: full
 title: Orientation and Welcome
 twitter:
   card: player
-video_url: null
+video_url: https://www.youtube.com/watch?v=IcherPCrC7A&list=PL2NFhrDSOxgUoF-4F2MdAFvOK1wOrNdqB
+track: t0
+slug: orientation-and-welcome
 ---
 
 Are you:
