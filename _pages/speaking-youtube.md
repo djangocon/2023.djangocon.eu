@@ -30,7 +30,7 @@ Copy title to clipboard
   {% if post.additional_video_url %}<a href="{{ post.additional_video_url }}">Also on YouTube</a>{% endif %}
 </div>
 
-{% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
+{% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-youtube-link{% endcapture %}
 
 <textarea rows="10" id="{{ youtube-copy-link }}">
 {% include youtube-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
