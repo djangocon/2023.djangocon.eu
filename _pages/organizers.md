@@ -1,7 +1,7 @@
 ---
 description: Meet the people who made DjangoCon EU 2023 possible.
 heading: Organizers
-layout: base
+layout: page
 permalink: /organizers/
 published: true
 redirect_from:

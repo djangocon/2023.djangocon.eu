@@ -1,6 +1,6 @@
 ---
 github: MisterRios
-layout: base
+layout: page
 name: Daniel Rios
 role: Software developer at Infarm
 twitter: misterrios
