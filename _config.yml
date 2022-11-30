@@ -9,6 +9,7 @@ relative_permalinks: false
 permalink: news/:title/ # permalink: date
 timezone: Europe/London
 conf_year: 2023
+time: 2023
 
 include:
   - _pages
