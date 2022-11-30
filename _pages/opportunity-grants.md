@@ -4,12 +4,13 @@ description: As part of our commitment to diversity, we are thrilled to announce
   US.
 heading: Opportunity Grants
 layout: default
+published: false
 permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
 
 {% comment %}
-We are accepting [opportunity grant](https://2022.djangocon.us/opportunity-grants/) applications
+We are accepting [opportunity grant](https://2023.djangocon.eu/opportunity-grants/) applications
 
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth).
 All decision notifications will be sent by July 8th, 2022.

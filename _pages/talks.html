@@ -3,17 +3,21 @@ description: DjangoCon US 2022 Talks / General Sessions Schedule
 heading: Talks Schedule
 layout: default
 permalink: /talks/
-published: false
 sitemap: true
 title: Talks Schedule
 ---
 
+{% assign visible_schedule = site.schedule | where: 'hidden', false %}
+
 <!-- talks: day 1 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Monday, October 17</h2>
+    <h2 class="day">Talks: Monday, May 29th</h2>
+    <p class="lead">
+      We’re still refining our schedule, check back again soon!
+    </p>
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Monday' %}
           {% include schedule-talks-day.html %}
@@ -27,9 +31,12 @@ title: Talks Schedule
 <!-- talks: day 2 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Tuesday, October 18</h2>
+    <h2 class="day">Talks: Tuesday, May 30th</h2>
+    <p class="lead">
+      We’re still refining our schedule, check back again soon!
+    </p>
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Tuesday' %}
           {% include schedule-talks-day.html %}
@@ -43,9 +50,12 @@ title: Talks Schedule
 <!-- talks: day 3 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks - Deep Dives: Wednesday, October 19</h2>
+    <h2 class="day">Talks: Wednesday, May 31st</h2>
+    <p class="lead">
+      We’re still refining our schedule, check back again soon!
+    </p>
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Wednesday' %}
           {% include schedule-talks-day.html %}

@@ -10,7 +10,7 @@ date: 2022-10-19 10:40:00-07:00
 difficulty: Intermediate
 end_date: 2022-10-19 11:05:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fbrent-o-connor%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fbrent-o-connor%252F/opengraph/
 layout: session-details
 permalink: /talks/the-best-of-both-worlds-using-vue-and-in/
 presenter_slugs:
@@ -19,6 +19,7 @@ presenter_slugs:
 - levi-mann
 published: false
 room: Online talks
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: the-best-of-both-worlds-using-vue-and-django-together-in-a-hybrid-approach

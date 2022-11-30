@@ -2,6 +2,8 @@
 heading: 2022 DjangoCon US Recap
 layout: base
 permalink: /recap/
+published: false
+sitemap: false
 title: 2022 DjangoCon US Recap
 ---
 
@@ -104,7 +106,8 @@ title: 2022 DjangoCon US Recap
       <p class="lead">We featured over <strong>40</strong> talks &amp; tutorials this year. Here are some crowd favorites!</p>
       <a href="/schedule/" class="button">See the full schedule</a>
     </header>
-    {% for post in site.schedule %}
+    {% assign visible_schedule = site.schedule | where: 'hidden', false %}
+    {% for post in visible_schedule %}
       {% if post.featured %}
         {% if post.permalink and post.room != 'filler' %}
         <article

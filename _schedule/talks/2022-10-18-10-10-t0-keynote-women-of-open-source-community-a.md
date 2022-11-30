@@ -11,6 +11,7 @@ permalink: /talks/keynote-women-of-open-source-community-a/
 presenter_slugs:
 - ruth-ikegah
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 talk_slot: full

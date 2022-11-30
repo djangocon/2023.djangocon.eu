@@ -12,6 +12,7 @@ presenter_slugs:
 published: false
 room: Salon A-E
 sitemap: true
+hidden: true
 schedule_layout: full
 slug: sponsored-talk-six-feet-up
 summary: ''

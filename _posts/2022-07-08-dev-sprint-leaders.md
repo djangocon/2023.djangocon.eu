@@ -49,7 +49,7 @@ If you're an active contributor to a project, even if you're not an official mai
 
 
 ## Conclusion
-Specific time/location details on the Development Sprints will be added to [the schedule](https://2022.djangocon.us/schedule/). But for now:
+Specific time/location details on the Development Sprints will be added to [the schedule](https://2023.djangocon.eu/schedule/). But for now:
 - Decide if you want to help lead or organize a Development Sprint.
 - Make sure you're prepared for whichever role you take on.
 - If you have questions, the best place to reach our Development Sprints Chair, Kojo, is on [Twitter](https://twitter.com/KojoIdrissa).

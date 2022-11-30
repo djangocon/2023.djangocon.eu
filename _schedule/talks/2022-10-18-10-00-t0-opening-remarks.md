@@ -9,12 +9,13 @@ permalink: /talks/opening-remarks-tuesday/
 presenter_slugs:
 - drew-winstel
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 title: Opening Remarks
 track: t0
 slug: opening-remarks-tuesday
-video_url: 
+video_url:
 ---
 
 In this talk, Drew will introduce Tuesday's keynote as well as call for volunteers for DjangoCon US 2023.

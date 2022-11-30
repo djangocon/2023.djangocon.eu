@@ -12,13 +12,14 @@ category: talks
 date: 2022-10-17 10:40:00-07:00
 end_date: 2022-10-17 11:05:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fjoaquin-scocozza%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fjoaquin-scocozza%252F/opengraph/
 layout: session-details
 permalink: /talks/working-with-time-series-data-using-and/
 presenter_slugs:
 - joaquin-scocozza
 published: false
 room: Online talks
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: working-with-time-series-data-using-django-and-timescale

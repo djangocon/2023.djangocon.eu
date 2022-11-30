@@ -1,7 +1,6 @@
 ---
 description: Become a Sponsor
 heading: Become a Sponsor
-hidden: true
 layout: default
 permalink: /sponsors/information/
 title: Become a Sponsor
@@ -9,9 +8,7 @@ title: Become a Sponsor
 
 ## About the Event
 
-**Sponsorship is closed for this year**.
-
-DjangoCon US is not possible without your support. The spirit of the event focuses on providing a platform for new and experiences speakers to share their stories and knowledge.
+DjangoCon Europe is not possible without your support. The spirit of the event focuses on providing a platform for new and experiences speakers to share their stories and knowledge.
 
 ### Our goal is to keep ticket costs low while providing:
 
@@ -23,7 +20,7 @@ DjangoCon US is not possible without your support. The spirit of the event focus
 - Reimbursement for speaker travel and lodging expenses
 - A networking party to start the event.
 
-The DjangoCon US Slack channel currently has 700+ members where attendees get and give advice, discuss Django/Python issues, and all-around support each other, establishing a year-round connection that helps ensure the conference is as welcoming and comfortable as possible.
+The DjangoCon Europe Slack channel currently has 700+ members where attendees get and give advice, discuss Django/Python issues, and all-around support each other, establishing a year-round connection that helps ensure the conference is as welcoming and comfortable as possible.
 
 We promote our sponsors on our @djangocon Twitter account, which has over 18.8K followers. Our tweets are seen around the world.
 
@@ -79,7 +76,7 @@ Sign your sponsorship contract and pay your invoice by August 15, 2022 to get yo
 
 This can be very customized. Sponsoring the opening party is a great way to introduce yourself to our attendees in a fun, lighthearted environment outside the main conference. We'll help you coordinate logistics and get the word out about your company!
 
-#### <del>Lanyard -- *Silver Tier Minimum* -- $3,500</del> SOLD!
+#### Lanyard -- *Silver Tier Minimum* -- $3,500
 
 The lanyard sponsor's logo will appear on the badge lanyards that attendees wear at the conference (and thus in all photos).
 
@@ -103,13 +100,13 @@ This sponsorship can be of any amount more than an individual ticket and can be 
 
 San Diego Django Girls will be hosting a workshop aimed to encourage women and other underrepresented genders into Django development, and we are inviting you to sponsor!
 
-Donors will be added to the DjangoCon US break video rotation, get a tote bag insert, and a social media post. This stacks with DjangoCon US tier perks. It's a great value! This is a gender-inclusive event.
+Donors will be added to the DjangoCon Europe break video rotation, get a tote bag insert, and a social media post. This stacks with DjangoCon Europe tier perks. It's a great value! This is a gender-inclusive event.
 
 #### Need a custom sponsorship package?
 
 We've helped sponsors host luncheons, throw parties, and add opportunity grant sponsorship and other perks to existing packages.
 
-Whether you're joining us in San Diego or supporting us from afar, please consider sponsoring DjangoCon US 2022.
+Whether you're joining us in San Diego or supporting us from afar, please consider sponsoring DjangoCon Europe 2022.
 
 We can't do it without you and hope to see you there!
 

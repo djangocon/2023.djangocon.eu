@@ -5,6 +5,7 @@ heading: Speaking Checklists for YouTube Videos
 layout: default
 permalink: /speaking/youtube/checklists/
 sitemap: false
+published: false
 title: Speaking Checklists for YouTube Videos
 ---
 

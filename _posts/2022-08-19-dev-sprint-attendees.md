@@ -14,7 +14,7 @@ Sprints are most common around **F**ree/**L**ibre **O**pen **S**ource **S**oftwa
 Over time, these core developers realized sprints also provided them an opportunity to help find *new* potential contributors. And that's where YOU come in.
 
 ## Why Attend a Development Sprint at DCUS 2022?
-As mentioned in the "[Why DjangoCon US](https://2022.djangocon.us/why-djangocon-us/)" document, development sprints give you an opportunity to work shoulder-to-shoulder with experts in the community. In addition, there are practical and personal benefits to attending the sprints.
+As mentioned in the "[Why DjangoCon US](https://2023.djangocon.eu/why-djangocon-us/)" document, development sprints give you an opportunity to work shoulder-to-shoulder with experts in the community. In addition, there are practical and personal benefits to attending the sprints.
 
 From a practical perspective, if your organization makes heavy use of Django or a related package, getting involved in its maintenance will give you a better understanding of that package, as well as it's strengths & limitations. On the personal side, most people won't usually work on a project that's as widely used as Django or some of the other related packages. Getting involved in the maintenance of one of these packages can expose you to engineering practices you like wouldn't see otherwise. This can help you become a better engineer while allowing you to contribute to the community that benefits you and your company.
 

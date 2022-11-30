@@ -3,14 +3,15 @@ description: DjangoCon US 2022 Full Conference Schedule
 heading: Full Conference Schedule
 layout: default
 permalink: /schedule/
-published: false
 sitemap: true
 title: Full Conference Schedule
 ---
 
-All sessions are in Pacific Daylight Time (UTC-07:00).
+All sessions are in British Summer Time (UTC+01:00).
 
+{% comment %}
 The talks in Salon F-H are restricted in capacity due to COVID-19, so get your seat early! If there is not an available chair, you will not be allowed in the room.
+{% endcomment %}
 
 <nav class="schedule-nav">
   <span
@@ -19,24 +20,27 @@ The talks in Salon F-H are restricted in capacity due to COVID-19, so get your s
   <ul
     class="schedule-nav-list"
     id="ScheduleNav">
-    <li><a href="#Day-Tutorials">Tutorials</a></li>
+    {% comment %}<li><a href="#Day-Tutorials">Tutorials</a></li>{% endcomment %}
     <li><a href="#Day-Talk1">Talks: Day 1</a></li>
     <li><a href="#Day-Talk2">Talks: Day 2</a></li>
-    <li><a href="#Day-Talk3">Talks: Day 3 - Deep Dives</a></li>
+    <li><a href="#Day-Talk3">Talks: Day 3</a></li>
     <li><a href="#Day-Sprints1">Sprints: Day 1</a></li>
     <li><a href="#Day-Sprints2">Sprints: Day 2</a></li>
   </ul>
 </nav>
 
+{% assign visible_schedule = site.schedule | where: 'hidden', false %}
+
+{% comment %}
 <!-- tutorials -->
 <section class="section-pad schedule" id="Day-Tutorials">
   <div class="row column">
-    <h2 class="day">Tutorials: Sunday, October 16</h2>
+    <h2 class="day">Tutorials: Monday 29th May - Wednesday 31st</h2>
     <p class="lead">
       Tutorials are a separate registration and are $199 per session. Buy <a href="{{ site.ticket_link }}">tutorial tickets</a> before they sell out!
     </p>
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Sunday' %}
           {% include schedule-tutorials-day.html %}
@@ -46,13 +50,17 @@ The talks in Salon F-H are restricted in capacity due to COVID-19, so get your s
   </div>
 </section>
 <!-- tutorials -->
+{% endcomment %}
 
 <!-- talks: day 1 -->
 <section class="section-pad schedule" id="Day-Talk1">
   <div class="row column">
-    <h2 class="day">Talks: Monday, October 17</h2>
+    <h2 class="day">Talks: Monday, May 29th</h2>
+    <p class="lead">
+      We’re still refining our schedule, check back again soon!
+    </p>
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Monday' %}
           {% include schedule-talks-day.html %}
@@ -66,14 +74,12 @@ The talks in Salon F-H are restricted in capacity due to COVID-19, so get your s
 <!-- talks: day 2 -->
 <section class="section-pad schedule" id="Day-Talk2">
   <div class="row column">
-    <h2 class="day">Talks: Tuesday, October 18</h2>
-    {% comment %}
+    <h2 class="day">Talks: Tuesday, May 30th</h2>
     <p class="lead">
-      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
+      We’re still refining our schedule, check back again soon!
     </p>
-    {% endcomment %}
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Tuesday' %}
           {% include schedule-talks-day.html %}
@@ -87,14 +93,12 @@ The talks in Salon F-H are restricted in capacity due to COVID-19, so get your s
 <!-- talks: day 3 -->
 <section class="section-pad schedule" id="Day-Talk3">
   <div class="row column">
-    <h2 class="day">Talks - Deep Dives: Wednesday, October 19</h2>
-    {% comment %}
+    <h2 class="day">Talks: Wednesday, May 31st</h2>
     <p class="lead">
-      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
+      We’re still refining our schedule, check back again soon!
     </p>
-    {% endcomment %}
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Wednesday' %}
           {% include schedule-talks-day.html %}
@@ -108,14 +112,12 @@ The talks in Salon F-H are restricted in capacity due to COVID-19, so get your s
 <!-- sprints: day 1 -->
 <section class="section-pad schedule" id="Day-Sprints1">
   <div class="row column">
-    <h2 class="day">Sprints: Thursday, October 20</h2>
-    {% comment %}
+    <h2 class="day">Sprints: Thursday, June 1st</h2>
     <p class="lead">
-      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
+      We’re still refining our schedule, check back again soon!
     </p>
-    {% endcomment %}
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Thursday' %}
           {% include schedule-sprints-day.html %}
@@ -129,14 +131,12 @@ The talks in Salon F-H are restricted in capacity due to COVID-19, so get your s
 <!-- sprints: day 2 -->
 <section class="section-pad schedule" id="Day-Sprints2">
   <div class="row column">
-    <h2 class="day">Sprints: Friday, October 21</h2>
-    {% comment %}
+    <h2 class="day">Sprints: Friday, June 2nd</h2>
     <p class="lead">
-      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
+      We’re still refining our schedule, check back again soon!
     </p>
-    {% endcomment %}
     <ul class="schedule">
-      {% for post in site.schedule %}
+      {% for post in visible_schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
         {% if day == 'Friday' %}
           {% include schedule-sprints-day.html %}

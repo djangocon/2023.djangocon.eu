@@ -9,6 +9,7 @@ permalink: /talks/opening-remarks-monday/
 presenter_slugs:
 - logan-kilpatrick
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 title: Opening Remarks

@@ -10,6 +10,7 @@ group: social-event
 layout: session-details
 permalink: /social-events/board-game-night/
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 talk_slot: full

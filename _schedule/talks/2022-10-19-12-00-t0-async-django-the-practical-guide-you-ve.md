@@ -7,13 +7,14 @@ category: talks
 date: 2022-10-19 12:00:00-07:00
 end_date: 2022-10-19 12:25:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fcarlton-gibson%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fcarlton-gibson%252F/opengraph/
 layout: session-details
 permalink: /talks/async-django-the-practical-guide-you-ve/
 presenter_slugs:
 - carlton-gibson
 published: false
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: async-django-the-practical-guide-you-ve-been-awaiting-for

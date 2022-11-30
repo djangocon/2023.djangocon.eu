@@ -93,6 +93,6 @@ harassment/Policy), created by the Ada Initiative and other volunteers. which
 is under a Creative Commons Zero license.
 
 Conference Code of Conduct by
-[2022.djangocon.us/coc/](https://2022.djangocon.us/coc/) is licensed under a
+[2023.djangocon.eu/coc/](https://2023.djangocon.eu/coc/) is licensed under a
 [Creative Commons Attribution 3.0 Unported
 License](http://creativecommons.org/licenses/by/3.0/).

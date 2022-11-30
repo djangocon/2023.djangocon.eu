@@ -9,7 +9,7 @@ category: talks
 date: 2022-10-17 15:50:00-07:00
 end_date: 2022-10-17 16:35:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Ftimothy-allen%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Ftimothy-allen%252F/opengraph/
 layout: session-details
 permalink: /talks/miracles-in-anarchy/
 presenter_slugs:

@@ -12,7 +12,7 @@ We're so excited to tell you about your opportunities to socialize with and get 
 
 ## Opening Reception
 
-**When**: 5:45-7:00 pm, Monday, October 17th
+**When**: 5:45-7:00 pm, Monday, May 29thth
 
 **Where**: West Lawn at the Marriott (on the other side of the pool from the Marriott restaurant)
 
@@ -22,7 +22,7 @@ Also don't forget our other social event, board game night!
 
 ## Board Game Night
 
-**When**: 6:00-10:00 pm, Tuesday, October 18
+**When**: 6:00-10:00 pm, Tuesday, May 30th
 
 **Where**: Salon A-E
 

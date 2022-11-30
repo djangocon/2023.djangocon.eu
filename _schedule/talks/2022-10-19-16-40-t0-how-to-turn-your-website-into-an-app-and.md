@@ -7,13 +7,14 @@ category: talks
 date: 2022-10-19 16:40:00-07:00
 end_date: 2022-10-19 17:05:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Frussell-keith-magee%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Frussell-keith-magee%252F/opengraph/
 layout: session-details
 permalink: /talks/how-to-turn-your-website-into-an-app-and/
 presenter_slugs:
 - russell-keith-magee
 published: false
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: how-to-turn-your-website-into-an-app-and-why-maybe-you-shouldn-t

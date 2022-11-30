@@ -3,6 +3,7 @@ description: Information about obtaining a Visa to visit DjangoCon US
 heading: Visa Support at DjangoCon US
 layout: default
 permalink: /visas/
+published: false
 title: Visa Support at DjangoCon US
 ---
 

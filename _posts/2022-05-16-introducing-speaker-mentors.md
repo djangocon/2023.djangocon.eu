@@ -10,7 +10,7 @@ post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
 title: Introducing our speaker mentors for DjangoCon US 2022!
 ---
 
-The DjangoCon 2022 organizers are excited to announce the speaker mentors for the 2022 [call for proposals](https://pretalx.com/djangocon-2022/cfp)!
+The DjangoCon 2022 organizers are excited to announce the speaker mentors for the 2022 [call for proposals](https://pretalx.com/djangocon-europe-2023/cfp)!
 
 ## Mentors
 - [Josue Balandrano Coronel](mailto:josuebc@defna.org), is a DEFNA director, DjangoCon US organizer, and a software engineer at the Texas Advanced Computing Center.
@@ -21,9 +21,9 @@ The DjangoCon 2022 organizers are excited to announce the speaker mentors for th
 
 Remember, the deadline for submissions is June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth). As long as it’s still June 10th anywhere on earth, you can submit your proposal.
 
-For more information on talk and tutorial formats, please check out our [speaker information page](https://2022.djangocon.us/speaking/).
+For more information on talk and tutorial formats, please check out our [speaker information page](https://2023.djangocon.eu/speaking/).
 
-We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a [Code of Conduct](https://2022.djangocon.us/conduct/) for all speakers and attendees.
+We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a [Code of Conduct](https://2023.djangocon.eu/conduct/) for all speakers and attendees.
 
 If you have questions feel free [to contact us](mailto:hello@djangocon.us).
 

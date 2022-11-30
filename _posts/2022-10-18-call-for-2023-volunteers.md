@@ -289,7 +289,7 @@ Size: 2-4
 ### Pre-conference responsibilies
 
 - Write blog posts announcing sprints
-- Invite people to launch special sessions (e.g. Carlton's ["Getting Started Contributing to Django"](https://2022.djangocon.us/sprints/getting-started-contributing-to-django/))
+- Invite people to launch special sessions (e.g. Carlton's ["Getting Started Contributing to Django"](https://2023.djangocon.eu/sprints/getting-started-contributing-to-django/))
 - Ensure we have signage and power equipment
 
 ### At-conference responsibilities

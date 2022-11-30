@@ -18,7 +18,7 @@ from urllib.parse import quote_plus
 import pytz
 
 # TODO: Pull this from _config.yml
-CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
+CONFERENCE_TZ = pytz.timezone("Europe/London")
 
 
 class FrontmatterModel(BaseModel):
@@ -617,7 +617,7 @@ def generate_shots(
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://2022.djangocon.us{post['permalink']}")
+        print(f"  url: https://2023.djangocon.eu{post['permalink']}")
         print()
 
 
@@ -824,7 +824,7 @@ def process(
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    image_url = f"https://2022.djangocon.us/presenters/{presenter_slug}"
+                    image_url = f"https://2023.djangocon.eu/presenters/{presenter_slug}"
                     image_url = quote_plus(image_url)
                     image_url = quote_plus(image_url)
                     image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"

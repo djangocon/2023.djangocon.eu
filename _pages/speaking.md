@@ -3,6 +3,7 @@ description: Information about submitting a proposal to speak at DjangoCon US
 heading: Speaking at DjangoCon US
 layout: default
 permalink: /speaking/
+published: false
 title: Speaking at DjangoCon US
 ---
 
@@ -67,7 +68,7 @@ Here are some examples of what has been accepted over the last couple of years:
 * [DjangoCon US 2019 Talks](https://2019.djangocon.us/talks/)
 * [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
 
-### Deep Dive Talks (October 19th)
+### Deep Dive Talks (May 31stth)
 
 This year, we will be curating a deep dive day to focus on exploring Django and Django-adjacent topics in detail.
 Deep dive day is meant to follow in the footsteps of [Django Under the Hood](https://djangounderthehood.com/) and will provide a range of topics presented in-depth, targeting varying levels of Django experience.

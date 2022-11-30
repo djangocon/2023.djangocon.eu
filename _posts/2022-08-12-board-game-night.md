@@ -14,7 +14,7 @@ We'll have more details about the opening reception in the future, so stay tuned
 
 ## Board Game Night
 
-**When**: 6:00-10:00 pm, Tuesday, October 18
+**When**: 6:00-10:00 pm, Tuesday, May 30th
 
 **Where**: Salon A-E
 

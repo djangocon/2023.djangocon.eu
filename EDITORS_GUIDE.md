@@ -31,10 +31,10 @@ Pages are stored in `_pages/` and correspond to the different HTML pages on the 
 - **title**: Title of the page. Appears in the browser window.
 - **heading**: Title of the page. Appears at the top of the body of the page.
 - **permalink**: The URL path
-- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://2022.djangocon.us/styleguide/#photo-hero-section)
+- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://2023.djangocon.eu/styleguide/#photo-hero-section)
 - **testimonial_img_mobile**: Same as **testimonial_img**, but for mobile
 - **hero_text_align**: How you want the text in the photo hero to be aligned
-- **hero-theme**: The [brand color](https://2022.djangocon.us/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
+- **hero-theme**: The [brand color](https://2023.djangocon.eu/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
 - **description**: A description of this page
 
 ### Places
@@ -109,7 +109,7 @@ Below are some examples of commonly-used Markdown syntax. If you want to dive de
 
 ### Links
 
-[DjangoCon US 2022](https::2022.djangocon.us) - `[DjangoCon US 2022](https::2022.djangocon.us)`
+[DjangoCon US 2022](https::2023.djangocon.eu) - `[DjangoCon US 2022](https::2023.djangocon.eu)`
 
 ### Inline Images
 
@@ -161,7 +161,7 @@ The `{% for %}` tag also works very similarly to how it does in Django. To cycle
 
 ### Other tags
 
-Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2022.djangocon.us/blob/develop/_includes/sponsor-footer.html#L3).
+Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2023.djangocon.eu/blob/develop/_includes/sponsor-footer.html#L3).
 
 _Based on the [Editor's Guide](https://dev.to/p/editor_guide) from Dev.to._
 

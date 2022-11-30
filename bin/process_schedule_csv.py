@@ -15,7 +15,7 @@ import pytz
 
 SKIP_LINES = {"UTC Offset", "Talk padding", "Track 2 offset"}
 SLUG_MAX_LENGTH = 40
-CONFERENCE_TZ = pytz.timezone("America/Chicago")
+CONFERENCE_TZ = pytz.timezone("Europe/London")
 TIME_FORMAT = "%Y-%m-%d %H:%M:%S %z"  # 2021-10-22 10:15:00 -0500
 
 BREAK_TEMPLATE = """---

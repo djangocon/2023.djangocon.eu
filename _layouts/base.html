@@ -12,6 +12,10 @@
 {% endif %}
     <link rel="stylesheet" href="/static/main.css">
 
+    {% if page.sitemap == false %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+
     <!-- favicon
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">

@@ -8,7 +8,7 @@ category: talks
 date: 2022-10-18 09:25:00-07:00
 end_date: 2022-10-18 09:55:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsyed-ansab-waqar-gillani%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fsyed-ansab-waqar-gillani%252F/opengraph/
 layout: session-details
 permalink: /talks/building-microservice-architecture-for/
 presenter_slugs:
@@ -16,6 +16,7 @@ presenter_slugs:
   - syed-muhammad-dawoud-sheraz-ali
 published: false
 room: Online talks
+hidden: true
 schedule_layout: full
 sitemap: true
 slides_url: https://github.com/DawoudSheraz/conference-talks/blob/master/djangocon-us-22/Building%20Microservice%20Architecture%20for%20scale%20with%20Django.pdf

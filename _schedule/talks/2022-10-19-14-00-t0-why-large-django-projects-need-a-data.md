@@ -11,13 +11,14 @@ category: talks
 date: 2022-10-19 14:00:00-07:00
 end_date: 2022-10-19 14:45:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fflavio-juvenal%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fflavio-juvenal%252F/opengraph/
 layout: session-details
 permalink: /talks/why-large-django-projects-need-a-data/
 presenter_slugs:
 - flavio-juvenal
 published: false
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 slides_url: https://docs.google.com/presentation/d/1i8d39iCULoJ8PzWY3cVGw1iMRQXdIHzXFfoS9HVA0_g/edit?usp=drivesdk

@@ -12,6 +12,7 @@ presenter_slugs:
 - dawn-wages
 published: false
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: state-of-django

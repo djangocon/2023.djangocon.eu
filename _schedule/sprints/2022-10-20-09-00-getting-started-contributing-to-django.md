@@ -6,13 +6,14 @@ category: sprints
 date: 2022-10-20 09:00:00-07:00
 end_date: 2022-10-20 12:00:00-07:00
 group: sprints
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fcarlton-gibson%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fcarlton-gibson%252F/opengraph/
 layout: session-details
 permalink: /sprints/getting-started-contributing-to-django/
 presenter_slugs:
 - carlton-gibson
 published: false
 room: Cabrillo 1-2
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: getting-started-contributing-to-django

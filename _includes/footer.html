@@ -4,13 +4,13 @@
     class="footer-logo"
     href="{{ site.url }}" aria-hidden="true">
     <img src="{{ "/static/img/submark-2022.svg" | relative_url }}"
-    alt="DjangoCon {{ site.conf_year }} | San Diego" />
+    alt="DjangoCon {{ site.conf_year }} | Edinburgh" />
   </a>
 
   <div class="row column">
     <ul class="social-icons">
       <li>
-        <a class="twitter" href="https://twitter.com/djangocon">
+        <a class="twitter" href="https://twitter.com/{{ site.twitter.username }}">
           <svg class="social-icon">
             <title>Twitter</title>
             <use xlink:href="#twitter-icon"></use>
@@ -25,6 +25,7 @@
           </svg>
         </a>
       </li>
+      {% comment %}
       <li>
         <a class="facebook" href="https://www.facebook.com/djangoconus/">
           <svg class="social-icon">
@@ -33,6 +34,7 @@
           </svg>
         </a>
       </li>
+      {% endcomment %}
     </ul>
 
     <p class="text-center">
@@ -45,9 +47,11 @@
 
     <small class="legal text-center">
       &copy; {{ site.time | date: '%Y' }} DjangoCon EU
+      {% comment %}
       &middot; Design by <a href="http://yupgup.com/">YupGup</a>
       &middot; Presented by <a href="https://www.defna.org/">DEFNA</a>
       &middot; <a href="/colophon/">Colophon</a>
+      {% endcomment %}
     </small>
   </div>
 </footer>

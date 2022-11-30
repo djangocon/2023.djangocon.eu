@@ -10,13 +10,14 @@ date: 2022-10-18 13:20:00-07:00
 end_date: 2022-10-18 14:05:00-07:00
 difficulty: Beginner
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Felizabeth-garrett-christensen%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Felizabeth-garrett-christensen%252F/opengraph/
 layout: session-details
 permalink: /talks/how-to-be-a-postgres-dba-in-a-pinch/
 presenter_slugs:
 - elizabeth-garrett-christensen
 published: false
 room: Online talks
+hidden: true
 schedule_layout: full
 sitemap: true
 slides_url: https://www.slideshare.net/ElizabethGarrettChri/how-to-be-a-postgres-dba-in-a-pinch-253687257

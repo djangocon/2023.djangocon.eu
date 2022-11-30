@@ -6,13 +6,14 @@ category: talks
 date: 2022-10-19 11:10:00-07:00
 end_date: 2022-10-19 11:55:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fmaxim-danilov%252F/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2023.djangocon.eu%252Fpresenters%252Fmaxim-danilov%252F/opengraph/
 layout: session-details
 permalink: /talks/hidden-gems-of-django-admin/
 presenter_slugs:
 - maxim-danilov
 published: false
 room: Salon A-E
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: hidden-gems-of-django-admin

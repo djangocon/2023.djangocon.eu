@@ -15,6 +15,7 @@ presenter_slugs:
 - colin-copeland
 published: false
 room: Online talks
+hidden: true
 schedule_layout: full
 sitemap: true
 slug: full-text-search-with-django-and-postgresql-more-facets-less-dependencies
