@@ -10,14 +10,16 @@
 {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
 {% include youtube-embed-head.html id=youtube_id %}
 {% endif %}
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Rubik:400,500&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/main.css">
 
     <!-- favicon
     ================================================== -->
-    <link href="/static/favicons/favicon.ico" rel=icon type="image/x-icon">
-    <link href="/static/favicons/favicon.png" rel=icon type="image/png">
-    <link href="/static/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#005eb8">
+    <link rel="shortcut icon" href="/static/favicons/favicon.ico">
   </head>
   <body class="{{ page.layout }}-page">
    {% include social-icons.html %}
@@ -45,6 +47,5 @@
     <!-- Loading JavaScripts
     ================================================== -->
     <script src="/static/main.js"></script>
-    {% include analytics.html %}
   </body>
 </html>

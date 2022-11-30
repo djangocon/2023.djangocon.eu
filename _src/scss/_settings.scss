@@ -48,13 +48,16 @@
 //  37. Top Bar
 
 
+$blue-dark: #005EB8;
+$blue-light: #0099CC;
+
 // Primary Colors
-$brand-color1: #E99C56;
-$brand-color2: #430632;
+$brand-color1: $blue-light;
+$brand-color2: $blue-dark;
 $brand-color3: #044059;
 $brand-color4: #A9CAD0;
-$brand-color5: #C73B3D;
-$brand-color6: #5F082B;
+$brand-color5: $blue-dark;
+$brand-color6: $blue-dark;
 $brand-color7: #FBAECD;
 $brand-color8: #F7B07C;
 
@@ -116,7 +119,7 @@ $djangocon-palette: (
 
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Karla', Helvetica, sans-serif;
+$body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -158,7 +161,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Rubik', Helvetica, sans-serif;
+$header-font-family: Metamorphous, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 $header-font-weight: 500;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
