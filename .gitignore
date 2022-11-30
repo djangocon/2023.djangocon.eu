@@ -12,3 +12,4 @@ npm-debug.log
 static/*.map
 # Ignore "Gemfile.lock" for Docker Compose
 Gemfile.lock
+.vscode
