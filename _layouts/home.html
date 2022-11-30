@@ -92,9 +92,16 @@ layout: base
 
 <section class="section-pad">
   <div class="row column v-pad-bottom text-center">
-    <h2>A conference with heart</h2>
+    <h2>By the community for the community</h2>
   </div>
   <div class="row card-row">
+    <div class="column">
+      <div class="card">
+      <p>This is the 15th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</p>
+      <p>Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community, not least those watching the talks online.</p>
+      </div>
+    </div>
+    {% comment %}
     <div class="medium-4 column">
       <div class="card">
         <img
@@ -108,6 +115,7 @@ layout: base
         </div>
       </div>
     </div>
+    {% endcomment %}
     {% comment %}
     <div class="medium-4 column">
       <div class="card">
@@ -123,18 +131,20 @@ layout: base
       </div>
     </div>
     {% endcomment %}
+    {% comment %}
     <div class="medium-4 column">
       <div class="card">
         <img
-          src="{{ "/static/img/heart-line.svg" | relative_url }}"
-          alt="A heart"
-          class="card-icon"
-          />
+        src="{{ "/static/img/heart-line.svg" | relative_url }}"
+        alt="A heart"
+        class="card-icon"
+        />
         <div class="card-section">
           <h3 class="card-title">Code of Conduct</h3>
           <p>Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="/conduct/">Code of Conduct</a></strong>.</p>
       </div>
       </div>
+      {% endcomment %}
     </div>
   </div>
 </section>
