@@ -1,10 +1,11 @@
 ---
-description: Meet the people who made DjangoCon US 2022 possible.
+description: Meet the people who made DjangoCon EU 2023 possible.
 heading: Organizers
 layout: base
 permalink: /organizers/
+published: true
 redirect_from:
-- /about/organizers/
+  - /about/organizers/
 title: Organizers
 ---
 
@@ -16,7 +17,7 @@ title: Organizers
   <section class="section-pad">
     <div class="row column">
       <p class="lead">
-        There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!
+        There is no "I" in DjangoCon EU. Thank you to all our volunteers who make DjangoCon EU happen!
       </p>
       <div
         class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
@@ -68,5 +69,6 @@ title: Organizers
 
       </div><!--/.row -->
     </div>
+
   </section>
 </div><!-- end .content -->

@@ -1,15 +1,16 @@
 ---
-description: DjangoCon US is dedicated to providing a fun harassment-free conference
+description: DjangoCon EU is dedicated to providing a fun harassment-free conference
   experience for everyone, regardless of gender, gender identity, sexual orientation,
   disability, physical appearance, body size, race, or religion.
-heading: About DjangoCon US
+heading: About DjangoCon EU
 hero_text_align: center
 hero_theme: brand-color1
 layout: base
 permalink: /about/
 testimonial_img: /static/img/about.jpg
 testimonial_img_mobile: /static/img/about-mobile.jpg
-title: About DjangoCon US 2022
+title: About DjangoCon EU 2023
+published: false
 ---
 
 <header class="subpage-header">
@@ -20,11 +21,11 @@ title: About DjangoCon US 2022
   <section class="section-pad theme-light-gray">
     <div class="row column">
         <h2 class="demp">
-        DjangoCon US is a six-day international conference for the community by the community about the Django web framework, held each year in North America.
+        DjangoCon EU is a two-day virtual conference for the community by the community about the Django web framework.
         </h2>
 
         <p class="lead">
-        DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time. You'll discover details about a range of diverse applications that people from all over the world are building with Django, get a deeper understanding of concepts you’re already familiar with and discover new ways to use them, and have a lot of fun!
+        DjangoCon EU has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time. You'll discover details about a range of diverse applications that people from all over the world are building with Django, get a deeper understanding of concepts you’re already familiar with and discover new ways to use them, and have a lot of fun!
         </p>
     </div>
   </section>
@@ -38,7 +39,7 @@ title: About DjangoCon US 2022
         <div class="row collapse">
           <div class="small-5 column">
             <div class="dates">
-              <div class="month">JUNE</div>
+              <div class="month">APR</div>
               <div class="days">10</div>
             </div>
           </div>
@@ -51,7 +52,7 @@ title: About DjangoCon US 2022
         <div class="row collapse">
           <div class="small-5 column">
             <div class="dates">
-              <div class="month">JUNE</div>
+              <div class="month">APR</div>
               <div class="days">10</div>
             </div>
           </div>
@@ -64,8 +65,8 @@ title: About DjangoCon US 2022
         <div class="row collapse">
           <div class="small-5 column">
             <div class="dates">
-              <div class="month">JULY</div>
-              <div class="days">8</div>
+              <div class="month">MAY</div>
+              <div class="days">2017</div>
             </div>
           </div>
           <div class="small-7 column">
@@ -131,13 +132,15 @@ title: About DjangoCon US 2022
           </div>
         </div>
       </div>
-    </div>
-    <div class="row column v-pad-top">
-      <div class="medium-4 medium-centered column">
-        <div class="button-group expanded">
-          <a class="button" href="/schedule/">Full Schedule</a>
+      {% endcomment %}
+      {% comment %}
+      Commented out the "See full schedule" button
+      <div class="row column v-pad-top">
+        <div class="medium-4 medium-centered column">
+          <a class="button" href="#">See full schedule</a>
         </div>
       </div>
+      {% endcomment %}
     </div>
   </section>
 
@@ -168,25 +171,27 @@ title: About DjangoCon US 2022
             />
           <div class="card-section">
             <h3 class="card-title" id="commitment-to-diversity">Commitment to Diversity</h3>
-            <p>It is a core aim of DjangoCon US 2022 to encourage diversity, enforce our <a href="/conduct/">Code of Conduct</a>, and make our event as inclusive and accessible as possible.</p>
+            <p>It is a core aim of DjangoCon EU 2023 to encourage diversity, enforce our <a href="/conduct/">Code of Conduct</a>, and make our event as inclusive and accessible as possible.</p>
           </div>
         </div>
       </div>
+      {% comment %}
       <div class="medium-4 column">
         <div class="card card-theme-brand-color6">
           <img
-            src="{{ "/static/img/hands-line.svg" | relative_url }}"
-            alt="Two hands interlocked"
+            src="{{ "/static/img/aid-line.svg" | relative_url }}"
+            alt="A dollar sign in a circle"
             class="card-icon"
             />
           <div class="card-section">
-            <h3 class="card-title" id="opportunity-grants">COVID-19 Safety</h3>
-            <p>As part of our commitment to the safety of our attendees, we have a <a href="/covid/">COVID-19 Policy</a> and require all attendees to be vaccinated and masked, and have a negative COVID test prior to attending.</p>
+            <h3 class="card-title" id="opportunity-grants">Opportunity Grants</h3>
+            <p>As part of our commitment to diversity, we will have opportunity grants available to meet the cost of tickets. Check back for more information.</p>
           </div>
         </div>
       </div>
+      {% endcomment %}
     </div>
-</section>
+  </section>
 
 
 <section
@@ -197,7 +202,7 @@ title: About DjangoCon US 2022
   >
   <img
     class="hide-for-medium" src="{{ page.testimonial_img_mobile }}"
-    alt="DjangoCon US attendees smiling for a picture.">
+    alt="DjangoCon EU attendees smiling for a picture.">
   <div class="row hero-content">
     <div
       class="
@@ -213,16 +218,16 @@ title: About DjangoCon US 2022
 
         <h2>Day 1 Orientation</h2>
         <p class="lead">
-          Are you new to DjangoCon US or tech conferences in general?<br>
+          Are you new to DjangoCon EU or tech conferences in general?<br>
           Are you worried you might feel out of place?<br>
-          Are you attending DjangoCon US by yourself?<br>
+          Are you attending DjangoCon EU by yourself?<br>
         </p>
         <p>If so, the Day 1 orientation is for you! We’ll help you get your bearings so you can have the BEST conference experience possible. More details coming in the blog.</p>
       </div>
   </div>
 </section>
 
-{% comment %}
+
 <section class="section-pad theme-light-gray v-pad-bottom-extra">
   <div class="row card-row">
     <div class="medium-6 column">
@@ -234,7 +239,7 @@ title: About DjangoCon US 2022
           />
         <div class="card-section">
           <h3 class="card-title" id="program">Program</h3>
-          <p>The DjangoCon US program features both novice talks for people just starting their journey into the world of development, as well as advanced talks for experienced developers.</p>
+          <p>The DjangoCon EU program features both novice talks for people just starting their journey into the world of development, as well as advanced talks for experienced developers.</p>
         </div>
       </div>
     </div>
@@ -253,6 +258,5 @@ title: About DjangoCon US 2022
     </div>
   </div>
 </section>
-{% endcomment %}
 
 </div><!-- end .content -->

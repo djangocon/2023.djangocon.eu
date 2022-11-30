@@ -1,14 +1,14 @@
-title: DjangoCon US
-url: "https://2022.djangocon.us"
-author : DjangoCon US
+title: DjangoCon Europe
+url: "https://2023.djangocon.eu"
+author: DjangoCon Europe
 description: |
-  DjangoCon US 2022 conference will take place in San Diego, California
-  from October 16-21, 2022!
-enforce_ssl: "2022.djangocon.us"
+  DjangoCon Europe 2023 conference will take place in San Diego, California
+  from October 16-21, 2023!
+enforce_ssl: "2023.djangocon.eu"
 relative_permalinks: false
-permalink: news/:title/  # permalink: date
+permalink: news/:title/ # permalink: date
 timezone: America/Los_Angeles
-conf_year: 2022
+conf_year: 2023
 
 include:
   - _pages
@@ -52,7 +52,7 @@ exclude:
 # We need `future` to allow our schedule to work :/
 future: true
 
-collections:  # process the _data folder
+collections: # process the _data folder
   components:
     output: false
   schedule:
@@ -80,9 +80,8 @@ twitter:
   username: djangocon
 
 # This is the default logo that people see with opengraph
-# logo: /static/2022-logos/squares-and-social/djangocon-square.png
+# logo: /static/2023-logos/squares-and-social/djangocon-square.png
 logo: /static/img/social/og.png
-
 
 # Frontmatter fallback settings
 # This is the default logo that people see on blog posts
@@ -98,21 +97,21 @@ defaults:
       sitemap: false
 
 # Our DjangoCon US settings...
-conduct_email: "conduct@djangocon.us"
-contact_us_email: "hello@djangocon.us"
-opportunity_grants_email: "grants@djangocon.us"
-program_team_email: "program@djangocon.us"
-sponsors_email: "sponsors@djangocon.us"
-visa_email: "visas@djangocon.us"
+conduct_email: "conduct@djangocon.eu"
+contact_us_email: "hello@djangocon.eu"
+opportunity_grants_email: "grants@djangocon.eu"
+program_team_email: "program@djangocon.eu"
+sponsors_email: "sponsors@djangocon.eu"
+visa_email: "visas@djangocon.eu"
 
 # Our DjangoCon US links
-cfp_application: "https://pretalx.com/djangocon-2022/cfp"
+cfp_application: "https://pretalx.com/djangocon-2023/cfp"
 hotel_reservation_link: "https://www.marriott.com/events/start.mi?id=1642551494496&key=GRP"
-# slack_link: "https://djangoconus2022.herokuapp.com"
+# slack_link: "https://djangoconus2023.herokuapp.com"
 opportunity_grant_application: "https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform"
 slack_link: ""
 sponsorship_prospectus: ""
-ticket_link: "https://ti.to/defna/djangocon-us-2022"
+ticket_link: "https://ti.to/defna/djangocon-us-2023"
 # youtube_link: ""
 
 github: [metadata]
