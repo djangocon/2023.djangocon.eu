@@ -3,6 +3,7 @@ author: Jessica Deaton
 category: General
 date: 2019-10-13 06:00:00
 layout: post
+published: false
 title: "2019 Conference Wrap Up"
 published: false
 ---

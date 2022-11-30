@@ -18,7 +18,7 @@ layout: session-details
 permalink: /talks/keeping-track-of-architectural-ish-in-a/
 presenter_slugs:
 - juan-saavedra
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slides_url: https://drive.google.com/file/d/1hLyOtUyGk2y0_osROX3y4mSXPRzJGSBo/view

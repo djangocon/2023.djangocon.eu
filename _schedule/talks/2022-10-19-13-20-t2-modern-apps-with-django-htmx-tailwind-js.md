@@ -15,7 +15,7 @@ layout: session-details
 permalink: /talks/modern-apps-with-django-htmx-tailwind-js/
 presenter_slugs:
 - andrej-baranovskij
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

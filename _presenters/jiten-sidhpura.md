@@ -1,7 +1,7 @@
 ---
 company: null
 github: jitensid
-hidden: false
+hidden: true
 layout: speaker-template
 name: Jiten Sidhpura
 permalink: /presenters/jiten-sidhpura/

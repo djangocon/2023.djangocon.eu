@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Community"
 name: "Python Community News"
 logo: "/static/img/sponsors/python-community-news.jpg"

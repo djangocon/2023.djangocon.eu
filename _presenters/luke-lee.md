@@ -1,6 +1,6 @@
 ---
 company: Octopus Energy
-hidden: false
+hidden: true
 layout: speaker-template
 name: Luke Lee
 permalink: /presenters/luke-lee/

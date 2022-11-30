@@ -1,6 +1,6 @@
 ---
 company: Umuzi
-hidden: false
+hidden: true
 layout: speaker-template
 name: Sheena O'Connell
 permalink: /presenters/sheena-o-connell/

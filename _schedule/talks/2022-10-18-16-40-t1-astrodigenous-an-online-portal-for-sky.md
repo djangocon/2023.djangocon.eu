@@ -27,7 +27,7 @@ layout: session-details
 permalink: /talks/astrodigenous-an-online-portal-for-sky/
 presenter_slugs:
 - heidi-white
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slug: astrodigenous-an-online-portal-for-indigenous-sky-knowledge-resources-in-canada

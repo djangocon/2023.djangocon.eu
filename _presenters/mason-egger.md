@@ -1,6 +1,6 @@
 ---
 company: Gretel.ai
-hidden: false
+hidden: true
 layout: speaker-template
 name: Mason Egger
 permalink: /presenters/mason-egger/

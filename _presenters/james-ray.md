@@ -1,6 +1,6 @@
 ---
 company: NASA / Jet Propulsion Laboratory
-hidden: false
+hidden: true
 layout: speaker-template
 name: James Ray
 permalink: /presenters/james-ray/

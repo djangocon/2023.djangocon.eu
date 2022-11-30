@@ -3,6 +3,7 @@ author: Drew Winstel
 category: General
 date: 2022-08-31 12:00:00-05:00
 layout: post
+published: false
 title: Get Active at DjangoCon US
 ---
 

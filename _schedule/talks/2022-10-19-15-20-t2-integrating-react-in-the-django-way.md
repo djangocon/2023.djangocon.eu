@@ -15,7 +15,7 @@ layout: session-details
 permalink: /talks/integrating-react-in-the-django-way/
 presenter_slugs:
 - jiten-sidhpura
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

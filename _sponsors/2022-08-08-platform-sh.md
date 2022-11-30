@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Diamond"
 name: "Platform.sh"
 logo: "/static/img/sponsors/platformsh.png"

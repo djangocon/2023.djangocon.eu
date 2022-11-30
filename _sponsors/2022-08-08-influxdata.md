@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Gold"
 name: "InfluxData"
 logo: "/static/img/sponsors/influxdata.svg"

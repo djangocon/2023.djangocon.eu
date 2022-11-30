@@ -23,7 +23,7 @@ layout: session-details
 permalink: /tutorials/parlez-vous-django-internationalization/
 presenter_slugs:
 - meagen-voss
-published: true
+published: false
 room: Balboa I & II
 sitemap: true
 slug: parlez-vous-django-internationalization-with-wagtail

@@ -4,20 +4,21 @@ category: General
 date: 2022-07-08 06:00:00
 image: /static/img/blog/speaking.jpg
 layout: post
+published: false
 post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking.jpg
 title: Announcing Our DjangoCon US 2022 Talks!
 ---
 
-We are delighted to present our tutorial and talk lineup! 
+We are delighted to present our tutorial and talk lineup!
 
 The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
 
 Congratulations to the presenters of the tutorials and talks below!
 
-## Tutorials 
+## Tutorials
 
-_Tutorials will not be available online; you must attend in person._ 
+_Tutorials will not be available online; you must attend in person._
 
 - “It doesn’t work” - A Djangonaut’s debugging tool kit (Tim Schilling)
 - A detailed review for using Django, Channels, and HTMX to create dynamic and interactive web sites (Ken Whitesell)
@@ -26,7 +27,7 @@ _Tutorials will not be available online; you must attend in person._
 - Parlez-vous Django? Internationalization with Wagtail (Meagen Voss)
 - Using Django for serving REST APIs with permission control and customizing the default admin panel (Kuldeep Pisda)
 
-## Talks 
+## Talks
 
 _All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free._
 
@@ -43,7 +44,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Explaining EXPLAIN: A dive into PostgreSQL's EXPLAIN plans (Richard Yen)
 - Fighting Climate Change with Django (Erin Mullaney)
 - Hidden gems of Django Admin (Maxim Danilov)
-- Home on the range with Django - getting comfortable with ranges and range fields (Jack Linke) 
+- Home on the range with Django - getting comfortable with ranges and range fields (Jack Linke)
 - How to turn your Website into an App (and why maybe you shouldn't!) (Russell Keith-Magee)
 - I Can't Believe It's Not Real Data! An Introduction into Synthetic Data (Mason Egger)
 - Integrating React in the Django way! (Jiten Sidhpura)

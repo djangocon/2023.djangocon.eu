@@ -133,13 +133,16 @@ layout: base
   </div>
 </section>
 
+{% assign visible_posts = site.posts | where: 'hidden', false %}
+
+{% if visible_posts.size > 0 %}
 <section class="news-section section-pad theme-brand-color4 back">
   <div class="row column v-pad-bottom">
     <h2 class="text-center">Latest News</h2>
   </div>
 
   <div class="news row">
-    {% for post in site.posts limit:12 %}
+    {% for post in visible_posts limit:12 %}
       {% unless post.hidden %}
       <article class="news-title medium-4 column">
         <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
@@ -161,6 +164,7 @@ layout: base
     </div>
   </div>
 </section>
+{% endif %}
 
 {% comment %}
 {% include sponsor-footer.html %}

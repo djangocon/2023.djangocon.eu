@@ -1,6 +1,6 @@
 ---
 company: null
-hidden: false
+hidden: true
 layout: speaker-template
 name: Sanyam Khurana
 permalink: /presenters/sanyam-khurana/

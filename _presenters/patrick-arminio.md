@@ -1,6 +1,6 @@
 ---
 company: null
-hidden: false
+hidden: true
 layout: speaker-template
 name: Patrick Arminio
 permalink: /presenters/patrick-arminio/

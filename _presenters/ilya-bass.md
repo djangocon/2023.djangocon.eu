@@ -1,6 +1,6 @@
 ---
 company: PathAI, Inc.
-hidden: false
+hidden: true
 layout: speaker-template
 name: Ilya Bass
 permalink: /presenters/ilya-bass/

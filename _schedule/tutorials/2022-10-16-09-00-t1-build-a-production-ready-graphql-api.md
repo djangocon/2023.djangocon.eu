@@ -13,7 +13,7 @@ layout: session-details
 permalink: /tutorials/build-a-production-ready-graphql-api/
 presenter_slugs:
 - patrick-arminio
-published: true
+published: false
 room: Sierra 5
 sitemap: true
 slug: build-a-production-ready-graphql-api-using-python

@@ -14,7 +14,7 @@ permalink: /talks/building-microservice-architecture-for/
 presenter_slugs:
   - syed-ansab-waqar-gillani
   - syed-muhammad-dawoud-sheraz-ali
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

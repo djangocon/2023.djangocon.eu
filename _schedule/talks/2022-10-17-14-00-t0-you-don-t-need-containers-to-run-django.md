@@ -15,7 +15,7 @@ layout: session-details
 permalink: /talks/you-don-t-need-containers-to-run-django/
 presenter_slugs:
 - eduardo-felipe-castegnaro
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: you-don-t-need-containers-to-run-django-in-production

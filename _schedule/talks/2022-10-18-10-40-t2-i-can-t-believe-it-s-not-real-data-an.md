@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/i-can-t-believe-it-s-not-real-data-an/
 presenter_slugs:
 - mason-egger
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

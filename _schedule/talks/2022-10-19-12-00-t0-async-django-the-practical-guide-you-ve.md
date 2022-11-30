@@ -12,7 +12,7 @@ layout: session-details
 permalink: /talks/async-django-the-practical-guide-you-ve/
 presenter_slugs:
 - carlton-gibson
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/why-i-didn-t-start-with-django/
 presenter_slugs:
 - mario-munoz
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: why-i-didn-t-start-with-django

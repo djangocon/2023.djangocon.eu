@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/django-from-queryset-to-serialization/
 presenter_slugs:
 - iuri-de-silvio
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slug: django-from-queryset-to-serialization

@@ -1,6 +1,6 @@
 ---
 company: Anaconda / BeeWare Project
-hidden: false
+hidden: true
 layout: speaker-template
 name: Russell Keith-Magee
 permalink: /presenters/russell-keith-magee/

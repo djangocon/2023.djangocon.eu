@@ -11,7 +11,7 @@ layout: session-details
 permalink: /sprints/getting-started-contributing-to-django/
 presenter_slugs:
 - carlton-gibson
-published: true
+published: false
 room: Cabrillo 1-2
 schedule_layout: full
 sitemap: true

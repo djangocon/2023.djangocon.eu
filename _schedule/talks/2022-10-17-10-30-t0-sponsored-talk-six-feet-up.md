@@ -9,7 +9,7 @@ layout: session-details
 permalink: /talks/sponsored-talk-six-feet-up/
 presenter_slugs:
 - calvin-hendryx-parker
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 schedule_layout: full

@@ -16,7 +16,7 @@ layout: session-details
 permalink: /talks/home-on-the-range-with-django-getting/
 presenter_slugs:
 - jack-linke
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

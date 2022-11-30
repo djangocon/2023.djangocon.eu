@@ -1,7 +1,7 @@
 ---
 company: CHAOSS Africa
 github: ruth-ikegah
-hidden: false
+hidden: true
 layout: speaker-template
 name: Ruth Ikegah
 permalink: /presenters/ruth-ikegah/

@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Gold"
 name: "Vinta Software"
 logo: /static/img/sponsors/vinta.svg

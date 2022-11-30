@@ -1,6 +1,6 @@
 ---
 company: Datasette
-hidden: false
+hidden: true
 layout: speaker-template
 name: Simon Willison
 permalink: /presenters/simon-willison/

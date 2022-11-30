@@ -1,7 +1,7 @@
 ---
 company: Zapier
 github: charettes
-hidden: false
+hidden: true
 layout: speaker-template
 name: Simon Charette
 permalink: /presenters/simon-charette/

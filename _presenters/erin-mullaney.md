@@ -1,6 +1,6 @@
 ---
 company: Energy Solutions
-hidden: false
+hidden: true
 layout: speaker-template
 name: Erin Mullaney
 permalink: /presenters/erin-mullaney/

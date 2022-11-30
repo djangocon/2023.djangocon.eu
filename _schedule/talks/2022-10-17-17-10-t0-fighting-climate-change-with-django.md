@@ -15,7 +15,7 @@ layout: session-details
 permalink: /talks/fighting-climate-change-with-django/
 presenter_slugs:
 - erin-mullaney
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: fighting-climate-change-with-django

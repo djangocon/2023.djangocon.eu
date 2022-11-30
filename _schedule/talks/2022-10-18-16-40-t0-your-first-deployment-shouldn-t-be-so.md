@@ -14,7 +14,7 @@ layout: session-details
 permalink: /talks/your-first-deployment-shouldn-t-be-so/
 presenter_slugs:
 - eric-matthes
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slides_url: https://speakerdeck.com/ehmatthes/django-simple-deploy-djangoconus-2022

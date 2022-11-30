@@ -10,7 +10,7 @@ layout: session-details
 permalink: /talks/panel-discussion-the-state-of-django/
 presenter_slugs:
 - dawn-wages
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

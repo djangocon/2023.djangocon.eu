@@ -18,7 +18,7 @@ layout: session-details
 permalink: /talks/tips-and-tricks-for-optimizing-django/
 presenter_slugs:
 - carmela-beiro
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: tips-and-tricks-for-optimizing-django-response-times

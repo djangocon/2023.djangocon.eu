@@ -19,7 +19,7 @@ layout: session-details
 permalink: /talks/just-enough-ops-for-developers/
 presenter_slugs:
 - peter-baumgartner
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slides_url: https://speakerdeck.com/ipmb/just-enough-ops-for-developers

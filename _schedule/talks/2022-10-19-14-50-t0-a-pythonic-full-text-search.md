@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/a-pythonic-full-text-search/
 presenter_slugs:
 - paolo-melchiorre
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

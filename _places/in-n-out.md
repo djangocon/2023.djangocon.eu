@@ -2,7 +2,7 @@
 layout: base
 
 name: "In-n-Out Burger"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/in-n-out.jpg"
 location: "2005 Camino Del Este"
 distance: ".6mi away"

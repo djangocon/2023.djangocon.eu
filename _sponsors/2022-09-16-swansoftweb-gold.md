@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Gold"
 name: "Swan Softweb Solutions"
 logo: "/static/img/sponsors/swan-softweb-logo.svg"

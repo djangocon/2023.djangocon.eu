@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Community"
 name: "Django Software Foundation"
 logo: "/static/img/sponsors/django-logo-positive.svg"

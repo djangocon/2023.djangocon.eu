@@ -15,7 +15,7 @@ layout: session-details
 permalink: /tutorials/effective-end-to-end-testing-for-django/
 presenter_slugs:
 - ed-rivas
-published: true
+published: false
 room: Cabrillo 1
 sitemap: true
 slug: effective-end-to-end-testing-for-django

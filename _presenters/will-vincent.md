@@ -1,6 +1,6 @@
 ---
 company: LearnDjango.com
-hidden: false
+hidden: true
 layout: speaker-template
 name: Will Vincent
 permalink: /presenters/will-vincent/

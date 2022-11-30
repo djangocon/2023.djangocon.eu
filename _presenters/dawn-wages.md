@@ -1,7 +1,7 @@
 ---
 company: Microsoft
 github: dawnwages
-hidden: false
+hidden: true
 layout: speaker-template
 name: Dawn Wages
 permalink: /presenters/dawn-wages/

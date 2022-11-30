@@ -1,6 +1,6 @@
 ---
 layout: base
-hidden: false
+hidden: true
 level: "Diamond"
 name: "Six Feet Up"
 logo: "/static/img/sponsors/SixFeetUp_Logo.png"

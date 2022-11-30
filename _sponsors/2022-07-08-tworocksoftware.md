@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Bronze"
 name: "Two Rock Software"
 logo: "/static/img/sponsors/Two-Rock-Software-Logo.svg"

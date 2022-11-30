@@ -3,6 +3,7 @@ author: Rebecca Kindschi
 category: Program
 date: 2019-06-26 06:00:00
 layout: post
+published: false
 image: /static/img/blog/talk-lineup-2019.png
 title: "Announcing the 2019 Talk Lineup!"
 published: false

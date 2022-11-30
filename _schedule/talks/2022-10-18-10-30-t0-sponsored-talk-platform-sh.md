@@ -15,7 +15,7 @@ layout: session-details
 permalink: /talks/sponsored-talk-platform-sh/
 presenter_slugs:
 - chad-carlson
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 schedule_layout: full

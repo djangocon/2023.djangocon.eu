@@ -2,7 +2,7 @@
 layout: base
 
 name: "Broken Yolk Cafe"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/brokenyolk.jpg"
 location: "1760 Camino Del Rio N"
 distance: ".6mi away"

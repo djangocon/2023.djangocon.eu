@@ -3,6 +3,7 @@ author: David Fischer
 category: General
 date: 2022-10-01 00:00:00
 layout: post
+published: false
 title: "Childcare During DjangoCon US"
 ---
 

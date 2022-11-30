@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Community"
 name: "United States PostgreSQL Association"
 logo: "/static/img/sponsors/pglogo.png"

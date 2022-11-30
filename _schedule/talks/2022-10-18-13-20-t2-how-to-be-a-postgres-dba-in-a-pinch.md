@@ -15,7 +15,7 @@ layout: session-details
 permalink: /talks/how-to-be-a-postgres-dba-in-a-pinch/
 presenter_slugs:
 - elizabeth-garrett-christensen
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

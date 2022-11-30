@@ -4,6 +4,7 @@ category: General
 date: 2022-05-26 07:00:00
 image: /static/img/blog/cfp-announced-2022.png
 layout: post
+published: false
 post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
 title: Need Suggestions for a DjangoCon US 2022 Topic?

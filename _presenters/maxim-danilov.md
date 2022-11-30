@@ -1,6 +1,6 @@
 ---
 company: wP soft
-hidden: false
+hidden: true
 layout: speaker-template
 name: Maxim Danilov
 permalink: /presenters/maxim-danilov/

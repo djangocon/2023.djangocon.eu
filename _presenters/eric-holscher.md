@@ -1,6 +1,6 @@
 ---
 company: Read the Docs
-hidden: false
+hidden: true
 layout: speaker-template
 name: Eric Holscher
 permalink: /presenters/eric-holscher/

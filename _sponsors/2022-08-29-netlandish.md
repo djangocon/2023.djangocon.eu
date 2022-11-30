@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Bronze"
 name: "Netlandish"
 logo: "/static/img/sponsors/netlandish640trans.png"

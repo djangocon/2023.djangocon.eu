@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Gold"
 name: "JBS Solutions"
 logo: "/static/img/sponsors/jbslogo.png"

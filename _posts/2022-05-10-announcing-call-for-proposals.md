@@ -4,6 +4,7 @@ category: General
 date: 2022-05-10 06:00:00
 image: /static/img/blog/cfp-announced-2022.png
 layout: post
+published: false
 post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
 title: The Call for Proposals for DjangoCon US 2022 Is Now Open!

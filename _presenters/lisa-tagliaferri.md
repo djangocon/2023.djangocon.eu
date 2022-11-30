@@ -1,6 +1,6 @@
 ---
 company: Chainguard
-hidden: false
+hidden: true
 layout: speaker-template
 name: Lisa Tagliaferri
 permalink: /presenters/lisa-tagliaferri/

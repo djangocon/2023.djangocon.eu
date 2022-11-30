@@ -1,6 +1,6 @@
 ---
 company: University of Toronto
-hidden: false
+hidden: true
 layout: speaker-template
 name: Dr. Heidi White
 permalink: /presenters/heidi-white/

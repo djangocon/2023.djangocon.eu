@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/factory-boy-testing-like-a-pro/
 presenter_slugs:
 - camila-maia
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

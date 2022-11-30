@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Gold"
 name: "Healthvana"
 logo: "/static/img/sponsors/healthvana_logo.png"

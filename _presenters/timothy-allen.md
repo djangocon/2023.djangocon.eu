@@ -1,7 +1,7 @@
 ---
 company: The Wharton School
 github: https://github.com/flipperpa/
-hidden: false
+hidden: true
 layout: speaker-template
 name: Timothy Allen
 permalink: /presenters/timothy-allen/

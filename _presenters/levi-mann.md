@@ -1,6 +1,6 @@
 ---
 company: Canopy, a Public Benefit Company
-hidden: false
+hidden: true
 layout: speaker-template
 name: Levi Mann
 permalink: /presenters/levi-mann/

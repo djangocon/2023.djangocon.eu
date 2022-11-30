@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Diamond"
 name: "Summit Technology Group"
 logo: "/static/img/sponsors/summit-technology-group.png"

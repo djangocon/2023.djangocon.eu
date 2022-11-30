@@ -4,6 +4,7 @@ category: General
 date: 2022-07-11 06:00:00
 image: /static/img/blog/speaking.jpg
 layout: post
+published: false
 post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking.jpg
 title: Announcing Our DjangoCon US 2022 Online Talks!

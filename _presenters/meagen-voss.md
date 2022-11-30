@@ -1,6 +1,6 @@
 ---
 company: Torchbox
-hidden: false
+hidden: true
 layout: speaker-template
 name: Meagen Voss
 permalink: /presenters/meagen-voss/

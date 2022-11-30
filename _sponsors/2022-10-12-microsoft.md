@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Gold"
 name: "Microsoft"
 logo: "/static/img/sponsors/microsoftlogo.png"

@@ -1,6 +1,6 @@
 ---
 company: Canopy, a Public Benefit Company
-hidden: false
+hidden: true
 layout: speaker-template
 name: Brent O'Connor
 permalink: /presenters/brent-o-connor/

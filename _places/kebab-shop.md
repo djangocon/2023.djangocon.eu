@@ -2,7 +2,7 @@
 layout: base
 
 name: "The Kebab Shop"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/kebabshop.jpg"
 location: "1570 Camino De La Reina"
 distance: ".9mi away"

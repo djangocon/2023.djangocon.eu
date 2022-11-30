@@ -10,7 +10,7 @@ layout: session-details
 permalink: /talks/explaining-explain-a-dive-into-s-explain/
 presenter_slugs:
 - richard-yen
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slides_url: https://speakerdeck.com/richyen/explaining-explain-a-dive-into-postgresql-explain-plans

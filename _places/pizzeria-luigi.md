@@ -2,7 +2,7 @@
 layout: base
 
 name: "Pizzeria Luigi"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/pizzerialuigi.jpg"
 location: "2121 El Cajon Blvd"
 distance: "1.6mi away"

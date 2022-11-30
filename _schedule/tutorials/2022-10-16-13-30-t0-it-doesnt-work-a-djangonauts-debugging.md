@@ -14,7 +14,7 @@ layout: session-details
 permalink: /tutorials/it-doesnt-work-a-djangonauts-debugging/
 presenter_slugs:
 - tim-schilling
-published: true
+published: false
 room: Balboa I & II
 sitemap: true
 slides_url: https://docs.google.com/presentation/d/1dmeFD5kGsukQaMinU0BJQyyCeu5ZGR4drc0pJilT10Y/edit?usp=sharing

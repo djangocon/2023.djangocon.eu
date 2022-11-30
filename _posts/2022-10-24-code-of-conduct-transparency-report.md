@@ -3,6 +3,7 @@ author: Drew Winstel
 category: General
 date: 2022-10-24 12:00:00-07:00
 layout: post
+published: false
 title: Code of Conduct Transparency Report for DjangoCon US 2022
 ---
 
@@ -15,11 +16,11 @@ The organizers of DjangoCon US 2022 are proud to release this year's Code of Con
 
 # Takeaways
 
-While this was not formally reported as a direct CoC violation, one talk was disparaging of the Django fellows and maintainers. This talk does not reflect the opinions of DCUS organizers or volunteers. 
+While this was not formally reported as a direct CoC violation, one talk was disparaging of the Django fellows and maintainers. This talk does not reflect the opinions of DCUS organizers or volunteers.
 
-We, the organizers of DCUS, are discussing how to better mitigate situations like this going forward, and we will not post that talk on YouTube until we have decided on any measures. 
+We, the organizers of DCUS, are discussing how to better mitigate situations like this going forward, and we will not post that talk on YouTube until we have decided on any measures.
 
-We will announce any new policies when we release the CFP for 2023. 
+We will announce any new policies when we release the CFP for 2023.
 
 # Wrap-up
 

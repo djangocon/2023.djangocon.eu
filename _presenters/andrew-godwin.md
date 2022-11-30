@@ -1,5 +1,6 @@
 ---
 company: "astronomer.io"
+hidden: true
 github: andrewgodwin
 layout: speaker-template
 name: Andrew Godwin

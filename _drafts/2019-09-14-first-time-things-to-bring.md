@@ -3,6 +3,7 @@ author: Drew Winstel
 category: General
 date: 2019-09-14 06:00:00
 layout: post
+published: false
 image: /static/img/blog/what-should-i-bring.png
 title: "It’s my first DjangoCon US. What should I bring?"
 published: false

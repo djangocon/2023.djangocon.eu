@@ -1,6 +1,6 @@
 ---
 company: Octobot
-hidden: false
+hidden: true
 layout: speaker-template
 name: Joaquín Scocozza
 permalink: /presenters/joaquin-scocozza/

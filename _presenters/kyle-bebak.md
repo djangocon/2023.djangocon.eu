@@ -1,6 +1,6 @@
 ---
 company: Elementary
-hidden: false
+hidden: true
 layout: speaker-template
 name: Kyle Bebak
 permalink: /presenters/kyle-bebak/

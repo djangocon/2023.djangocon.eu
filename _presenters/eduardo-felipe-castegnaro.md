@@ -1,6 +1,6 @@
 ---
 company: OnSign TV
-hidden: false
+hidden: true
 layout: speaker-template
 name: Eduardo Felipe Castegnaro
 permalink: /presenters/eduardo-felipe-castegnaro/

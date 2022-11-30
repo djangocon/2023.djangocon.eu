@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Silver"
 name: "TestDriven.io"
 logo: "/static/img/sponsors/black_preferred_TestDriven.png"

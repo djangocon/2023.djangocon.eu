@@ -16,7 +16,7 @@ layout: session-details
 permalink: /talks/why-large-django-projects-need-a-data/
 presenter_slugs:
 - flavio-juvenal
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

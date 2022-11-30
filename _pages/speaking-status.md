@@ -3,7 +3,7 @@ description: Our Speaking Status for YouTube catching missing links
 heading: Speaking Status
 layout: default
 permalink: /speaking/status/
-published: true
+published: false
 sitemap: false
 title: Speaking Status
 ---

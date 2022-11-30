@@ -3,6 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-08-19 13:00:00
 layout: post
+published: false
 title: "Development Sprints: What are they & why should I attend?"
 ---
 

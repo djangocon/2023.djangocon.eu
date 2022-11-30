@@ -23,7 +23,7 @@ layout: session-details
 permalink: /talks/security-best-practices-for-django/
 presenter_slugs:
 - gajendra-deshpande
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

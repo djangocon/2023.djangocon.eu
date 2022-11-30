@@ -11,7 +11,7 @@ layout: session-details
 permalink: /talks/hidden-gems-of-django-admin/
 presenter_slugs:
 - maxim-danilov
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

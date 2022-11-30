@@ -14,7 +14,7 @@ layout: session-details
 permalink: /talks/scheming-with-csrf-when-platforms-manage/
 presenter_slugs:
 - katie-mclaughlin
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: scheming-with-csrf-when-platforms-manage-to-break-things

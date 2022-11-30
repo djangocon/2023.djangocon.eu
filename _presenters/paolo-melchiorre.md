@@ -1,7 +1,7 @@
 ---
 company: 20tab
 github: pauloxnet
-hidden: false
+hidden: true
 layout: speaker-template
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/

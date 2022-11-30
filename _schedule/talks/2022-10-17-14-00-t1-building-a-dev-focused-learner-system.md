@@ -17,7 +17,7 @@ layout: session-details
 permalink: /talks/building-a-dev-focused-learner-system/
 presenter_slugs:
 - sheena-o-connell
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slug: building-a-dev-focused-learner-management-system-with-django

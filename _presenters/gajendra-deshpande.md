@@ -1,6 +1,6 @@
 ---
 company: KLS Gogte Institute of Technology
-hidden: false
+hidden: true
 layout: speaker-template
 name: Gajendra Deshpande
 permalink: /presenters/gajendra-deshpande/

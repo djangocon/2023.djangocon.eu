@@ -1,6 +1,6 @@
 ---
 company: TechSmart
-hidden: false
+hidden: true
 layout: speaker-template
 name: David Foster
 permalink: /presenters/david-foster/

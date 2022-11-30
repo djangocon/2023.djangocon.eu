@@ -3,6 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-10-13 06:00:00
 layout: post
+published: false
 image: /static/img/blog/opening_reception.png
 title: "Opening Reception at DjangoCon US"
 ---

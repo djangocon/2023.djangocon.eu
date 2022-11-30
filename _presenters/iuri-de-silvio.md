@@ -1,6 +1,6 @@
 ---
 company: Buser Brasil
-hidden: false
+hidden: true
 layout: speaker-template
 name: Iuri de Silvio
 permalink: /presenters/iuri-de-silvio/

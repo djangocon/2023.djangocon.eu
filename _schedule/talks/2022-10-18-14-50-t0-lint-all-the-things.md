@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/lint-all-the-things/
 presenter_slugs:
 - luke-lee
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: lint-all-the-things

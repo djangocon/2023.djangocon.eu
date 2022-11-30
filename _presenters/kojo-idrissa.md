@@ -1,5 +1,6 @@
 ---
 company: Decisio Health
+hidden: true
 github: kojoidrissa
 layout: speaker-template
 name: Kojo Idrissa

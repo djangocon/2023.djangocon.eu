@@ -1,6 +1,6 @@
 ---
 company: Python Paraguay
-hidden: false
+hidden: true
 layout: speaker-template
 name: Marcelo Elizeche Landó
 permalink: /presenters/marcelo-elizeche-lando/

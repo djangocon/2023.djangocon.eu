@@ -18,7 +18,7 @@ layout: session-details
 permalink: /talks/the-django-admin-is-your-oyster-lets-its/
 presenter_slugs:
 - adrienne-franke
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slides_url: https://github.com/adriennefranke/djangocon2022/blob/main/presentation.pdf

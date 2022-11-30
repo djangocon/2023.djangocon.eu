@@ -22,7 +22,7 @@ layout: session-details
 permalink: /talks/django-migrations-pitfalls-and-solutions/
 presenter_slugs:
 - benjamin-zags-zagorsky
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slides_url: https://drive.google.com/file/d/1pV26NYQIbzOctHacfxK8JAvDitxgRD-Q/view

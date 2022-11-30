@@ -1,6 +1,6 @@
 ---
 company: Caktus Group
-hidden: false
+hidden: true
 layout: speaker-template
 name: Jason Judkins
 permalink: /presenters/jason-judkins/

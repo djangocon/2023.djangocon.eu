@@ -1,6 +1,6 @@
 ---
 company: Octobot
-hidden: false
+hidden: true
 layout: speaker-template
 name: Carmela Beiro
 permalink: /presenters/carmela-beiro/

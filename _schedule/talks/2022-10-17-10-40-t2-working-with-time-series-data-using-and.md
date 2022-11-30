@@ -17,7 +17,7 @@ layout: session-details
 permalink: /talks/working-with-time-series-data-using-and/
 presenter_slugs:
 - joaquin-scocozza
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

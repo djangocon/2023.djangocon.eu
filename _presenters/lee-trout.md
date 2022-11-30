@@ -1,6 +1,6 @@
 ---
 company: Hookdeck
-hidden: false
+hidden: true
 layout: speaker-template
 name: Lee Trout
 permalink: /presenters/lee-trout/

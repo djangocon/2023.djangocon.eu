@@ -1,7 +1,7 @@
 ---
 pronouns: he/him
 company: AspirEDU / Jazzband / Underdog Devs
-hidden: false
+hidden: true
 layout: speaker-template
 name: Tim Schilling
 permalink: /presenters/tim-schilling/

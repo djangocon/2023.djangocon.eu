@@ -3,6 +3,7 @@ author: Katia Lira
 category: Program
 date: 2019-04-01 06:00:00
 layout: post
+published: false
 image: /static/img/blog/cfp-announcement.png
 post_photo_url: /static/img/blog/speaking.jpg
 post_photo_alt: "Anna Makarudze speaking at DjangoCon US 2018"

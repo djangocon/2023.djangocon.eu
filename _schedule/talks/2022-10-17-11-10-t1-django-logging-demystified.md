@@ -12,7 +12,7 @@ layout: session-details
 permalink: /talks/django-logging-demystified/
 presenter_slugs:
 - lee-trout
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slides_url: https://github.com/leetrout/djangocon-us-2022/blob/main/Demystifying_Django_Logging_DCUS22.pdf

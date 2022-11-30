@@ -1,7 +1,7 @@
 ---
 company: Microsoft
 github: kjaymiller
-hidden: false
+hidden: true
 layout: speaker-template
 name: Jay Miller
 permalink: /presenters/jay-miller/

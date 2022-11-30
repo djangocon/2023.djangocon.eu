@@ -10,7 +10,7 @@ layout: session-details
 permalink: /talks/django-through-the-years/
 presenter_slugs:
   - andrew-godwin
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slug: django-through-the-years

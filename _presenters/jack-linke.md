@@ -1,6 +1,6 @@
 ---
 company: Watervize
-hidden: false
+hidden: true
 layout: speaker-template
 name: Jack Linke
 permalink: /presenters/jack-linke/
@@ -29,11 +29,11 @@ Open Source Projects:
 ---
 
 >    Email: jack@watervize.com
->    
+>
 >    Twitter: https://twitter.com/JackDLinke
->    
+>
 >    Polywork: https://www.polywork.com/jacklinke
->    
+>
 >    Website (personal): https://www.jacklinke.com
->    
+>
 >    Website (Watervize): https://www.watervize.com

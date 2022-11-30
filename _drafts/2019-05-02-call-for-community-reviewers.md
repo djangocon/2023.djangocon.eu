@@ -3,6 +3,7 @@ author: Rebecca Kindschi
 category: Program
 date: 2019-05-01 06:00:00
 layout: post
+published: false
 image: /static/img/blog/call-for-reviewers-2019.png
 post_photo_url: /static/img/blog/call-for-reviewers.jpg
 post_photo_alt: "Lacey Williams Henschel speaking at DjangoCon US 2018"

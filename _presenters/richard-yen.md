@@ -1,6 +1,6 @@
 ---
 company: EnterpriseDB (EDB)
-hidden: false
+hidden: true
 layout: speaker-template
 name: Richard Yen
 permalink: /presenters/richard-yen/

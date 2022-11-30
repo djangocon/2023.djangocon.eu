@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Silver"
 name: "ButterCMS"
 logo: "/static/img/sponsors/butter_black.svg"

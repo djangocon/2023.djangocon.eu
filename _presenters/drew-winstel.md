@@ -1,5 +1,6 @@
 ---
 github: drewbrew
+hidden: true
 name: Drew Winstel
 permalink: /presenters/drew-winstel/
 photo_url: /static/img/organizers/drew.jpg

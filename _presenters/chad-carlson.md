@@ -1,6 +1,6 @@
 ---
 company: Platform.sh
-hidden: false
+hidden: true
 layout: speaker-template
 name: Chad Carlson
 permalink: /presenters/chad-carlson/

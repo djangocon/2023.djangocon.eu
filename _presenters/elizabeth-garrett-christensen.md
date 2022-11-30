@@ -1,6 +1,6 @@
 ---
 company: Crunchy Data
-hidden: false
+hidden: true
 layout: speaker-template
 name: Elizabeth Garrett Christensen
 permalink: /presenters/elizabeth-garrett-christensen/

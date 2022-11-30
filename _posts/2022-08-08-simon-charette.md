@@ -4,6 +4,7 @@ category: Program
 date: 2022-08-08 16:00:00-07:00
 image: /static/img/presenters/simon-charette.jpg
 layout: post
+published: false
 title: 'Announcing Our Keynotes: Simon Charette'
 ---
 

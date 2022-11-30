@@ -1,6 +1,6 @@
 ---
 company: Arbisoft, Lahore, Pakistan
-hidden: false
+hidden: true
 layout: speaker-template
 name: Syed Muhammad Dawoud Sheraz Ali
 permalink: /presenters/syed-muhammad-dawoud-sheraz-ali/

@@ -1,6 +1,6 @@
 ---
 company: Healthcare Bluebook
-hidden: false
+hidden: true
 layout: speaker-template
 name: Adrienne Franke
 permalink: /presenters/adrienne-franke/

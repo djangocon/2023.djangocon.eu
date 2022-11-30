@@ -1,6 +1,6 @@
 ---
 company: Summit Technology Group
-hidden: false
+hidden: true
 layout: speaker-template
 name: David Graves
 permalink: /presenters/david-graves/

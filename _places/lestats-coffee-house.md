@@ -2,7 +2,7 @@
 layout: base
 
 name: "Lestat's Coffee House"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/lestats.jpg"
 location: "3343 Adams Ave"
 distance: "2.2mi away"

@@ -17,7 +17,7 @@ presenter_slugs:
 - brent-o-connor
 - joshua-weaver
 - levi-mann
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

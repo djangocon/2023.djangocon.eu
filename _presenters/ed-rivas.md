@@ -1,6 +1,6 @@
 ---
 company: OddBird
-hidden: false
+hidden: true
 layout: speaker-template
 name: Ed Rivas
 permalink: /presenters/ed-rivas/

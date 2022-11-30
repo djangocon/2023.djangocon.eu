@@ -3,6 +3,7 @@ author: Kojo Idrissa
 category: Program
 date: 2019-09-09 06:00:00
 layout: post
+published: false
 image: /static/img/blog/orientation.png
 title: "DjangoCon US 2019 Orientation Event"
 published: false

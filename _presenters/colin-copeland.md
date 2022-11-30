@@ -1,7 +1,7 @@
 ---
 company: Caktus Group
 github: copelco
-hidden: false
+hidden: true
 layout: speaker-template
 name: Colin Copeland
 permalink: /presenters/colin-copeland/

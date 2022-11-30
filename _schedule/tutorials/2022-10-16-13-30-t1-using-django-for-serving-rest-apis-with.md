@@ -16,7 +16,7 @@ layout: session-details
 permalink: /tutorials/using-django-for-serving-rest-apis-with/
 presenter_slugs:
 - kuldeep-pisda
-published: true
+published: false
 room: Sierra 5
 sitemap: true
 slug: using-django-for-serving-rest-apis-with-permission-control-and-customizing-the-default-admin-panel

@@ -22,7 +22,7 @@ layout: session-details
 permalink: /talks/lessons-learned-teaching-undergraduate-a/
 presenter_slugs:
 - andrew-mshar
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

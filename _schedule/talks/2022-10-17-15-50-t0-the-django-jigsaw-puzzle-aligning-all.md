@@ -10,7 +10,7 @@ layout: session-details
 permalink: /talks/the-django-jigsaw-puzzle-aligning-all/
 presenter_slugs:
 - will-vincent
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: the-django-jigsaw-puzzle-aligning-all-the-pieces

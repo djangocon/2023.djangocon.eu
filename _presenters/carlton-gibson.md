@@ -1,6 +1,6 @@
 ---
 company: Django Fellow
-hidden: false
+hidden: true
 layout: speaker-template
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/

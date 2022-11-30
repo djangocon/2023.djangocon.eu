@@ -1,6 +1,6 @@
 ---
 company: SoundCloud
-hidden: false
+hidden: true
 layout: speaker-template
 name: Camila Maia
 permalink: /presenters/camila-maia/

@@ -14,7 +14,7 @@ layout: session-details
 permalink: /talks/herding-your-database-queries-diagnosing/
 presenter_slugs:
 - ilya-bass
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slides_url: https://engineering.pathai.com/herding-your-database-queries-in-django

@@ -14,7 +14,7 @@ layout: session-details
 permalink: /talks/miracles-in-anarchy/
 presenter_slugs:
 - timothy-allen
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slug: miracles-in-anarchy

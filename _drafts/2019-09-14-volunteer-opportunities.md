@@ -3,6 +3,7 @@ author: Rebecca Kindschi
 category: General
 date: 2019-09-14 06:00:00
 layout: post
+published: false
 image: /static/img/blog/volunteer-opportunities-2019.png
 title: "Help Run DjangoCon US"
 published: false

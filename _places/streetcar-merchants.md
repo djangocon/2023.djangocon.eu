@@ -2,7 +2,7 @@
 layout: base
 
 name: "Streetcar Merchants"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/streetcar.jpg"
 location: "4002 30th St"
 distance: "2.3mi away"

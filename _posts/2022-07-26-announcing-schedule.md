@@ -4,6 +4,7 @@ category: Program
 date: 2022-07-26 20:00:00-07:00
 image: /static/img/blog/crowd.jpg
 layout: post
+published: false
 title: Announcing the 2022 Schedule!
 ---
 

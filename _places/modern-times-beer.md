@@ -2,7 +2,7 @@
 layout: base
 
 name: "Modern Times Beer"
-hidden: false
+hidden: true
 photo_url: "/static/img/places/moderntimes.jpg"
 location: "3000 Upas St"
 distance: "2.9mi away"

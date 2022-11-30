@@ -1,6 +1,6 @@
 ---
 company: AstroVenture
-hidden: false
+hidden: true
 layout: speaker-template
 name: Andrew Mshar
 permalink: /presenters/andrew-mshar/

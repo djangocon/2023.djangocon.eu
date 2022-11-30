@@ -11,7 +11,7 @@ layout: session-details
 permalink: /talks/ayudapy-org-from-weekend-project-to-key/
 presenter_slugs:
 - marcelo-elizeche-lando
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: ayudapy-org-from-weekend-project-to-key-civic-movement-during-the-pandemic

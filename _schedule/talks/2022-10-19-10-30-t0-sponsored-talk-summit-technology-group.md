@@ -10,7 +10,7 @@ permalink: /talks/sponsored-talk-summit-technology-group/
 presenter_slugs:
   - thulasidharan-lg
   - david-graves
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 schedule_layout: full

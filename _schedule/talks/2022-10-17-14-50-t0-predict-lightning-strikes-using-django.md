@@ -12,7 +12,7 @@ layout: session-details
 permalink: /talks/predict-lightning-strikes-using-django/
 presenter_slugs:
 - calvin-hendryx-parker
-published: true
+published: false
 room: Salon A-E
 sitemap: true
 slug: predict-lightning-strikes-using-django-and-aws

@@ -3,6 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-07-08 13:00:00
 layout: post
+published: false
 title: Lead or organize a Development Sprint at DCUS 2022!
 ---
 

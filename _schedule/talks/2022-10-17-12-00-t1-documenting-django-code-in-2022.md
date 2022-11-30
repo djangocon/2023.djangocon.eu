@@ -17,7 +17,7 @@ layout: session-details
 permalink: /talks/documenting-django-code-in-2022/
 presenter_slugs:
 - eric-holscher
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slug: documenting-django-code-in-2022

@@ -13,7 +13,7 @@ layout: session-details
 permalink: /talks/method-resolution-order-mro-in-python/
 presenter_slugs:
 - sanyam-khurana
-published: true
+published: false
 room: Salon F-H
 sitemap: true
 slides_url: https://speakerdeck.com/curiouslearner/method-resolution-order-in-python

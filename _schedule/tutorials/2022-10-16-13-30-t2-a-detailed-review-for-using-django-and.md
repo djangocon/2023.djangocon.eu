@@ -27,7 +27,7 @@ layout: session-details
 permalink: /tutorials/a-detailed-review-for-using-django-and/
 presenter_slugs:
 - ken-whitesell
-published: true
+published: false
 room: Cabrillo 1
 sitemap: true
 slug: a-detailed-review-for-using-django-channels-and-htmx-to-create-dynamic-and-interactive-web-sites

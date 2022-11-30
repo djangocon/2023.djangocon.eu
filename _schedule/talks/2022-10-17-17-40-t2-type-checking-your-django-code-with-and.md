@@ -19,7 +19,7 @@ layout: session-details
 permalink: /talks/type-checking-your-django-code-with-and/
 presenter_slugs:
 - kyle-bebak
-published: true
+published: false
 room: Online talks
 schedule_layout: full
 sitemap: true

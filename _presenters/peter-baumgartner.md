@@ -1,6 +1,6 @@
 ---
 company: Lincoln Loop
-hidden: false
+hidden: true
 layout: speaker-template
 name: Peter Baumgartner
 permalink: /presenters/peter-baumgartner/

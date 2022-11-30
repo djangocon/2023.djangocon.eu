@@ -3,6 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-06-04 12:00:00
 layout: post
+published: false
 title: Introducing Logan Kilpatrick, the 2022 DjangoCon US Chair
 ---
 
@@ -19,7 +20,7 @@ We're proud to bring Logan into the DjangoCon organizing community, and to let t
 
 ## Many of us are less familiar with Julia. Can you tell us a little bit about the community around that language and what you think Django and Python can learn from them or vice versa?
 
-> LK: "[Julia](https://julialang.org) is a high level, dynamic programming language that has high level syntax like Python but the speed characteristics of C++. It is most commonly used in scientific applications but is a general purpose language. I started using and learning Julia when I was interning at NASA back in 2017. The Python and Django community have been very successful in galvanizing widespread adoption and becoming the most popular language in the world. There is so much the Julia community can learn from the hard lessons of the past few decades the Python and Django community have gone through. On the technical side, it would be great to see the Julia ecosystem accelerate efforts in the web development space. There are already tools like the [Genie Framework](https://genieframework.com) but comparatively with ecosystems like Django, they are far less mature. On the community front, I think one of the coolest parts about the Julia community is that it really feels like a community. I think events like DjangoCon and PyCon are critical in ensuring that as the community continues to expand, there are still opportunities to connect both in person and virtually. 
+> LK: "[Julia](https://julialang.org) is a high level, dynamic programming language that has high level syntax like Python but the speed characteristics of C++. It is most commonly used in scientific applications but is a general purpose language. I started using and learning Julia when I was interning at NASA back in 2017. The Python and Django community have been very successful in galvanizing widespread adoption and becoming the most popular language in the world. There is so much the Julia community can learn from the hard lessons of the past few decades the Python and Django community have gone through. On the technical side, it would be great to see the Julia ecosystem accelerate efforts in the web development space. There are already tools like the [Genie Framework](https://genieframework.com) but comparatively with ecosystems like Django, they are far less mature. On the community front, I think one of the coolest parts about the Julia community is that it really feels like a community. I think events like DjangoCon and PyCon are critical in ensuring that as the community continues to expand, there are still opportunities to connect both in person and virtually.
 
 ## What inspired you to nominate yourself for the DEFNA Board and then volunteer as conference chair?
 
@@ -35,6 +36,6 @@ We're proud to bring Logan into the DjangoCon organizing community, and to let t
 
 ## What's the best way for people to get in touch with you if they'd like to know more?
 
-> LK: "My [Twitter DM's are open](https://twitter.com/OfficialLoganK) and that is where I am most active. You can also get in touch with me via email: logan at defna.org. I am looking forward to connecting more with the Django Community!" 
+> LK: "My [Twitter DM's are open](https://twitter.com/OfficialLoganK) and that is where I am most active. You can also get in touch with me via email: logan at defna.org. I am looking forward to connecting more with the Django Community!"
 
 Thanks so much for your time, and the entire DEFNA board and DCUS organizer community thanks you for volunteering!

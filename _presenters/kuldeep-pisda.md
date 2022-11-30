@@ -1,6 +1,6 @@
 ---
 company: Goldcast Inc
-hidden: false
+hidden: true
 layout: speaker-template
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/

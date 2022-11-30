@@ -12,7 +12,7 @@ layout: session-details
 permalink: /talks/how-to-turn-your-website-into-an-app-and/
 presenter_slugs:
 - russell-keith-magee
-published: true
+published: false
 room: Salon A-E
 schedule_layout: full
 sitemap: true

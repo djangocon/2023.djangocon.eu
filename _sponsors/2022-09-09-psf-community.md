@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Community"
 name: "Python Software Foundation"
 logo: "/static/img/sponsors/psf-logo.svg"

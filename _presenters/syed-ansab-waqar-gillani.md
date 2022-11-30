@@ -1,6 +1,6 @@
 ---
 company: Arbisoft
-hidden: false
+hidden: true
 layout: speaker-template
 name: Syed Ansab Waqar Gillani
 permalink: /presenters/syed-ansab-waqar-gillani/

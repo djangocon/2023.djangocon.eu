@@ -1,6 +1,6 @@
 ---
 company: Katana ML
-hidden: false
+hidden: true
 layout: speaker-template
 name: Andrej Baranovskij
 permalink: /presenters/andrej-baranovskij/
