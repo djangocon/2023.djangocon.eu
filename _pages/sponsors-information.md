@@ -6,108 +6,50 @@ permalink: /sponsors/information/
 title: Become a Sponsor
 ---
 
-## About the Event
+## Why Sponsor DjangoCon Europe?
 
-DjangoCon Europe is not possible without your support. The spirit of the event focuses on providing a platform for new and experiences speakers to share their stories and knowledge.
+This will be the 15th DjangoCon Europe, and is being held in Edinburgh from the 29th May to the 2nd June. DjangoCon Europe is the biggest dedicated Django conference in Europe and attracts many of the World's leading Django developers to speak, conduct workshops and share knowledge.
 
-### Our goal is to keep ticket costs low while providing:
+If you're looking to hire developers, promote a product that's useful to developers, promote awareness of your organisation, or just give something back to the community, then you should sponsor DjangoCon Europe.
 
-- Free childcare stipends
-- Opportunity grants
-- A lactation room
-- Meals
-- A centrally located venue
-- Reimbursement for speaker travel and lodging expenses
-- A networking party to start the event.
+DjangoCon Europe has existed for more than a decade and is professionally run by passionate volunteers, and on a not-for-profit basis.
 
-The DjangoCon Europe Slack channel currently has 700+ members where attendees get and give advice, discuss Django/Python issues, and all-around support each other, establishing a year-round connection that helps ensure the conference is as welcoming and comfortable as possible.
+## Sponsorship Packages
 
-We promote our sponsors on our @djangocon Twitter account, which has over 18.8K followers. Our tweets are seen around the world.
+The following table details the core sponsorship levels. We have several different packages that offer different levels of visibility, but all will show your organisation's support of the Django Community, both on the screen during the conference, in printed materials.
 
-In the event that a profit is made from our fundraising efforts, we pay it forward by making a donation to the Django Software Foundation and supporting other Django events in North America who support our mission.
-
-Endless thanks for your support, and we cannot wait to call you a partner in our mission.
-
-Because the conference is organized by [DEFNA](https://www.defna.org/), a non-profit 501(c)(3) organization, your sponsorship is tax-deductible!
-
-**Sponsorship is closed for this year**. Want to know more about sponsorship for 2023?
-
-{% comment %}Want to know more about sponsorship?{% endcomment %}
-
+Gold sponsorship and above includes a booth, which will be placed in the Assembly Rooms' main ballroom, alongside the stations that will provide food and drink at various points during the conference. Gold sponsorship and above will also feature at the start of each talk when they are published on YouTube and thus provide excellent visibility outside of the conference itself.
 
 <a href="mailto:{{site.sponsors_email}}" class="button">Contact Us Today</a>
 
-## Sponsorship Levels
+See the list of extras packages for options you have on top of your core package for increasing your presence at the event.
 
-### Diversity Sponsorships
+| Level    | Description                                                                                                                                                                                                                                                 | Included Tickets | Price  | Number Available |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------: | :----: | :--------------: |
+| Bronze   | Thank you for sponsoring!<br>This package will get you a great presence for your logo. It'll be included whenever all sponsors are listed, on screen and printed materials.                                                                                 |                  | £1000  |        10        |
+| Silver   | Extra presence, including a roll-up banner (to be provided by the sponsor) in a prominent location at the conference.                                                                                                                                       |        1         | £2500  |        5         |
+| Gold     | We'll provide a standard sized booth area for you to demonstrate your product and meet with attendees.                                                                                                                                                      |        3         | £6000  |        5         |
+| Platinum | We'll provide a standard sized booth area in a prominent position, for you to demonstrate your product and meet with attendees. You'll get extra logo presence and several mentions each day during the conference.                                         |        5         | £10000 |        3         |
+| Diamond  | There's only one of these packages available. We'll give you a large space to set up a booth in the middle of our incredible ballroom, and you'll be the most visible sponsor. Your commitment to the Django community won't be in doubt with this package. |        8         | £15000 |        1         |
 
-Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
+# Extras Packages:
 
-### Other Sponsorship Opportunities
+The following packages are options that can be added to the base sponsorship levels above. Please feel free to reach out to us to discuss your specific requirements if one of the following doesn't quite match what you're looking for.
 
-The following a la carte offerings are available to increase visibility on site.
+**Lanyard Sponsorship**: £1500
 
-|                                                                    | Diamond<br> $18,000 | Platinum<br> $9,000 | Gold<br> $4,500                         | Silver<br> $2,250 | Bronze<br> $1,125   |
-| ------------------------------------------------------------------ | :-----------------: | :-----------------: | :-------------------------------------: | :----------------: | :----------------: |
-| Free sponsor tickets                                               |          8          |          8          |     4                                   |         2          |         1          |
-| 10% discount conference tickets  <br>(Corporate rate)              |          8          |          8          |     4                                   |         2          |         1          |
-| Tote bag insert<br> (provided by Sponsor)                          | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:                      | :heavy_check_mark: | :heavy_check_mark: |
-| Sponsor name, logo, link, and description on website               | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:                      | :heavy_check_mark: | :heavy_check_mark: |
-| Optional “Is Hiring” indicator with link on website                | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:                      | :heavy_check_mark: | :heavy_check_mark: |
-| Logo in break video rotation                                       | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:                      | :heavy_check_mark: |                    |
-| Social media: Twitter and Facebook posts                           | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:                      | :heavy_check_mark: |                    |
-| Logo on conference T-SHIRT!                                        | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:                      |                    |                    |
-| Exhibit Table                                                      |          2          |          2          | :heavy_check_mark: <br>space permitting |                    |                    |
-| Sponsor Banner stands <br> (2 max; provided by sponsor)            | Preeminent          | :heavy_check_mark:  | :heavy_check_mark: <br>space permitting |                    |                    |
-| Logo featured on Speaker backdrop                                  | :heavy_check_mark:  | :heavy_check_mark:  |                                         |                    |                    |
-| Logo on ALL conference talk videos available forever               | :heavy_check_mark:  | :heavy_check_mark:  |      $1,000                             |      $1,000        |      $1,000        |
-| Featured in wrap-up video with special thanks                      | Preeminent          | Preeminent          |      $1,000                             |      $1,000        |      $1,000        |
-| Optional ten minute speaking slot after a keynote (max 3 sponsors) | :heavy_check_mark:  |                     |                                         |                    |                    |
-| 1 notification to attendees during the conference                  | :heavy_check_mark:  |                     |                                         |                    |                    |
+Your logo will be printed on every attendee's lanyard. You won't be able to look around without seeing your logo printed at a small size on everybody. This package is available to gold sponsors and above.
 
+**Social Sponsor**: £1500
 
+Social sponsorship will attach your company's brand to the social evening being planned at Edinburgh's Caves, a series of interconnected rooms in a very old building in an ancient part of Edinburgh. Various activities are currently being considered, including board games, craft events and of course drinks and snacks.
 
-#### T-Shirts! Included in Gold Tier +
+**Accessibility Sponsorship**: £3500
 
-Sign your sponsorship contract and pay your invoice by August 15, 2022 to get your logo on our conference t-shirts for all sponsors Gold and up!* T-shirts are distributed at the conference for in-person attendees to wear at no cost to them. Online attendees will be able to purchase the t-shirt to have it delivered to them from a distributor. Logos will ideally be given in one color on a transparent background and be delivered in SVG format.
+Accessibility sponsorship will attach your company's brand to the accessibility features of the conference, specifically the <abbr title="Speech-To-Text Reporter">SSTR</abbr> reporting that provides live speech-to-text transcription. You'll receive extra mentions when the presence of the <abbr title="Speech-To-Text Reporters">SSTRs</abbr> are mentioned.
 
+**Diversity Sponsorship**: £*Various*
 
-#### Opening Party -- $10,000-$14,000
+This sponsorship package includes contributions to various diversity initiatives, including diversity grants and the operation of the conference crèche. Your brand will be associated with the diversity initiatives you've chosen. Please contact us to discuss options.
 
-This can be very customized. Sponsoring the opening party is a great way to introduce yourself to our attendees in a fun, lighthearted environment outside the main conference. We'll help you coordinate logistics and get the word out about your company!
-
-#### Lanyard -- *Silver Tier Minimum* -- $3,500
-
-The lanyard sponsor's logo will appear on the badge lanyards that attendees wear at the conference (and thus in all photos).
-
-#### Tote Bag -- *Silver Tier Minimum* -- $1,500
-
-Multiple sponsors accepted until capacity. Logo will appear prominently on our reusable tote bag, which attendees will keep for years to come.
-
-#### Refreshments -- *Bronze Tier Minimum* -- $2,000+
-
-Display your company's name and logo on the break tables next to the coffee, and let us thank you! This add-on is potentially open to multiple sponsors in the Bronze Tier or higher.
-
-#### Invitation Sponsor -- *Bronze Tier Minimum* -- $3,000
-
-Sponsor logo, link, and a brief statement will appear in the email sent to all attendees welcoming them to the conference and providing instructions. This add-on is open to a single sponsor in the Bronze Tier or higher.
-
-#### Opportunity Grant Sponsor
-
-This sponsorship can be of any amount more than an individual ticket and can be with or without a normal sponsorship tier. These grants help us give sponsorship to attendees who could not otherwise afford to come. Sponsors will be added with name, link, and logo on our website.
-
-#### Django Girls Sponsor -- $1,000+
-
-San Diego Django Girls will be hosting a workshop aimed to encourage women and other underrepresented genders into Django development, and we are inviting you to sponsor!
-
-Donors will be added to the DjangoCon Europe break video rotation, get a tote bag insert, and a social media post. This stacks with DjangoCon Europe tier perks. It's a great value! This is a gender-inclusive event.
-
-#### Need a custom sponsorship package?
-
-We've helped sponsors host luncheons, throw parties, and add opportunity grant sponsorship and other perks to existing packages.
-
-Whether you're joining us in San Diego or supporting us from afar, please consider sponsoring DjangoCon Europe 2022.
-
-We can't do it without you and hope to see you there!
-
-<a href="mailto:{{site.sponsors_email}}" class="button">Contact Us Today</a>
+Please contact <a href="mailto:{{site.sponsors_email}}">{{site.sponsors_email}}</a> with questions and comments and we'll get back to you within 24 hours! We are also available to schedule a call to clarify all the sponsorship packages and even adapt them to your company specific requirements.

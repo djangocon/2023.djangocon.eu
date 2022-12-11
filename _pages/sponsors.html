@@ -27,16 +27,24 @@ permalink: /sponsors/
       <div class="callout text-center partner-cta-box">
         <h2>Sponsor DjangoCon Europe!</h2>
         <p>Sign up to sponsor DjangoCon Europe and help make the conference happen.</p>
-        <a href="/sponsors/information/" class="button">Check out sponsorship opportunities</a>
+        <a href="{% link _pages/sponsors-information.md %}" class="button">Check out sponsorship opportunities</a>
       </div>
     </div>
   </div>
 
-{% assign sponsors_by_level = "Diamond|Platinum|Gold|Lanyard|Silver|Bronze|Opportunity Grant|Community" | split: "|" %}
-{% for level in sponsors_by_level %}
+  {% assign sponsors_count = sponsors_in_level | size %}
+  {% if sponsors_count != 0 %}
+  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Silver|Bronze" | split: "|" %}
+  {% for level in sponsors_by_level %}
   <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
     <h2 class="text-center v-pad-bottom">{{ level }}</h2>
-    {% for sponsor in site.sponsors %}
+    {% assign sponsors = site.sponsors | where: "level", level %}
+    {% if sponsors.size == 0 %}
+      <div class="row partner">
+        You? <a href="{% link _pages/sponsors-information.md %}">Become a sponsor!</a>
+      </div>
+    {% endif %}
+    {% for sponsor in sponsors %}
       {% if sponsor.level == level %}
         {% unless sponsor.hidden %}
           <div class="row partner">
@@ -60,6 +68,10 @@ permalink: /sponsors/
           </div>
         {% endunless %}
       {% endif %}
+    {% else %}
+      <div class="row partner">
+        You? <a href="{% link _pages/sponsors-information.md %}">Become a sponsor!</a>
+      </div>
     {% endfor %}
   </div>
 {% endfor %}
