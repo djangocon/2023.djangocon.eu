@@ -98,7 +98,7 @@ defaults:
 
 # Emails
 conduct_email: "conduct@djangocon.eu"
-contact_us_email: "hello@djangocon.eu"
+contact_us_email: "2023@djangocon.eu"
 opportunity_grants_email: "grants@djangocon.eu"
 program_team_email: "program@djangocon.eu"
 sponsors_email: "sponsors@djangocon.eu"
