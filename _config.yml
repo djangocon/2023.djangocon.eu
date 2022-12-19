@@ -77,7 +77,7 @@ collections: # process the _data folder
 # SEO Plugin settings
 
 twitter:
-  username: djangoconeu
+  username: DjangoConEurope
 
 # This is the default logo that people see with opengraph
 # logo: /static/2023-logos/squares-and-social/djangocon-square.png
