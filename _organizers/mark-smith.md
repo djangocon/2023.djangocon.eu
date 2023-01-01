@@ -1,7 +1,8 @@
 ---
-github: judy2k
 layout: base
 name: Mark Smith
-role: Developer Advocate at MongoDB
+role: Senior Developer Advocate at MongoDB
+photo_url: /static/img/organizers/mark.jpg
 twitter: judy2k
+github: judy2k
 ---
