@@ -58,7 +58,7 @@ collections: # process the _data folder
   schedule:
     output: true
     permalink: /:collection/:name/
-  organizers:
+  organisers:
     output: false
     permalink: /:collection/
   presenters:

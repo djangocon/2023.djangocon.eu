@@ -1,12 +1,12 @@
 ---
-description: Meet the people who made DjangoCon EU 2023 possible.
-heading: Organizers
+description: Meet the people who are making DjangoCon EU 2023 possible.
+heading: Organisers
 layout: base
-permalink: /organizers/
+permalink: /organisers/
 published: true
 redirect_from:
-  - /about/organizers/
-title: Organizers
+  - /about/organisers/
+title: organisers
 ---
 
 <header class="subpage-header">
@@ -17,11 +17,12 @@ title: Organizers
   <section class="section-pad">
     <div class="row column">
       <p class="lead">
-        There is no "I" in DjangoCon EU. Thank you to all our volunteers who make DjangoCon EU happen!
+        There is no "I" in DjangoCon EU.
+        Thank you to all our volunteers who make DjangoCon EU happen!
       </p>
       <div
         class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
-      {% for organizer in site.organizers %}
+      {% for organizer in site.organisers %}
         {% unless organizer.hidden %}
           <div
             class="column column-block">
