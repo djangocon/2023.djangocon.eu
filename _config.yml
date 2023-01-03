@@ -73,6 +73,9 @@ collections: # process the _data folder
   jobs:
     output: true
     permalink: /:collection/:name/
+  locations:
+    output: false
+    permalink: /:collection/
 
 # SEO Plugin settings
 
