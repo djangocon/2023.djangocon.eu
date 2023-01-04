@@ -75,8 +75,11 @@ title: Location
       Edinburgh Airport is just 6 miles from the centre, with direct flights to many 
       destinations around the world. You can easily get to the centre of the city in 
       around 20 minutes by taxi, bus & tram. You can find more information on getting into 
-      the city from the airport on the <a href="http://www.edinburghairport.com/">airport website</a>.
+      the city from the airport on the <a href="http://www.edinburghairport.com/transport-links">airport website</a>.
     </p>
+    <p>
+      The <a href="https://www.edinburghairport.com/transport-links/buses-and-coaches/edinburgh-city-bus-links">airport bus services</a> are frequent, convenient and inexpensive.  The <a href="https://www.edinburghairport.com/transport-links/trams">tram</a> is also a convenient way to get into the city centre. 
+    </p> 
     <h3>By Train</h3>
     <p>
       There are two train stations in the centre of the city, Edinburgh Waverley, and 
@@ -251,7 +254,7 @@ title: Location
   </p>
   <h3>Burgers</h3>
     <p>
-    You'll find a few branches of burger chains such as <a href="https://www.google.com/maps/place/fountain+park,+Dundee+St,+Edinburgh+EH11+1AF,+UK/@55.9414843,-3.2192654,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7a6567bf729:0x58fdfbfbb24837d0!8m2!3d55.9416438!4d-3.2168058">Five Guys</a> around Edinburgh, 
+    You'll find a few branches of burger chains such as <a href="https://restaurants.fiveguys.co.uk/search?q=55.953345599999984%2C-3.1883749&qp=Edinburgh,%20City%20of%20Edinburgh,%20Scotland,%20United%20Kingdom&l=en_GB">Five Guys</a> around Edinburgh, 
     but the real place to go is <a href="http://www.breadmeatsbread.com/">Bread Meats 
     Bread</a>, a Glasgow institution that came to Edinburgh a few years ago and is 
     thriving here.
@@ -291,7 +294,7 @@ title: Location
   <a href="https://www.fiercebeer.com/bars/edinburgh-bar">Fierce Bar</a> and 
   <a href="http://thehangingbat.com/">The Hanging Bat</a> for more modern craft beer. 
   <a href="http://www.redsquirreledinburgh.co.uk/">Red Squirrel</a> and 
-  <a href="https://www.brewdog.com/bars/uk/lothian-road">Brewdog</a> have good pub food menus. A little further away, 
+  <a href="https://www.brewdog.com/uk/brewdog-lothian-road">Brewdog</a> have good pub food menus. A little further away, 
   <a href="https://www.cloistersbar.com/">Cloisters</a> is set in a nice old building, and there's a whole range of other options. For whisky specifically, the 
   <a href="https://www.thebowbar.co.uk/">Bow Bar</a> prides itself on its selection and the knowledge of its bar staff.
   </p>
