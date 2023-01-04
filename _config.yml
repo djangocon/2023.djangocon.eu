@@ -76,6 +76,9 @@ collections: # process the _data folder
   locations:
     output: false
     permalink: /:collection/
+  venues:
+    output: false
+    permalink: /:collection/
 
 # SEO Plugin settings
 
