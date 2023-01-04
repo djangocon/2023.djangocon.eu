@@ -1,29 +1,30 @@
 ---
-description: Information about obtaining a Visa to visit DjangoCon US
-heading: Visa Support at DjangoCon US
+description: Information about obtaining a Visa to visit DjangoCon Europe
+heading: Visa Information
 layout: default
 permalink: /visas/
-published: false
-title: Visa Support at DjangoCon US
+published: true
+title: Visa Information
 ---
 
-## Do I need a visa to enter the USA?
+## Do I need a visa to attend DjangoCon Europe?
 
-That depends on what country issued your passport; see the [US State Department](https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html) website for more information.
+If you’re planning to attend DjangoCon Europe, first check whether you need a visa to 
+visit the UK. Fill in the form on [this page](https://www.gov.uk/check-uk-visa/y) to check 
+whether you need a visa.  A standard UK visitor visa costs £100, and may take around 6 weeks to process.  You can find more information on visa requirements for visiting the UK 
+here.
 
-## I need a letter to obtain a visa. Can you help me with that?
 
-We sure can! Head over to <a href="/invitation">Get Invitation Letter</a> to request your letter of invitation for your visa application at the US Consulate. You will be required to provide:
+## Can you help me with an invitation letter for my visa?
 
-- Full name (as it appears on your passport)
-- Passport number
-- Date of birth
-- Home address
-- Title of talk you're presenting (if any)
-- Amount of opportunity grant funds awarded (if any)
+If you require an invitation letter for your visa application, please first purchase your ticket and then send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}) with: 
 
-Do this as soon as you can! Wait times to get a visitor visa interview are extremely long (and in some countries are over a year).
+- your ticket confirmation
+- full name
+- address
+- a copy of your passport
+- your company and/or university name and address
 
-## I can't get an appointment with the US Consulate in time for the conference. Can I get a refund?
-
-Send an <a href="mailto:{{site.visa_email}}">email</a> to our visa team and we'll make sure you get taken care of.
+## Can I get financial help for my visa application?
+Yes, you can apply for a <a href="/opportunity-grants/">grant</a> to reimburse the costs of your visa application, up to the 
+standard UK visitor visa fee (£100).
