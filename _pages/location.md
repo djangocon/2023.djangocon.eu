@@ -82,8 +82,7 @@ title: Location
       There are two train stations in the centre of the city, Edinburgh Waverley, and 
       Edinburgh Haymarket. It is approximately a 10 minute walk to the Assembly Rooms from 
       Waverley, and 20 minutes from Haymarket. If you're travelling by train it's much 
-      cheaper to book in advance. You can book tickets online on the <a href="https://
-      thetrainline.com">Trainline</a>.
+      cheaper to book in advance. You can book tickets online on the <a href="https://thetrainline.com">Trainline</a>.
       </p> 
   </div>
   </section>
@@ -101,8 +100,7 @@ title: Location
     </p>
     <h3>By Bus & Tram</h3>
     <p>
-      Edinburgh has an excellent bus and tram network.  <a href="https://www.
-      lothianbuses.com/">Lothian Buses</a> are the main city buses; the easiest way to buy tickets is with 
+      Edinburgh has an excellent bus and tram network.  <a href="https://www.lothianbuses.com/">Lothian Buses</a> are the main city buses; the easiest way to buy tickets is with 
       contactless payments on the bus; just tap when you get on - your card will be 
       charged at the end of the day with the capped daily rate.  You can also buy tickets 
       with cash (buses can't give change, so make sure you have the exact fare), or mobile 
