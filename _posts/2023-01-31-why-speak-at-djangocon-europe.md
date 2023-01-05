@@ -26,7 +26,7 @@ Now that we've convinced you that you should speak, watch [Mark's talk](https://
   <iframe width="917" height="516" src="https://www.youtube.com/embed/4rsL974kwsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-The [Call for Proposals](https://pretalx.com/djangocon-europe-2023/cfp) is open until 17:00 (London/Europe) on 26th February 2023.
+The [Call for Proposals](https://pretalx.com/djangocon-europe-2023/cfp) is open until 26th February 2023 [AoE](https://time.is/compare/2359_26_February_2023_in_Anywhere_on_Earth).
 
 
 If you have questions, get in touch with the content team: [content@djangocon.eu](mailto:content@djangocon.eu).
