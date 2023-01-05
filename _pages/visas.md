@@ -17,13 +17,7 @@ here.
 
 ## Can you help me with an invitation letter for my visa?
 
-If you require an invitation letter for your visa application, please first purchase your ticket and then send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}) with: 
-
-- your ticket confirmation
-- full name
-- address
-- a copy of your passport
-- your company and/or university name and address
+If you require an invitation letter for your visa application, please first purchase your ticket and then send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}) with your request. 
 
 ## Can I get financial help for my visa application?
 Yes, you can apply for a <a href="/opportunity-grants/">grant</a> to reimburse the costs of your visa application, up to the 
