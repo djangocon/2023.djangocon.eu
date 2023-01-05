@@ -9,16 +9,16 @@
 
 ## Front Matter
 
-The front matter for pages like sponsors, blog posts, and organizers contains custom variables for each item, located between the triple-dashed lines. The values should be in quotes, example: `name: "Bugs Bunny"`. Here are a list of possibilities:
+The front matter for pages like sponsors, blog posts, and organisers contains custom variables for each item, located between the triple-dashed lines. The values should be in quotes, example: `name: "Bugs Bunny"`. Here are a list of possibilities:
 
-### Organizers
+### Organisers
 
-Organizers are stored in `_organizers`.
+Organisers are stored in `_organisers`.
 
 - **layout**: Which HTML layout from `_layouts/` this page should use. Should be `base`
 - **name**: Full name as you want it to appear on the website
 - **role** Your title for the conference
-- **photo_url**: The path to your photo
+- **photo_url**: The path to your photo. Use a square image, 320x320, in JPEG format for photography or PNG for computer graphics. Compress with [Squoosh](https://squoosh.app/) before adding to GitHub.
 - **github**: Your GitHub username
 - **twitter**: Your Twitter handle
 - **website**: The URL for your website
