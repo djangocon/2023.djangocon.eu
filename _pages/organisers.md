@@ -21,7 +21,7 @@ title: organisers
         Thank you to all our volunteers who make DjangoCon EU happen!
       </p>
       <div
-        class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
+        class="row small-up-1 smedium-up-2 medium-up-3 large-up-4">
       {% for organizer in site.organisers %}
         {% unless organizer.hidden %}
           <div

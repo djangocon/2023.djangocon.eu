@@ -5,7 +5,7 @@ github: kojoidrissa
 layout: speaker-template
 name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
-photo_url: /static/img/organizers/kojo.jpg
+photo_url: /static/img/organisers/kojo.jpg
 slug: kojo-idrissa
 twitter: kojoidrissa
 website: http://kojoidrissa.com/
