@@ -3,7 +3,7 @@ author: DjangoCon Europe Organisers
 category: General
 date: 2023-01-16 08:00:00
 layout: post
-published: false
+published: true
 post_photo_alt: Speaker addressing a crowd at DjangoCon Europe in Porto
 post_photo_url: /static/img/blog/speaking-2023-cfp.jpg
 title: The Call for Proposals for DjangoCon Europe 2023 Is Now Open!

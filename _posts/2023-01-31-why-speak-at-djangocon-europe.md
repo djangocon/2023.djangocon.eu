@@ -3,7 +3,7 @@ author: DjangoCon Europe Organisers
 category: General
 date: 2023-01-31 08:00:00
 layout: post
-published: false
+published: true
 post_photo_alt: Speaker addressing a crowd at DjangoCon Europe in Porto
 post_photo_url: /static/img/blog/speaking-2023-cfp.jpg
 title: Why (and how) should you speak at DjangoCon Europe?

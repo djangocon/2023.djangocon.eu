@@ -3,7 +3,7 @@ author: DjangoCon Europe Organisers
 category: General
 date: 2023-01-06 08:00:00
 layout: post
-published: false
+published: true
 post_photo_alt: The DjangoCon Europe stage in Porto
 post_photo_url: /static/img/blog/porto-stage.jpg
 title: The Call for Proposals for DjangoCon Europe 2023 Is Coming Soon!
