@@ -79,6 +79,9 @@ collections: # process the _data folder
   venues:
     output: false
     permalink: /:collection/
+  news:
+    output: false
+    permalink: /:collection/
 
 # SEO Plugin settings
 
@@ -105,7 +108,7 @@ defaults:
 # Emails
 conduct_email: "conduct@djangocon.eu"
 contact_us_email: "2023@djangocon.eu"
-program_team_email: "content@djangocon.eu"
+content_email: "content@djangocon.eu"
 sponsors_email: "sponsors@djangocon.eu"
 
 # Links

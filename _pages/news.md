@@ -1,8 +1,8 @@
 ---
-description: The latest DjangoCon US 2018 news.
+description: The latest DjangoCon Europe 2023 news.
 heading: News
-layout: post
-published: false-list
+layout: post-list
+published: true
 permalink: /news/
 title: News
 ---
