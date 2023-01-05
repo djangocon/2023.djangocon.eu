@@ -250,11 +250,11 @@ title: 2022 DjangoCon US Recap
   <div class="row">
     <header class="organizer-block-header recap-heading">
       <h2>{{ "DjangoCon 2022 was possible through lots of :heart:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-      <p class="lead">Our organizers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!</p>
+      <p class="lead">Our organisers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!</p>
     </header>
   </div>
-  <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
-    {% for organizer in site.organizers %}
+  <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-4">
+    {% for organizer in site.organisers %}
       {% unless organizer.hidden %}
         <div
           class="column column-block">

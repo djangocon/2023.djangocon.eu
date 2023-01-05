@@ -5,7 +5,7 @@ hidden: true
 layout: speaker-template
 name: Dawn Wages
 permalink: /presenters/dawn-wages/
-photo_url: /static/img/organizers/dawn.jpg
+photo_url: /static/img/organisers/dawn.jpg
 slug: dawn-wages
 twitter: dawnwagessays
 website: http://www.dawnwages.info/

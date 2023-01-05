@@ -31,9 +31,9 @@ Get started contributing by reading our [Contributing](CONTRIBUTING.md) guidelin
 
 Follow the above instructions to step 5.
 
-Click on the `_organizer` folder, then your own `MY_NAME.md` file. Click on the pencil icon to open the file. Make your changes, making sure that your information is placed within quotation marks.
+Click on the `_organisers` folder, then your own `name.md` file. Click on the pencil icon to open the file. Make your changes, making sure that your information is placed within quotation marks.
 
-**To add a photo:** navigate to the `static/img/organizers` folder. Click "Upload files". Drag or choose your photo file into the window. Click "Commit changes". Your photo should now be in the folder. Ideally, the photo should be 400 x 400px. In your `MY_NAME.md` file, make sure the path to your photo has the proper name and file ending (`.jpg`, `.png`, etc.).
+**To add a photo:** navigate to the `static/img/organisers` folder. Click "Upload files". Drag or choose your photo file into the window. Click "Commit changes". Use a square image, 320x320, in JPEG format for photography or PNG for computer graphics. Compress with [Squoosh](https://squoosh.app/). In your `name.md` file, make sure the path to your photo has the proper name and file ending (`.jpg`, `.png`, etc.).
 
 If you need assistance, please ask! Complete step 6.
 

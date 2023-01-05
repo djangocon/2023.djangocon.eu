@@ -164,7 +164,7 @@ class Schedule(FrontmatterModel):
 
 POST_TYPES = [
     {"path": "_jobs", "class_name": Job},
-    {"path": "_organizers", "class_name": Organizer},
+    {"path": "_organisers", "class_name": Organizer},
     {"path": "_pages", "class_name": Page},
     {"path": "_posts", "class_name": Post},
     {"path": "_presenters", "class_name": Presenter},
@@ -491,7 +491,7 @@ def generate_opening_remarks(
         speaker = Presenter(
             name=speaker_name,
         )
-        if (organizer_path := Path(f"_organizers/{speaker.slug}.md")).exists():
+        if (organizer_path := Path(f"_organisers/{speaker.slug}.md")).exists():
             organizer_post = frontmatter.loads(organizer_path.read_text())
             organizer = Organizer(**organizer_post.metadata)
             speaker.twitter = organizer.twitter
