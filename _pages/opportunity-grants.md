@@ -58,7 +58,7 @@ You can apply for 3 types of grant:
 - Visa application fee: reimbursement for the cost of a UK Standard Visitor visa (up to £100).
 
 {% comment %}
-To apply, please fill out [this form](https://2023.djangocon.eu/opportunity-grants/).
+To apply, please fill out our [Opportunity Grant Application]({{ site.opportunity_grant_application }}) form.
 
 The closing date for grant applications is 17:00 (Europe/London) on 31st March 2023. We aim to inform you of the results within a few days after closing the application window. Note that if you need a grant, you must apply before the deadline.
 {% endcomment %}
