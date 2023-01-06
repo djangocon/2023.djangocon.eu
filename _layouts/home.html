@@ -111,7 +111,7 @@ layout: base
   </div>
 </section>
 
-{% assign visible_posts = site.posts | where: 'hidden', false %}
+{% assign visible_posts = site.posts | where_exp: 'item', 'item != false' %}
 
 {% if visible_posts.size > 0 %}
 <section class="news-section section-pad theme-brand-color4 back">
