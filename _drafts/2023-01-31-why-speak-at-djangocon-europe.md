@@ -9,7 +9,7 @@ post_photo_url: /static/img/blog/speaking-2023-cfp.jpg
 title: Why (and how) should you speak at DjangoCon Europe?
 ---
 
-Are you still wondering whether you should submit a proposal for DjangoCon Europe 2023?  
+Are you still wondering whether you should submit a proposal for DjangoCon Europe 2023?
 
 Do you have an idea, but you're not sure how to turn it into a proposal?
 
@@ -26,7 +26,7 @@ Now that we've convinced you that you should speak, watch [Mark's talk](https://
   <iframe width="917" height="516" src="https://www.youtube.com/embed/4rsL974kwsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-The [Call for Proposals](https://pretalx.com/djangocon-europe-2023/cfp) is open until 26th February 2023 [AoE](https://time.is/compare/2359_26_February_2023_in_Anywhere_on_Earth).
+The [Call for Proposals]({{ site.cfp_application }}) is open until 26th February 2023 [AoE](https://time.is/compare/2359_26_February_2023_in_Anywhere_on_Earth).
 
 
-If you have questions, get in touch with the content team: [content@djangocon.eu](mailto:content@djangocon.eu).
+If you have questions, get in touch with the content team: [{{ site.content_email }}](mailto:{{ site.content_email }}).
