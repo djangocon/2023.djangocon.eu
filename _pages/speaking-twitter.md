@@ -15,7 +15,7 @@ title: Twitter Template for Tweets
 {% if day == 'Sunday' or day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
 {% if post.group == 'talks' or post.group == 'tutorials' %}
 <div class="event-byline">
-<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
+<h4>{{ post.date | date: "%-d %b %l:%M %p %Z" }} - {{ post.title }}</h4>
 
 {% capture twitter-copy-link %}copy-{{ post.slug | slugify }}-twitter{% endcapture %}
 

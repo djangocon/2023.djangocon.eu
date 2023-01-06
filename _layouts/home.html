@@ -125,7 +125,7 @@ layout: base
       <article class="news-title medium-4 column">
         <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
           <div class="card-section">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span>
             <h3>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
             </h3>
