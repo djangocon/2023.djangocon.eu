@@ -359,5 +359,17 @@ title: Location
   <a href="https://www.artisanroast.co.uk/">Artisan Roast</a>, and 
   <a href="https://twitter.com/castellocoffee">Castello Coffee</a>, among many others!
   </p>
+  <h3>Ice Cream</h3>
+  <p>
+    Despite (or maybe in spite of) the Scottish weather, Edinburgh has a number of must-try
+    gourmet ice cream shops!  The most famous is
+    <a href="https://www.marysmilkbar.com/">Mary's Milk Bar</a> in the Grassmarket, which
+    has queues even in the worst of weathers, and prides itself on its daily changing
+    menu.  <a href="https://lucasicecream.co.uk/">Luca's</a> has been an Edinburgh
+    institution for over 100 years.
+    Also check out <a href="https://www.facebook.com/people/Bon-Bon-Edinburgh/100057023606995/">
+    Bon Bon</a> and <a href="https://alandas.co.uk/gelato-edinburgh/">Alandas</a>
+    for fabulous italian gelato.
+  </p>
   </div>
   </section>
