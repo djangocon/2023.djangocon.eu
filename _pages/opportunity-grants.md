@@ -1,86 +1,71 @@
 ---
 description: As part of our commitment to diversity, we are thrilled to announce that
   we will be supporting individuals who need opportunity grants to attend DjangoCon
-  US.
+  Europe.
 heading: Opportunity Grants
 layout: default
-published: false
+published: true
 permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
 
-{% comment %}
-We are accepting [opportunity grant](https://2023.djangocon.eu/opportunity-grants/) applications
+DjangoCon Europe 2023 is pleased to offer grants for those who might otherwise not be able to attend.
 
-Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth).
-All decision notifications will be sent by July 8th, 2022.
+## Sponsorship and donations
+Your organisation can help increase diversity at DjangoCon Europe by contributing to the opportunity grant fund. Please check out our <a href="/sponsors/information/">sponsorship information page</a> for more information.
+
+You can also donate by purchasing a supporter ticket which will allow us to allocate extra funds to providing cheaper or free tickets to those who would not otherwise be able to afford to attend.
+
+## Eligibility
+
+We encourage anyone who needs assistance to attend to apply for a grant.  We’d love to be able to help all those who submit applications, but our funds are not unlimited, so we can’t meet all requests. Our goal is to maximise the impact our grant program has, within the limited funds that we have available.
+
+Your application will be treated in complete confidence.
+
+Our selection process will take into account:
+
+- The contribution that the applicant can make to the conference and the wider community.  This may be because you are a speaker or workshop/tutorial presenter, or because you have an impact on the Django community in some other way (e.g. local community organisers, open source contributors).
+- Supporting inclusivity and diversity by prioritising those who belong to under-represented or marginalised groups*.
+- Supporting newcomers to the Python and Django community, especially first time attendees who may not have the financial means to attend.
+- The impact attendance at the conference will have on the individual applicant compared to others.  This may take into account factors such as their local opportunities to attend similar conferences, their involvement in the local community, and their individual circumstances.
+
+
+*under-represented or marginalised groups  include, but are not limited to:
+- women and other gender minorities of all expressions and identities; e.g. trans, agender and non-binary people
+- people of colour
+- sexuality minorities, including asexual people
+- people with disabilities, whether visible and invisible
+- neurodivergent people
+- people with chronic illnesses or diseases
+- religious and ethnic minorities
+- age minorities (under ~21, over ~60)
+- people experiencing poverty
+- homeless and home/food-insecure people
+- caregivers of children or other dependents
+- people who have experienced trauma and its aftermath (PTSD, anxiety, etc)
+- people living with or recovering from substance abuse
+- people who have been displaced or affected by wars in Ukraine and elsewhere
+
+
+## How to apply
+
+Grant applications will open soon.
+
+You can apply for 3 types of grant:
+
+- Conference ticket: a free standard ticket to the full conference talks and sprints (note that if you are a speaker, you will receive a free ticket)
+- Travel and accommodation: we will consider applications for contributions towards travel and accommodation costs up to a maximum £300
+- Visa application fee: reimbursement for the cost of a UK Standard Visitor visa (up to £100).
+
+{% comment %}
+To apply, please fill out our [Opportunity Grant Application]({{ site.opportunity_grant_application }}) form.
+
+The closing date for grant applications is 17:00 (Europe/London) on 31st March 2023. We aim to inform you of the results within a few days after closing the application window. Note that if you need a grant, you must apply before the deadline.
 {% endcomment %}
 
-Our opportunity grant application is now closed, and all decision notifications have been sent.
+If you have any questions, feel free to reach out to the organisers at [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
 
-If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+## Receiving funds
+Grants will be paid at or shortly after the conference or shortly after, as a cheque in GBP.  Alternative methods may be available in exceptional circumstances.
 
-<br>
-
-## Diversity Sponsorships
-
-Your organization can help increase diversity at DjangoCon US by contributing to the Opportunity Grant Fund.
-Please check out our [Sponsorship Information](/sponsors/information/) page for more information.
-
-<br>
-
-## Frequently Asked Questions
-
-### What are opportunity grants?
-They are grants to encourage and facilitate the participation of those who otherwise might not be able to attend the conference.
-They can be used for conference-related expenses like travel, lodging, etc.
-
-### Why did the name change to "opportunity grants"?
-We renamed "financial aid" to "opportunity grants" to become a more inclusive and diverse conference.
-We feel the wording "opportunity grants" makes a positive shift towards being a thriving, supportive and trusting community.
-
-### When will I find out whether I've received an opportunity grant?
-
-You will be notified by July 8th, 2022.
-
-{% comment %}
-You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
-{% endcomment %}
-
-### Do I need to be a speaker, a first-time attendee, or a member of an underrepresented group to receive an opportunity grant?
-
-We try to allocate opportunity grants to a diverse set of attendees based on need.
-Our review process is holistic and considers many different factors, most notably the impact we think attending DjangoCon US will have on the applicant.
-{% comment %}We want to encourage everyone who needs aid to apply for it. Do not rule yourself out before you have even applied!{% endcomment %}
-
-### When will I receive my opportunity grant?
-
-The opportunity grant is paid to the recipient at the conference or shortly after.
-
-### How will I receive my opportunity grant?
-
-The opportunity grant is paid to the recipient in a check for US account holders.
-A bank transfer is used for non-US account holders.
-We typically use TransferWise for international payments but have used other services for currencies they do not support.
-
-We require receipts for the items that the opportunity grant was spent.
-
-### Is there anything I should know if I am traveling into the US from another country?
-
-If you are traveling into the United States, we strongly encourage you to wait to purchase airfare or book a hotel room until after your visa has been accepted.
-
-You can request a visa letter by <a href="mailto:{{site.visa_email}}">emailing us</a>.
-
-If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant).
-
-### What if there is an emergency and I cannot attend?
-
-If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant).
-For other emergencies or additional costs, we will review the recipient's needs on a case-by-case basis.
-
-### How To Donate
-
-[Become a Sponsor](/sponsors/information/)! You or your company can sponsor at a specific level or sponsor a particular need, such as wifi, meals, or sprints.
-Contact our <a href="mailto:{{site.sponsors_email}}">sponsorship chair</a> directly to find out how you can sponsor us.
-
-You may also donate directly to the Opportunity Grant Fund by buying an extra ticket for an attendee who couldn't otherwise afford it when you purchase your ticket. Alternatively, you can add a dollar amount of your choosing.
+Reimbursements for travel/accommodation/visa fees will only be made after submission of invoices/receipts.

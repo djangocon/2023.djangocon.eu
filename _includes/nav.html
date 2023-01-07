@@ -12,16 +12,12 @@
     <li><a href="/faq/">FAQ</a></li>
     {% endcomment %}
     <li><a href="{% link _pages/conduct.html %}">Code of Conduct</a></li>
-    {% comment %}
     <li><a href="/opportunity-grants/">Opportunity Grants</a></li>
-    {% endcomment %}
-    {% comment %}
-    <li><a href="/visas/">Visa Support</a></li>
-    {% endcomment %}
+    <li><a href="/visas/">Visa Information</a></li>
     {% comment %}
     <li><a href="/why-djangocon-eu/">Why DjangoCon EU?</a></li>
     {% endcomment %}
-    <li><a href="/organizers/">Organizers</a></li>
+    <li><a href="/organisers/">Organisers</a></li>
   </ul>
 </li>
 {% comment %}
@@ -35,18 +31,27 @@
   </ul>
 </li>
 {% endcomment %}
-{% comment %}
 <li class="is-dropdown-submenu-parent">
-  <a href="/venue/">Venue</a>
+  <a href="/location/">Location</a>
   <ul class="menu vertical nested">
-    <li><a href="/venue/#welcome">Welcome to Edinburgh!</a></li>
-    <li><a href="/venue/#hotel">Where to stay in Edinburgh</a></li>
-    <li><a href="/venue/#places">Around Edinburgh</a></li>
-    <li><a href="/venue/#accessibility">Accessibility</a></li>
-    <li><a href="/room-sharing/">Room Sharing</a></li>
+    <li><a href="/location/#welcome">Welcome to Edinburgh!</a></li>
+    <li><a href="/location/#getting-here">Getting here</a></li>
+    <li><a href="/location/#getting-around">Getting around</a></li>
+    <li><a href="/location/#things-to-do">Things to do</a></li>
+    <li><a href="/location/#eating-and-drinking">Where to eat and drink</a></li>
+    {% comment %}
+    <li><a href="/location/#accommodation">Accommodation</a></li>
+    {% endcomment %}
   </ul>
 </li>
-{% endcomment %}
+<li class="is-dropdown-submenu-parent">
+  <a href="/venues/">Venues</a>
+  <ul class="menu vertical nested">
+    <li><a href="/venues/#talks">Talks</a></li>
+    <li><a href="/venues/#social">Social Event</a></li>
+    <li><a href="/venues/#sprints">Sprints</a></li>
+  </ul>
+</li>
 
 <li class="is-dropdown-submenu-parent">
   <a href="/speaking/">Speaking</a>
@@ -63,9 +68,7 @@
     <li><a href="{% link _pages/sponsors-information.md %}">Become a Sponsor</a></li>
   </ul>
 </li>
-{% comment %}
 <li><a href="/news/">News</a></li>
-{% endcomment %}
 {% comment %}
 <li>
   <a href="{{ site.ticket_link }}" class="button hollow">

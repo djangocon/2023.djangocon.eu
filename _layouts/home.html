@@ -104,14 +104,14 @@ layout: base
         <div class="card-section">
           <h3 class="card-title">Code of Conduct</h3>
           <p>Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="{% link _pages/conduct.html %}">Code of Conduct</a></strong>.</p>
+        </div>
       </div>
-      </div>
-      {% endcomment %}
     </div>
+    {% endcomment %}
   </div>
 </section>
 
-{% assign visible_posts = site.posts | where: 'hidden', false %}
+{% assign visible_posts = site.posts | where_exp: 'item', 'item != false' %}
 
 {% if visible_posts.size > 0 %}
 <section class="news-section section-pad theme-brand-color4 back">
@@ -125,7 +125,7 @@ layout: base
       <article class="news-title medium-4 column">
         <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
           <div class="card-section">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span>
             <h3>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
             </h3>

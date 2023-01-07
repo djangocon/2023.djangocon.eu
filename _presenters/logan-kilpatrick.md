@@ -3,7 +3,7 @@ github: logankilpatrick
 hidden: true
 name: Logan Kilpatrick
 permalink: /presenters/logan-kilpatrick/
-photo_url: /static/img/organizers/logan.jpg
+photo_url: /static/img/organisers/logan.jpg
 slug: logan-kilpatrick
 title: DjangoCon US 2022 Chair
 pronouns: he/him

@@ -58,7 +58,7 @@ collections: # process the _data folder
   schedule:
     output: true
     permalink: /:collection/:name/
-  organizers:
+  organisers:
     output: false
     permalink: /:collection/
   presenters:
@@ -73,6 +73,15 @@ collections: # process the _data folder
   jobs:
     output: true
     permalink: /:collection/:name/
+  locations:
+    output: false
+    permalink: /:collection/
+  venues:
+    output: false
+    permalink: /:collection/
+  news:
+    output: false
+    permalink: /:collection/
 
 # SEO Plugin settings
 
@@ -99,19 +108,15 @@ defaults:
 # Emails
 conduct_email: "conduct@djangocon.eu"
 contact_us_email: "2023@djangocon.eu"
-opportunity_grants_email: "grants@djangocon.eu"
-program_team_email: "program@djangocon.eu"
+content_email: "content@djangocon.eu"
 sponsors_email: "sponsors@djangocon.eu"
-visa_email: "visas@djangocon.eu"
 
 # Links
 cfp_application: "https://pretalx.com/djangocon-europe-2023/cfp"
-hotel_reservation_link: "https://www.marriott.com/events/start.mi?id=1642551494496&key=GRP"
-opportunity_grant_application: "https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform"
+opportunity_grant_application: "https://forms.gle/uYDV9KWwgp5acQMSA"
 slack_link: ""
 # slack_link: "https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA"
 sponsorship_prospectus: ""
-ticket_link: "https://ti.to/defna/djangocon-us-2023"
-# youtube_link: ""
+ticket_link: ""
 
 github: [metadata]
