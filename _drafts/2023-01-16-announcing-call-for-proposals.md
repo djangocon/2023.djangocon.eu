@@ -21,6 +21,6 @@ For more information on talk and tutorial formats, please check out our [speaker
 
 We want everyone attending DjangoCon Europe to feel safe, welcome, and included. To that end, we have a [Code of Conduct](/conduct/) for all speakers and attendees.
 
-If you have questions feel free [to contact the content team](mailto:{{ site.content_email }}).
+If you have questions feel free [to contact the programme team](mailto:{{ site.content_email }}).
 
 We look forward to your proposals!

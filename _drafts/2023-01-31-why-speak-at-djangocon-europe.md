@@ -29,4 +29,4 @@ Now that we've convinced you that you should speak, watch [Mark's talk](https://
 The [Call for Proposals]({{ site.cfp_application }}) is open until 26th February 2023 [AoE](https://time.is/compare/2359_26_February_2023_in_Anywhere_on_Earth).
 
 
-If you have questions, get in touch with the content team: [{{ site.content_email }}](mailto:{{ site.content_email }}).
+If you have questions, get in touch with the programme team: [{{ site.content_email }}](mailto:{{ site.content_email }}).
