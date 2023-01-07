@@ -6,16 +6,18 @@ permalink: /speaking/
 title: Speaking at DjangoCon Europe
 ---
 
-We'll be open the Call For Proposals in early January.
-Keep an eye on our [Twitter](https://twitter.com/djangoconeurope) account for notifications!    
+We'll open the Call For Proposals on the 16th of January.
+Keep an eye on our [Twitter](https://twitter.com/djangoconeurope) account for notifications!
 
 {% comment %}
-**The deadline is Feb 3rd [AoE](https://time.is/compare/0000_3_March_2023_in_Anywhere_on_Earth) 🔥** That is Feb 4th, 2023, 12:00 UTC. You can edit your submissions up until this time.
+**The deadline is 26th Feb [AoE](https://time.is/compare/2359_26_Feb_2023_in_Anywhere_on_Earth) 🔥**
+In UTC, that's 27th Feb, 2023, 12:00.
+You can edit your submissions up until this time.
 
 [Submit your talk here!](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}
 {% endcomment %}
 
-## Proposing to DjangoCon US
+## Proposing to DjangoCon Europe
 
 ### Selection process
 
@@ -35,9 +37,9 @@ Community volunteers and conference organizers will review anonymized submission
 * Security
 * Whatever you deem appropriate – it's your conference, after all!
 
-You may think that your idea is not suited to DjangoCon Europe, or that you couldn't possibly present it well, or that others will do it better. **We want to prove you wrong**. You should consider reading [Sasha's blog post](https://web.archive.org/web/20190625135013/https://www.mxsasha.eu/blog/2015/03/11/why-you-should-speak/){:target="_blank"} on why you should speak at DjangoCon Europe! This blog post still holds true 6 years later.
+You may think that your idea is not suited to DjangoCon Europe, or that you couldn't possibly present it well, or that others will do it better. **We want to prove you wrong**. You should consider reading [Sasha's blog post](https://web.archive.org/web/20190625135013/https://www.mxsasha.eu/blog/2015/03/11/why-you-should-speak/){:target="_blank"} on why you should speak at DjangoCon Europe! This blog post still holds true 8 years later.
 
-If you would like to ask a question, you are always welcome to write the programme committee: [content@djangocon.eu](mailto:content@djangocon.eu)
+If you would like to ask a question, you are always welcome to write to the programme committee: [content@djangocon.eu](mailto:content@djangocon.eu)
 
 Some DjangoCon Europe speakers have found this talk useful:
 
@@ -45,10 +47,13 @@ Some DjangoCon Europe speakers have found this talk useful:
 
 If you think you have something great to talk about – submit your idea!
 If you are unsure,
-talk it over with somebody, or go to [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA){:target="_blank"} to find previous speakers and participants to discuss your idea with.
+talk it over with somebody you know,
+or go to [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA){:target="_blank"} to find previous speakers and participants to discuss your idea with.
 **When in doubt, submit your talk 😉!**
 
+{% comment %}
 [Submit your talk here!](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}
+{% endcomment %}
 
 ---
 
