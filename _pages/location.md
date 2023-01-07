@@ -91,6 +91,49 @@ title: Location
   </section>
 
 
+  <section id="accommodation">
+  <header class="subpage-header">
+    <h2>Accommodation</h2>
+  </header>
+  <div class="row column">
+  <p>
+    Edinburgh provides a large number and wide range of different hotels categories,
+    which you can book on the usual online sites such as <a href="https://booking.com">Booking.com</a> and <a href="https://uk.hotels.com/">Hotels.com</a>. Also check
+    out accommodation links on
+    <a href="https://www.visitscotland.com/destinations-maps/edinburgh/accommodation">Visit Scotland</a>
+    and <a href="https://edinburgh.org/accommodation/">Forever Edinburgh</a>
+  </p>
+  <p>
+    Edinburgh is a popular tourist destination, and hotels can be in high demand,
+    especially during the spring and summer months, so we recommend booking your
+    accommodation as son as possible.
+  </p>
+  <p>
+    In addition to hotels, Edinburgh has lots of guesthouses, bed & breakfasts and hostels which can be a more affordable option for city centre locations.
+  </p>
+  <p>
+    In particular, some of Edinburgh's hostels are located in awesome interesting and historic buildings, and very central locations:
+    <ul>
+      <li><a href="https://codecoliving.com/">CoDE Co-Living - The Loft</a><br/>Located on
+      Rose Street, and a one minute walk to the conference venue!</li>
+      <li><a href="https://www.codehostels.com/hostels/the-court/">CoDE Pod – The CoURT</a><br/>A former courthouse and jail transformed into a luxury pod hostel, Located just off the Royal Mile</li>
+      <li><a href="https://www.highstreethostel.com/">High Street Hostel</a><br/>A 16th
+      century building, also located just off the Royal Mile</li>
+      <li><a href="https://www.castlerockedinburgh.com/">Castle Rock Hostel</a><br/>Located
+      right beneath the Castle in the historic Old Town.</li>
+      <li><a href="https://www.haystackhostel.com/">Haystack Hostel</a><br/>Located by
+      Waverley train station, between the Old and New Towns</li>
+    </ul>
+  </p>
+  <p>
+    Edinburgh has extremely good public transport links, and the conference venue is accessible by the majority of bus routes as well as tram links.  There are also
+    a number of bicycle hire options (including e-bikes - the city is built on seven hills after all!).  If you're thinking of staying a bit further out of the city centre, have a look at our <a href="/location/#getting-around">guide to getting around</a> below
+    for more information on transport links.
+  </p>
+  </div>
+  </section>
+
+
   <section id="getting-around">
   <header class="subpage-header">
     <h2>Getting around</h2>
@@ -315,6 +358,18 @@ title: Location
   <a href="http://www.brewlabcoffee.co.uk/">Brew Lab</a>, 
   <a href="https://www.artisanroast.co.uk/">Artisan Roast</a>, and 
   <a href="https://twitter.com/castellocoffee">Castello Coffee</a>, among many others!
+  </p>
+  <h3>Ice Cream</h3>
+  <p>
+    Despite (or maybe in spite of) the Scottish weather, Edinburgh has a number of must-try
+    gourmet ice cream shops!  The most famous is
+    <a href="https://www.marysmilkbar.com/">Mary's Milk Bar</a> in the Grassmarket, which
+    has queues even in the worst of weathers, and prides itself on its daily changing
+    menu.  <a href="https://lucasicecream.co.uk/">Luca's</a> has been an Edinburgh
+    institution for over 100 years.
+    Also check out <a href="https://www.facebook.com/people/Bon-Bon-Edinburgh/100057023606995/">
+    Bon Bon</a> and <a href="https://alandas.co.uk/gelato-edinburgh/">Alandas</a>
+    for fabulous italian gelato.
   </p>
   </div>
   </section>
