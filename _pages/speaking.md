@@ -1,30 +1,13 @@
 ---
-description: Information about submitting a proposal to speak at DjangoCon Europe
+description: Information for DjangoCon Europe speakers.
 heading: Speaking at DjangoCon Europe
 layout: default
 permalink: /speaking/
 title: Speaking at DjangoCon Europe
 ---
 
-We'll open the Call For Proposals on the 16th of January.
-Keep an eye on our [Twitter](https://twitter.com/djangoconeurope) account for notifications!
-
-{% comment %}
-**The deadline is 26th Feb [AoE](https://time.is/compare/2359_26_Feb_2023_in_Anywhere_on_Earth) 🔥**
-In UTC, that's 27th Feb, 2023, 12:00.
-You can edit your submissions up until this time.
-
-[Submit your talk here!](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}
-{% endcomment %}
-
-## Proposing to DjangoCon Europe
-
-### Selection process
-
-We’ll choose a selection of talks and tutorials that we feel add to the most enjoyable and engaging program for our attendees.
-Volunteers from the Django community are invited to help us pick talks,
-and we rely heavily on them to help us select interesting and beneficial ones for our attendees.
-Community volunteers and conference organizers will review anonymized submissions and collectively decide which ones to accept.
+We invite proposals from the whole Django community on a wide range of topics from speakers and developers with a wide range of experience.
+You don't have to be an expert Django developer _or_ an expert speaker to speak at DjangoCon Europe!
 
 ## Topics
 
@@ -55,10 +38,42 @@ or go to [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5
 [Submit your talk here!](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}
 {% endcomment %}
 
----
+## Selection process
 
-**CfP powered by:**
+We’ll choose a selection of talks and tutorials that we feel add to the most enjoyable and engaging program for our attendees.
 
-[![pretalx](/static/img/pretalx.svg){:class='hotel'}](https://pretalx.com/p/about/){:target="_blank"}
+Reviewing the talks and tutorials submitted to a conference can be a daunting task – there is much to consider, and usually there are more great submissions than there are slots available in the conference schedule.
 
+We'd like to make our reviewing process and guidelines transparent to every submitter and attendee, both to show you what will await you during the conference as an attendee, and to help you understand our decisions regarding your submissions as a submitter.
 
+### Reviewing
+
+The following describes the current plans for our review process.
+**This process may change as we become aware of things we can improve.**
+
+This year, the first round of reviews will be conducted on anonymised submissions.
+This will give us a base rating for each talk.
+Adding anonymised submissions has been a very successful step in improving the diversity of speakers and content at conferences around the World.
+
+Once all anonymised submissions have been reviewed,
+the proposals will be de-anonymised,
+and talks will be selected from this list,
+ensuring that the selected talks represent the entire Django community,
+taking into account a number of factors:
+
+* The speakers should represent the broad diversity of the Django community,
+  including experience, gender presentation, ethnicity, age and wealth.
+* The talks should cover a broad range of experience and topics that will be of
+  interest and use to our community.
+  This may include everything from highly-technical talks to talks that contain no references to coding at all.
+* We will  encourage talks from new developers and new speakers! 
+  This is how we build a sustainable community for the future.
+* We will do everything we can to ensure that no unwelcome speakers are selected,
+  ensuring safety for other attendees of the conference.
+
+We will, of course, notify you of the review outcome.
+We'll probably send out some of the acceptance mails before the rejection mails, to give accepted speakers a chance to confirm they will be able to give their talk.
+
+We value your feedback. If you have any questions or concerns,
+or you wish to volunteer for the review team,
+please [contact the content team](mailto:{{ site.content_email }})
