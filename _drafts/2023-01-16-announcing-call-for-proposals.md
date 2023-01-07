@@ -9,7 +9,7 @@ post_photo_url: /static/img/blog/speaking-2023-cfp.jpg
 title: The Call for Proposals for DjangoCon Europe 2023 Is Now Open!
 ---
 
-The organisers are excited to announce that DjangoCon Europe 2023 is now open for talk submissions: [call for proposals]({{ site.cfp_application }})! The deadline for submissions is 26th February 2023 [AoE](https://time.is/compare/2359_26_February_2023_in_Anywhere_on_Earth). As long as it’s still 26th February anywhere on earth, you can submit your proposal.
+The organisers are excited to announce that DjangoCon Europe 2023 is now open for talk submissions: [call for proposals](/call-for-proposals/)! The deadline for submissions is 26th February 2023 [AoE](https://time.is/compare/2359_26_February_2023_in_Anywhere_on_Earth). As long as it’s still 26th February anywhere on earth, you can submit your proposal.
 
 We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and community topics are welcome. You can look at our [talk schedule](https://2022.djangocon.eu/talks/schedule/) from last year for reference.
 
