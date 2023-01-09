@@ -66,6 +66,6 @@ The closing date for grant applications is 17:00 (Europe/London) on 31st March 2
 If you have any questions, feel free to reach out to the organisers at [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
 
 ## Receiving funds
-Grants will be paid at or shortly after the conference or shortly after, as a cheque in GBP.  Alternative methods may be available in exceptional circumstances.
+Grants will be paid at the conference or shortly after, as a cheque in GBP.  Alternative methods may be available in exceptional circumstances.
 
 Reimbursements for travel/accommodation/visa fees will only be made after submission of invoices/receipts.
