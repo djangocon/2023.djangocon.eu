@@ -29,13 +29,11 @@ Some DjangoCon Europe speakers have found this talk useful:
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/4rsL974kwsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you think you have something great to talk about – submit your idea!
-If you are unsure,
-talk it over with somebody you know,
-or go to [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA){:target="_blank"} to find previous speakers and participants to discuss your idea with.
+
 **When in doubt, submit your talk 😉!**
 
 {% comment %}
-[Submit your talk here!](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}
+[Submit your talk here!]({{ site.cfp_application }}){:target="_blank"}
 {% endcomment %}
 
 ## Selection process
