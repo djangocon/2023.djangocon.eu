@@ -9,6 +9,9 @@ title: Speaking at DjangoCon Europe
 We invite proposals from the whole Django community on a wide range of topics from speakers and developers with a wide range of experience.
 You don't have to be an expert Django developer _or_ an expert speaker to speak at DjangoCon Europe!
 
+If  you really, *really* want to, you can skip the rest of this page, and just [submit your talk](https://pretalx.com/djangocon-europe-2023/cfp){:target="_blank"},
+but we highly recommend you read the next few sections!
+
 ## Topics
 
 * Django internals and challenges in modern web development.
@@ -30,11 +33,10 @@ Some DjangoCon Europe speakers have found this talk useful:
 
 If you think you have something great to talk about – submit your idea!
 
-**When in doubt, submit your talk 😉!**
+**When in doubt, [submit your talk](https://pretalx.com/djangocon-europe-2023/cfp){:target="_blank"} 😉!**
 
-{% comment %}
-[Submit your talk here!]({{ site.cfp_application }}){:target="_blank"}
-{% endcomment %}
+[Submit your talk here!](https://pretalx.com/djangocon-europe-2023/cfp){:target="_blank"}
+
 
 ## Selection process
 
