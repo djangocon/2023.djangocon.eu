@@ -126,6 +126,9 @@ title: Location
     </ul>
   </p>
   <p>
+    Private holiday letting companies such as <a href="https://www.airbnb.co.uk/edinburgh-scotland/stays">AirBnB</a> and <a href="https://www.vrbo.com/en-gb/search/keywords:edinburgh-scotland-united-kingdom">Vrbo</a> also have a presence in the city.
+  </p>
+  <p>
     Edinburgh has extremely good public transport links, and the conference venue is accessible by the majority of bus routes as well as tram links.  There are also
     a number of bicycle hire options (including e-bikes - the city is built on seven hills after all!).  If you're thinking of staying a bit further out of the city centre, have a look at our <a href="/location/#getting-around">guide to getting around</a> below
     for more information on transport links.
