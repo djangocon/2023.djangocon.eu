@@ -4,7 +4,7 @@ category: General
 date: 2023-01-31 08:00:00
 layout: post
 published: true
-post_photo_alt: Speaker on stage at DjangoCon Europe in Porto 2022
+post_photo_alt: Speaker on stage at DjangoCon Europe 2022 in Porto
 post_photo_url: /static/img/blog/speaking-2023-cfp2.jpg
 title: Why (and how) should you speak at DjangoCon Europe?
 ---
