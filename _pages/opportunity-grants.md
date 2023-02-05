@@ -11,10 +11,10 @@ title: Opportunity Grants
 
 DjangoCon Europe 2023 is pleased to offer grants for those who might otherwise not be able to attend.
 
-## Sponsorship and donations
+## Sponsorship and contributions
 Your organisation can help increase diversity at DjangoCon Europe by contributing to the opportunity grant fund. Please check out our <a href="/sponsors/information/">sponsorship information page</a> for more information.
 
-You can also donate by purchasing a supporter ticket which will allow us to allocate extra funds to providing cheaper or free tickets to those who would not otherwise be able to afford to attend.
+You can also contribute by purchasing a supporter ticket which will allow us to allocate extra funds to providing cheaper or free tickets to those who would not otherwise be able to afford to attend.
 
 ## Eligibility
 
