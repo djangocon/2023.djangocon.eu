@@ -1,12 +1,12 @@
 ---
 author: DjangoCon Europe Organisers
 category: Programme
-date: 2023-02-07 06:00:00
+date: 2023-02-08 06:00:00
 layout: post
 published: true
 image: /static/img/blog/cfp-oppgrants.png
 post_photo_url: /static/img/blog/oppgrants.jpg
-post_photo_alt: "Atendees at DjangoCon Europe 2022"
+post_photo_alt: "Attendees at DjangoCon Europe 2022"
 title: "Opportunity Grant applications are open!"
 published: true
 ---
