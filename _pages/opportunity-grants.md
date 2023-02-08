@@ -12,9 +12,9 @@ title: Opportunity Grants
 DjangoCon Europe 2023 is pleased to offer grants for those who might otherwise not be able to attend.
 
 ## Sponsorship and contributions
-Your organisation can help increase diversity at DjangoCon Europe by contributing to the opportunity grant fund. Please check out our <a href="/sponsors/information/">sponsorship information page</a> for more information.
+Your organisation can help increase diversity at DjangoCon Europe by contributing to the opportunity grant fund. Please check out our [sponsorship information page](/sponsors/information/) for more information.
 
-You can also contribute by purchasing a supporter ticket which will allow us to allocate extra funds to providing cheaper or free tickets to those who would not otherwise be able to afford to attend.
+You can also help by purchasing a supporter ticket which will allow us to allocate extra funds to providing cheaper or free tickets to those who would not otherwise be able to afford to attend.
 
 ## Eligibility
 
@@ -49,19 +49,15 @@ Our selection process will take into account:
 
 ## How to apply
 
-Grant applications will open soon.
-
 You can apply for 3 types of grant:
 
 - Conference ticket: a free standard ticket to the full conference talks and sprints (note that if you are a speaker, you will receive a free ticket)
 - Travel and accommodation: we will consider applications for contributions towards travel and accommodation costs up to a maximum £300
 - Visa application fee: reimbursement for the cost of a UK Standard Visitor visa (up to £100).
 
-{% comment %}
 To apply, please fill out our [Opportunity Grant Application]({{ site.opportunity_grant_application }}) form.
 
-The closing date for grant applications is 17:00 (Europe/London) on 31st March 2023. We aim to inform you of the results within a few days after closing the application window. Note that if you need a grant, you must apply before the deadline.
-{% endcomment %}
+The closing date for grant applications is 31st March 2023 [AoE](https://time.is/compare/0000_01_April_2023_in_Anywhere_on_Earth). We aim to inform you of the results soon after closing the application window. Note that if you need a grant, you must apply before the deadline.
 
 If you have any questions, feel free to reach out to the organisers at [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
 
