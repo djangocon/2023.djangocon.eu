@@ -1,9 +1,9 @@
 ---
 layout: base
 name: Helen Williams
-role: DjangoCon Europe Organiser
+role: Software developer
 photo_url: /static/img/organisers/helen.jpg
-# twitter: yourtwitterhandle_no_@
-# github: yourgithub
+twitter: hlwill
+github: hlwill
 # website: https://yourwebsite.com/
 ---

@@ -1,9 +1,9 @@
 ---
 layout: base
 name: Rachel Willmer
-role: DjangoCon Europe Organiser
+role: Freelance DevOps/Cloud Consultant
 photo_url: /static/img/organisers/rachel.jpg
 # twitter: yourtwitterhandle_no_@
 # github: yourgithub
-# website: https://yourwebsite.com/
+website: https://hobthross.com
 ---

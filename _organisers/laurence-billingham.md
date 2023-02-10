@@ -1,9 +1,9 @@
 ---
 layout: base
 name: Laurence Billingham
-role: DjangoCon Europe Organiser
+role: Development Tooling Team Lead at Payoneer Merchant Services
 photo_url: /static/img/organisers/laurence.jpg
-# twitter: yourtwitterhandle_no_@
+twitter: tinglingham
 # github: yourgithub
 # website: https://yourwebsite.com/
 ---

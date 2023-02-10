@@ -1,7 +1,7 @@
 ---
 layout: base
 name: Raquel Dou
-role: DjangoCon Europe Organiser
+role: Linguist and Python enthusiast
 photo_url: /static/img/organisers/raquel.jpg
 # twitter: yourtwitterhandle_no_@
 # github: yourgithub

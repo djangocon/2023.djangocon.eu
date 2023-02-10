@@ -1,9 +1,9 @@
 ---
 layout: base
 name: Kate Ho
-role: DjangoCon Europe Organiser
+role: Head of Product at BBC
 photo_url: /static/img/organisers/kate.jpg
-# twitter: yourtwitterhandle_no_@
+twitter: kateho
 # github: yourgithub
 # website: https://yourwebsite.com/
 ---
