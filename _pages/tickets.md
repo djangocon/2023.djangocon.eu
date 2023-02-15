@@ -31,7 +31,7 @@ The following refreshments are included on the 3 conference days: mid-morning co
 
 Tickets for the social event on 29th May can be purchased as an add-on to any conference ticket at a small additional cost.
 
-Childcare for the 3 conference days is free, but please let us know about your childcare requirements
+[Childcare for the 3 conference days is free](/inclusion#child-care-and-breastfeeding), but please let us know about your childcare requirements
 when purchasing your ticket.
 
 ## Don't Forget!

@@ -15,8 +15,8 @@ we aren't currently doing, please [let us know]({{ mailto:{{ site.contact_us_ema
 ## Child Care and Breastfeeding
 
 A free crèche will be available on-site at the Assembly Rooms during the 3 days of
-talks and workshops.  We just need you to register in advance when you buy your
-tickets, so we can ensure we have the appropriate numbers of staff available.
+talks and workshops (for children from 6 months to 16 years).  We just need you to register in advance
+when you buy your tickets, so we can ensure we have the appropriate numbers of staff available.
 
 Children are also welcome everywhere during the conference.
 
@@ -70,8 +70,8 @@ The ground floor of The Caves is fully accessible, with a disabled toilet, apart
 
 ## Dietary requirements
 
-You will be able to specify any dietary requirements when purchasing your ticket.  We aim
-to accomodate all requirements.  
+We aim to meet a wide range of dietary requirements.  You will be able to specify any requirements
+when purchasing your ticket.  
 
 We will publish a menu for each day (including allergy information) closer to the event.
 
