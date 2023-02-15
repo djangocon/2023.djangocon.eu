@@ -98,7 +98,10 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /static/img/social/avatar-main.png
+      image:
+        path: /static/img/social/avatar-main.png
+        height: 50
+        width: 50
   - scope:
       path: "_presenters"
       type: presenters
