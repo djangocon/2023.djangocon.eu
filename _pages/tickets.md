@@ -23,12 +23,21 @@ sponsors and attendees who purchase supporter tickets.
 
 <a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a>
 
+## What's included?
+
+All tickets include access to all 3 conference days (29th - 31st May) and the 2 sprints days (1st - 2nd June).
+
+The following refreshments are included on the 3 conference days: mid-morning coffee and snack, lunch, afternoon coffee and snack.  
+
+Tickets for the social event on 29th May can be purchased as an add-on to any conference ticket at a small additional cost.
+
+Childcare for the 3 conference days is free, but please let us know about your childcare requirements
+when purchasing your ticket.
 
 ## Don't Forget!
 
 - If your employer is paying, please use the corporate rate.
-- Childcare for the 3 conference days is free, but please let us know about your childcare
-  requirements when purchasing your tickets.
+- Let us know about any childcare requirements when purchasing your ticket
 
 ## Cancellation and refund policy
 
@@ -36,11 +45,15 @@ In line with our [COVID-19 policy](/covid19-policy), you may request a refund at
 
 Tickets may be transferred to someone else at no charge.
 
+---
+
+If you have a ticket claim (e.g. through a sponsorship or as a speaker), please get in touch at [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
+
+---
 
 **DjangoCon Europe sold out in 2022, so buy your ticket soon!**
 
 We hope to see you in Edinburgh!
-
 
 ---
 
