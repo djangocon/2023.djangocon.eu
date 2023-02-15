@@ -7,7 +7,7 @@ published: true
 title: Tickets
 ---
 
-Ticket sales are now open!
+**Ticket sales are now open!  All tickets include access to all 3 conference days (29th - 31st May) and the 2 sprints days (1st - 2nd June).**
 
 # What ticket should I buy?
 
@@ -27,7 +27,8 @@ sponsors and attendees who purchase supporter tickets.
 ## Don't Forget!
 
 - If your employer is paying, please use the corporate rate.
-
+- Childcare for the 3 conference days is free, but please let us know about your childcare
+  requirements when purchasing your tickets.
 
 ## Cancellation and refund policy
 
