@@ -27,4 +27,4 @@ Check out our guide to [Speaking at DjangoCon Europe](/speaking/)
 
 **CfP powered by:**
 
-[![pretalx](/static/img/pretalx.svg){:class='pretalx'}](https://pretalx.com/p/about/){:target="_blank"}
+[![pretalx](/static/img/pretalx.svg){:class='styleguide-logo'}](https://pretalx.com/p/about/){:target="_blank"}

@@ -7,40 +7,31 @@ published: true
 title: Tickets
 ---
 
-Ticket sales will be open soon. 
-
-Keep an eye on our [News](/news) page and follow us on [Twitter](https://twitter.com/DjangoConEurope) for updates.
-
-{% comment %}
+Ticket sales are now open!
 
 # What ticket should I buy?
 
 If you are paying for your own ticket, you should buy an **Individual** ticket. If your company 
-is paying, you should buy a **Corporate** ticket. For those who can't afford the Individual ticket,
-a **discounted** ticket is available; see below. 
+is paying, you should buy a **Corporate** ticket. 
 
 You can also buy a **supporter** ticket if you want to go above and beyond and support our mission!
 These tickets will allow us to offer discounted and free tickets to people who couldn't otherwise
 afford to attend.
+
+If you are a student or without income, a **discounted** ticket is available. This ticket type does not cover our costs for the conference, but we’re able to offer it thanks to the generosity of our
+sponsors and attendees who purchase supporter tickets.
 
 <a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a>
 
 
 ## Don't Forget!
 
-- Early bird tickets will be on sale until they're gone
 - If your employer is paying, please use the corporate rate.
 
 
 ## Cancellation and refund policy
 
-Depending on the date refunds are requested, cancellation fees apply:
-
-- Before 15th May 2023: 10%
-- 15th-21st May 2023: 25%
-- 22nd-28th May 2023: 50%
-
-Requests received after 28th May 2023 are not eligible for a refund.
+In line with our [COVID-19 policy](/covid19-policy), you may request a refund at any time, for any reason. If you need to cancel your ticket, please send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
 
 Tickets may be transferred to someone else at no charge.
 
@@ -49,4 +40,9 @@ Tickets may be transferred to someone else at no charge.
 
 We hope to see you in Edinburgh!
 
-{% endcomment %}
+
+---
+
+**Ticketing powered by:**
+
+[![pretix](/static/img/sponsors/pretix.svg){:class='styleguide-logo'}](https://pretix.eu/about/en/){:target="_blank"}
