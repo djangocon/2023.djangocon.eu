@@ -9,7 +9,7 @@ title: Inclusion, diversity and accessibility
 We want DjangoCon Europe to be as inclusive and welcoming as possible to everyone.
 
 Here are some of the ways we're trying to do that. If there's something you need that
-we aren't currently doing, please [let us know]({{ mailto:{{ site.contact_us_email }} }}) and we'll try our best to help!
+we aren't currently doing, please [let us know](mailto:{{ site.contact_us_email }}) and we'll try our best to help!
 
 
 ## Child Care and Breastfeeding
