@@ -136,11 +136,13 @@ layout: base
     {% endfor %}
   </div>
 
+  {% if visible_posts.size > 12 %}
   <div class="row v-pad-top">
     <div class="medium-4 column medium-centered text-center">
       <a class="button" href="/news/">Read More News</a>
     </div>
   </div>
+  {% endif %}
 </section>
 {% endif %}
 
