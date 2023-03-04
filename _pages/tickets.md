@@ -34,6 +34,12 @@ Tickets for the social event on 29th May can be purchased as an add-on to any co
 [Childcare for the 3 conference days is free](/inclusion#child-care-and-breastfeeding), but please let us know about your childcare requirements
 when purchasing your ticket.
 
+## Under 18s
+
+Anyone under 18 must be accompanied by an identifiable adult. This adult has
+responsibility for the minor at all times. This adult must be in attendance at the event
+whenever the minor is and must be contactable by the event organisers at all times.
+
 ## Don't Forget!
 
 - If your employer is paying, please use the corporate rate.
