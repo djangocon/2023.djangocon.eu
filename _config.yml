@@ -90,7 +90,7 @@ twitter:
 
 # This is the default logo that people see with opengraph
 # logo: /static/2023-logos/squares-and-social/djangocon-square.png
-logo: /static/img/social/og.png
+logo: /static/img/social/DJC-EU-Banner-og.png
 
 # Frontmatter fallback settings
 # This is the default logo that people see on blog posts
@@ -98,7 +98,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /static/img/social/avatar-main.png
+      image: /static/img/social/DJC-EU-Banner-og.png
   - scope:
       path: "_presenters"
       type: presenters
