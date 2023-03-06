@@ -17,7 +17,7 @@ involved with the community, and see how things happen behind the scenes!
 
 Have a look at the [description of the various tasks](/volunteers/) and [register
 your interest](https://forms.gle/xpdbLLrA7ps6Erjy9) in volunteering, and we'll get back to you nearer the time with more
-infomration.
+information.
 
 If you have any questions about volunteering or anything else, contact us at
 [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
