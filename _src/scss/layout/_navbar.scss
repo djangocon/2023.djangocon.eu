@@ -18,6 +18,12 @@
   position: absolute;
 }
 
+.off-canvas {
+  @media (forced-colors: active) {
+    border-left: 4px solid currentColor;
+  }
+}
+
 .off-canvas .menu a {
   color: $white;
 }
