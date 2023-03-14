@@ -23,6 +23,10 @@
     width: 2rem;
     height: 2rem;
     fill: $white;
+
+    @media print {
+      filter: brightness(0);
+    }
   }
 
   &:hover svg {
