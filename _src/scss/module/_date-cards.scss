@@ -32,6 +32,10 @@
     font-weight: $global-weight-bold;
     text-transform: uppercase;
     color: $white;
+
+    @media (forced-colors: active) {
+      border: 2px solid currentColor;
+    }
   }
 
   .days {
@@ -41,6 +45,10 @@
     background-color: $white;
     font-size: 1.4rem;
     color: $body-font-color;
+
+    @media (forced-colors: active) {
+      border: 2px solid currentColor;
+    }
   }
 
   @include breakpoint(large) {
