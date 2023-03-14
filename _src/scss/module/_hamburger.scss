@@ -15,4 +15,8 @@ $hamburger-types: (spin);
 .hamburger-inner:before,
 .hamburger-inner:after {
   background-color: $white;
+
+  @media (forced-colors: active) {
+    border-top: 1px solid currentColor;
+  }
 }
