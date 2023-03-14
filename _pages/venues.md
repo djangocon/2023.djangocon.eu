@@ -7,8 +7,8 @@ published: true
 title: Venues
 ---
 
-{% for venue in site.venues %}  
-  <section class="section-pad theme-medium-gray" id="{{ venue.nav_id }}">
+{% for venue in site.venues %}
+  <section class="section-pad {% cycle 'theme-white', 'theme-medium-gray' %}" id="{{ venue.nav_id }}">
   <header class="subpage-header">
     <h1>{{ venue.title }}</h1>
   </header>
@@ -37,7 +37,7 @@ title: Venues
       <p>
         {{ venue.content }}
       </p>
-    </div>      
-  </div>  
+    </div>
+  </div>
   </section>
 {% endfor %}
