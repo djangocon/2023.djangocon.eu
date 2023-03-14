@@ -115,9 +115,27 @@
   background: $brand-color2; // Fix overlap issue
 }
 
+.drilldown .is-drilldown-submenu-parent > a::after {
+  // Display the correct caret shape in Windows contrast themes.
+  $caret-right: polygon(0 0, 0 100%, 100% 50%);
+  clip-path: $caret-right;
+}
+
+.drilldown .js-drilldown-back > a::before {
+  // Display the correct caret shape in Windows contrast themes.
+  $caret-left: polygon(100% 0, 0 50%, 100% 100%);
+  clip-path: $caret-left;
+}
+
 // tightening drop-down arrows on navigaiton parent elements
 .dropdown.menu > li.is-dropdown-submenu-parent > a {
   padding-right: 1.1rem;
+
+  &::after {
+    // Display the correct caret shape in Windows contrast themes.
+    $caret-down: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: $caret-down;
+  }
 }
 
 @include breakpoint(smedium down) {
