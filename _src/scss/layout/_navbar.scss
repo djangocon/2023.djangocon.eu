@@ -79,8 +79,7 @@
   .logo {
     display: block;
     margin: 10px 0 -20px 10px;
-    width: 160px;
-    height: auto; // for IE
+    width: min(8rem, 200px);
   }
 
   .menu > li > a {
