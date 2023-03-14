@@ -37,6 +37,14 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     content: "";
+
+    @media (forced-colors: active) {
+      display: none;
+    }
+
+    @media print {
+      display: none;
+    }
   }
 
   & > * {
