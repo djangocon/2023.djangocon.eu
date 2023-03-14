@@ -51,6 +51,10 @@
   margin: 1em auto 0;
   width: 5rem;
   height: 5rem;
+
+  @media (forced-colors: active) {
+    filter: contrast(0);
+  }
 }
 
 .card-title {
