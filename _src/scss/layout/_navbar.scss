@@ -80,6 +80,12 @@
     display: block;
     margin: 10px 0 -20px 10px;
     width: min(8rem, 200px);
+
+    img {
+      @media print {
+        filter: brightness(0);
+      }
+    }
   }
 
   .menu > li > a {
