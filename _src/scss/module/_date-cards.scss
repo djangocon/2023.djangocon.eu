@@ -30,7 +30,8 @@
     background-color: $brand-color2;
     font-size: .82rem;
     font-weight: $global-weight-bold;
-    text-transform: uppercase;
+    // Causes "MAY" to be read "M A Y" in Safari Voice Over.
+    // text-transform: uppercase;
     color: $white;
 
     @media (forced-colors: active) {
