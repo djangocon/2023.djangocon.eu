@@ -51,15 +51,14 @@
 .footer-logo {
   display: block;
   margin: 0 auto 1.5em;
-  width: 140px;
+  text-align: center;
 
-  svg {
-    max-width: 100%;
-    height: auto;
-  }
+  img {
+    width: 11rem;
 
-  path {
-    fill: $white;
+    @media print {
+      filter: brightness(0);
+    }
   }
 }
 

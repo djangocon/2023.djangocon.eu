@@ -162,7 +162,7 @@
     .logo {
       margin-top: $global-margin;
       margin-left: $global-margin;
-      width: 170px;
+      width: 225px;
       height: 100%;
     }
 
@@ -172,21 +172,6 @@
   }
 
   .title-bar-right {
-    padding: 1rem 1rem 0;
-  }
-}
-
-@include breakpoint(xlarge) {
-  .title-bar {
-    padding-bottom: .5rem;
-
-    .menu > li > a {
-      padding: 1rem;
-    }
-
-    .logo {
-      width: 200px;
-      height: 100%;
-    }
+    padding: 1.75rem 1rem 0;
   }
 }
