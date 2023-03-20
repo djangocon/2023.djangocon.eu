@@ -1,6 +1,8 @@
+@use "sass:math";
+
 .footer {
   position: relative;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 3.5rem;
   background-color: $brand-color6;
   // background-image: url(/static/img/crab-arm.svg);
@@ -33,18 +35,32 @@
   }
 
   &:before {
+    $bg-aspect-ratio: math.div(1208, 226);
+    $bg-width: 100vw;
+    $bg-height: math.div($bg-width, $bg-aspect-ratio);
     position: absolute;
-    top: -8vw;
-    left: 0;
+    // Prevent any gaps below and to the sides of the image.
+    top: calc(5px - $bg-height);
+    left: -1px;
+    width: 101%;
     z-index: 2;
     display: block;
-    width: 100%;
-    height: 240px;
-    background-image: url(/static/img/footer-curve.svg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    height: $bg-height;
+    // Edinburgh Skyline silhouette purchased from BerriDesign on 28 Feb, 2023.
+    mask-image: url(/static/img/city-silhouette.svg);
+    -webkit-mask-image: url(/static/img/city-silhouette.svg);
+    background-color: $brand-color5;
     content: "";
+    // Allow clicking through in case of overlap with content.
+    pointer-events: none;
+
+    @media (forced-colors: active) {
+      background-color: CanvasText;
+    }
+
+    @media print {
+      display: none;
+    }
   }
 }
 
