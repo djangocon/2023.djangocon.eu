@@ -1,0 +1,11 @@
+.content {
+  padding-bottom: 20vw;
+
+  .section-pad:first-child {
+    padding-top: 0;
+  }
+
+  @media print {
+    padding-bottom: 0;
+  }
+}
