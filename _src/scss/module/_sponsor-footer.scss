@@ -1,6 +1,5 @@
 .partner-footer {
   h3 {
-    @extend h2;
     margin-bottom: $global-margin * 2;
   }
 
@@ -13,16 +12,6 @@
   .partner-list {
     position: relative;
     margin-bottom: $global-margin * 2;
-
-    &:not(:last-child):after {
-      position: absolute;
-      bottom: 0;
-      display: block;
-      width: 80%;
-      height: 1px;
-      background: $medium-gray;
-      content: "";
-    }
   }
 }
 
@@ -50,6 +39,12 @@
 }
 
 .partner-list {
+  .partner-logo {
+    @media (forced-colors: active) {
+      filter: contrast(0);
+    }
+  }
+
   .partner-logo.portrait {
     max-height: 70px;
   }
