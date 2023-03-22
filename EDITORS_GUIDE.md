@@ -165,4 +165,12 @@ Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it u
 
 _Based on the [Editor's Guide](https://dev.to/p/editor_guide) from Dev.to._
 
+## Images
 
+See all [licensed image assets files](https://drive.google.com/drive/folders/1LVzeqMaXKR3E7PECQrHvv3xtQz2WoMST). Main visuals:
+
+- `city-silhouette.svg`: Edinburgh Skyline silhouette vector art purchased from BerriDesign.
+- `djangocon-crowd-hq.jpg`: Photo by [Noah ALorwu / @PlasmaDray](https://twitter.com/PlasmaDray/status/1117143187120885760) with permission to use on 2023.djangocon.eu.
+- `edinburgh-skyline-hq.jpg`: `iStock-1001833188 skyline of edinburgh`. iStock access rights purchased.
+
+All images should be encoded in AVIF and WebP so we get the best possible image quality with the lowest file size. Use [Squoosh](https://squoosh.app/ to export images in those formats and optimise JPEG and PNG files.

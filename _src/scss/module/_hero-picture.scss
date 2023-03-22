@@ -1,0 +1,108 @@
+/**
+ * Polaroid-style pictures, animated on page load to slide down from the top of the page.
+ */
+.hero-picture {
+  $headroom-z-index: 10;
+  $hover-transition-duration: 0.3s;
+  --rest-angle: -9deg;
+  --slide-start-x: 0%;
+  --slide-start-y: -15%;
+  --slide-end-x: 0%;
+  --slide-end-y: 0%;
+  display: inline-block;
+  max-width: 30vw;
+  // Allow one image to go above the other on hover.
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  border: 5px solid $white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: $white;
+  transform: translate(var(--slide-end-x), var(--slide-end-y)) rotate(var(--rest-angle));
+  animation: 0.5s slideDown ease-out;
+  transition-property: transform, filter;
+  transition-duration: $hover-transition-duration;
+  z-index: $headroom-z-index + 1;
+
+  @media print {
+    display: none;
+  }
+
+  @include breakpoint(720px) {
+    margin-left: 50px;
+    border-width: 10px;
+  }
+
+  @include breakpoint(960px) {
+    position: absolute;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation-iteration-count: 0;
+  }
+
+  img {
+    // Nicer rendering while images are loading.
+    background-color: $brand-color3;
+  }
+
+  figcaption {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: $global-weight-bold;
+    font-family: $font-family-monospace;
+    transition: opacity $hover-transition-duration;
+    opacity: 0;
+    display: none;
+
+    @include breakpoint(960px) {
+      display: block;
+    }
+  }
+
+  figcaption a {
+    color: $black;
+    font-size: min(1rem, 25px);
+    text-decoration: none;
+  }
+
+  &:hover, &:focus-within {
+    // Zooming looks good and helps avoid hover on/off flickering while rotating.
+    transform: translate(var(--slide-end-x), var(--slide-end-y)) rotate(0) scale(1.25);
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.5));
+    z-index: $headroom-z-index + 2;
+
+    figcaption {
+      opacity: 1;
+    }
+  }
+
+  &--odd {
+    --slide-start-x: 0%;
+    --slide-start-y: 0%;
+    --slide-end-x: 0%;
+    --slide-end-y: 10%;
+    --rest-angle: 6deg;
+    animation-duration: 0.9s;
+
+    @include breakpoint(960px) {
+      --slide-end-x: 30%;
+      --slide-end-y: 60%;
+    }
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translate(var(--slide-start-x), var(--slide-start-y)) rotate(0);
+  }
+  50% {
+    transform: translate(
+      calc(var(--slide-start-x) + var(--slide-end-x) / 2),
+      calc(var(--slide-start-y) + var(--slide-end-y) / 2)
+    ) rotate(calc(-1 * var(--rest-angle) / 4));
+  }
+  100% {
+    transform: translate(var(--slide-end-x), var(--slide-end-y)) rotate(var(--rest-angle));
+  }
+}
