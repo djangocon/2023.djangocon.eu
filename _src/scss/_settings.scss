@@ -47,15 +47,21 @@
 //  36. Tooltip
 //  37. Top Bar
 
+$light-gray: #F7F8F9;
+$medium-gray: #EEEFFD;
+$dark-gray: #CACACA;
+$black: #1E1E1E;
+$white: #FFFFFF;
 
 $blue-dark: #005EB8;
 $blue-light: #0099CC;
+$highlight: #FEFE83;
 
 // Primary Colors
 $brand-color1: $blue-light;
 $brand-color2: $blue-dark;
-$brand-color3: #044059;
-$brand-color4: #A9CAD0;
+$brand-color3: $black;
+$brand-color4: $highlight;
 $brand-color5: $blue-dark;
 $brand-color6: $blue-dark;
 $brand-color7: #FBAECD;
@@ -91,12 +97,6 @@ $foundation-palette: (
 
 @include add-foundation-colors;
 
-$light-gray: #F7F8F9;
-$medium-gray: #E9E9E9;
-$dark-gray: #CACACA;
-$black: #1E1E1E;
-$white: #FFFFFF;
-
 
 $djangocon-palette: (
   'brand-color1': $brand-color1,
@@ -116,10 +116,13 @@ $djangocon-palette: (
   'black': $black
 );
 
+$body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$leading-font: Metamorphous, #{$body-font};
+
 
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$body-font-family: $body-font;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -161,7 +164,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: Metamorphous, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$header-font-family: $body-font-family;
 $header-font-weight: 500;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -478,7 +481,7 @@ $menu-margin: 0;
 $menu-margin-nested: 0;
 $menu-item-padding: .8rem;
 $menu-item-color-active: $white;
-$menu-item-background-active: get-color(primary);
+$menu-item-background-active: $blue-dark;
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
 $menu-border: $light-gray;

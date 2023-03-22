@@ -9,6 +9,8 @@
   .date-card-title {
     margin-bottom: .5rem;
     font-size: 1.6rem;
+    font-family: $body-font-family;
+    color: $brand-color4;
   }
 
   p {
@@ -30,6 +32,7 @@
     background-color: $brand-color2;
     font-size: .82rem;
     font-weight: $global-weight-bold;
+    font-family: $leading-font;
     // Causes "MAY" to be read "M A Y" in Safari Voice Over.
     // text-transform: uppercase;
     color: $white;
