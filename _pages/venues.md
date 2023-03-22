@@ -7,12 +7,13 @@ published: true
 title: Venues
 ---
 
+<article>
 {% for venue in site.venues %}
-  <section class="section-pad {% cycle 'theme-white', 'theme-medium-gray' %}" id="{{ venue.nav_id }}">
-  <header class="subpage-header">
-    <h1>{{ venue.title }}</h1>
-  </header>
-  <h2>{{ venue.subtitle }}</h2>
+  <section class="section-pad {% cycle 'theme-white', 'theme-medium-gray' %}" id="{{ venue.nav_id }}" aria-labelledby="{{ venue.nav_id }}-heading">
+  <div class="subpage-header">
+    <h2 id="{{ venue.nav_id }}-heading">{{ venue.title }}</h2>
+  </div>
+  <h3>{{ venue.subtitle }}</h3>
     <div class="row column">
       <div class="medium-6 column">
       <img
@@ -40,3 +41,4 @@ title: Venues
   </div>
   </section>
 {% endfor %}
+</article>
