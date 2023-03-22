@@ -25,7 +25,6 @@ title: Venues
         class="thumbnail thumbnail-block"
         width="600"
         height="380"
-        frameborder="0"
         src="{{ venue.embed_url }}" allowfullscreen></iframe>
       <p class="medium-text-center">
         <a
@@ -34,9 +33,9 @@ title: Venues
       </p>
     </div>
     <div class="column">
-      <p>
+      <div>
         {{ venue.content }}
-      </p>
+      </div>
     </div>
   </div>
   </section>
