@@ -4,7 +4,7 @@ heading: Frequently Asked Questions
 layout: base
 permalink: /faq/
 sitemap: true
-published: false
+published: true
 title: Frequently Asked Questions
 ---
 
@@ -13,27 +13,40 @@ title: Frequently Asked Questions
 </header>
 
 <div class="content">
+  {% comment %}
   <nav class="row column v-pad-bottom faq-nav">
     <h2 class="text-center">The answer to every question below is <strong>YES!</strong></h2>
     <p>Inspired by a <a href="https://m.signalvnoise.com/how-a-rest-stop-on-the-side-of-the-road-inspired-a-web-page-design-c2a65bf2e88a">sign at a roadside rest stop</a>. If you have a question that is not answered below, please <a href="mailto:{{site.contact_us_email}}">let us know</a>!</p>
   </nav>
+  {% endcomment %}
 
   <div class="section-pad theme-medium-gray">
     <div class="row column faq-list">
       <section class="faq-item">
-        <h2 class="text-center">Tickets</h2>
-        <p><em>Tickets are no longer on sale. More information is on our <a href="{% link _pages/tickets.html %}">Tickets</a> page. {% comment %}Conference tickets are sold out for 2022, but tutorial tickets may still be available.{% endcomment %}</em></p>
+        <h2 class="text-center">Conference</h2>
+        <dl>
+          {% comment %}
+          <dt>How large is DjangoCon Europe 2023?</dt>
+          <dd></dd>
+          {% endcomment %}
+          <dt>
+            Can you help me get a visa to come to Scotland?
+          </dt>
+          <dd>Please find information about <a href="{% link _pages/visas.md %}">Visas</a> here.</dd>
+          <dd>Once you have bought a ticket, we can offer an invitation letter.</dd>
+        </dl>
         <ul>
           {% comment %}
           <li>Is the conference over?</li>
           <li>I cannot attend DjangoCon US after all. Can I get a refund, or transfer my ticket to someone else?</li>
           <li>Can I switch the tutorial I registered for, as long as there is still space available in the tutorial I would like to take instead?</li>
-          {% endcomment %}
+          { % endcomment %}
           <li>Do <a href="{{ site.ticket_link }}">tutorials</a> cost extra?</li>
           <li>Do I have to register for sprints?</li>
           <li>Can I come to sprints even if I forgot to register?</li>
           <li>Can I register for a tutorial without registering for the whole conference?</li>
           <li>Can I register for sprints without registering for the whole conference?</li>
+          {% endcomment %}
         </ul>
       </section>
     </div>
@@ -42,14 +55,63 @@ title: Frequently Asked Questions
   <div class="section-pad">
     <div class="row column faq-list">
       <section class="faq-item">
-        <h2 class="text-center">Schedule</h2>
-        {% comment %}<p><em>More information can be found on the <a href="/schedule">Schedule</a> page.</em></p>{% endcomment %}
+        <h2 class="text-center">Social Event</h2>
+        <dl>
+          <dt>Can I bring a partner to the social event?</dt>
+          <dd>We are not currently selling social tickets separate from conference tickets.</dd>
+          <dd>We may do so closer to the event.</dd>
+        </dl>
+      </section>
+    </div>
+  </div>
+
+  <div class="section-pad theme-medium-gray">
+    <div class="row column faq-list">
+      <section class="faq-item">
+        <h2 class="text-center">Tickets</h2>
+
+        <dl>
+          <dt>Can I buy a Virtual ticket to the conference?</dt>
+          <dd>Sorry, no. This is an in-person event.</dd>
+          <dd>However, all talks will be recorded, and will be made available after the event.</dd>
+          <dd>(No ticket required)</dd>
+
+          <dt>I have been accepted as a speaker at DjangoCon Europe 2023. Do I need to buy a conference ticket?</dt>
+          <dd>Speakers receive free tickets to the full conference, including the social event.</dd>
+          <dd>We will send you a voucher code.</dd>
+      
+          <dt>Was there an Early Bird price?</dt>
+          <dd>No, the price you see now is the same price as when we opened ticket sales.</dd>
+          <dd>We did not want anyone who needed to wait to buy their tickets to pay more.</dd>
+          <dd>We feel that this is the easiest way to be fair to our attendees and talk submitters.</dd>
+
+          <dt>Can I cancel my ticket?</dt>
+          <dd>Yes you can! More information is on our <a href="{% link _pages/tickets.md %}">Tickets</a> page.</dd>
+        </dl>
+        {% comment %}
+        <p><em>Tickets are no longer on sale. More information is on our <a href="{% link _pages/tickets.html %}">Tickets</a> page. {% comment %}Conference tickets are sold out for 2022, but tutorial tickets may still be available.{% endcomment %}</em></p>
         <ul>
-          <li>Will after-hours events {% comment%}, like the opening reception or a board game night, {% endcomment %} be listed on the schedule?</li>
-          <li>Will videos of talks be posted online?</li>
-          <li>Will breakfast and lunch be served during tutorial, talk, and sprint days?</li>
-          <li>Will there be a Slack channel that I can join?</li>
+          { % comment %}
+          <li>Is the conference over?</li>
+          <li>I cannot attend DjangoCon US after all. Can I get a refund, or transfer my ticket to someone else?</li>
+          <li>Can I switch the tutorial I registered for, as long as there is still space available in the tutorial I would like to take instead?</li>
+          { % endcomment %}
+          <li>Do <a href="{{ site.ticket_link }}">tutorials</a> cost extra?</li>
+          <li>Do I have to register for sprints?</li>
+          <li>Can I come to sprints even if I forgot to register?</li>
+          <li>Can I register for a tutorial without registering for the whole conference?</li>
+          <li>Can I register for sprints without registering for the whole conference?</li>
         </ul>
+      {% endcomment %}
+      </section>
+    </div>
+  </div>
+
+  <div class="section-pad">
+    <div class="row column faq-list">
+      <section class="faq-item">
+        <h2 class="text-center">Opportunity Grants</h2>
+        <p><em>The deadline for opportunity grant applications closed on 31st March.</em></p>
       </section>
     </div>
   </div>
@@ -58,12 +120,65 @@ title: Frequently Asked Questions
     <div class="row column faq-list">
       <section class="faq-item">
         <h2 class="text-center">Speaking</h2>
+        <dl>
+          <dt>I have been accepted as a speaker at DjangoCon Europe 2023. Do I need to buy a conference ticket?</dt>
+          <dd>Speakers receive free tickets to the full conference, including the social event.</dd>
+          <dd>We will send you a voucher code.</dd>
+
+          <dt>Can I submit a talk for DjangoCon Europe 2023?</dt>
+          <dd>The CFP has closed, so unfortunately not.</dd>
+          <dd>However there will be lightning talk sessions on each of the main conference days.</dd>
+        </dl>
+        {% comment %}
         <p><em>More information is on our <a href="{% link _pages/speaking-resources.md %}">Speaker Resources</a> page.</em></p>
         <ul>
           {% comment %}<li>Are speaker mentors available to help me with my talk?</li>{% endcomment %}
           <li>Do I need to present from my own laptop?</li>
           {% comment %}<li>Does the 25/45-minute time limit include Q&A?</li>{% endcomment %}
           <li>Can you help me send installation/setup instructions to my tutorial attendees prior to the conference?</li>
+        </ul>
+      {% endcomment %}
+      </section>
+    </div>
+  </div>
+
+  <div class="section-pad">
+    <div class="row column faq-list">
+      <section class="faq-item">
+        <h2 class="text-center">Volunteering</h2>
+        <dl>
+          <dt>Can I volunteer for DjangoCon Europe 2023?</dt>
+          <dd>Yes you can! We will definitely be looking for volunteers during the conference.</dd>
+          <dd>There will be more information on the website shortly about volunteering opportunities and how to register your interest.</dd>
+        </dl>
+      </section>
+    </div>
+  </div>
+
+  <div class="section-pad v-pad-bottom-extra theme-medium-gray">
+    <div class="row column faq-list">
+      <section class="faq-item">
+        <h2 class="text-center">Sponsors</h2>
+        <dl>
+          <dt>Can I sign up as a sponsor for DjangoCon Europe 2023?</dt>
+          <dd>Yes you can! More information is on our <a href="{% link _pages/sponsors-information.md %}">Become a Sponsor</a> page.</dd>
+        </dl>
+      </section>
+    </div>
+  </div>
+
+  {% comment %}
+  <div class="section-pad">
+    <div class="row column faq-list">
+      <section class="faq-item">
+        <h2 class="text-center">Schedule</h2>
+
+        <p><em>More information can be found on the <a href="/schedule">Schedule</a> page.</em></p>
+        <ul>
+          <li>Will after-hours events {% comment%}, like the opening reception or a board game night, {% endcomment %} be listed on the schedule?</li>
+          <li>Will videos of talks be posted online?</li>
+          <li>Will breakfast and lunch be served during tutorial, talk, and sprint days?</li>
+          <li>Will there be a Slack channel that I can join?</li>
         </ul>
       </section>
     </div>
@@ -80,39 +195,13 @@ title: Frequently Asked Questions
           <li>Is step-free access available to all parts of the venue, including presentation areas?</li>
           <li>Is there a nearby recovery meeting?</li>
           <li>Will there be vegetarian, vegan, and/or gluten-free options at meals?</li>
-          {% comment %}
           <li>Will you reimburse me for some of my <a href="/news/childcare-during-djangocon/">childcare expenses</a>?</li>
-          {% endcomment %}
           <li>Is there a <a href="/news/lactation-room/">lactation room</a>?</li>
         </ul>
       </section>
     </div>
+    {% endcomment %}
   </div>
 
-  <div class="section-pad theme-medium-gray">
-    <div class="row column faq-list">
-      <section class="faq-item">
-        <h2 class="text-center">Opportunity Grants</h2>
-        <p><em>More information is on our <a href="{% link _pages/opportunity-grants.md %}">Opportunity Grants</a> page.</em></p>
-        <ul>
-          <li>Do I need to provide receipts in order to be reimbursed for my opportunity grant?</li>
-          <li>Will I be reimbursed promptly at or shortly after the conference?</li>
-        </ul>
-      </section>
-    </div>
-  </div>
 
-  <div class="section-pad v-pad-bottom-extra">
-    <div class="row column faq-list">
-      <section class="faq-item">
-        <h2 class="text-center">Sponsors</h2>
-        <p><em>More information is on our <a href="{% link _pages/sponsors-information.md %}">Become a Sponsor</a> page. Sponsorship signups for 2022 are now closed.</em></p>
-        {% comment %}<ul>
-          <li>Can I sign up as a sponsor for DjangoCon US 2022?</li>
-          <li>Can I sign up as a sponsor for <a href="{% link _pages/opportunity-grants.md %}">Opportunity Grants</a>?</li>
-          <li>Are any of the sponsors <a href="/job-board/">hiring</a>?</li>
-        </ul>{% endcomment %}
-      </section>
-    </div>
-  </div>
 </div>
