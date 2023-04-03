@@ -1,14 +1,18 @@
-.home-content {
-  margin-top: -5px;
-}
-
 .header {
   position: relative;
   margin: 0 auto;
   padding: 6rem 0;
+  color: $white;
   background-color: $brand-color2;
   background-image: url(/static/img/gb-map.svg);
-  color: $white;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+
+  @include breakpoint(medium) {
+    background-size: 70%;
+  }
 
   &:before {
     position: absolute;
@@ -63,6 +67,10 @@
 
   .event-info-detail {
     margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    opacity: 0.8;
   }
 
   .button + .button {
@@ -84,15 +92,25 @@
     .header-text {
       margin-left: 540px;
     }
+
+    h1 {
+      // Minimise layout shift from font loading.
+      min-height: 14rem;
+    }
   }
 
   @include breakpoint(large) {
-    padding-top: 3rem;
+    padding-top: 100px;
     padding-bottom: 12vw;
     min-height: 20rem;
 
     &:before {
       background-position: 0 0;
+    }
+
+    h1 {
+      // Minimise layout shift from font loading.
+      min-height: 9rem;
     }
   }
 }

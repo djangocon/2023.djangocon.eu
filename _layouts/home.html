@@ -4,31 +4,61 @@ layout: base
 
 <header class="header">
   <div class="row">
+    <figure class="hero-picture">
+      <picture>
+        <source type="image/avif" srcset="/static/img/promo/edinburgh-skyline-opt30.avif">
+        <source type="image/webp" srcset="/static/img/promo/edinburgh-skyline-opt80.webp">
+        <img
+          src="/static/img/promo/edinburgh-skyline-opt70.jpg"
+          alt="View of the Edinburgh skyline at dusk, with clock tower and castle in the distance"
+          width="352"
+          height="312"
+          loading="lazy"
+          decoding="async"
+        >
+      </picture>
+      <figcaption><a href="/location/">Edinburgh at night</a></figcaption>
+    </figure>
+    <figure class="hero-picture hero-picture--odd">
+      <picture>
+        <source type="image/avif" srcset="/static/img/promo/djangocon-crowd-opt30.avif">
+        <source type="image/webp" srcset="/static/img/promo/djangocon-crowd-opt80.webp">
+        <img
+          src="/static/img/promo/djangocon-crowd-opt70.jpg"
+          alt="A crowd of people standing with arms open, with the Django poney and DjangoCon Europe 2019 logo in the background"
+          width="352"
+          height="312"
+          loading="lazy"
+          decoding="async"
+        >
+      </picture>
+      <figcaption><a href="https://twitter.com/PlasmaDray/status/1117143187120885760">DjangoCon Europe 2019</a></figcaption>
+    </figure>
     <div class="header-text">
       <h1>Five days of talks, sprints, and tutorials in Edinburgh</h1>
 
       <div class="event-info-detail">
-        <strong
-          class="event-info-date">29th May - 2nd June 2023</strong>
+        <p>
+          <strong>29th May - 2nd June 2023</strong>
+        </p>
 
-        <span
-          class="subheading event-info-location">
-          Assembly Rooms in
-          <strong>Edinburgh, Scotland</strong>
-        </span>
+        <p>
+          Assembly Rooms in <strong>Edinburgh, Scotland</strong>
+        </p>
       </div>
 
+      <a class="button button--bright button--tickets" href="/tickets/">Buy Tickets</a>
+
       {% comment %}
-      <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
-      <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
+      <a class="button button--bright" href="{{ site.cfp_application }}">Submit Talk</a>
       {% endcomment %}
 
       {% comment %}
-      <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
+      <a class="button button--bright" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
       {% endcomment %}
 
       {% comment %}
-      <a class="button" href="/schedule/">Conference Schedule</a>
+      <a class="button button--bright" href="/schedule/">Conference Schedule</a>
       {% endcomment %}
 
     </div>
@@ -36,9 +66,9 @@ layout: base
 </header>
 
 
-<div class="home-content">
+<div class="content">
 
-<section class="section-pad curve1 theme-brand-color3">
+<section class="section-pad theme-brand-color3">
   <h2 class="show-for-sr">Conference Schedule</h2>
   <p class="lead column large-9 large-centered text-center">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon Europe is easy for you!</p>
   {% include schedule-date-cards.html %}
@@ -53,20 +83,21 @@ layout: base
 </div>
 {% endcomment %}
 
-<section class="section-pad">
+<section class="section-pad theme-medium-gray">
   <div class="row column v-pad-bottom text-center">
     <h2>By the community for the community</h2>
   </div>
-  <div class="row card-row">
+  <div class="row">
     <div class="column">
-      <div class="card">
-      <p>This is the 15th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</p>
-      <p>Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community.</p>
-      </div>
+      <div class="lead">
+        <p>This is the 15th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</p>
+        <p>Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community.</p>
+        </div>
     </div>
-    {% comment %}
+  </div>
+  <div class="row card-row">
     <div class="medium-4 column">
-      <div class="card">
+      <div>
         <img
           src="{{ "/static/img/hands-line.svg" | relative_url }}"
           width="150"
@@ -80,10 +111,9 @@ layout: base
         </div>
       </div>
     </div>
-    {% endcomment %}
     {% comment %}
     <div class="medium-4 column">
-      <div class="card">
+      <div>
         <img
           src="{{ "/static/img/program-line.svg" | relative_url }}"
           width="150"
@@ -98,9 +128,8 @@ layout: base
       </div>
     </div>
     {% endcomment %}
-    {% comment %}
     <div class="medium-4 column">
-      <div class="card">
+      <div>
         <img
           src="{{ "/static/img/heart-line.svg" | relative_url }}"
           width="150"
@@ -114,30 +143,27 @@ layout: base
         </div>
       </div>
     </div>
-    {% endcomment %}
   </div>
 </section>
 
 {% assign visible_posts = site.posts | where_exp: 'item', 'item != false' %}
 
 {% if visible_posts.size > 0 %}
-<section class="news-section section-pad theme-brand-color4 back">
+<section class="news-section section-pad">
   <div class="row column v-pad-bottom">
     <h2 class="text-center">Latest News</h2>
   </div>
 
-  <div class="news row">
+  <div class="news row column">
     {% for post in visible_posts limit:12 %}
-      {% unless post.hidden %}
-      <article class="news-title medium-4 column">
-        <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
-          <div class="card-section">
-            <span class="post-meta">{{ post.date | date: "%d %b %Y" }}</span>
-            <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-            </h3>
-          </div>
-        </div>
+      {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+      <article class="post-item">
+        <time class="post-meta">{{ post.date | date: "%d %b %Y" }}</time>
+        <h3 class="post-title">
+          <a
+            class="post-link"
+            href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h3>
       </article>
       {% endunless %}
     {% endfor %}
@@ -146,7 +172,7 @@ layout: base
   {% if visible_posts.size > 6 %}
   <div class="row v-pad-top">
     <div class="medium-4 column medium-centered text-center">
-      <a class="button" href="/news/">Read More News</a>
+      <a class="button" href="/news/">View all news</a>
     </div>
   </div>
   {% endif %}

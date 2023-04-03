@@ -1,10 +1,7 @@
 <footer class="footer">
 
-  <a
-    class="footer-logo"
-    href="{{ site.url }}">
-    <img src="{{ "/static/img/submark-2022.svg" | relative_url }}"
-    alt="Django Con {{ site.conf_year }} | Edinburgh" />
+  <a class="footer-logo" href="{{ site.url }}">
+    {% include logo.html %}
   </a>
 
   <div class="row column">

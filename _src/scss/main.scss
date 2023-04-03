@@ -63,11 +63,10 @@
 
 @import 'layout/event';
 @import 'layout/navbar';
-@import 'layout/home-content';
+@import 'layout/content';
 @import 'layout/post-page';
 //@import 'layout/recap';
 @import 'layout/why-djangocon';
-@import 'layout/subpage-content';
 @import 'layout/subpage-masthead';
 @import 'layout/footer';
 @import 'layout/layouts';
@@ -75,10 +74,10 @@
 
 
 @import 'module/attraction';
-@import 'module/event-info';
 @import 'module/event-links';
 @import 'module/faqs';
 @import 'module/home-hero';
+@import 'module/hero-picture';
 @import 'module/photo-hero';
 @import 'module/home-news';
 @import 'module/hamburger';

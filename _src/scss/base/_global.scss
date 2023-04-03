@@ -20,6 +20,13 @@
 
 h1,
 h2,
+.h1,
+.h2 {
+  font-family: $leading-font;
+}
+
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -34,7 +41,7 @@ li {
 }
 
 .lead {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
   font-weight: $global-weight-normal;
 
   @include breakpoint(medium) {
