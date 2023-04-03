@@ -2,7 +2,7 @@
 layout: base
 name: Sarah Abderemane
 photo_url: /static/img/organisers/sarah.jpg
-role: Software developer at TKT Thinking Technology
+role: Backend developer at Octopus Energy
 github: sabderemane
 twitter: sabderemane_
 website: https://sarahabd.com/
