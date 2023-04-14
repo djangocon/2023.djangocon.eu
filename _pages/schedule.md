@@ -20,12 +20,5 @@ The conference will take place from 9AM to 6PM.
 
 ## Talks and Workshop Schedule
 
-<pretalx-schedule event-url="https://pretalx.com/djangocon-europe-2023/" locale="en" format="grid" style="--pretalx-clr-primary: #0099CC"></pretalx-schedule>
-<noscript>
-   <div class="pretalx-widget">
-        <div class="pretalx-widget-info-message">
-            JavaScript is disabled in your browser. To access our schedule without JavaScript,
-            please <a target="_blank" href="https://pretalx.com/djangocon-europe-2023/schedule/">click here</a>.
-        </div>
-    </div>
-</noscript>
+<a class="button" href="{{ site.schedule_link }}" target="_blank">View schedule!</a>
+
