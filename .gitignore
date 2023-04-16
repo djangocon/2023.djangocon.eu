@@ -13,3 +13,6 @@ static/*.map
 # Ignore "Gemfile.lock" for Docker Compose
 Gemfile.lock
 .vscode
+speakers.json
+talks.json
+tweets.csv

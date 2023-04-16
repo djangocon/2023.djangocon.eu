@@ -56,13 +56,13 @@ collections: # process the _data folder
   components:
     output: false
   schedule:
-    output: true
+    output: false
     permalink: /:collection/:name/
   organisers:
     output: false
     permalink: /:collection/
   presenters:
-    output: true
+    output: false
     permalink: /:collection/
   sponsors:
     output: false
@@ -81,6 +81,9 @@ collections: # process the _data folder
     permalink: /:collection/
   news:
     output: false
+    permalink: /:collection/
+  sessions:
+    output: true
     permalink: /:collection/
 
 # SEO Plugin settings
