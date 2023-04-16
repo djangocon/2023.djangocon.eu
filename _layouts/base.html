@@ -9,7 +9,12 @@
 {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
 {% include youtube-embed-head.html id=youtube_id %}
 {% endif %}
-    <link rel="stylesheet" href="/static/main.css">
+
+{% if page.schedule %}
+<script type="text/javascript" src="https://pretalx.com/djangocon-europe-2023/schedule/widget/v2.en.js"></script>
+{% endif %}
+
+<link rel="stylesheet" href="/static/main.css">
 
     {% if page.sitemap == false %}
       <meta name="robots" content="noindex">
