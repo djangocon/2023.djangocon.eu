@@ -609,15 +609,17 @@ def generate_shots(
     quality: int = 80,
     width: int = 1024,
 ):
-    presenters = Path("_presenters").glob("*.md")
+    presenters = Path("_sessions").glob("*.md")
     presenters = sorted(presenters, key=os.path.getmtime)
     for presenter in presenters:
         post = frontmatter.loads(presenter.read_text())
-        print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
+        print(f"- output: ./static/img/social/presenters/{post['name_slug']}.png")
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://2023.djangocon.eu{post['permalink']}")
+        print(
+            f"  url: https://djangoconeu-test.netlify.app/sessions/{post['name_slug']}"
+        )
         print()
 
 

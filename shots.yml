@@ -1,414 +1,198 @@
-- output: ./static/img/social/presenters/addison-hardy.png
+- output: ./static/img/social/presenters/tobias-kunze.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/addison-hardy/
+  url: https://djangoconeu-test.netlify.app/sessions/tobias-kunze
 
-- output: ./static/img/social/presenters/kojo-idrissa.png
+- output: ./static/img/social/presenters/alex-henman.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/kojo-idrissa/
-
-- output: ./static/img/social/presenters/adrienne-franke.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/adrienne-franke/
-
-- output: ./static/img/social/presenters/andrej-baranovskij.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/andrej-baranovskij/
-
-- output: ./static/img/social/presenters/andrew-godwin.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/andrew-godwin/
-
-- output: ./static/img/social/presenters/andrew-mshar.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/andrew-mshar/
-
-- output: ./static/img/social/presenters/benjamin-zags-zagorsky.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/benjamin-zags-zagorsky/
-
-- output: ./static/img/social/presenters/brent-o-connor.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/brent-o-connor/
-
-- output: ./static/img/social/presenters/calvin-hendryx-parker.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/calvin-hendryx-parker/
-
-- output: ./static/img/social/presenters/camila-maia.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/camila-maia/
-
-- output: ./static/img/social/presenters/carlton-gibson.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/carlton-gibson/
-
-- output: ./static/img/social/presenters/carmela-beiro.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/carmela-beiro/
-
-- output: ./static/img/social/presenters/chad-carlson.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/chad-carlson/
-
-- output: ./static/img/social/presenters/colin-copeland.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/colin-copeland/
-
-- output: ./static/img/social/presenters/david-foster.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/david-foster/
-
-- output: ./static/img/social/presenters/david-graves.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/david-graves/
-
-- output: ./static/img/social/presenters/dawn-wages.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/dawn-wages/
-
-- output: ./static/img/social/presenters/drew-winstel.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/drew-winstel/
-
-- output: ./static/img/social/presenters/ed-rivas.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/ed-rivas/
-
-- output: ./static/img/social/presenters/eduardo-felipe-castegnaro.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/eduardo-felipe-castegnaro/
-
-- output: ./static/img/social/presenters/elizabeth-garrett-christensen.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/elizabeth-garrett-christensen/
-
-- output: ./static/img/social/presenters/eric-holscher.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/eric-holscher/
-
-- output: ./static/img/social/presenters/eric-matthes.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/eric-matthes/
-
-- output: ./static/img/social/presenters/erin-mullaney.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/erin-mullaney/
-
-- output: ./static/img/social/presenters/flavio-juvenal.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/flavio-juvenal/
-
-- output: ./static/img/social/presenters/gajendra-deshpande.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/gajendra-deshpande/
-
-- output: ./static/img/social/presenters/heidi-white.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/heidi-white/
-
-- output: ./static/img/social/presenters/ilya-bass.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/ilya-bass/
-
-- output: ./static/img/social/presenters/iuri-de-silvio.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/iuri-de-silvio/
-
-- output: ./static/img/social/presenters/jack-linke.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/jack-linke/
-
-- output: ./static/img/social/presenters/james-ray.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/james-ray/
-
-- output: ./static/img/social/presenters/jason-judkins.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/jason-judkins/
-
-- output: ./static/img/social/presenters/jay-miller.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/jay-miller/
-
-- output: ./static/img/social/presenters/jiten-sidhpura.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/jiten-sidhpura/
-
-- output: ./static/img/social/presenters/joaquin-scocozza.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/joaquin-scocozza/
-
-- output: ./static/img/social/presenters/joshua-weaver.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/joshua-weaver/
-
-- output: ./static/img/social/presenters/juan-saavedra.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/juan-saavedra/
-
-- output: ./static/img/social/presenters/karen-tracey.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/karen-tracey/
-
-- output: ./static/img/social/presenters/katie-mclaughlin.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/katie-mclaughlin/
-
-- output: ./static/img/social/presenters/ken-whitesell.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/ken-whitesell/
-
-- output: ./static/img/social/presenters/kuldeep-pisda.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/kuldeep-pisda/
-
-- output: ./static/img/social/presenters/kyle-bebak.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/kyle-bebak/
-
-- output: ./static/img/social/presenters/lee-trout.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/lee-trout/
-
-- output: ./static/img/social/presenters/levi-mann.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/levi-mann/
-
-- output: ./static/img/social/presenters/lisa-tagliaferri.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/lisa-tagliaferri/
-
-- output: ./static/img/social/presenters/logan-kilpatrick.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/logan-kilpatrick/
-
-- output: ./static/img/social/presenters/luke-lee.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/luke-lee/
-
-- output: ./static/img/social/presenters/marcelo-elizeche-lando.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/marcelo-elizeche-lando/
-
-- output: ./static/img/social/presenters/mario-munoz.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/mario-munoz/
-
-- output: ./static/img/social/presenters/mason-egger.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/mason-egger/
-
-- output: ./static/img/social/presenters/maxim-danilov.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/maxim-danilov/
-
-- output: ./static/img/social/presenters/meagen-voss.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/meagen-voss/
-
-- output: ./static/img/social/presenters/melanie-arbor.png
-  height: 512
-  quality: 80
-  width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/melanie-arbor/
+  url: https://djangoconeu-test.netlify.app/sessions/alex-henman
 
 - output: ./static/img/social/presenters/paolo-melchiorre.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/paolo-melchiorre/
+  url: https://djangoconeu-test.netlify.app/sessions/paolo-melchiorre
 
-- output: ./static/img/social/presenters/patrick-arminio.png
+- output: ./static/img/social/presenters/wilhelm-klopp.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/patrick-arminio/
+  url: https://djangoconeu-test.netlify.app/sessions/wilhelm-klopp
 
-- output: ./static/img/social/presenters/peter-baumgartner.png
+- output: ./static/img/social/presenters/psalms-kalu.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/peter-baumgartner/
+  url: https://djangoconeu-test.netlify.app/sessions/psalms-kalu
 
-- output: ./static/img/social/presenters/richard-yen.png
+- output: ./static/img/social/presenters/iuri-de-silvio.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/richard-yen/
+  url: https://djangoconeu-test.netlify.app/sessions/iuri-de-silvio
 
-- output: ./static/img/social/presenters/russell-keith-magee.png
+- output: ./static/img/social/presenters/tim-bell.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/russell-keith-magee/
+  url: https://djangoconeu-test.netlify.app/sessions/tim-bell
 
-- output: ./static/img/social/presenters/ruth-ikegah.png
+- output: ./static/img/social/presenters/andrew-aikman.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/ruth-ikegah/
+  url: https://djangoconeu-test.netlify.app/sessions/andrew-aikman
 
-- output: ./static/img/social/presenters/sanyam-khurana.png
+- output: ./static/img/social/presenters/raphael-michel.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/sanyam-khurana/
+  url: https://djangoconeu-test.netlify.app/sessions/raphael-michel
 
-- output: ./static/img/social/presenters/sheena-o-connell.png
+- output: ./static/img/social/presenters/luben-alexandrov.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/sheena-o-connell/
+  url: https://djangoconeu-test.netlify.app/sessions/luben-alexandrov
 
-- output: ./static/img/social/presenters/simon-charette.png
+- output: ./static/img/social/presenters/mykalin-jones.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/simon-charette/
+  url: https://djangoconeu-test.netlify.app/sessions/mykalin-jones
 
-- output: ./static/img/social/presenters/simon-willison.png
+- output: ./static/img/social/presenters/ernesto-rico-schmidt.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/simon-willison/
+  url: https://djangoconeu-test.netlify.app/sessions/ernesto-rico-schmidt
 
-- output: ./static/img/social/presenters/syed-ansab-waqar-gillani.png
+- output: ./static/img/social/presenters/nicolas-noé.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/syed-ansab-waqar-gillani/
+  url: https://djangoconeu-test.netlify.app/sessions/nicolas-noé
 
-- output: ./static/img/social/presenters/syed-muhammad-dawoud-sheraz-ali.png
+- output: ./static/img/social/presenters/rudi-giesler.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/syed-muhammad-dawoud-sheraz-ali/
+  url: https://djangoconeu-test.netlify.app/sessions/rudi-giesler
 
-- output: ./static/img/social/presenters/thulasidharan-lg.png
+- output: ./static/img/social/presenters/karen-jex.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/thulasidharan-lg/
+  url: https://djangoconeu-test.netlify.app/sessions/karen-jex
 
-- output: ./static/img/social/presenters/tim-schilling.png
+- output: ./static/img/social/presenters/dawn-wages.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/tim-schilling/
+  url: https://djangoconeu-test.netlify.app/sessions/dawn-wages
 
-- output: ./static/img/social/presenters/timothy-allen.png
+- output: ./static/img/social/presenters/aisha-bello.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/timothy-allen/
+  url: https://djangoconeu-test.netlify.app/sessions/aisha-bello
 
-- output: ./static/img/social/presenters/will-vincent.png
+- output: ./static/img/social/presenters/cheuk-ting-ho.png
   height: 512
   quality: 80
   width: 1024
-  url: https://djangoconeu-test.netlify.app/presenters/will-vincent/
+  url: https://djangoconeu-test.netlify.app/sessions/cheuk-ting-ho
+
+- output: ./static/img/social/presenters/nik-haldimann.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/nik-haldimann
+
+- output: ./static/img/social/presenters/felipe-hoffa.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/felipe-hoffa
+
+- output: ./static/img/social/presenters/vikram-waradpande.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/vikram-waradpande
+
+- output: ./static/img/social/presenters/ahter-sönmez.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/ahter-sönmez
+
+- output: ./static/img/social/presenters/david-smith.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/david-smith
+
+- output: ./static/img/social/presenters/ashley-mathew.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/ashley-mathew
+
+- output: ./static/img/social/presenters/tom-dyson.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/tom-dyson
+
+- output: ./static/img/social/presenters/olaniyan-adewale-hafeez.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/olaniyan-adewale-hafeez
+
+- output: ./static/img/social/presenters/lauren-parsons.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/lauren-parsons
+
+- output: ./static/img/social/presenters/laurent-tramoy.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/laurent-tramoy
+
+- output: ./static/img/social/presenters/thibaud-colas.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/thibaud-colas
+
+- output: ./static/img/social/presenters/daniele-procida.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/daniele-procida
+
+- output: ./static/img/social/presenters/vladyslav-lyeuta.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/vladyslav-lyeuta
+
+- output: ./static/img/social/presenters/ester-beltrami.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/ester-beltrami
+
+- output: ./static/img/social/presenters/marine-gandy.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://djangoconeu-test.netlify.app/sessions/marine-gandy
 
