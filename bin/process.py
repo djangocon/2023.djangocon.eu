@@ -612,14 +612,12 @@ def generate_shots(
     presenters = Path("_sessions").glob("*.md")
     presenters = sorted(presenters, key=os.path.getmtime)
     for presenter in presenters:
-        post = frontmatter.loads(presenter.read_text())
-        print(f"- output: ./static/img/social/presenters/{post['name_slug']}.png")
+        # post = frontmatter.loads(presenter.read_text())
+        print(f"- output: ./static/img/social/presenters/{presenter.stem}.png")
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(
-            f"  url: https://djangoconeu-test.netlify.app/sessions/{post['name_slug']}"
-        )
+        print(f"  url: https://djangoconeu-test.netlify.app/sessions/{presenter.stem}")
         print()
 
 

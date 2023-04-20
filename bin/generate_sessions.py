@@ -20,7 +20,7 @@ def api_get(path):
     api_url = urljoin("https://pretalx.com/api/v2", path)
     resp = requests.get(
         api_url,
-        headers={"Authorization": f"Token f32fb5b15e330c4441ebb0652976be345ba45c15"},
+        headers={"Authorization": f"Token {os.getenv('TOKEN')}"},
     )
     return resp.json()
 
@@ -86,13 +86,21 @@ def update_info(talk, speakers):
 
 def generate_session_md(session):
     speakers = "\n".join([f"  - {speaker}" for speaker in session["speakers"]])
+    filename = BASE_PATH / "_sessions" / f"{session['name_slug']}.md"
+    name_slug = session["name_slug"]
+
+    # if the first speaker has other talks
+    if filename.is_file():
+        name_slug = f"{session['name_slug']}-1"
+        filename = BASE_PATH / "_sessions" / f"{session['name_slug']}-1.md"
+
     markdown = f"""---
 hidden: false
 layout: session-speaker-template
 speakers: 
 {speakers}
-permalink: /sessions/{session['name_slug']}/
-name_slug: {session['name_slug']}
+permalink: /sessions/{name_slug}/
+name_slug: {name_slug}
 session_type: {session['type']}
 session_title: "{session['title']}"
 photo_url: {session['photo_url']}
@@ -101,7 +109,7 @@ website: null
 ---
 
 """
-    with open(BASE_PATH / "_sessions" / f"{session['name_slug']}.md", "w") as outfile:
+    with open(filename, "w") as outfile:
         outfile.write(markdown)
 
 
