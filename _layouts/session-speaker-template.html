@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Rubik:400,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/main.css">
+  </head>
+  <body class="{{ page.layout }}-page">
+
+    <div class="speaker-template">
+      {% if page.photo_url != blank %}
+        <img
+          src="{{ page.photo_url }}"
+          width="520"
+          alt="{{ page.name }}"
+          class="speaker-template-photo" />
+      {% endif %}
+
+      <h1 class="speaker-template-name">
+        {% for speaker in page.speakers %}
+        {% assign speaker_length = page.speakers|size %}
+        {{ speaker }}
+          {% if speaker_length > 1 %}<br>{% endif %}
+        {% endfor %}
+      </h1>
+
+      <h2 class="speaker-template-session-title">
+        {{ page.session_title }}
+      </h2>
+
+    </div>
+
+  </body>
+</html>

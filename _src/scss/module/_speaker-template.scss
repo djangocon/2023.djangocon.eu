@@ -1,31 +1,31 @@
 .speaker-template {
   position: relative;
-  padding: 70px 30px 0 500px;
-  width: 1200px;
-  height: 630px;
+  padding: 20px 30px 0 500px;
+  width: 1025px;
+  height: 530px;
 
   background-color: $brand-color2;
   background-image: url(/static/img/speaker-template-bg.svg);
   background-repeat: no-repeat;
-  
+
 
   text-align: right;
-  color: $white;
+  color: $black;
 
   overflow: hidden;
 
   &-photo {
     position: absolute;
     top: -10px;
-    left: -40px;
+    left: -70px;
     border-radius: 0 50% 50% 0;
-    width: 610px;
+    width: 550px;
   }
 
   &-name {
     position: relative;
     margin-bottom: 0;
-    font-size: 3.0rem;
+    font-size: 2.8rem;
   }
 
   &-name:after {
@@ -40,20 +40,6 @@
 
   &-session-title {
     font-family: $body-font-family;
-    font-size: 2.3rem;
-  }
-
-  &:after {
-    position: absolute;
-    bottom: -180px;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background-image: url(/static/img/hero-curve.svg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    content: "";
+    font-size: 2.2rem;
   }
 }
