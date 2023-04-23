@@ -65,6 +65,7 @@ def get_speakers(talk_codes, refetch=False):
 
 def update_info(talk, speakers):
     formatted = {
+        "code": talk["code"],
         "title": talk["title"],
         "slug": re.sub(r"\W+", "-", talk["title"]).strip("-").lower(),
         "url": f"https://pretalx.com/djangocon-europe-2023/talk/{talk['code']}",
@@ -87,20 +88,19 @@ def update_info(talk, speakers):
 def generate_session_md(session):
     speakers = "\n".join([f"  - {speaker}" for speaker in session["speakers"]])
     filename = BASE_PATH / "_sessions" / f"{session['name_slug']}.md"
-    name_slug = session["name_slug"]
 
     # if the first speaker has other talks
     if filename.is_file():
-        name_slug = f"{session['name_slug']}-1"
-        filename = BASE_PATH / "_sessions" / f"{session['name_slug']}-1.md"
+        session['name_slug'] = f"{session['name_slug']}-1"
+        filename = BASE_PATH / "_sessions" / f"{session['name_slug']}.md"
 
     markdown = f"""---
 hidden: false
 layout: session-speaker-template
 speakers: 
 {speakers}
-permalink: /sessions/{name_slug}/
-name_slug: {name_slug}
+permalink: /sessions/{session['name_slug']}/
+name_slug: {session['name_slug']}
 session_type: {session['type']}
 session_title: "{session['title']}"
 photo_url: {session['photo_url']}
@@ -120,22 +120,29 @@ def generate_tweet(talk):
         "Keynote": "⭐️",
     }
     content = f"""{emoji[talk['type']]} {talk['type'].upper()}: "{talk['title']}" by {" & ".join(talk['speakers'])}
+https://pretalx.com/djangocon-europe-2023/talk/{talk['code']}/
     
 Grab your ticket!
 https://2023.djangocon.eu/tickets
 """
-    thumbnail_url = f"https://2023.djangocon.eu/sessions/{talk['slug']}"
+    slug = talk["name_slug"]
+    thumbnail_url = f"https://2023.djangocon.eu/static/img/social/presenters/{slug}.png"
     return content, thumbnail_url
 
 
 def generate_tweet_csv(formatted_talks):
     # randomly shuffle the talks before we generate the tweet content
+    keynotes = [talk for talk in formatted_talks if talk["type"] == "Keynote"]
     random.shuffle(formatted_talks)
     with open(BASE_PATH / "tweets.csv", "w") as outfile:
         writer = csv.writer(outfile)
         writer.writerow(["Content", "thumbnail_url"])
+        for keynote in keynotes:
+            writer.writerow(generate_tweet(keynote))
+
         for talk in formatted_talks:
-            writer.writerow(generate_tweet(talk))
+            if talk not in keynotes:
+                writer.writerow(generate_tweet(talk))
 
 
 def main(refetch=False):
