@@ -29,7 +29,7 @@ So you have listened to all the exciting topics on Django for three days and now
 On Thursday and Friday, you have the opportunity to do exactly that. This is your opportunity to contribute to Open Source software. Even if you haven't contributed before, this is also an option to take your first steps. In the sprint, you can contribute to Django as you see fit, and if you need help, there will be a pool of experienced contributors to guide you. You can also reach out through slack in the sprints channel.
 
 <!--
-Thursday - 9AM to 6PM
+Thursday - 10AM to 5PM
 Friday - 9AM to 6PM
 -->
 
