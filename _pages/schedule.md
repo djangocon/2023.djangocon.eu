@@ -33,6 +33,6 @@ Thursday - 9AM to 6PM
 Friday - 9AM to 6PM
 -->
 
-The Sprints are free for all conference participants. However, as the Sprints venue does not have unlimited capacity, and we would like to prepare a precise amount of food and drinks, please keep your participation status updated on the ticketing website (after buying your ticket).
+The Sprints are free for all conference participants. However, in order for us to ensure we have catered for appropriate numbers, please keep your participation status updated on the ticketing website (after buying your ticket).
 
 Read more about getting there <a href="/venues/#sprints">on the Venue page</a>.
