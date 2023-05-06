@@ -49,7 +49,7 @@ whenever the minor is and must be contactable by the event organisers at all tim
 
 In line with our [COVID-19 policy](/covid19-policy), you may request a refund at any time, for any reason. If you need to cancel your ticket, please send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
 
-Tickets may be transferred to someone else at no charge.
+Tickets may be transferred to someone else at no charge. You can do this by editing attendee details through the pretix order page linked in your order confirmation email. If you change a name on or after the 12 May, please also email us at [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}) so that we can correct your name badge.
 
 ---
 
