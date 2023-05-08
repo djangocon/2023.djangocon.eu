@@ -4,23 +4,22 @@ heading: Colophon
 layout: default
 permalink: /colophon/
 title: Colophon
-published: false
+published: true
 ---
 
-We are grateful to the past organizers of DjangoCon EU and of other events for their help and inspiration. The following is an incomplete list of organizations and conferences whose positive example, advice, and generosity have helped make DjangoCon EU the welcoming conference it is today.
+We are grateful to the past organizers of DjangoCon EU and of other events for their help and inspiration. The following is an incomplete list of organisations and conferences whose positive example, advice, and generosity have helped make DjangoCon EU the welcoming conference it is today.
 
-## Organization
+## Organisation
 
 - [Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), Code of Conduct
 - [AlterConf](https://www.alterconf.com/speak), speaker slide guidelines
-- [DjangoCon Europe](https://2016.djangocon.eu), Code of Conduct Transparency Report
-- [DjangoCon Europe](https://2015.djangocon.eu), speaker mentorship program
-- [University of Bristol, LGBT+ Society](http://www.lgbtplusbristol.org.uk/), bathroom signage
-- [Django Under the Hood](https://djangounderthehood.com/), deep dive day
+- [PyCon UK 2019](https://pretalx.com/pyconuk-2019/talk/K973NJ/), for sprints news wording
+- [DjangoCon Europe](https://2023.djangocon.eu), guidances and advice for previous DjangoCon event
+- [DjangoCon US](https://2022.djangocon.eu), website inspiration
 
 ## Website Design
 
-This website is based on free and open source software, and was designed by our friends at [YupGup](http://yupgup.com/).
+This website is based on free and open source software, and was designed by our friends at [Torchbox](https://torchbox.com/) and created by [DEFNA](https://www.defna.org/)
 
 - [Jekyll](https://jekyllrb.com/)
 - [Foundation](https://foundation.zurb.com/sites/docs/)
@@ -34,10 +33,12 @@ This website is based on free and open source software, and was designed by our 
 
 ## Image Credits
 
-- [DjangoCon US 2018 Group Photo](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
-- [Group visit to ENIAC](https://www.flickr.com/photos/144080672@N05/28810970252/in/album-72157672216515946/), Bartek Pawlik, CC BY-NC 2.0
-- [San Diego Crowd](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
-- [San Diego Marriott Mission Valley](https://www.marriott.com/hotels/travel/sanmv-san-diego-marriott-mission-valley/), courtesy of the hotel
+- [DjangoCon Europe 2019 Group Photo](https://www.flickr.com/photos/djangocon/albums/72157704663920022), Bartosz Pawlik, CC BY-NC-SA 2.0
+- [Edinburgh view](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), TODO
+- [Edinburgh skyline](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), TODO
+- [Assembly Room](https://www.marriott.com/hotels/travel/sanmv-san-diego-marriott-mission-valley/), TODO
+- [Biscuit Factory](https://www.marriott.com/hotels/travel/sanmv-san-diego-marriott-mission-valley/), TODO
+- [The Caves](https://www.marriott.com/hotels/travel/sanmv-san-diego-marriott-mission-valley/), TODO
 
 <div class="partner-footer section-pad">
   <h3 class="v-pad-bottom text-left">Our Sponsors</h3>
