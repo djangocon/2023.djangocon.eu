@@ -49,6 +49,13 @@ permalink: /sponsors/
         </div>
         <div class="column medium-8">
           <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
+          {% if sponsor.extra_packages %}
+          <div class="partner-packages">
+            {% for package in sponsor.extra_packages %}
+            <span class="partner-package">{{ package }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
           {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
           {{ sponsor_description | markdownify }}
 

@@ -12,6 +12,19 @@
   font-weight: $global-weight-normal;
 }
 
+.partner-packages {
+  margin-bottom: $global-margin * 2;
+}
+
+.partner-package {
+  font-size: rem-calc(18);
+  font-weight: $global-weight-semibold;
+  background: $blue-light;
+  color: $white;
+  border-radius: 5rem;
+  padding: $global-padding / 2;
+}
+
 .partner-logo {
   margin-bottom: $global-margin;
 }
