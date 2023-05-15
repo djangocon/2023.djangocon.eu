@@ -11,7 +11,7 @@ title: "Sprints: What are they & why should I attend?"
 
 Over time, these core developers realized sprints also provided them an opportunity to help find new potential contributors. And that’s where YOU come in.
 
-## Why Attend a Sprint at DJEU 2023?
+## Why Attend a Sprint at DjangoCon Europe 2023?
 Sprints give you an opportunity to work shoulder-to-shoulder with experts in the community. In addition, there are practical and personal benefits to attending the sprints.
 
 From a practical perspective, if your organization makes heavy use of Django or a related package, getting involved in its maintenance will give you a better understanding of that package, as well as its strengths and limitations. On the personal side, most people won’t usually work on a project that’s as widely used as Django or some of the other related packages. Getting involved in the maintenance of one of these packages can expose you to engineering practices you wouldn’t see otherwise. This can help you become a better engineer while allowing you to contribute to the community that benefits you and your company.
