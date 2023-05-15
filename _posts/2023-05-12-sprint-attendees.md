@@ -14,22 +14,32 @@ Over time, these core developers realized sprints also provided them an opportun
 ## Why Attend a Sprint at DjangoCon Europe 2023?
 Sprints give you an opportunity to work shoulder-to-shoulder with experts in the community. In addition, there are practical and personal benefits to attending the sprints.
 
-From a practical perspective, if your organization makes heavy use of Django or a related package, getting involved in its maintenance will give you a better understanding of that package, as well as its strengths and limitations. On the personal side, most people won’t usually work on a project that’s as widely used as Django or some of the other related packages. Getting involved in the maintenance of one of these packages can expose you to engineering practices you wouldn’t see otherwise. This can help you become a better engineer while allowing you to contribute to the community that benefits you and your company.
+From a practical perspective, if your organisation makes heavy use of Django or a related package, getting involved in its maintenance will give you a better understanding of that package, as well as its strengths and limitations. On the personal side, most people won’t usually work on a project that’s as widely used as Django or some of the other related packages. Getting involved in the maintenance of one of these packages can expose you to engineering practices you wouldn’t see otherwise. This can help you become a better engineer while allowing you to contribute to the community that benefits you and your company.
 
-## What should you know if you want to sprint?
-Git and Github basics
-Most FLOSS projects these days use Git for version control (the software used for tracking changes to software). This makes it easier for groups of people to work on the same software, together. If you’re new to Git, I recommend the first three chapters of Pro Git, which is freely available to read online or to download. Those chapters will get you started and give you about 80% of the Git you’ll use most often. Chapters five and six, on Distributed Git and Github respectively, are also very helpful if you’re new to working with a group on software.
 
-If you’re new to Git or working on software in teams, a basic knowledge of Git fundamentals is important to helping maintainers. Keep in mind that one of the main focuses of contributing to a FLOSS project is to help the people who maintain the software we all use. So, while the sprints aren’t the best place to learn Git, they are a great opportunity to practice or improve your Git skills, especially in situations you may not run into normally.
+## Questions and Answers
+### I’ve never taken part in a sprint before though. So can I join in?
 
-In the spirit of helping our maintainers, try to focus on learning how to make “good” commits. More specifically, you want to make atomic commits, in which each commit is focused around a specific activity or code change, with clear commit messages, meaning that the changes in a commit should be clear from its commit message. This is important because the commits you make will be relied upon by current or future contributors and maintainers. Making “good” commits and messages is both an art and a science, so practice and experience helps. You should also have a GitHub account. Git and GitHub, while related, are two different things, so getting Git setup on your computer won’t give you a GitHub account, just as creating a GitHub account doesn’t mean you’ll have Git installed on your computer.
+Absolutely. Everyone’s welcome. It’s not an elite club, or for experts only. All of the projects that will be running sprints welcome anyone who wants to help.
 
-## Know yourself
-It’s helpful to have an idea of where you are in your development journey. Are you a very experienced developer who’s always wanted to contribute to open source but never has? Are you newer to software development or Django but still interested in contributing? There are multiple ways newer developers can contribute, so don’t let the fear of “not knowing enough” stop you.
+### What do I need?
 
-Why do you want to contribute to FLOSS? There are many different reasons, some of which are mentioned above. Are you more focused on giving back to a community that’s already given to you? Maybe you’re looking forward to improving your engineering skills or learning more about a package you and/or your company frequently use or rely on? A little introspection on your motives can help guide your efforts.
+You'll need to know the basics of using Git/GitHub to check out code and make pull requests, to know how to use the issue tracker, and so on. You’ll also need your own computer with a suitable Python environment set up on it - but there'll be people to help with that too.
 
-Finally, it’s helpful to give some thought as to which FLOSS project you want to contribute to. With that in mind, even if there’s not a dedicated sprint happening for that project, you could use the time during the sprints to start looking at making contributions on your own. A one-person sprint is very much “a thing.”
+If you are new to Git, we recommend the first three chapters of [Pro Git](https://git-scm.com/book/en/v2), which is freely available to read online or to download. Those chapters will get you started and give you about 80% of the Git you’ll use most often. Chapters five and six, on Distributed Git and Github respectively, are also very helpful if you’re new to working with a group on software.
+
+### Do I have to stay for a whole sprint?
+
+Not at all. Drop in just for a bit, if you just want to see what it’s like.
+
+### Is it needed to good Python programmer?
+
+You truly don’t need to be very good Python programmer. In fact, you barely need to be a programmer at all, because even the most novice sprinter can make a very valuable contribution by helping improve documentation, for example.
+
+### Do I need to absolutely finish my work during the sprint? If I'm too slow?
+The sprint is to encourage and help new people. You’ll be able to work at your own pace, learning the things you need to learn as you go along, and you’ll be supported by other people. 
+If you can't finish your work during the sprint, you can always continue it after DjangoCon Europe and keep in touch with the people who helped you with it.
+
 
 ## The Self-Care Sprint
 Finally, while sprints are a valuable part of open source software, there’s one other sprint that’s even more important: the Self-Care Sprint. This is because open source software is primarily built and maintained by volunteers, in their free time. This means the contributors and maintainers need excess physical and mental capacity to continue the task of maintaining software we enjoy and depend on. While your contributions can help ease the burden on the current contributors and maintainers, if you’re going to become a consistent contributor, we want you to develop the habit of taking care of yourself. Self-care can happen in many different ways depending on the individual, but one thing is constant:
