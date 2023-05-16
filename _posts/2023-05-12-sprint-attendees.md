@@ -32,13 +32,13 @@ If you are new to Git, we recommend the first three chapters of [Pro Git](https:
 
 Not at all. Drop in just for a bit, if you just want to see what it’s like.
 
-### Is it needed to good Python programmer?
+### Do I need to be a good Python programmer?
 
-You truly don’t need to be very good Python programmer. In fact, you barely need to be a programmer at all, because even the most novice sprinter can make a very valuable contribution by helping improve documentation, for example.
+You truly don’t need to be a very good Python programmer. In fact, you barely need to be a programmer at all, because even the most novice sprinter can make a very valuable contribution by helping improve documentation, for example.
 
 ### Do I need to absolutely finish my work during the sprint? If I'm too slow?
 The sprint is to encourage and help new people. You’ll be able to work at your own pace, learning the things you need to learn as you go along, and you’ll be supported by other people. 
-If you can't finish your work during the sprint, you can always continue it after DjangoCon Europe and keep in touch with the people who helped you with it.
+If you can't finish your work during the sprint, you can always continue after DjangoCon Europe and keep in touch with the people who helped you.
 
 
 ## The Self-Care Sprint
