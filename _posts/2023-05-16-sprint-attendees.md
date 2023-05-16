@@ -1,7 +1,7 @@
 ---
 author: DjangoCon Europe Organisers
 category: General
-date: 2023-05-12
+date: 2023-05-16
 layout: post
 published: true
 title: "Sprints: What are they & why should I attend?"
