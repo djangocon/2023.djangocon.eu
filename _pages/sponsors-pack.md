@@ -80,7 +80,7 @@ Attendees will be given a small welcome pack on registration. All sponsors are w
 * For printed items - no larger than A5
 * For small swag items - no deeper than 2cm
   
-If you wish to add something to the attendee welcome pack, we’ll need that at least the night before the event starts (so on Sunday 28th June at the latest.) If you wish to ship it to the venue, please label it clearly as “ATTENDEE PACK CONTENT” (in addition to the details listed above) and then we’ll open it and add the contents to the attendee packs.
+If you wish to add something to the attendee welcome pack, we’ll need that at least the night before the event starts (so on Sunday 28th May at the latest.) If you wish to ship it to the venue, please label it clearly as “ATTENDEE PACK CONTENT” (in addition to the details listed above) and then we’ll open it and add the contents to the attendee packs.
 
 ## Intermission Slide Carousel
 
