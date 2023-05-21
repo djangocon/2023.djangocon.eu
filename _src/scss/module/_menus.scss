@@ -1,0 +1,61 @@
+.dietary {
+  font-size: rem-calc(16);
+  font-weight: $global-weight-semibold;
+  color: $black;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 5rem;
+  padding: $global-padding / 4;
+}
+
+.dietary-v {
+  background: $color-vegetarian;
+  padding-left: $global-padding / 2;
+  padding-right: $global-padding / 2;
+}
+
+.dietary-gf {
+  background: $color-gf;
+}
+
+.dietary-vg {
+  background: $color-vegan;
+}
+
+.dietary-ef {
+  background: $color-ef;
+}
+
+.dietary-df {
+  background: $color-df;
+}
+
+
+.ingredients {
+  font-size: rem-calc(14);
+  font-style: $helptext-font-style;
+  margin: 0 0 10px 0;
+}
+
+.menu-item-title {
+  font-size: rem-calc(18);
+  margin: 0 0 10px 0;
+}
+
+.course-main {
+  color: $color-main;
+  border-top: 5px solid $color-main;
+  margin: 0 0 10px 0;
+}
+
+.course-salad {
+  color: $color-salad;
+  border-top: 5px solid $color-salad;
+  margin: 0 0 10px 0;
+}
+
+.course-dessert {
+  color: $color-dessert;
+  border-top: 5px solid $color-dessert;
+  margin: 0 0 10px 0;
+}

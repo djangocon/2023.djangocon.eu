@@ -1,0 +1,104 @@
+---
+description: Soup's up!
+heading: Catering Menus
+layout: default
+permalink: /catering-menus/
+title: Catering Menus
+---
+
+<p>
+  Please note that all catering is prepared in commercial kitchens and cannot be guaranteed
+  and to be free from traces of nuts and other allergens .
+</p>
+
+<div class="v-pad-bottom">
+  <span class="dietary dietary-v">v</span> Vegetarian
+  <span class="dietary dietary-vg">vg</span> Vegan
+  <span class="dietary dietary-gf">gf</span> Gluten-free
+  <span class="dietary dietary-df">df</span> Dairy-free
+  <span class="dietary dietary-ef">ef</span> Egg-free
+</div>
+
+<ul>
+  <li><a href="#conference">Conference</a></li>
+    <ul>
+      <li><a href="#monday">Monday</a></li>
+      <li><a href="#tuesday">Tuesday</a></li>
+      <li><a href="#wednesday">Wednesday</a></li>
+    </ul>
+  <li><a href="#social">Social Event</a></li>
+  <li><a href="#sprints">Sprints</a></li>
+</ul>
+
+<h2 id="conference">Conference</h2>
+
+<div class="content subpage-content">
+  {% assign menus_by_day = "monday|tuesday|wednesday" | split: "|" %}
+  {% for day in menus_by_day %}
+  <section class="section-pad {% cycle 'theme-light-gray', 'theme-white' %}" id="{{ day }}">
+    
+      <p class="lead">
+        {% if day == "monday" %}
+          Monday 29th May
+        {% endif %}  
+        {% if day == "tuesday" %}
+          Tuesday 30th May
+          {% endif %}  
+        {% if day == "wednesday" %}
+          Wednesday 31st May
+        {% endif %}
+      </p>
+      {% assign menus = site.menus | where: "day", day %}
+      {% for menu in menus %}
+        {% include catering-menu-items.html %}  
+      {% endfor %}
+  </section>
+{% endfor %}
+</div><!-- end .content -->
+
+
+<h2 id="social">Social Event</h2>
+<div class="content subpage-content">
+  <section class="section-pad theme-light-gray">
+    
+      <p class="lead">
+          Monday 29th May
+      </p>
+      {% for menu in site.menus %}
+        {% if menu.event == "social" %}
+          {% include catering-menu-items.html %}  
+        {% endif %}
+    {% endfor %}
+  </section>
+</div><!-- end .content -->
+
+
+<h2 id="sprints">Sprints</h2>
+<div class="content subpage-content">
+  <section class="section-pad theme-light-gray">
+    
+      <p class="lead">
+          Thursday 1st June & Friday 2nd June
+      </p>
+
+      <p>
+        A light lunch will be provided at the sprints, consisting of a vairety of sandwiches and
+        deli rolls, traybakes and fruit.
+      </p>
+      <p>
+        Special diets will be catered separately; please look for the labelled platters.
+      </p>
+      <p>
+        All platters will be labelled with allergen information.
+      </p>
+      <p>    
+        A mobile coffee van will be available outside the venue for purchase of hot drinks
+        and snacks.
+      </p>      
+      <p>
+        There will be facilities to refill water bottles, but glasses will not be provided. 
+        Please bring a water bottle with you.
+      </p>
+      
+  </section>
+</div><!-- end .content -->

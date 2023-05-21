@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="column">    
+        {% for item in menu.items %}
+            <div class="course-{{ item.course }}">
+              <div>
+                <h3 class="menu-item-title">{{ item.name }}</h3>
+                {% if item.diets %}
+                {% for diet in item.diets %}
+                <span class="dietary dietary-{{ diet }}">{{ diet }}</span>
+                {% endfor %}    
+                </p>
+              {% endif %}
+
+              {% if item.has_ingredients %}
+                  <p class="ingredients">
+                    Contains: 
+                    {% for ingredient in item.has_ingredients %}
+                    {{ ingredient }}{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                  </p>
+              {% endif %}
+              </div>
+          </div>
+        {% endfor %}
+    </div><!--/.column -->
+</div><!--/.row -->
