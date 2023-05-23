@@ -1,0 +1,16 @@
+---
+description: Attendee Information
+heading: Attendee Portal
+layout: default
+permalink: /attendee-portal/
+redirect_from: /attendee-info/
+title: Practical Information for Attendees
+---
+
+<div class="v-pad-bottom">Quick links to useful things!</div>
+
+<dt>
+{% for link in site.attendee_links %}
+    <dd {% if link.indent %}class="indent"{% endif %}><a class="info-link" href="{{ link.link_url }}"><img src="/static/img/{{ link.icon }}.svg"/> {{ link.name }}</a></dd>
+{% endfor %}
+</dt>
