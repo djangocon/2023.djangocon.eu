@@ -9,25 +9,30 @@
 }
 
 .dietary-v {
-  background: $color-vegetarian;
+  border: 2px solid $color-vegetarian;
+  color: $color-vegetarian;
   padding-left: $global-padding / 2;
   padding-right: $global-padding / 2;
 }
 
 .dietary-gf {
-  background: $color-gf;
+  border: 2px solid $color-gf;
+  color: $color-gf;
 }
 
 .dietary-vg {
-  background: $color-vegan;
+  border: 2px solid $color-vegan;
+  color: $color-vegan;
 }
 
 .dietary-ef {
-  background: $color-ef;
+  border: 2px solid $color-ef;
+  color: $color-ef;
 }
 
 .dietary-df {
-  background: $color-df;
+  border: 2px solid $color-df;
+  color: $color-df;
 }
 
 
@@ -58,4 +63,8 @@
   color: $color-dessert;
   border-top: 5px solid $color-dessert;
   margin: 0 0 10px 0;
+}
+
+.menu-header {
+  padding-bottom: 0;
 }

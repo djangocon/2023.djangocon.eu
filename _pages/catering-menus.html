@@ -1,53 +1,63 @@
 ---
 description: Soup's up!
 heading: Catering Menus
-layout: default
+layout: base
 permalink: /catering-menus/
 title: Catering Menus
 ---
+<header class="subpage-header">
+  <h1>{{ page.heading }}</h1>
+</header>
 
-<p>
-  Please note that all catering is prepared in commercial kitchens and cannot be guaranteed
-  to be free from traces of nuts and other allergens.
-</p>
-
-<div class="v-pad-bottom">
-  <span class="dietary dietary-v">v</span> Vegetarian
-  <span class="dietary dietary-vg">vg</span> Vegan
-  <span class="dietary dietary-gf">gf</span> Gluten-free
-  <span class="dietary dietary-df">df</span> Dairy-free
-  <span class="dietary dietary-ef">ef</span> Egg-free
-</div>
-
-<ul>
-  <li><a href="#conference">Conference</a></li>
-    <ul>
-      <li><a href="#monday">Monday</a></li>
-      <li><a href="#tuesday">Tuesday</a></li>
-      <li><a href="#wednesday">Wednesday</a></li>
-    </ul>
-  <li><a href="#social">Social Event</a></li>
-  <li><a href="#sprints">Sprints</a></li>
-</ul>
-
-<h2 id="conference">Conference</h2>
 
 <div class="content subpage-content">
-  <p>Lunch will be provided each day, as well as a morning and afternoon coffee break.  Breakfast is not provided.</p>
-  <p>
-    <small>
-      <em>
-        If you requested a gluten-free meal, these items will be kept aside. Please request them from catering
-        staff. (Note that we are only able to cater for dietary requirements entered on
-        tickets before 22nd May 2023.)
-      </em>
-    </small>  
-  </p>
-  
+  <section class="section-pad theme-light-gray">
+    <div class="row column v-pad-top">
+      <p>
+        Please note that all catering is prepared in commercial kitchens and cannot be guaranteed
+        to be free from traces of nuts and other allergens.
+      </p>
+      
+      <div>
+        <div class="v-pad-bottom">
+          <span class="dietary dietary-v">v</span> Vegetarian
+          <span class="dietary dietary-vg">vg</span> Vegan
+          <span class="dietary dietary-gf">gf</span> Gluten-free
+          <span class="dietary dietary-df">df</span> Dairy-free
+          <span class="dietary dietary-ef">ef</span> Egg-free
+        </div>
+        <ul>
+          <li><a href="#conference">Conference</a></li>
+          <ul>
+            <li><a href="#monday">Monday</a></li>
+            <li><a href="#tuesday">Tuesday</a></li>
+            <li><a href="#wednesday">Wednesday</a></li>
+          </ul>
+          <li><a href="#social">Social Event</a></li>
+          <li><a href="#sprints">Sprints</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section-pad menu-header">
+    <div class="row column">
+      <h2 id="conference">Conference</h2>
+      <p>Lunch will be provided each day, as well as a morning and afternoon coffee break. Breakfast is not provided.</p>
+      <p>
+        <small>
+          <em>
+            If you requested a gluten-free meal, these items will be kept aside. Please request them from catering
+            staff. <br> (Note that we are only able to cater for dietary requirements entered on
+            tickets before 22nd May 2023.)
+          </em>
+        </small>
+      </p>
+    </div>
+  </section>
   {% assign menus_by_day = "monday|tuesday|wednesday" | split: "|" %}
   {% for day in menus_by_day %}
-  <section class="section-pad {% cycle 'theme-light-gray', 'theme-white' %}" id="{{ day }}">
-    
+  <section class="section-pad {% cycle 'theme-white', 'theme-light-gray' %}" id="{{ day }}">
+    <div class="row column">
       <p class="lead">
         {% if day == "monday" %}
           Monday 29th May
@@ -63,61 +73,59 @@ title: Catering Menus
       {% for menu in menus %}
         {% include catering-menu-items.html %}  
       {% endfor %}
+    </div>
   </section>
 {% endfor %}
-</div><!-- end .content -->
-
-
-<h2 id="social">Social Event</h2>
-<div class="content subpage-content">
 
   <section class="section-pad theme-light-gray">
-      <p class="lead">
-          Monday 29th May
-      </p>
-      <p>
-        <small>
-          <em>
-            Please note that where a gluten-free version of an item is available, these will be
-            kept aside. Please ask catering staff if you have require a gluten-free option.
-          </em>
-        </small>
-      </p>
-      {% for menu in site.menus %}
-        {% if menu.event == "social" %}
-          {% include catering-menu-items.html %}  
-        {% endif %}
-    {% endfor %}
+      <div class="row column">
+        <h2 id="social">Social Event</h2>
+
+        <p class="lead">
+            Monday 29th May
+        </p>
+        <p>
+          <small>
+            <em>
+              Please note that where a gluten-free version of an item is available, these will be
+              kept aside. Please ask catering staff if you have require a gluten-free option.
+            </em>
+          </small>
+        </p>
+        {% for menu in site.menus %}
+          {% if menu.event == "social" %}
+            {% include catering-menu-items.html %}  
+          {% endif %}
+      {% endfor %}
+      </div>
   </section>
-</div><!-- end .content -->
 
+  <section class="section-pad">
+      <div class="row column">
+        <h2 id="sprints">Sprints</h2>
 
-<h2 id="sprints">Sprints</h2>
-<div class="content subpage-content">
-  <section class="section-pad theme-light-gray">
-    
-      <p class="lead">
-          Thursday 1st June & Friday 2nd June
-      </p>
+        <p class="lead">
+            Thursday 1st June & Friday 2nd June
+        </p>
 
-      <p>
-        A light lunch will be provided at the sprints, consisting of a vairety of sandwiches and
-        deli rolls, traybakes and fruit.
-      </p>
-      <p>
-        Special diets will be catered separately; please look for the labelled platters.
-      </p>
-      <p>
-        All platters will be labelled with allergen information.
-      </p>
-      <p>    
-        A mobile coffee van will be available outside the venue for purchase of hot drinks
-        and snacks.
-      </p>      
-      <p>
-        There will be facilities to refill water bottles, but glasses will not be provided. 
-        Please bring a water bottle with you.
-      </p>
-      
+        <p>
+          A light lunch will be provided at the sprints, consisting of a vairety of sandwiches and
+          deli rolls, traybakes and fruit.
+        </p>
+        <p>
+          Special diets will be catered separately; please look for the labelled platters.
+        </p>
+        <p>
+          All platters will be labelled with allergen information.
+        </p>
+        <p>    
+          A mobile coffee van will be available outside the venue for purchase of hot drinks
+          and snacks.
+        </p>      
+        <p>
+          There will be facilities to refill water bottles, but glasses will not be provided. 
+          Please bring a water bottle with you.
+        </p>
+        </div>
   </section>
 </div><!-- end .content -->

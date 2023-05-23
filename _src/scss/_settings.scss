@@ -81,11 +81,11 @@ $color-rss: #FD8A22;
 
 
 // Menu colours
-$color-vegan: #b4df92;
-$color-vegetarian: #cfdf92;
-$color-gf: #d8b87c  ;
-$color-df: #e6dfbc;
-$color-ef: #fcfc6f;
+$color-vegan: #0274a6;
+$color-vegetarian: #027e30;
+$color-gf: #634503;
+$color-df: #9835a4;
+$color-ef: #b14b00;
 $color-main: #4078c0;
 $color-salad: #59a147;
 $color-dessert: #9532a8;
@@ -159,7 +159,9 @@ $breakpoints: (
   xxlarge: 1440px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small smedium medium large);
+$breakpoint-classes: (
+  small smedium medium large
+);
 
 // 3. The Grid
 // -----------
@@ -184,16 +186,14 @@ $header-color: inherit;
 $header-lineheight: 1.2;
 $header-margin-bottom: 1rem;
 $header-styles: (
-  small: (
-    'h1': ('font-size': 34),
+  small: ('h1': ('font-size': 34),
     'h2': ('font-size': 34),
     'h3': ('font-size': 24),
     'h4': ('font-size': 20),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
-  medium: (
-    'h1': ('font-size': 48),
+  medium: ('h1': ('font-size': 48),
     'h2': ('font-size': 44),
     'h3': ('font-size': 31),
     'h4': ('font-size': 25),
@@ -210,8 +210,8 @@ $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
 $code-font-weight: $global-weight-normal;
-$code-background: rgba(255,255,255,0.2);
-$code-border: 1px solid rgba(255,255,255,0.4);
+$code-background: rgba(255, 255, 255, 0.2);
+$code-border: 1px solid rgba(255, 255, 255, 0.4);
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $secondary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
@@ -646,7 +646,7 @@ $show-header-for-stacked: false;
 // --------
 
 $tab-margin: 0;
-$tab-background: rgba(255,255,255,0.3);
+$tab-background: rgba(255, 255, 255, 0.3);
 $tab-color: get-color(secondary);
 $tab-background-active: get-color(secondary);
 $tab-active-color: $white;
