@@ -33,6 +33,18 @@ title: Catering Menus
 <h2 id="conference">Conference</h2>
 
 <div class="content subpage-content">
+  
+  <p>
+    <small>
+      <em>
+        If you requested a gluten-free or lactose-free meal, or you have 
+        allergy requirements, these items will be kept aside. Please request them from catering
+        staff. (Note that we are only able to cater for dietary requirements entered on
+        tickets before 22nd May 2023.)
+      </em>
+    </small>  
+  </p>
+  
   {% assign menus_by_day = "monday|tuesday|wednesday" | split: "|" %}
   {% for day in menus_by_day %}
   <section class="section-pad {% cycle 'theme-light-gray', 'theme-white' %}" id="{{ day }}">
@@ -63,6 +75,14 @@ title: Catering Menus
     
       <p class="lead">
           Monday 29th May
+      </p>
+      <p>
+        <small>
+          <em>
+            Please note that where a gluten-free version of an item is available, these will be
+            kept aside. Please ask catering staff if you have require a gluten-free option.
+          </em>
+        </small>
       </p>
       {% for menu in site.menus %}
         {% if menu.event == "social" %}
