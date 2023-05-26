@@ -88,6 +88,9 @@ collections: # process the _data folder
   menus:
     output: false
     permalink: /:collection/
+  attendee_links:
+    output: false
+    permalink: /:collection
 
 # SEO Plugin settings
 
