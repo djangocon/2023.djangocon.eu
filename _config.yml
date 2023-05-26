@@ -85,6 +85,9 @@ collections: # process the _data folder
   sessions:
     output: true
     permalink: /:collection/
+  menus:
+    output: false
+    permalink: /:collection/
   attendee_links:
     output: false
     permalink: /:collection
