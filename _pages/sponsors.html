@@ -32,13 +32,25 @@ permalink: /sponsors/
     </div>
   </div>
 
-  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Silver|Bronze|Community|Grants" | split: "|" %}
+  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Silver|Bronze|Community|Grants|Supporters" | split: "|" %}
   {% for level in sponsors_by_level %}
   <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
     <h2 class="text-center v-pad-bottom">{{ level }}</h2>
+    {% if level == "Supporters" %}
+      <div class="row partner">
+        The following amazing people and companies from the Django community went above and beyond to help make this 
+        conference possible. With their contribution, we are able to offer additional grants to people from marginalised 
+        or under-represented groups.
+      </div>
+    {% endif %}
     {% assign sponsors = site.sponsors | where: "level", level | where: 'hidden', false %}
     {% for sponsor in sponsors %}
       <div class="row partner">
+      {% if level == "Supporters" %}
+        <div class="column medium-12 text-center">
+          {{ sponsor.name }}
+        </div>  
+      {% else %}
         <div class="column medium-4 text-center">
           <a href="{{ sponsor.url_target }}" rel="sponsored">
             <img
@@ -63,6 +75,7 @@ permalink: /sponsors/
             <a href="{{ sponsor.hiring_url }}" class="button" rel="noopener">{{ sponsor.name }} is hiring!</a>
           {% endif %}
         </div>
+        {% endif %}
       </div>
     {% else %}
       <div class="row partner">
