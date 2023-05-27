@@ -1,7 +1,6 @@
 ---
 layout: base
 hidden: false
-level: Supporter
+level: Supporters
 name: Guillaume Barbat
 ---
-NOÉSIS SOFTWARE TECHNOLOGIES
