@@ -1,19 +1,19 @@
 <div class="row">
-    <div class="column">    
+    <div class="column">
         {% for item in menu.items %}
             <div class="course-{{ item.course }}">
               <div>
                 <h3 class="menu-item-title">{{ item.name }}</h3>
                 {% if item.diets %}
                 {% for diet in item.diets %}
-                <span class="dietary dietary-{{ diet }}">{{ diet }}</span>
-                {% endfor %}    
+                <span class="dietary dietary-{{ diet }}" title="{% if diet == 'v' %}Vegetarian{% endif %}{% if diet == 'vg' %}Vegan{% endif %}{% if diet == 'gf' %}Gluten-free{% endif %}{% if diet == 'df' %}Dairy-free{% endif %}{% if diet == 'ef' %}Egg-free{% endif %}">{{ diet }}</span>
+                {% endfor %}
                 </p>
               {% endif %}
 
               {% if item.has_ingredients %}
                   <p class="ingredients">
-                    Contains: 
+                    Contains:
                     {% for ingredient in item.has_ingredients %}
                     {{ ingredient }}{% unless forloop.last %}, {% endunless %}
                     {% endfor %}

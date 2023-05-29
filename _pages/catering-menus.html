@@ -1,8 +1,16 @@
 ---
-description: Soup's up!
+description: Soup's up! We offer Vegetarian, Vegan, Gluten-free, Dairy-free, and Egg-free options
 heading: Catering Menus
 layout: base
 permalink: /catering-menus/
+redirect_from:
+- /about/catering-menus/
+- /about/catering-menu/
+- /about/catering/
+- /about/menus/
+- /catering-menu/
+- /catering/
+- /menus/
 title: Catering Menus
 ---
 <header class="subpage-header">
@@ -17,7 +25,7 @@ title: Catering Menus
         Please note that all catering is prepared in commercial kitchens and cannot be guaranteed
         to be free from traces of nuts and other allergens.
       </p>
-      
+
       <div>
         <div class="v-pad-bottom">
           <span class="dietary dietary-v">v</span> Vegetarian
@@ -61,17 +69,17 @@ title: Catering Menus
       <p class="lead">
         {% if day == "monday" %}
           Monday 29th May
-        {% endif %}  
+        {% endif %}
         {% if day == "tuesday" %}
           Tuesday 30th May
-          {% endif %}  
+          {% endif %}
         {% if day == "wednesday" %}
           Wednesday 31st May
         {% endif %}
       </p>
       {% assign menus = site.menus | where: "day", day %}
       {% for menu in menus %}
-        {% include catering-menu-items.html %}  
+        {% include catering-menu-items.html %}
       {% endfor %}
       {% if day == "monday" %}
           <p>For the social event, refer to <a href="#social">Social Event</a>.</p>
@@ -97,7 +105,7 @@ title: Catering Menus
         </p>
         {% for menu in site.menus %}
           {% if menu.event == "social" %}
-            {% include catering-menu-items.html %}  
+            {% include catering-menu-items.html %}
           {% endif %}
       {% endfor %}
       </div>
@@ -121,12 +129,12 @@ title: Catering Menus
         <p>
           All platters will be labelled with allergen information.
         </p>
-        <p>    
+        <p>
           A mobile coffee van will be available outside the venue for purchase of hot drinks
           and snacks.
-        </p>      
+        </p>
         <p>
-          There will be facilities to refill water bottles, but glasses will not be provided. 
+          There will be facilities to refill water bottles, but glasses will not be provided.
           Please bring a water bottle with you.
         </p>
         </div>
