@@ -73,6 +73,9 @@ title: Catering Menus
       {% for menu in menus %}
         {% include catering-menu-items.html %}  
       {% endfor %}
+      {% if day == "monday" %}
+          <p>For the social event, refer to <a href="#social">Social Event</a>.</p>
+      {% endif %}
     </div>
   </section>
 {% endfor %}
