@@ -1,6 +1,6 @@
 <section id="sponsors" aria-labelledby="sponsors-heading" class="partner-footer section-pad">
   <h2 class="v-pad-bottom text-center" id="sponsors-heading">Sponsors</h2>
-  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Silver|Bronze" | split: "|" %}
+  {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze" | split: "|" %}
   {% for level in sponsors_by_level %}
     {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
     {% assign sponsors_count = sponsors_in_level | size %}
