@@ -2,7 +2,7 @@
 description: DjangoCon Europe 2023 Schedule
 schedule: true
 heading: Schedule
-layout: default
+layout: schedule
 permalink: /schedule/
 sitemap: true
 title: Schedule
@@ -20,4 +20,4 @@ The conference will take place from 9AM to 6PM.
 
 ## Talks and Workshop Schedule
 
-<a class="button" href="{{ site.schedule_link }}" target="_blank">View schedule!</a>
+<a href="{{ site.schedule_link }}" target="_blank">View schedule on Pretalx</a>
