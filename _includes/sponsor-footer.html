@@ -1,23 +1,36 @@
 <section id="sponsors" aria-labelledby="sponsors-heading" class="partner-footer section-pad">
   <h2 class="v-pad-bottom text-center" id="sponsors-heading">Sponsors</h2>
-  {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze" | split: "|" %}
+  {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze|Community|Grants|Supporters" | split: "|" %}
   {% for level in sponsors_by_level %}
     {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
     {% assign sponsors_count = sponsors_in_level | size %}
     <h3 class="text-center swatch-color-brand-color2">{{ level }}</h3>
+    {% if level == "Supporters" %}
+      <div class="row partner">
+        The following amazing people and companies from the Django community went above and beyond to help make this
+        conference possible. With their contribution, we are able to offer additional grants to people from marginalised
+        or under-represented groups.
+      </div>
+    {% endif %}
     <div class="row partner-list">
     {% for sponsor in sponsors_in_level %}
-      <div class="partner-block text-center">
-        <a href="{{ sponsor.url_target }}" rel="sponsored">
-          <img
-            class="partner-logo {{ sponsor.logo_orientation }}"
-            src="{{ sponsor.logo }}"
-            alt="{{ sponsor.name }}"
-            loading="lazy"
-            decoding="async"
-              />
-        </a>
-      </div>
+      {% if level == "Supporters" %}
+        <div class="column medium-12 text-center">
+          {{ sponsor.name }}
+        </div>
+      {% else %}
+        <div class="partner-block text-center">
+          <a href="{{ sponsor.url_target }}" rel="sponsored">
+            <img
+              class="partner-logo {{ sponsor.logo_orientation }}"
+              src="{{ sponsor.logo }}"
+              alt="{{ sponsor.name }}"
+              loading="lazy"
+              decoding="async"
+                />
+          </a>
+        </div>
+      {% endif %}
     {% else %}
       <div class="text-center">
         <p>You? <a href="{% link _pages/sponsors-information.md %}">Become a sponsor!</a></p>
@@ -26,3 +39,4 @@
     </div>
   {% endfor %}
 </div>
+</section>
