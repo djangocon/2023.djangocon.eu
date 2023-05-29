@@ -1,7 +1,7 @@
 {
-  "name": "DjangoConUS",
+  "name": "DjangoConEurope",
   "version": "1.0.0",
-  "description": "DjangoCon US Website",
+  "description": "DjangoCon Europe Website",
   "devDependencies": {
     "all-contributors-cli": "^6.20.0",
     "css-loader": "^6.7.1",
