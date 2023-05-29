@@ -22,6 +22,8 @@
 }
 
 .partner-block {
+  display: grid;
+  align-items: center;
   padding: 0 $global-margin $global-margin;
   width: 100%;
 
