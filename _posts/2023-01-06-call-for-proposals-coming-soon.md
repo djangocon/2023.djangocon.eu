@@ -23,4 +23,4 @@ Previous topics have included:
 - Security
 - Whatever you deem appropriate – it's your conference, after all!
 
-Take a look at our [information for speakers](/speaking), and get ready to submit your proposal!
+Take a look at our [information for speakers](/speaking/), and get ready to submit your proposal!

@@ -27,7 +27,7 @@ the heart of Edinburgh's city centre. Sprints will be held at the
 We'll also have a social event at an amazing venue, [The Caves](/venues/#social)!
 
 The Call for Proposals and ticket sales will be open soon.  In the meantime, you can get an
-insight into the city on our [Location page](/location).
+insight into the city on our [Location page](/location/).
 
 We hope we'll see you all at DjangoCon Europe 2023, and don't forget to follow us [@{{ site.twitter.username }}](https://twitter.com/{{ site.twitter.username }}) on Twitter.
 

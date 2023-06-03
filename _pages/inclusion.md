@@ -44,24 +44,24 @@ Similarly, if you would benefit from having a close-up display of presenters' sl
 
 Guide dogs are welcome at the conference and social events.
 
-Directional signage is in Braille located throughout the Assembly Rooms. 
+Directional signage is in Braille located throughout the Assembly Rooms.
 Within the building there are also call buttons for assistance if required.
 
 ### Mobility support
 
 #### The Assembly Rooms (talks/workshops)
-Talks and workshops will take place on the first floor of the Assembly Rooms.  
+Talks and workshops will take place on the first floor of the Assembly Rooms.
 
 Access into the venue is flat, with no steps.  To access the first floor, there is a lift to the right of the foyer. The lift is spacious and includes grab bars for assistance. The lift also includes spoken messages.
 
 There are accessible bathrooms on the first floor.
 
-Please contact us about any mobility assistance needs you may have. There is some accessible parking in front of the Assembly Rooms and on George Street which can be 
+Please contact us about any mobility assistance needs you may have. There is some accessible parking in front of the Assembly Rooms and on George Street which can be
 arranged with the venue.
 
 #### The Biscuit Factory (sprints)
 
-Sprints will take place on the ground floor.  The venue is fully wheelchair accessible, with step-free street access right through to the main space. 
+Sprints will take place on the ground floor.  The venue is fully wheelchair accessible, with step-free street access right through to the main space.
 
 #### The Caves (social event)
 
@@ -71,7 +71,7 @@ The ground floor of The Caves is fully accessible, with a disabled toilet, apart
 ## Dietary requirements
 
 We aim to meet a wide range of dietary requirements.  You will be able to specify any requirements
-when purchasing your ticket.  
+when purchasing your ticket.
 
 We will publish a menu for each day (including allergy information) closer to the event.
 
@@ -84,12 +84,12 @@ This room is intended to be a calm and quiet place for anyone who needs to have 
 ## Dress code
 
 We want everyone to feel comfortable at DjangoCon Europe, and that includes wearing
-whatever clothing that makes you feel comfortable.  We do not have a formal dress code. 
-As long as your outfit does not violate the [Code of Conduct](/code-of-conduct), you are welcome to wear whatever you wish.
+whatever clothing that makes you feel comfortable.  We do not have a formal dress code.
+As long as your outfit does not violate the [Code of Conduct](/conduct/), you are welcome to wear whatever you wish.
 
 ## Opportunity grants
 
-Some attendees will require help in order to attend the conference. 
+Some attendees will require help in order to attend the conference.
 
-Our [opportunity grants programme](/opportunity-grants) is open for application until 31st March 2023.
+Our [opportunity grants programme](/opportunity-grants/) is open for application until 31st March 2023.
 

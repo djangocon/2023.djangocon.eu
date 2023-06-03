@@ -11,8 +11,8 @@ title: Tickets
 
 # What ticket should I buy?
 
-If you are paying for your own ticket, you should buy an **Individual** ticket. If your company 
-is paying, you should buy a **Corporate** ticket. 
+If you are paying for your own ticket, you should buy an **Individual** ticket. If your company
+is paying, you should buy a **Corporate** ticket.
 
 You can also buy a **supporter** ticket if you want to go above and beyond and support our mission!
 These tickets will allow us to offer discounted and free tickets to people who couldn't otherwise
@@ -27,11 +27,11 @@ sponsors and attendees who purchase supporter tickets.
 
 All tickets include access to all 3 conference days (29th - 31st May) and the 2 sprints days (1st - 2nd June).
 
-The following refreshments are included on the 3 conference days: mid-morning coffee and snack, lunch, afternoon coffee and snack.  
+The following refreshments are included on the 3 conference days: mid-morning coffee and snack, lunch, afternoon coffee and snack.
 
 Tickets for the social event on 29th May can be purchased as an add-on to any conference ticket at a small additional cost.
 
-[Childcare for the 3 conference days is free](/inclusion#child-care-and-breastfeeding), but please let us know about your childcare requirements
+[Childcare for the 3 conference days is free](/inclusion/#child-care-and-breastfeeding), but please let us know about your childcare requirements
 when purchasing your ticket.
 
 ## Under 18s
@@ -47,7 +47,7 @@ whenever the minor is and must be contactable by the event organisers at all tim
 
 ## Cancellation and refund policy
 
-In line with our [COVID-19 policy](/covid19-policy), you may request a refund at any time, for any reason. If you need to cancel your ticket, please send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
+In line with our [COVID-19 policy](/covid19-policy/), you may request a refund at any time, for any reason. If you need to cancel your ticket, please send an email to [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}).
 
 Tickets may be transferred to someone else at no charge. You can do this by editing attendee details through the pretix order page linked in your order confirmation email. If you change a name on or after the 12 May, please also email us at [{{ site.contact_us_email }}](mailto:{{ site.contact_us_email }}) so that we can correct your name badge.
 

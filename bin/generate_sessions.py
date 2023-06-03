@@ -97,7 +97,7 @@ def generate_session_md(session):
     markdown = f"""---
 hidden: false
 layout: session-speaker-template
-speakers: 
+speakers:
 {speakers}
 permalink: /sessions/{name_slug}/
 name_slug: {name_slug}
@@ -120,9 +120,9 @@ def generate_tweet(talk):
         "Keynote": "⭐️",
     }
     content = f"""{emoji[talk['type']]} {talk['type'].upper()}: "{talk['title']}" by {" & ".join(talk['speakers'])}
-    
+
 Grab your ticket!
-https://2023.djangocon.eu/tickets
+https://2023.djangocon.eu/tickets/
 """
     thumbnail_url = f"https://2023.djangocon.eu/sessions/{talk['slug']}"
     return content, thumbnail_url
