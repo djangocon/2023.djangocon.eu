@@ -22,7 +22,7 @@
   svg {
     width: 2rem;
     height: 2rem;
-    fill: $white;
+    fill: var(--light-text);
 
     @media print {
       filter: brightness(0);

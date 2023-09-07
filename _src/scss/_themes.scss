@@ -24,17 +24,15 @@
 /// @param {Map} $colors The map of colors to run through
 @mixin generate-block-themes($colors: $djangocon-palette) {
   @each $name, $color in $djangocon-palette {
-    $foreground-color: $white;
-
     .theme-#{$name} {
       background-color: $color;
 
       @if not index(($light-gray, $medium-gray, $white, $brand-color4), $color) {
-        color: $white;
+        color: var(--light-text);
 
         a,
         a:hover {
-          color: $white;
+          color: var(--light-text);
         }
       }
 
@@ -52,12 +50,12 @@
   blockquote,
   blockquote p,
   cite {
-    color: $white;
+    color: var(--light-text);
   }
 
   a,
   a:hover {
-    color: $white;
+    color: var(--light-text);
   }
 
   &:after {
@@ -112,7 +110,7 @@
         }
 
         a:not(.button):hover {
-          color: mix(black, $color, 30%);
+          color: color-mix(in srgb, black, $color 30%);
         }
 
         .theme-color {
@@ -121,7 +119,7 @@
 
         .theme-bg {
           background-color: $color;
-          color: $white;
+          color: var(--light-text);
         }
 
         path {
@@ -168,4 +166,43 @@
 
 .theme-medium-gray h2 {
   color: $brand-color2;
+}
+
+:root {
+  $white: #ffffff;
+  $black: #1e1e1e;
+
+  --light-text: #{$white};
+  --dark-text: #{$black};
+  --white: #{$white};
+  --light-gray: #{$black};
+  --medium-gray: #{$black};
+  --dark-gray: #{$black};
+  --black: #{$white};
+  --brand-color1: #{$blue-light};
+  --brand-color2: #{$blue-dark};
+  --brand-color3: #{$black};
+  --brand-color4: #{$highlight};
+  --brand-color5: #{$blue-dark};
+  --brand-color6: #{$blue-dark};
+  --brand-color7: #{$salmon};
+  --brand-color8: #{$satsuma};
+
+  @media (prefers-color-scheme: dark) {
+    --light-text: #{$white};
+    --dark-text: #{$white};
+    --white: #{$black};
+    --light-gray: #{$black};
+    --medium-gray: #{$black};
+    --dark-gray: #{$white};
+    --black: #{$white};
+    --brand-color1: #{$black};
+    --brand-color2: #{$black};
+    --brand-color3: #{$black};
+    --brand-color4: #{$highlight};
+    --brand-color5: #{$black};
+    --brand-color6: #{$black};
+    --brand-color7: #{$black};
+    --brand-color8: #{$black};
+  }
 }

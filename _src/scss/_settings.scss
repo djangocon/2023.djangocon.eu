@@ -50,22 +50,26 @@
 $light-gray: #F7F8F9;
 $medium-gray: #EEEFFD;
 $dark-gray: #CACACA;
-$black: #1E1E1E;
-$white: #FFFFFF;
+$black: var(--black);
+$white: var(--white);
 
 $blue-dark: #005EB8;
 $blue-light: #0099CC;
 $highlight: #FEFE83;
+$salmon: #FBAECD;
+$satsuma: #F7B07C;
 
 // Primary Colors
-$brand-color1: $blue-light;
-$brand-color2: $blue-dark;
-$brand-color3: $black;
-$brand-color4: $highlight;
-$brand-color5: $blue-dark;
-$brand-color6: $blue-dark;
-$brand-color7: #FBAECD;
-$brand-color8: #F7B07C;
+$brand-color1: var(--brand-color1);
+$brand-color2: var(--brand-color2);
+$brand-color3: var(--brand-color3);
+$brand-color4: var(--brand-color4);
+$brand-color5: var(--brand-color5);
+$brand-color6: var(--brand-color6);
+$brand-color7: var(--brand-color7);
+$brand-color8: var(--brand-color8);
+
+// $secondary-color: var(--secondary-color);
 
 
 $color-twitter: #1DB4EB;
@@ -121,11 +125,11 @@ $djangocon-palette: (
   'brand-color7': $brand-color7,
   'brand-color8': $brand-color8,
 
-  'white': $white,
-  'light-gray': $light-gray,
-  'medium-gray': $medium-gray,
-  'dark-gray': $dark-gray,
-  'black': $black
+  'white': var(--white),
+  'light-gray': var(--light-gray),
+  'medium-gray': var(--medium-gray),
+  'dark-gray': var(--dark-gray),
+  'black': var(--black),
 );
 
 $body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -214,7 +218,7 @@ $code-background: rgba(255, 255, 255, 0.2);
 $code-border: 1px solid rgba(255, 255, 255, 0.4);
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $secondary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: $secondary-color;
 $anchor-text-decoration: underline;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;

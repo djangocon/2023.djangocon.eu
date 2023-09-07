@@ -13,7 +13,7 @@
   color: $secondary-color;
 
   &:hover {
-    color: $brand-color5;
+    color: color-mix($secondary-color, black 20%);
   }
 }
 

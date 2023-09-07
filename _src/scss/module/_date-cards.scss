@@ -35,7 +35,7 @@
     font-family: $leading-font;
     // Causes "MAY" to be read "M A Y" in Safari Voice Over.
     // text-transform: uppercase;
-    color: $white;
+    color: var(--light-text);
 
     @media (forced-colors: active) {
       border: 2px solid currentColor;

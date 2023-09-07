@@ -6,7 +6,7 @@
 .title-bar .menu a {
   text-decoration: none;
   // Force links to always be white even on hover.
-  color: $white !important;
+  color: var(--light-text) !important;
 }
 
 .title-bar .menu {
@@ -25,7 +25,7 @@
 }
 
 .off-canvas .menu a {
-  color: $white;
+  color: var(--light-text);
 }
 
 .off-canvas .menu li,
@@ -49,8 +49,8 @@
 .off-canvas .menu .button.hollow {
   margin-right: 10px;
   margin-left: 10px;
-  border: 2px solid $white;
-  color: $white;
+  border: 2px solid var(--light-text);
+  color: var(--light-text);
 
   &:before {
     display: none;
@@ -72,7 +72,7 @@
 
 .headroom .menu .menu a {
   font-size: rem-calc(18);
-  color: $white;
+  color: var(--light-text);
 }
 
 .title-bar {

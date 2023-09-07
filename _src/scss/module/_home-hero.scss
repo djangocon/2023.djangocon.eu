@@ -2,7 +2,7 @@
   position: relative;
   margin: 0 auto;
   padding: 6rem 0;
-  color: $white;
+  color: var(--light-text);
   background-color: $brand-color2;
   background-image: url(/static/img/gb-map.svg);
   background-attachment: fixed;

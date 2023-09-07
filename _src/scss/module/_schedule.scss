@@ -240,7 +240,7 @@
     background: $brand-color2;
     font-weight: $global-weight-bold;
     text-align: center;
-    color: $white;
+    color: var(--light-text);
   }
 
   &-list {

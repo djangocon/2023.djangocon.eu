@@ -4,10 +4,10 @@
 
   font-weight: $global-weight-bold;
   text-decoration: none;
-  color: $white;
+  color: var(--light-text);
 
   &:hover {
-    background-color: darken($brand-color5, 15%);
+    background-color: color-mix(in srgb, black 15%, $brand-color5);
   }
 }
 
@@ -24,7 +24,7 @@
 
   &:hover {
     color: $brand-color5;
-    background-color: lighten($brand-color4, 15%);
+    background-color: color-mix(in srgb, white 15%, $brand-color4);
   }
 
   &::after {
